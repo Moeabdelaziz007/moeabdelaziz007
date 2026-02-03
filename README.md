@@ -29,17 +29,18 @@
 ```mermaid
 %%{init: {'theme': 'dark', 'themeVariables': { 'primaryColor': '#0d1117', 'edgeLabelBackground':'#0d1117', 'tertiaryColor': '#0d1117'}}}%%
 graph TD
-    subgraph S_CORE [🛡️ Sentinel Core]
-        A[User Input] -->|Data Stream| B{Security Check}
-        B -->|PII Detected| C[🔒 Masking Engine]
-        B -->|Malicious Prompt| D[🪤 HoneyToken Trap]
-        C -->|Sanitized| E[🤖 LLM Inference]
-        D -->|Neutralize| F[🚫 Blackhole Log]
+    subgraph S_CORE ["🛡️ Sentinel Core"]
+        A["User Input"] -->|"Data Stream"| B{"Security Check"}
+        B -->|"PII Detected"| C["🔒 Masking Engine"]
+        B -->|"Malicious Prompt"| D["🪤 HoneyToken Trap"]
+        C -->|"Sanitized"| E["🤖 LLM Inference"]
+        D -->|"Neutralize"| F["🚫 Blackhole Log"]
     end
     style S_CORE fill:#0d1117,stroke:#39FF14,stroke-width:2px,color:#fff
     style B fill:#0d1117,stroke:#39FF14,stroke-width:1px
     style D fill:#390000,stroke:#ff0000,stroke-width:2px
-🛠️ The Tech Stack (Stealth Mode Arsenal)
+    
+### 🛠️ The Tech Stack (Stealth Mode Arsenal)
 <div align="center"> <img src="https://img.shields.io/badge/Python-39FF14?style=for-the-badge&logo=python&logoColor=black&labelColor=101010" /> <img src="https://img.shields.io/badge/TypeScript-39FF14?style=for-the-badge&logo=typescript&logoColor=black&labelColor=101010" /> <img src="https://img.shields.io/badge/Solidity-39FF14?style=for-the-badge&logo=solidity&logoColor=black&labelColor=101010" />
 
 
