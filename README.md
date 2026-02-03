@@ -49,11 +49,11 @@
 
 <div align="center">
   <a href="https://github.com/Moeabdelaziz007">
-    <img src="https://github-readme-stats.vercel.app/api?username=Moeabdelaziz007&show_icons=true&hide_border=true&title_color=39FF14&icon_color=39FF14&text_color=ffffff&bg_color=0d1117" height="160" alt="stats" />
+    <img src="https://github-readme-streak-stats.herokuapp.com/?user=Moeabdelaziz007&theme=dark&hide_border=true&background=0D1117&ring=39FF14&fire=39FF14&currStreakLabel=39FF14&sideNums=39FF14&currStreakNum=ffffff&sideLabels=ffffff&dates=ffffff" height="160" alt="streak stats" />
   </a>
   
   <a href="https://github.com/Moeabdelaziz007">
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Moeabdelaziz007&layout=compact&hide_border=true&title_color=39FF14&text_color=ffffff&bg_color=0d1117" height="160" alt="languages" />
+    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Moeabdelaziz007&layout=compact&hide_border=true&bg_color=0D1117&title_color=39FF14&text_color=ffffff&disable_animations=true" height="160" alt="languages" />
   </a>
 </div>
 
