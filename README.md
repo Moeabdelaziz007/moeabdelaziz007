@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=00f2ea&height=300&section=header&text=System%20Online&fontSize=90&animation=fadeIn&fontAlignY=38&desc=Architecting%20Intelligence%20%7C%20DeFi%20Quant%20%7C%20Systems%20Thinker&descAlignY=51&descAlign=62" width="100%" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=39FF14&height=300&section=header&text=System%20Online&fontSize=90&animation=fadeIn&fontAlignY=38&fontColor=0d1117&desc=Architecting%20Intelligence%20%7C%20DeFi%20Quant%20%7C%20Systems%20Thinker&descAlignY=51&descAlign=62&descSize=20" width="100%" />
 </div>
 
 <div align="center">
@@ -8,7 +8,7 @@
   
   *Designing autonomous agents and decentralized logic gates.*
 
-  [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=22&pause=1000&color=25F4EE&center=true&vCenter=true&width=500&lines=Building+Next-Gen+AI+Agents;Quant+Trading+Algorithms;DeepMind-Inspired+Architectures;Turning+Chaos+into+Code)](https://git.io/typing-svg)
+  [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=22&pause=1000&color=39FF14&center=true&vCenter=true&width=500&lines=Building+Next-Gen+AI+Agents;Quant+Trading+Algorithms;DeepMind-Inspired+Architectures;Turning+Chaos+into+Code)](https://git.io/typing-svg)
 
 </div>
 
@@ -41,46 +41,46 @@
 
 ---
 
-### 📊 System Metrics (Live Data)
+### 📊 System Metrics (Live Terminal Data)
 
 <div align="center">
   <a href="https://github.com/Moeabdelaziz007">
-    <img src="https://github-readme-stats.vercel.app/api?username=Moeabdelaziz007&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117" height="160" alt="stats" />
+    <img src="https://github-readme-stats.vercel.app/api?username=Moeabdelaziz007&show_icons=true&hide_border=true&bg_color=0d1117&title_color=39FF14&text_color=ffffff&icon_color=39FF14" height="160" alt="stats" />
   </a>
   
   <a href="https://github.com/Moeabdelaziz007">
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Moeabdelaziz007&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117" height="160" alt="languages" />
+    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Moeabdelaziz007&layout=compact&hide_border=true&bg_color=0d1117&title_color=39FF14&text_color=ffffff" height="160" alt="languages" />
   </a>
 </div>
 
 <br/>
 
 <div align="center">
-  <img src="https://komarev.com/ghpvc/?username=Moeabdelaziz007&style=flat-square&color=00f2ea&label=SYSTEM+VISITS" alt="profile views"/>
+  <img src="https://komarev.com/ghpvc/?username=Moeabdelaziz007&style=flat-square&color=39FF14&label=SYSTEM+VISITS" alt="profile views"/>
 </div>
 
 ---
 
-### 📡 Establish Connection (Uplink)
+### 📡 Establish Connection (Secure Uplink)
 
 <div align="center">
 
   > "Collaboration is the protocol for exponential growth."
 
   <a href="https://wa.me/17706160211">
-    <img src="https://img.shields.io/badge/WhatsApp-Direct_Uplink-00f2ea?style=for-the-badge&logo=whatsapp&logoColor=black&labelColor=white" />
+    <img src="https://img.shields.io/badge/WhatsApp-Direct_Uplink-39FF14?style=for-the-badge&logo=whatsapp&logoColor=39FF14&labelColor=101010" />
   </a>
 
   <a href="mailto:mabdela1@students.kennesaw.edu">
-    <img src="https://img.shields.io/badge/Academic_Mail-KSU_Edu-00f2ea?style=for-the-badge&logo=microsoftoutlook&logoColor=black&labelColor=white" />
+    <img src="https://img.shields.io/badge/Academic_Mail-KSU_Edu-39FF14?style=for-the-badge&logo=microsoftoutlook&logoColor=39FF14&labelColor=101010" />
   </a>
   
   <a href="mailto:amrikyy@gmail.com">
-    <img src="https://img.shields.io/badge/Personal_Mail-Gmail-00f2ea?style=for-the-badge&logo=gmail&logoColor=black&labelColor=white" />
+    <img src="https://img.shields.io/badge/Personal_Mail-Gmail-39FF14?style=for-the-badge&logo=gmail&logoColor=39FF14&labelColor=101010" />
   </a>
 
   <a href="https://github.com/Moeabdelaziz007">
-    <img src="https://img.shields.io/badge/GitHub_Profile-Moeabdelaziz007-00f2ea?style=for-the-badge&logo=github&logoColor=black&labelColor=white" />
+    <img src="https://img.shields.io/badge/GitHub_Profile-Moeabdelaziz007-39FF14?style=for-the-badge&logo=github&logoColor=39FF14&labelColor=101010" />
   </a>
 
 </div>
