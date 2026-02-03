@@ -58,3 +58,29 @@
 <div align="center">
   <img src="https://komarev.com/ghpvc/?username=Moeabdelaziz007&style=flat-square&color=00f2ea&label=SYSTEM+VISITS" alt="profile views"/>
 </div>
+
+---
+
+### 📡 Establish Connection (Uplink)
+
+<div align="center">
+
+  > "Collaboration is the protocol for exponential growth."
+
+  <a href="https://wa.me/17706160211">
+    <img src="https://img.shields.io/badge/WhatsApp-Direct_Uplink-00f2ea?style=for-the-badge&logo=whatsapp&logoColor=black&labelColor=white" />
+  </a>
+
+  <a href="mailto:mabdela1@students.kennesaw.edu">
+    <img src="https://img.shields.io/badge/Academic_Mail-KSU_Edu-00f2ea?style=for-the-badge&logo=microsoftoutlook&logoColor=black&labelColor=white" />
+  </a>
+  
+  <a href="mailto:amrikyy@gmail.com">
+    <img src="https://img.shields.io/badge/Personal_Mail-Gmail-00f2ea?style=for-the-badge&logo=gmail&logoColor=black&labelColor=white" />
+  </a>
+
+  <a href="https://moeabdelaziz007.github.io/amrikyy/">
+    <img src="https://img.shields.io/badge/System_Portfolio-Live_Access-00f2ea?style=for-the-badge&logo=google-chrome&logoColor=black&labelColor=white" />
+  </a>
+
+</div>
