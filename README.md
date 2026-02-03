@@ -79,8 +79,8 @@
     <img src="https://img.shields.io/badge/Personal_Mail-Gmail-00f2ea?style=for-the-badge&logo=gmail&logoColor=black&labelColor=white" />
   </a>
 
-  <a href="https://moeabdelaziz007.github.io/amrikyy/">
-    <img src="https://img.shields.io/badge/System_Portfolio-Live_Access-00f2ea?style=for-the-badge&logo=google-chrome&logoColor=black&labelColor=white" />
+  <a href="https://github.com/Moeabdelaziz007">
+    <img src="https://img.shields.io/badge/GitHub_Profile-Moeabdelaziz007-00f2ea?style=for-the-badge&logo=github&logoColor=black&labelColor=white" />
   </a>
 
 </div>
