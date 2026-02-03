@@ -44,12 +44,17 @@
 ### 📊 System Metrics (Live Data)
 
 <div align="center">
-<a href="https://github.com/Moeabdelaziz007">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=Moeabdelaziz007&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true"/>
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Moeabdelaziz007&layout=compact&theme=tokyonight"/>
-</a>
+  <a href="https://github.com/Moeabdelaziz007">
+    <img src="https://github-readme-stats.vercel.app/api?username=Moeabdelaziz007&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117" height="160" alt="stats" />
+  </a>
+  
+  <a href="https://github.com/Moeabdelaziz007">
+    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Moeabdelaziz007&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117" height="160" alt="languages" />
+  </a>
 </div>
 
-<div align="center"> 
-  <img src="https://komarev.com/ghpvc/?username=Moeabdelaziz007&style=flat-square&color=blueviolet" alt=""/> 
+<br/>
+
+<div align="center">
+  <img src="https://komarev.com/ghpvc/?username=Moeabdelaziz007&style=flat-square&color=00f2ea&label=SYSTEM+VISITS" alt="profile views"/>
 </div>
