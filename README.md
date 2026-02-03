@@ -23,20 +23,24 @@
 
 ---
 
-### 🛠️ The Tech Stack (Arsenal)
+---
+
+### 🛠️ The Tech Stack (Stealth Mode Arsenal)
 
 <div align="center">
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white" />
-  <img src="https://img.shields.io/badge/Solidity-363636?style=for-the-badge&logo=solidity&logoColor=white" />
+  <img src="https://img.shields.io/badge/Python-39FF14?style=for-the-badge&logo=python&logoColor=black&labelColor=101010" />
+  <img src="https://img.shields.io/badge/TypeScript-39FF14?style=for-the-badge&logo=typescript&logoColor=black&labelColor=101010" />
+  <img src="https://img.shields.io/badge/Solidity-39FF14?style=for-the-badge&logo=solidity&logoColor=black&labelColor=101010" />
   <br/>
-  <img src="https://img.shields.io/badge/Google%20Gemini-8E75B2?style=for-the-badge&logo=googlebard&logoColor=white" />
-  <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white" />
-  <img src="https://img.shields.io/badge/JAX-00C853?style=for-the-badge&logo=google&logoColor=white" />
+  
+  <img src="https://img.shields.io/badge/Google%20Gemini-39FF14?style=for-the-badge&logo=googlebard&logoColor=black&labelColor=101010" />
+  <img src="https://img.shields.io/badge/TensorFlow-39FF14?style=for-the-badge&logo=tensorflow&logoColor=black&labelColor=101010" />
+  <img src="https://img.shields.io/badge/JAX-39FF14?style=for-the-badge&logo=google&logoColor=black&labelColor=101010" />
   <br/>
-  <img src="https://img.shields.io/badge/Google_Cloud-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white" />
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
-  <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" />
+  
+  <img src="https://img.shields.io/badge/Google_Cloud-39FF14?style=for-the-badge&logo=google-cloud&logoColor=black&labelColor=101010" />
+  <img src="https://img.shields.io/badge/Docker-39FF14?style=for-the-badge&logo=docker&logoColor=black&labelColor=101010" />
+  <img src="https://img.shields.io/badge/Linux-39FF14?style=for-the-badge&logo=linux&logoColor=black&labelColor=101010" />
 </div>
 
 ---
@@ -45,11 +49,11 @@
 
 <div align="center">
   <a href="https://github.com/Moeabdelaziz007">
-    <img src="https://github-readme-stats.vercel.app/api?username=Moeabdelaziz007&show_icons=true&hide_border=true&bg_color=0d1117&title_color=39FF14&text_color=ffffff&icon_color=39FF14" height="160" alt="stats" />
+    <img src="https://github-readme-stats.vercel.app/api?username=Moeabdelaziz007&show_icons=true&hide_border=true&title_color=39FF14&icon_color=39FF14&text_color=ffffff&bg_color=0d1117" height="160" alt="stats" />
   </a>
   
   <a href="https://github.com/Moeabdelaziz007">
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Moeabdelaziz007&layout=compact&hide_border=true&bg_color=0d1117&title_color=39FF14&text_color=ffffff" height="160" alt="languages" />
+    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Moeabdelaziz007&layout=compact&hide_border=true&title_color=39FF14&text_color=ffffff&bg_color=0d1117" height="160" alt="languages" />
   </a>
 </div>
 
