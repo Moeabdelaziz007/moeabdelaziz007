@@ -4,16 +4,17 @@
 
 <div align="center">
   
-  ### 👨‍💻 Mohamed Abdelaziz | AI Systems Architect
+  <h3>👨‍💻 Mohamed Abdelaziz | AI Systems Architect</h3>
   
-  *Designing autonomous agents and decentralized logic gates.*
+  <em>Designing autonomous agents and decentralized logic gates.</em>
 
-  [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=22&pause=1000&color=39FF14&center=true&vCenter=true&width=500&lines=Building+Next-Gen+AI+Agents;Quant+Trading+Algorithms;DeepMind-Inspired+Architectures;Turning+Chaos+into+Code)](https://git.io/typing-svg)
+  <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=22&pause=1000&color=39FF14&center=true&vCenter=true&width=500&lines=Building+Next-Gen+AI+Agents;Quant+Trading+Algorithms;DeepMind-Inspired+Architectures;Turning+Chaos+into+Code" alt="Typing SVG" /></a>
 
 </div>
 
 ---
 
+<!-- PHILOSOPHY SECTION -->
 ### 🧩 The Engineering Philosophy (First Principles)
 > "I don't just write code; I deconstruct reality into algorithms. My work focuses on building **high-frequency AI systems** and **autonomous agents** that solve complex problems with mathematical precision."
 
@@ -23,9 +24,7 @@
 
 ---
 
-ub.com/Moeabdelaziz007"> <img src="https://img.shields.io/badge/GitHub_Profile-Moeabdelaziz007-39FF14?style=for-the-badge&logo=github&logoColor=39FF14&labelColor=101010" /> </a>
-
-</div>
+<!-- ARCHITECTURE DIAGRAM SECTION -->
 ### 🏛️ System Architecture: Sentinel Logic Gate
 *Visualizing the flow of my latest AI Security Layer (Defense-in-Depth).*
 
@@ -42,27 +41,53 @@ graph TD
     style S_CORE fill:#0d1117,stroke:#39FF14,stroke-width:2px,color:#fff
     style B fill:#0d1117,stroke:#39FF14,stroke-width:1px
     style D fill:#390000,stroke:#ff0000,stroke-width:2px
+```
+
 <br />
 
-🛠️ The Tech Stack (Stealth Mode Arsenal)
-<div align="center"> <img src="https://img.shields.io/badge/Python-39FF14?style=for-the-badge&logo=python&logoColor=black&labelColor=101010" /> <img src="https://img.shields.io/badge/TypeScript-39FF14?style=for-the-badge&logo=typescript&logoColor=black&labelColor=101010" /> <img src="https://img.shields.io/badge/Solidity-39FF14?style=for-the-badge&logo=solidity&logoColor=black&labelColor=101010" />
+<!-- TECH STACK SECTION -->
+### 🛠️ The Tech Stack (Stealth Mode Arsenal)
+<div align="center">
+  <!-- Row 1 -->
+  <img src="https://img.shields.io/badge/Python-39FF14?style=for-the-badge&logo=python&logoColor=black&labelColor=101010" />
+  <img src="https://img.shields.io/badge/TypeScript-39FF14?style=for-the-badge&logo=typescript&logoColor=black&labelColor=101010" />
+  <img src="https://img.shields.io/badge/Solidity-39FF14?style=for-the-badge&logo=solidity&logoColor=black&labelColor=101010" />
+  <br/>
 
+  <!-- Row 2 -->
+  <img src="https://img.shields.io/badge/Google%20Gemini-39FF14?style=for-the-badge&logo=googlebard&logoColor=black&labelColor=101010" />
+  <img src="https://img.shields.io/badge/TensorFlow-39FF14?style=for-the-badge&logo=tensorflow&logoColor=black&labelColor=101010" />
+  <img src="https://img.shields.io/badge/JAX-39FF14?style=for-the-badge&logo=google&logoColor=black&labelColor=101010" />
+  <br/>
 
-<img src="https://img.shields.io/badge/Google%20Gemini-39FF14?style=for-the-badge&logo=googlebard&logoColor=black&labelColor=101010" /> <img src="https://img.shields.io/badge/TensorFlow-39FF14?style=for-the-badge&logo=tensorflow&logoColor=black&labelColor=101010" /> <img src="https://img.shields.io/badge/JAX-39FF14?style=for-the-badge&logo=google&logoColor=black&labelColor=101010" />
+  <!-- Row 3 -->
+  <img src="https://img.shields.io/badge/Google_Cloud-39FF14?style=for-the-badge&logo=google-cloud&logoColor=black&labelColor=101010" />
+  <img src="https://img.shields.io/badge/Docker-39FF14?style=for-the-badge&logo=docker&logoColor=black&labelColor=101010" />
+  <img src="https://img.shields.io/badge/Linux-39FF14?style=for-the-badge&logo=linux&logoColor=black&labelColor=101010" />
+</div>
 
+<!-- METRICS SECTION -->
+### 📊 System Metrics (Live Terminal Data)
+<div align="center">
+  <a href="https://github.com/Moeabdelaziz007">
+    <img src="https://github-readme-streak-stats.herokuapp.com/?user=Moeabdelaziz007&theme=dark&hide_border=true&background=0D1117&ring=39FF14&fire=39FF14&currStreakLabel=39FF14&sideNums=39FF14&currStreakNum=ffffff&sideLabels=ffffff&dates=ffffff" height="160" alt="streak stats" />
+  </a>
 
-<img src="https://img.shields.io/badge/Google_Cloud-39FF14?style=for-the-badge&logo=google-cloud&logoColor=black&labelColor=101010" /> <img src="https://img.shields.io/badge/Docker-39FF14?style=for-the-badge&logo=docker&logoColor=black&labelColor=101010" /> <img src="https://img.shields.io/badge/Linux-39FF14?style=for-the-badge&logo=linux&logoColor=black&labelColor=101010" /> </div>
+  <a href="https://github.com/Moeabdelaziz007">
+    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Moeabdelaziz007&layout=compact&hide_border=true&bg_color=0D1117&title_color=39FF14&text_color=ffffff&disable_animations=true" height="160" alt="languages" />
+  </a>
+</div>
 
-📊 System Metrics (Live Terminal Data)
-<div align="center"> <a href="https://github.com/Moeabdelaziz007"> <img src="https://github-readme-streak-stats.herokuapp.com/?user=Moeabdelaziz007&theme=dark&hide_border=true&background=0D1117&ring=39FF14&fire=39FF14&currStreakLabel=39FF14&sideNums=39FF14&currStreakNum=ffffff&sideLabels=ffffff&dates=ffffff" height="160" alt="streak stats" /> </a>
+<div align="center">
+  <img src="https://raw.githubusercontent.com/Moeabdelaziz007/Moeabdelaziz007/output/github-contribution-grid-snake-dark.svg" alt="snake animation" width="100%" />
+</div>
 
-<a href="https://github.com/Moeabdelaziz007"> <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Moeabdelaziz007&layout=compact&hide_border=true&bg_color=0D1117&title_color=39FF14&text_color=ffffff&disable_animations=true" height="160" alt="languages" /> </a> </div>
+<div align="center">
+  <img src="https://komarev.com/ghpvc/?username=Moeabdelaziz007&style=flat-square&color=39FF14&label=SYSTEM+VISITS" alt="profile views"/>
+</div>
 
-<div align="center"> <img src="https://raw.githubusercontent.com/Moeabdelaziz007/Moeabdelaziz007/output/github-contribution-grid-snake-dark.svg" alt="snake animation" width="100%" /> </div>
-
-<div align="center"> <img src="https://komarev.com/ghpvc/?username=Moeabdelaziz007&style=flat-square&color=39FF14&label=SYSTEM+VISITS" alt="profile views"/> </div>
-
-📡 Establish Connection (Secure Uplink)
+<!-- FOOTER SECTION -->
+### 📡 Establish Connection (Secure Uplink)
 <div align="center">
 
 "Collaboration is the protocol for exponential growth."
