@@ -1,0 +1,39 @@
+name: Generate Snake
+
+on:
+  # يعمل تلقائياً كل 24 ساعة (منتصف الليل)
+  schedule:
+    - cron: "0 0 * * *" 
+  
+  # يسمح لك بتشغيله يدوياً في أي وقت للتجربة
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    
+    permissions: 
+      contents: write # هذا السطر هو الذي يلغي الحاجة لعمل Token يدوي
+
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Generate Snake
+        uses: Platane/snk@v3
+        with:
+          # اسم المستخدم (يأخذه تلقائياً)
+          github_user_name: ${{ github.repository_owner }}
+          
+          # يولد ملفين: واحد عادي وواحد مخصص للوضع الليلي ليتناسب مع تصميمك
+          outputs: |
+            dist/github-contribution-grid-snake.svg
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+
+      - name: Push to Output Branch
+        uses: crazy-max/ghaction-github-pages@v3.1.0
+        with:
+          target_branch: output
+          build_dir: dist
+        env:
+          # نستخدم التوكن التلقائي للنظام
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
