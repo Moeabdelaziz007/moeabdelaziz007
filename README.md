@@ -120,10 +120,8 @@ I specialize in autonomous agent architectures. My work focuses on replacing fra
 
 <br><br>
 
-<h2 align="center" style="color: #ffffff; font-family: 'Consolas', 'Fira Code', monospace; text-shadow: 0 0 8px rgba(255,255,255,0.4);">👑 King isn't Born, he is Made.</h2>
-
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Consolas&weight=500&size=16&duration=4000&pause=1000&color=39FF14&center=true&vCenter=true&width=800&lines=%22Operating+at+the+intersection+of+complex+math+and+raw+compute.%22;%22The+goal+is+10x%2C+or+it's+not+worth+the+logic.%22" alt="Typing effect" />
+  <img src="./assets/footer-quote.svg" alt="Footer Quote" style="border-radius: 12px; box-shadow: 0 0 20px rgba(57, 255, 20, 0.1);" />
 </p>
 
 <div align="center" style="margin-top: 40px; padding: 20px; background: #050505; border-top: 1px solid #39FF14; border-bottom: 1px solid #39FF14; box-shadow: 0 0 15px rgba(57,255,20,0.1);">
