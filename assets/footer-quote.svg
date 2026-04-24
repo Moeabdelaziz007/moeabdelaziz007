@@ -1,0 +1,79 @@
+<svg width="850" height="180" viewBox="0 0 850 180" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+        <pattern id="carbonFiberFooter" width="10" height="10" patternUnits="userSpaceOnUse">
+            <rect width="10" height="10" fill="#050505"/>
+            <path d="M0,0 L5,5 L10,0 L5,-5 Z M5,5 L10,10 L15,5 L10,0 Z M-5,5 L0,10 L5,5 L0,0 Z M0,10 L5,15 L10,10 L5,5 Z" fill="#0d0d0d"/>
+        </pattern>
+        <filter id="glowEffect">
+            <feGaussianBlur stdDeviation="3" result="blur" />
+            <feComposite in="SourceGraphic" in2="blur" operator="over" />
+        </filter>
+        <linearGradient id="neonFade" x1="0%" y1="0%" x2="100%" y2="0%">
+            <stop offset="0%" stop-color="#39FF14" stop-opacity="0.1"/>
+            <stop offset="50%" stop-color="#39FF14" stop-opacity="0.5"/>
+            <stop offset="100%" stop-color="#39FF14" stop-opacity="0.1"/>
+        </linearGradient>
+    </defs>
+
+    <style>
+        .quote {
+            font-family: 'Consolas', 'Fira Code', monospace;
+            font-size: 15px;
+            fill: #aaaaaa;
+            font-style: italic;
+        }
+        .king {
+            font-family: 'Consolas', 'Fira Code', monospace;
+            font-size: 22px;
+            font-weight: bold;
+            fill: #ffffff;
+            letter-spacing: 2px;
+        }
+        .highlight {
+            fill: #39FF14;
+            font-weight: bold;
+        }
+        .cursor {
+            fill: #39FF14;
+            animation: blink 1s infinite;
+        }
+        @keyframes blink {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0; }
+        }
+        .typing {
+            clip-path: inset(0 100% 0 0);
+            animation: typing 4s steps(60, end) forwards;
+            animation-delay: 1s;
+        }
+        @keyframes typing {
+            from { clip-path: inset(0 100% 0 0); }
+            to { clip-path: inset(0 0 0 0); }
+        }
+    </style>
+
+    <rect width="100%" height="100%" fill="url(#carbonFiberFooter)" rx="12" stroke="#39FF14" stroke-width="1" stroke-opacity="0.4"/>
+    <rect width="100%" height="100%" fill="#000000" opacity="0.5" rx="12" />
+
+    <!-- Top glowing bar -->
+    <rect x="0" y="0" width="100%" height="2" fill="url(#neonFade)" rx="1"/>
+
+    <g text-anchor="middle">
+        <text class="king" x="425" y="60" filter="url(#glowEffect)">
+            <tspan fill="#FFD700">👑</tspan> King isn't Born, he is Made.
+        </text>
+
+        <g class="typing">
+            <text class="quote" x="425" y="105">
+                "Operating at the intersection of <tspan class="highlight">complex math</tspan> and <tspan class="highlight">raw compute</tspan>."
+            </text>
+            <text class="quote" x="425" y="135">
+                "The goal is <tspan class="highlight">10x</tspan>, or it's not worth the logic."<tspan class="cursor">_</tspan>
+            </text>
+        </g>
+    </g>
+
+    <!-- Bottom decorative lines -->
+    <path d="M 20 160 L 100 160 L 110 170" fill="none" stroke="#39FF14" stroke-width="1" stroke-opacity="0.3"/>
+    <path d="M 830 160 L 750 160 L 740 170" fill="none" stroke="#39FF14" stroke-width="1" stroke-opacity="0.3"/>
+</svg>
