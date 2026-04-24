@@ -98,23 +98,7 @@ I specialize in autonomous agent architectures. My work focuses on replacing fra
 <h2 align="center" style="color: #39FF14; font-family: 'Consolas', 'Fira Code', monospace; border-bottom: 1px solid rgba(57, 255, 20, 0.3); padding-bottom: 10px; text-shadow: 0 0 5px rgba(57,255,20,0.4);">> SYSTEM_TELEMETRY.LOG</h2>
 
 <!-- START_LIVE_DATA -->
- jules-18075963567241083864-aef9fcdc
 <p align="center"><img src="./assets/telemetry.svg" alt="Live Telemetry"></p>
-
-
-<div align="center">
-  <table>
-    <tr>
-      <td align="center"><b>🟢 System Status</b><br>Active</td>
-      <td align="center"><b>👥 Live Traffic</b><br>4362 Sessions</td>
-      <td align="center"><b>🤖 Active Agents</b><br>46 Threads</td>
-      <td align="center"><b>⏱️ Uptime</b><br>282 Days</td>
-    </tr>
-  </table>
-  <p><i>Last Updated: 2026-04-24 12:28:38 UTC</i></p>
-</div>
-
- main
 <!-- END_LIVE_DATA -->
 
 <br><br>
