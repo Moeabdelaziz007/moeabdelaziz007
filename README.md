@@ -118,12 +118,5 @@ I specialize in autonomous agent architectures. My work focuses on replacing fra
   </a>
 </p>
 
-<br><br>
 
-<p align="center">
-  <img src="./assets/footer-quote.svg" alt="Footer Quote" style="border-radius: 12px; box-shadow: 0 0 20px rgba(57, 255, 20, 0.1);" />
-</p>
 
-<div align="center" style="margin-top: 40px; padding: 20px; background: #050505; border-top: 1px solid #39FF14; border-bottom: 1px solid #39FF14; box-shadow: 0 0 15px rgba(57,255,20,0.1);">
-<code style="color: #39FF14; font-size: 16px; font-family: 'Consolas', 'Fira Code', monospace; text-shadow: 0 0 5px rgba(57,255,20,0.5);">[ EOF // CONNECTION_TERMINATED // SYS.STATUS: OPTIMAL ]</code>
-</div>
