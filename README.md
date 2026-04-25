@@ -13,89 +13,72 @@
 "Building systems that outlive their creators. Establishing self-evolving ecosystems and sovereign AI infrastructure."
 </p>
 
+</div>
+
 <!-- Dynamic Graph -->
-<div style="background: #0a0a0a; border: 1px solid rgba(57, 255, 20, 0.3); border-radius: 12px; padding: 10px; display: inline-block; box-shadow: 0 4px 30px rgba(0, 0, 0, 0.8);">
+<div style="background: #0a0a0a; border: 1px solid rgba(57, 255, 20, 0.3); border-radius: 12px; padding: 10px; display: inline-block; box-shadow: 0 4px 30px 30px rgba(0, 0, 0, 0.8);">
   <img src="https://raw.githubusercontent.com/Moeabdelaziz007/Moeabdelaziz007/output/github-contribution-grid-snake.svg" alt="Command Deck Operations" style="width: 100%; max-width: 800px; filter: drop-shadow(0 0 8px rgba(57, 255, 20, 0.3));" />
 </div>
 
 <br><br>
 <img src="https://capsule-render.vercel.app/api?type=waving&color=050505&height=120&section=header&text=%20&fontSize=90" width="100%"/>
+
 </div>
 
 <br>
 
 <!-- UI Section: Identity -->
-<h2 align="center" style="color: #39FF14; font-family: 'Consolas', 'Fira Code', monospace; border-bottom: 1px solid rgba(57, 255, 20, 0.3); padding-bottom: 10px; text-shadow: 0 0 5px rgba(57,255,20,0.4);">> IDENTITY_PANEL.EXE</h2>
+<h2 align="center" style="color: #39FF14; font-family: 'Consolas', 'Fira Code', monospace; border-bottom: 1px solid rgba(57, 255, 20, 0.3); padding-bottom: 10px; text-shadow: 0 0 5px rgba(57,255,20,0.4);">  
+> IDENTITY_PANEL.EXE</h2>
 
-<table width="100%" style="border-collapse: collapse; margin-top: 20px; background: transparent;">
-<tr>
-<td width="50%" valign="top" style="padding-right: 15px;">
-<div style="background: linear-gradient(145deg, #0d0d0d, #050505); border: 1px solid rgba(57, 255, 20, 0.3); border-radius: 12px; padding: 20px; height: 100%; box-shadow: 0 10px 30px -15px rgba(0, 0, 0, 0.9);">
-<h3 style="color: #ffffff; font-family: 'Consolas', 'Fira Code', monospace; margin-top: 0; text-shadow: 0 0 5px rgba(255,255,255,0.3);">[EN] GLOBAL PERSPECTIVE</h3>
-<p style="color: #aaaaaa; font-family: 'Consolas', 'Fira Code', monospace; font-size: 14px; line-height: 1.6;">
-I specialize in autonomous agent architectures. My work focuses on replacing fragmented workflows with unified, self-governing protocols. I engineer the foundations for AI to operate, evolve, and execute independently without human bottlenecks.
-</p>
-</div>
-</td>
-<td width="50%" valign="top" style="padding-left: 15px;">
-<div style="background: linear-gradient(145deg, #0d0d0d, #050505); border: 1px solid rgba(57, 255, 20, 0.3); border-radius: 12px; padding: 20px; height: 100%; box-shadow: 0 10px 30px -15px rgba(0, 0, 0, 0.9);" dir="rtl">
-<h3 style="color: #39FF14; font-family: 'Consolas', 'Fira Code', monospace; margin-top: 0; text-align: right; text-shadow: 0 0 5px rgba(57,255,20,0.3);">[AR] المنظور العالمي</h3>
-<p style="color: #aaaaaa; font-family: 'Consolas', 'Fira Code', monospace; font-size: 14px; line-height: 1.6; text-align: right;">
-مهندس ذكاء اصطناعي متخصص في معماريات الوكلاء المستقلين. عملي يتركز على استبدال مسارات العمل المجزأة ببروتوكولات موحدة وذاتية الإدارة. أقوم بهندسة الأسس التي تسمح للذكاء الاصطناعي بالعمل، التطور، والتنفيذ باستقلالية تامة.
-</p>
-</div>
-</td>
-</tr>
-</table>
+<div style="background: #0a0a0a; border: 1px solid rgba(57, 255, 20, 0.3); border-radius: 12px; padding: 10px; box-shadow: 0 4px 30px rgba(0, 0, 0, 0.8); margin: 20px 0;">
 
-<br><br>
+  <table width="100%" style="border-collapse: collapse;">
+    <tr>
+      <td width="50%" style="padding: 20px; vertical-align: top;">
+        <h3 style="color: #ffffff; font-family: 'Consolas', 'Fira Code', monospace; margin-top: 0; text-shadow: 0 0 5px rgba(255,255,255,0.3);">[EN] GLOBAL PERSPECTIVE</h3>
+        <p style="color: #aaaaaa; font-family: 'Consolas', 'Fira Code', monospace; font-size: 14px; line-height: 1.6;">
+          I specialize in autonomous agent architectures. My work focuses on replacing fragmented workflows with unified, self-governing protocols. I engineer the foundations for AI to operate, evolve, and execute independently without human bottlenecks.
+        </p>
+      </td>
+      <td width="50%" style="padding: 20px; vertical-align: top; border-left: 1px solid rgba(57, 255, 20, 0.2);">
+        <h3 style="color: #ffffff; font-family: 'Consolas', 'Fira Code', monospace; margin-top: 0; text-shadow: 0 0 5px rgba(255,255,255,0.3);">[AR] المنظور العالمي</h3>
+        <p style="color: #aaaaaa; font-family: 'Consolas', 'Fira Code', monospace; font-size: 14px; line-height: 1.6;">
+          مهندس ذكاء اصطناعي متخصص في معماريات الوكلاء المستقلين. عملي يتركز على استبدال مسارات العمل المجزأة ببروتوكولات موحدة وذاتية الإدارة. أقوم بهندسة الأسس التي تسمح للذكاء الاصطناعي بالعمل، التطور، والتنفيذ باستقلالية تامة.
+        </p>
+      </td>
+    </tr>
+  </table>
+
+</div>
+
+<br>
 
 <!-- UI Section: Core Infrastructure -->
-<h2 align="center" style="color: #39FF14; font-family: 'Consolas', 'Fira Code', monospace; border-bottom: 1px solid rgba(57, 255, 20, 0.3); padding-bottom: 10px; text-shadow: 0 0 5px rgba(57,255,20,0.4);">> CORE_INFRASTRUCTURE.SYS</h2>
+<h2 align="center" style="color: #39FF14; font-family: 'Consolas', 'Fira Code', monospace; border-bottom: 1px solid rgba(57, 255, 20, 0.3); padding-bottom: 10px; text-shadow: 0 0 5px rgba(57,255,20,0.4);">  
+> CORE_INFRASTRUCTURE.SYS</h2>
 
-<div align="center" style="margin-top: 20px;">
-  <!-- Project Card 1 -->
-  <a href="https://github.com/Moeabdelaziz007/PiWorker-OS" style="text-decoration: none;">
-    <div style="background: #0d0d0d; border-left: 4px solid #39FF14; border-radius: 8px; padding: 20px; margin-bottom: 15px; text-align: left; max-width: 800px; transition: transform 0.3s ease; box-shadow: 0 5px 15px rgba(0,0,0,0.5);">
-      <h3 style="color: #ffffff; font-family: 'Consolas', 'Fira Code', monospace; margin: 0 0 10px 0; display: flex; justify-content: space-between;">
-        <span><img src="https://img.shields.io/badge/OS-PiWorker-39FF14?style=flat-square&logo=linux&logoColor=black" /></span>
-        <span style="color: #39FF14; font-size: 14px; text-shadow: 0 0 5px rgba(57,255,20,0.5);">[ STATUS: ACTIVE ]</span>
-      </h3>
-      <p style="color: #888888; font-family: 'Consolas', 'Fira Code', monospace; margin: 0; font-size: 14px;">
-        <b>Sovereign Agent Operating System.</b> A self-evolving ecosystem of AI agents designed to discover opportunities, build products, deploy them, and generate revenue autonomously.
-      </p>
-    </div>
-  </a>
+###  <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Symbols/Green%20Circle.png" width="15" style="vertical-align: middle;"/> **[ STATUS: ACTIVE ]**
 
-  <!-- Project Card 2 -->
-  <a href="https://github.com/moeabdelaziz007/aix-format" style="text-decoration: none;">
-    <div style="background: #0d0d0d; border-left: 4px solid #ffffff; border-radius: 8px; padding: 20px; margin-bottom: 15px; text-align: left; max-width: 800px; box-shadow: 0 5px 15px rgba(0,0,0,0.5);">
-      <h3 style="color: #ffffff; font-family: 'Consolas', 'Fira Code', monospace; margin: 0 0 10px 0; display: flex; justify-content: space-between;">
-        <span><img src="https://img.shields.io/badge/Format-AIX-ffffff?style=flat-square&logo=json&logoColor=black" /></span>
-        <span style="color: #ffffff; font-size: 14px; text-shadow: 0 0 5px rgba(255,255,255,0.5);">[ STATUS: EXPERIMENTAL v0.4.0 ]</span>
-      </h3>
-      <p style="color: #888888; font-family: 'Consolas', 'Fira Code', monospace; margin: 0; font-size: 14px;">
-        <b>Artificial Intelligence eXchange.</b> Standard file format for AI Agents. Portable, encrypted, and schema-validated deployment protocol.
-      </p>
-    </div>
-  </a>
+**Sovereign Agent Operating System.** A self-evolving ecosystem of AI agents designed to discover opportunities, build products, deploy them, and generate revenue autonomously.
 
-  <!-- Project Card 3 -->
-  <div style="background: #050505; border-left: 4px solid #555555; border-radius: 8px; padding: 20px; text-align: left; max-width: 800px; opacity: 0.8; box-shadow: 0 5px 15px rgba(0,0,0,0.5);">
-    <h3 style="color: #ffffff; font-family: 'Consolas', 'Fira Code', monospace; margin: 0 0 10px 0; display: flex; justify-content: space-between;">
-      <span><img src="https://img.shields.io/badge/Framework-AlphaAxiom-555555?style=flat-square&logo=abstract&logoColor=white" /></span>
-      <span style="color: #555555; font-size: 14px;">[ STATUS: CLASSIFIED ]</span>
-    </h3>
-    <p style="color: #888888; font-family: 'Consolas', 'Fira Code', monospace; margin: 0; font-size: 14px;">
-      <b>Philosophical & Structural Framework.</b> The underlying axioms guiding the development of autonomous, decentralized systems.
-    </p>
-  </div>
-</div>
+[![PiWorker-OS](https://img.shields.io/badge/PiWorker--OS-Explore-39FF14?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Moeabdelaziz007/PiWorker-OS)
+
+###  <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Symbols/Orange%20Circle.png" width="15" style="vertical-align: middle;"/> **[ STATUS: EXPERIMENTAL v0.4.0 ]**
+
+**Artificial Intelligence eXchange.** Standard file format for AI Agents. Portable, encrypted, and schema-validated deployment protocol.
+
+[![AIX-Format](https://img.shields.io/badge/AIX--Format-Explore-39FF14?style=for-the-badge&logo=github&logoColor=white)](https://github.com/moeabdelaziz007/aix-format)
+
+###  <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Symbols/Red%20Circle.png" width="15" style="vertical-align: middle;"/> <img src="https://img.shields.io/badge/Framework-AlphaAxiom-050505?style=flat-square" /> **[ STATUS: CLASSIFIED ]**
+
+**Philosophical & Structural Framework.** The underlying axioms guiding the development of autonomous, decentralized systems.
 
 <br><br>
 
 <!-- UI Section: Telemetry -->
-<h2 align="center" style="color: #39FF14; font-family: 'Consolas', 'Fira Code', monospace; border-bottom: 1px solid rgba(57, 255, 20, 0.3); padding-bottom: 10px; text-shadow: 0 0 5px rgba(57,255,20,0.4);">> SYSTEM_TELEMETRY.LOG</h2>
+<h2 align="center" style="color: #39FF14; font-family: 'Consolas', 'Fira Code', monospace; border-bottom: 1px solid rgba(57, 255, 20, 0.3); padding-bottom: 10px; text-shadow: 0 0 5px rgba(57,255,20,0.4);">  
+> SYSTEM_TELEMETRY.LOG</h2>
 
 <!-- START_LIVE_DATA -->
 <p align="center"><img src="./assets/telemetry.svg" alt="Live Telemetry"></p>
@@ -104,11 +87,12 @@ I specialize in autonomous agent architectures. My work focuses on replacing fra
 <br><br>
 
 <!-- UI Section: Secure Comm Link -->
-<h2 align="center" style="color: #39FF14; font-family: 'Consolas', 'Fira Code', monospace; border-bottom: 1px solid rgba(57, 255, 20, 0.3); padding-bottom: 10px; text-shadow: 0 0 5px rgba(57,255,20,0.4);">> SECURE_COMM_LINK.SH</h2>
+<h2 align="center" style="color: #39FF14; font-family: 'Consolas', 'Fira Code', monospace; border-bottom: 1px solid rgba(57, 255, 20, 0.3); padding-bottom: 10px; text-shadow: 0 0 5px rgba(57,255,20,0.4);">  
+> SECURE_COMM_LINK.SH</h2>
 
-<p align="center" style="margin-top: 20px;">
+<p align="center">
   <a href="https://www.linkedin.com/in/mohamed-abdelaziz-815797347/" target="_blank">
-    <img src="https://img.shields.io/badge/LINKEDIN-000000?style=for-the-badge&logo=linkedin&logoColor=39FF14" alt="LinkedIn" style="margin: 0 10px; border: 1px solid #39FF14; border-radius: 4px; box-shadow: 0 4px 10px rgba(57, 255, 20, 0.2);" />
+    <img src="https://img.shields.io/badge/LINKEDIN-0000007style=for-the-badge&logo=linkedin&logoColor=39FF14" alt="LinkedIn" style="margin: 0 10px; border: 1px solid #39FF14; border-radius: 4px; box-shadow: 0 4px 10px rgba(57, 255, 20, 0.2);" />
   </a>
   <a href="https://www.facebook.com/MoeAbdelaziz710?locale=ar_AR" target="_blank">
     <img src="https://img.shields.io/badge/FACEBOOK-000000?style=for-the-badge&logo=facebook&logoColor=39FF14" alt="Facebook" style="margin: 0 10px; border: 1px solid #39FF14; border-radius: 4px; box-shadow: 0 4px 10px rgba(57, 255, 20, 0.2);" />
@@ -118,5 +102,18 @@ I specialize in autonomous agent architectures. My work focuses on replacing fra
   </a>
 </p>
 
+<br><br>
 
-
+<div align="center" style="margin-top: 40px; padding: 30px 20px; background: linear-gradient(135deg, #0a0a0a 0%, #050505 100%); border-top: 2px solid #39FF14; border-bottom: 2px solid #39FF14; box-shadow: 0 0 30px rgba(57,255,20,0.15), inset 0 0 20px rgba(0,0,0,0.9); border-radius: 8px;">
+    <p style="margin: 0; padding: 10px 0;">
+        <code style="color: #39FF14; font-size: 16px; font-family: 'Fira Code', monospace; text-shadow: 0 0 8px rgba(57,255,20,0.6); font-weight: bold; letter-spacing: 1px;">
+            👑 King isn't Born, he is Made.
+        </code>
+    </p>
+    <br>
+    <p style="color: #cccccc; font-family: 'Consolas', 'Fira Code', monospace; font-size: 13px; line-height: 1.8; margin: 10px 0; max-width: 600px;">
+        <em style="color: #aaaaaa;">"Operating at the intersection of <span style="color: #39FF14; font-weight: bold;">complex math</span> and <span style="color: #39FF14; font-weight: bold;">raw compute</span>."</em>
+        <br>
+        <span style="color: #888888; font-size: 12px;">"The goal is <span style="color: #39FF14; font-weight: bold;">10x</span>, or it's not worth the logic."</span>
+    </p>
+</div>
