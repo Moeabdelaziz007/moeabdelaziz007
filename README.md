@@ -62,9 +62,9 @@
 <div align="center" style="margin: 40px 0 20px 0;">
   <h2 style="color: #39FF14; font-family: 'Consolas', 'Fira Code', monospace; border-bottom: 2px solid rgba(57, 255, 20, 0.5); padding-bottom: 10px; display: inline-block; text-shadow: 0 0 15px rgba(57,255,20,0.6); letter-spacing: 2px;">
     <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Identification%20Card.png" width="30" style="vertical-align: middle; margin-right: 10px;"/>
-    > IDENTITY PANEL.EXE
+    > 
   </h2>
-</div>
+
 
 <div style="background: #0a0a0a; border: 1px solid rgba(57, 255, 20, 0.3); border-radius: 12px; padding: 25px; box-shadow: 0 4px 30px rgba(0, 0, 0, 0.8); margin: 20px 0;">
 
@@ -89,7 +89,7 @@
 <div align="center" style="margin: 40px 0 20px 0;">
   <h2 style="color: #39FF14; font-family: 'Consolas', 'Fira Code', monospace; border-bottom: 2px solid rgba(57, 255, 20, 0.5); padding-bottom: 10px; display: inline-block; text-shadow: 0 0 15px rgba(57,255,20,0.6); letter-spacing: 2px;">
     <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Wrench.png" width="30" style="vertical-align: middle; margin-right: 10px;"/>
-    > SYSTEM ARSENAL.CFG
+     SYSTEM ARSENAL
   </h2>
   <h3 style="color: #aaaaaa; font-family: 'Consolas', 'Fira Code', monospace; margin-top: -5px; letter-spacing: 1px; font-size: 14px;">SOVEREIGN AI ARCHITECT & SYSTEMS ENGINEER</h3>
   <h3 dir="rtl" style="color: #aaaaaa; font-family: 'Consolas', 'Fira Code', monospace; margin-top: 5px; letter-spacing: 1px; font-size: 14px;">مهندس نظم ومعماريات ذكاء اصطناعي مستقلة</h3>
@@ -120,7 +120,7 @@
 <div align="center" style="margin: 40px 0 20px 0;">
   <h2 style="color: #39FF14; font-family: 'Consolas', 'Fira Code', monospace; border-bottom: 2px solid rgba(57, 255, 20, 0.5); padding-bottom: 10px; display: inline-block; text-shadow: 0 0 15px rgba(57,255,20,0.6); letter-spacing: 2px;">
     <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Desktop%20Computer.png" width="30" style="vertical-align: middle; margin-right: 10px;"/>
-    > CORE INFRASTRUCTURE.SYS
+     CORE INFRASTRUCTURE
   </h2>
 </div>
 
