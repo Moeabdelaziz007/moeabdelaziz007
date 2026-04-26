@@ -17,7 +17,7 @@
 
 <!-- Dynamic Graph -->
 <div style="background: #0a0a0a; border: 1px solid rgba(57, 255, 20, 0.3); border-radius: 12px; padding: 10px; display: inline-block; box-shadow: 0 4px 30px 30px rgba(0, 0, 0, 0.8);">
-  <img src="https://raw.githubusercontent.com/Moeabdelaziz007/Moeabdelaziz007/output/github-contribution-grid-snake.svg" alt="Command Deck Operations" style="width: 100%; max-width: 800px; filter: drop-shadow(0 0 8px rgba(57, 255, 20, 0.3));" />
+  <img src="https://raw.githubusercontent.com/Moeabdelaziz007/Moeabdelaziz007/output/github-contribution-grid-snake-dark.svg" alt="Command Deck Operations" style="width: 100%; max-width: 800px; filter: drop-shadow(0 0 8px rgba(57, 255, 20, 0.3));" />
 </div>
 
 <br><br>
@@ -28,8 +28,12 @@
 <br>
 
 <!-- UI Section: Identity -->
-<h2 align="center" style="color: #39FF14; font-family: 'Consolas', 'Fira Code', monospace; border-bottom: 1px solid rgba(57, 255, 20, 0.3); padding-bottom: 10px; text-shadow: 0 0 5px rgba(57,255,20,0.4);">  
-> IDENTITY_PANEL.EXE</h2>
+<div align="center" style="margin: 40px 0 20px 0;">
+  <h2 style="color: #39FF14; font-family: 'Consolas', 'Fira Code', monospace; border-bottom: 2px solid rgba(57, 255, 20, 0.5); padding-bottom: 10px; display: inline-block; text-shadow: 0 0 15px rgba(57,255,20,0.6); letter-spacing: 2px;">
+    <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Identification%20Card.png" width="30" style="vertical-align: middle; margin-right: 10px;"/>
+    > IDENTITY_PANEL.EXE
+  </h2>
+</div>
 
 <div style="background: #0a0a0a; border: 1px solid rgba(57, 255, 20, 0.3); border-radius: 12px; padding: 10px; box-shadow: 0 4px 30px rgba(0, 0, 0, 0.8); margin: 20px 0;">
 
@@ -54,9 +58,41 @@
 
 <br>
 
+
+<!-- UI Section: Arsenal -->
+<div align="center" style="margin: 40px 0 20px 0;">
+  <h2 style="color: #39FF14; font-family: 'Consolas', 'Fira Code', monospace; border-bottom: 2px solid rgba(57, 255, 20, 0.5); padding-bottom: 10px; display: inline-block; text-shadow: 0 0 15px rgba(57,255,20,0.6); letter-spacing: 2px;">
+    <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Wrench.png" width="30" style="vertical-align: middle; margin-right: 10px;"/>
+    > SYSTEM_ARSENAL.CFG
+  </h2>
+  <h3 style="color: #aaaaaa; font-family: 'Consolas', 'Fira Code', monospace; margin-top: -5px; letter-spacing: 1px; font-size: 14px;">// SOVEREIGN AI ARCHITECT & SYSTEMS ENGINEER</h3>
+</div>
+
+<div style="background: #0a0a0a; border: 1px solid rgba(57, 255, 20, 0.3); border-radius: 12px; padding: 25px; box-shadow: 0 4px 30px rgba(0, 0, 0, 0.8); margin: 20px 0; text-align: center;">
+  <p style="margin-bottom: 20px;">
+    <img src="https://img.shields.io/badge/Python-14354C?style=for-the-badge&logo=python&logoColor=white" alt="Python" style="margin: 5px; box-shadow: 0 0 10px rgba(57,255,20,0.2);"/>
+    <img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" style="margin: 5px; box-shadow: 0 0 10px rgba(57,255,20,0.2);"/>
+    <img src="https://img.shields.io/badge/Solidity-363636?style=for-the-badge&logo=solidity&logoColor=white" alt="Solidity" style="margin: 5px; box-shadow: 0 0 10px rgba(57,255,20,0.2);"/>
+    <img src="https://img.shields.io/badge/Gemini-8E75B2?style=for-the-badge&logo=googlebard&logoColor=white" alt="Gemini" style="margin: 5px; box-shadow: 0 0 10px rgba(57,255,20,0.2);"/>
+    <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white" alt="TensorFlow" style="margin: 5px; box-shadow: 0 0 10px rgba(57,255,20,0.2);"/>
+  </p>
+  <p>
+    <img src="https://img.shields.io/badge/JAX-000000?style=for-the-badge&logo=google&logoColor=white" alt="JAX" style="margin: 5px; box-shadow: 0 0 10px rgba(57,255,20,0.2);"/>
+    <img src="https://img.shields.io/badge/Google_Cloud-4285F4?style=for-the-badge&logo=googlecloud&logoColor=white" alt="Google Cloud" style="margin: 5px; box-shadow: 0 0 10px rgba(57,255,20,0.2);"/>
+    <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker" style="margin: 5px; box-shadow: 0 0 10px rgba(57,255,20,0.2);"/>
+    <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" alt="Linux" style="margin: 5px; box-shadow: 0 0 10px rgba(57,255,20,0.2);"/>
+  </p>
+</div>
+
+<br>
+
 <!-- UI Section: Core Infrastructure -->
-<h2 align="center" style="color: #39FF14; font-family: 'Consolas', 'Fira Code', monospace; border-bottom: 1px solid rgba(57, 255, 20, 0.3); padding-bottom: 10px; text-shadow: 0 0 5px rgba(57,255,20,0.4);">  
-> CORE_INFRASTRUCTURE.SYS</h2>
+<div align="center" style="margin: 40px 0 20px 0;">
+  <h2 style="color: #39FF14; font-family: 'Consolas', 'Fira Code', monospace; border-bottom: 2px solid rgba(57, 255, 20, 0.5); padding-bottom: 10px; display: inline-block; text-shadow: 0 0 15px rgba(57,255,20,0.6); letter-spacing: 2px;">
+    <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Desktop%20Computer.png" width="30" style="vertical-align: middle; margin-right: 10px;"/>
+    > CORE_INFRASTRUCTURE.SYS
+  </h2>
+</div>
 
 ###  <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Symbols/Green%20Circle.png" width="15" style="vertical-align: middle;"/> **[ STATUS: ACTIVE ]**
 
@@ -77,8 +113,12 @@
 <br><br>
 
 <!-- UI Section: Telemetry -->
-<h2 align="center" style="color: #39FF14; font-family: 'Consolas', 'Fira Code', monospace; border-bottom: 1px solid rgba(57, 255, 20, 0.3); padding-bottom: 10px; text-shadow: 0 0 5px rgba(57,255,20,0.4);">  
-> SYSTEM_TELEMETRY.LOG</h2>
+<div align="center" style="margin: 40px 0 20px 0;">
+  <h2 style="color: #39FF14; font-family: 'Consolas', 'Fira Code', monospace; border-bottom: 2px solid rgba(57, 255, 20, 0.5); padding-bottom: 10px; display: inline-block; text-shadow: 0 0 15px rgba(57,255,20,0.6); letter-spacing: 2px;">
+    <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Satellite%20Antenna.png" width="30" style="vertical-align: middle; margin-right: 10px;"/>
+    > SYSTEM_TELEMETRY.LOG
+  </h2>
+</div>
 
 <!-- START_LIVE_DATA -->
 <p align="center"><img src="./assets/telemetry.svg" alt="Live Telemetry"></p>
@@ -87,8 +127,12 @@
 <br><br>
 
 <!-- UI Section: Secure Comm Link -->
-<h2 align="center" style="color: #39FF14; font-family: 'Consolas', 'Fira Code', monospace; border-bottom: 1px solid rgba(57, 255, 20, 0.3); padding-bottom: 10px; text-shadow: 0 0 5px rgba(57,255,20,0.4);">  
-> SECURE_COMM_LINK.SH</h2>
+<div align="center" style="margin: 40px 0 20px 0;">
+  <h2 style="color: #39FF14; font-family: 'Consolas', 'Fira Code', monospace; border-bottom: 2px solid rgba(57, 255, 20, 0.5); padding-bottom: 10px; display: inline-block; text-shadow: 0 0 15px rgba(57,255,20,0.6); letter-spacing: 2px;">
+    <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Satellite.png" width="30" style="vertical-align: middle; margin-right: 10px;"/>
+    > SECURE_COMM_LINK.SH
+  </h2>
+</div>
 
 <p align="center">
   <a href="https://www.linkedin.com/in/mohamed-abdelaziz-815797347/" target="_blank">
