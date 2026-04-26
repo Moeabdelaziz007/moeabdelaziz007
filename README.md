@@ -212,7 +212,7 @@
 <div align="center" style="margin: 40px 0 20px 0;">
   <h2 style="color: #39FF14; font-family: 'Consolas', 'Fira Code', monospace; border-bottom: 2px solid rgba(57, 255, 20, 0.5); padding-bottom: 10px; display: inline-block; text-shadow: 0 0 15px rgba(57,255,20,0.6); letter-spacing: 2px;">
     <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Satellite%20Antenna.png" width="30" style="vertical-align: middle; margin-right: 10px;"/>
-    > System Telemetry
+     System Telemetry
   </h2>
   <h3 dir="rtl" style="color: #aaaaaa; font-family: 'Consolas', 'Fira Code', monospace; margin-top: 5px; letter-spacing: 1px; font-size: 14px;">سجل القياس عن بعد للنظام</h3>
 </div>
