@@ -146,8 +146,8 @@ def create_advanced_header():
         <text x="730" y="365">SEC: QUANTUM_RESISTANT</text>
     </g>
 </svg>"""
-    os.makedirs('/app/assets', exist_ok=True)
-    with open('/app/assets/cyber-header.svg', 'w') as f:
+    os.makedirs('assets', exist_ok=True)
+    with open('assets/cyber-header.svg', 'w') as f:
         f.write(svg)
 
 def create_footer_quote():
@@ -230,7 +230,7 @@ def create_footer_quote():
     <path d="M 20 160 L 100 160 L 110 170" fill="none" stroke="#39FF14" stroke-width="1" stroke-opacity="0.3"/>
     <path d="M 830 160 L 750 160 L 740 170" fill="none" stroke="#39FF14" stroke-width="1" stroke-opacity="0.3"/>
 </svg>"""
-    with open('/app/assets/footer-quote.svg', 'w') as f:
+    with open('assets/footer-quote.svg', 'w') as f:
         f.write(svg)
 
 if __name__ == "__main__":
