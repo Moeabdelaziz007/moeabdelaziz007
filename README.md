@@ -68,14 +68,14 @@
 
 <div style="background: #0a0a0a; border: 1px solid rgba(57, 255, 20, 0.3); border-radius: 12px; padding: 25px; box-shadow: 0 4px 30px rgba(0, 0, 0, 0.8); margin: 20px 0;">
 
-  <h3 style="color: #ffffff; font-family: 'Consolas', 'Fira Code', monospace; margin-top: 0; text-shadow: 0 0 5px rgba(255,255,255,0.3);">[EN] GLOBAL PERSPECTIVE</h3>
+  <h3 style="color: #ffffff; font-family: 'Consolas', 'Fira Code', monospace; margin-top: 0; text-shadow: 0 0 5px rgba(255,255,255,0.3);"> GLOBAL PERSPECTIVE</h3>
   <p style="color: #aaaaaa; font-family: 'Consolas', 'Fira Code', monospace; font-size: 14px; line-height: 1.6; margin-bottom: 25px;">
     I specialize in autonomous agent architectures. My work focuses on replacing fragmented workflows with unified, self-governing protocols. I engineer the foundations for AI to operate, evolve, and execute independently without human bottlenecks.
   </p>
 
   <hr style="border: 0; border-top: 1px dashed rgba(57, 255, 20, 0.2); margin: 20px 0;">
 
-  <h3 dir="rtl" style="color: #ffffff; font-family: 'Consolas', 'Fira Code', monospace; margin-top: 0; text-shadow: 0 0 5px rgba(255,255,255,0.3);">[AR] المنظور العالمي</h3>
+  <h3 dir="rtl" style="color: #ffffff; font-family: 'Consolas', 'Fira Code', monospace; margin-top: 0; text-shadow: 0 0 5px rgba(255,255,255,0.3);"> المنظور العالمي</h3>
   <p dir="rtl" style="color: #aaaaaa; font-family: 'Consolas', 'Fira Code', monospace; font-size: 14px; line-height: 1.6;">
     أنا متخصص في معماريات الوكلاء المستقلين. عملي يتركز على استبدال مسارات العمل المجزأة ببروتوكولات موحدة وذاتية الإدارة. أقوم بهندسة الأسس التي تسمح للذكاء الاصطناعي بالعمل، التطور، والتنفيذ باستقلالية تامة دون معوقات بشرية.
   </p>
