@@ -237,10 +237,8 @@
   <hr style="border: 0; border-top: 1px dashed rgba(57, 255, 20, 0.2); margin: 20px 0;">
 
   <!-- START_LIVE_DATA -->
-  <p align="center">
-    <img src="./assets/telemetry.svg" alt="Live Telemetry" style="max-width: 100%; border: 1px solid rgba(57, 255, 20, 0.2); border-radius: 8px; box-shadow: 0 0 15px rgba(57, 255, 20, 0.1);">
-  </p>
-  <!-- END_LIVE_DATA -->
+<p align="center"><img src="./assets/telemetry.svg" alt="Live Telemetry"></p>
+<!-- END_LIVE_DATA -->
 
 </div>
 
