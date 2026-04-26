@@ -3,7 +3,7 @@ import os
 
 def create_advanced_header():
     # Generating particles (all neon green now)
-    particles = ""
+    particles_list = []
     for i in range(150):
         cx = random.randint(0, 850)
         cy = random.randint(0, 380)
@@ -11,7 +11,8 @@ def create_advanced_header():
         opacity = random.uniform(0.2, 0.8)
         dur = random.uniform(3, 8)
         delay = random.uniform(0, 5)
-        particles += f'<circle cx="{cx}" cy="{cy}" r="{r}" fill="#39FF14" opacity="{opacity}"><animate attributeName="opacity" values="{opacity};0.1;{opacity}" dur="{dur}s" begin="{delay}s" repeatCount="indefinite"/></circle>'
+        particles_list.append(f'<circle cx="{cx}" cy="{cy}" r="{r}" fill="#39FF14" opacity="{opacity}"><animate attributeName="opacity" values="{opacity};0.1;{opacity}" dur="{dur}s" begin="{delay}s" repeatCount="indefinite"/></circle>')
+    particles = "".join(particles_list)
 
     svg = f"""<svg width="850" height="380" viewBox="0 0 850 380" xmlns="http://www.w3.org/2000/svg">
     <defs>

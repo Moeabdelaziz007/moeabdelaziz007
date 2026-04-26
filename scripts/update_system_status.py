@@ -12,12 +12,13 @@ def update_telemetry_svg():
     date_str = now.strftime("%Y-%m-%d %H:%M:%S UTC")
 
     # Generate Hexagons for background (Neon Green tint)
-    hexagons = ""
+    hexagons_list = []
     for _ in range(30):
         x = random.randint(0, 850)
         y = random.randint(0, 200)
         opacity = random.uniform(0.02, 0.08)
-        hexagons += f'<polygon points="{x},{y-10} {x+8.6},{y-5} {x+8.6},{y+5} {x},{y+10} {x-8.6},{y+5} {x-8.6},{y-5}" fill="none" stroke="#39FF14" stroke-width="1" opacity="{opacity}"/>\n'
+        hexagons_list.append(f'<polygon points="{x},{y-10} {x+8.6},{y-5} {x+8.6},{y+5} {x},{y+10} {x-8.6},{y+5} {x-8.6},{y-5}" fill="none" stroke="#39FF14" stroke-width="1" opacity="{opacity}"/>\n')
+    hexagons = "".join(hexagons_list)
 
     svg = f"""<svg width="850" height="200" viewBox="0 0 850 200" xmlns="http://www.w3.org/2000/svg">
   <defs>
