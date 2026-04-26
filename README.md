@@ -157,9 +157,6 @@
 > SYSTEM_TELEMETRY.LOG <span style="font-size: 14px; color: #888888;">// SOVEREIGN AI ARCHITECT & SYSTEMS ENGINEER</span></h2>
 
 <!-- START_LIVE_DATA -->
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=Moeabdelaziz007&label=GLOBAL_PINGS&color=39FF14&style=for-the-badge&base=1000" alt="Visitor Count" style="margin-bottom: 15px; box-shadow: 0 0 10px rgba(57,255,20,0.3);" />
-</p>
 <p align="center"><img src="./assets/telemetry.svg" alt="Live Telemetry"></p>
 <!-- END_LIVE_DATA -->
 
