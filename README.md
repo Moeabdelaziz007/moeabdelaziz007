@@ -189,7 +189,7 @@
         <img src="https://img.shields.io/badge/Framework-AlphaAxiom-050505?style=flat-square" />
       </div>
       <span style="background: rgba(255, 0, 0, 0.1); border: 1px solid #FF0000; color: #FF0000; padding: 4px 10px; border-radius: 20px; font-size: 12px; font-weight: bold; font-family: 'Consolas', monospace; display: flex; align-items: center; gap: 5px;">
-        <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Symbols/Red%20Circle.png" width="12"/> Experimente 
+        <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Symbols/Red%20Circle.png" width="12"/> Experimental 
       </span>
     </div>
 
