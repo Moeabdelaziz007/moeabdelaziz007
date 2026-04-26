@@ -54,7 +54,7 @@
 <br><br>
 <img src="https://capsule-render.vercel.app/api?type=waving&color=050505&height=120&section=header&text=%20&fontSize=90" width="100%"/>
 
-</div>
+
 
 <br>
 
@@ -62,7 +62,7 @@
 <div align="center" style="margin: 40px 0 20px 0;">
   <h2 style="color: #39FF14; font-family: 'Consolas', 'Fira Code', monospace; border-bottom: 2px solid rgba(57, 255, 20, 0.5); padding-bottom: 10px; display: inline-block; text-shadow: 0 0 15px rgba(57,255,20,0.6); letter-spacing: 2px;">
     <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Identification%20Card.png" width="30" style="vertical-align: middle; margin-right: 10px;"/>
-    > 
+     
   </h2>
 
 
@@ -189,7 +189,7 @@
         <img src="https://img.shields.io/badge/Framework-AlphaAxiom-050505?style=flat-square" />
       </div>
       <span style="background: rgba(255, 0, 0, 0.1); border: 1px solid #FF0000; color: #FF0000; padding: 4px 10px; border-radius: 20px; font-size: 12px; font-weight: bold; font-family: 'Consolas', monospace; display: flex; align-items: center; gap: 5px;">
-        <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Symbols/Red%20Circle.png" width="12"/> CLASSIFIED
+        <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Symbols/Red%20Circle.png" width="12"/> Experimente 
       </span>
     </div>
 
@@ -212,7 +212,7 @@
 <div align="center" style="margin: 40px 0 20px 0;">
   <h2 style="color: #39FF14; font-family: 'Consolas', 'Fira Code', monospace; border-bottom: 2px solid rgba(57, 255, 20, 0.5); padding-bottom: 10px; display: inline-block; text-shadow: 0 0 15px rgba(57,255,20,0.6); letter-spacing: 2px;">
     <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Satellite%20Antenna.png" width="30" style="vertical-align: middle; margin-right: 10px;"/>
-    > SYSTEM TELEMETRY.LOG
+    > System Telemetry
   </h2>
   <h3 dir="rtl" style="color: #aaaaaa; font-family: 'Consolas', 'Fira Code', monospace; margin-top: 5px; letter-spacing: 1px; font-size: 14px;">سجل القياس عن بعد للنظام</h3>
 </div>
