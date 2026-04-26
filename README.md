@@ -6,7 +6,7 @@
 
 <br>
 
-<h1 style="color: #ffffff; font-family: 'Consolas', 'Fira Code', monospace; letter-spacing: 4px; margin-bottom: 5px; text-shadow: 0 0 10px rgba(255,255,255,0.3);">MOHAMED hossam-eldin ABDELAZIZ</h1>
+<h1 style="color: #ffffff; font-family: 'Consolas', 'Fira Code', monospace; letter-spacing: 4px; margin-bottom: 5px; text-shadow: 0 0 10px rgba(255,255,255,0.3);">MOHAMED Hossam-Eldin ABDELAZIZ</h1>
 <h1 dir="rtl" style="color: #ffffff; font-family: 'Consolas', 'Fira Code', monospace; letter-spacing: 2px; margin-bottom: 5px; text-shadow: 0 0 10px rgba(255,255,255,0.3);">محمد حسام الدين عبدالعزيز</h1>
 <h3 style="color: #39FF14; font-family: 'Consolas', 'Fira Code', monospace; margin-top: 0; letter-spacing: 2px; text-shadow: 0 0 10px rgba(57,255,20,0.5);">SOVEREIGN AI ARCHITECT & SYSTEMS ENGINEER</h3>
 <h3 dir="rtl" style="color: #39FF14; font-family: 'Consolas', 'Fira Code', monospace; margin-top: 0; letter-spacing: 1px; text-shadow: 0 0 10px rgba(57,255,20,0.5);">مهندس نظم ومعماريات ذكاء اصطناعي مستقلة</h3>
