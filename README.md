@@ -26,35 +26,54 @@
 <br>
 
 <!-- UI Section: Identity -->
-<h2 align="center" style="color: #39FF14; font-family: 'Consolas', 'Fira Code', monospace; border-bottom: 1px solid rgba(57, 255, 20, 0.3); padding-bottom: 10px; text-shadow: 0 0 5px rgba(57,255,20,0.4);">  
-> IDENTITY_PANEL.EXE <span style="font-size: 14px; color: #888888;">// SOVEREIGN AI ARCHITECT & SYSTEMS ENGINEER</span></h2>
+<div align="center" style="margin: 40px 0 20px 0; background: linear-gradient(90deg, transparent 0%, rgba(57,255,20,0.05) 50%, transparent 100%); border-top: 1px solid rgba(57,255,20,0.5); border-bottom: 1px solid rgba(57,255,20,0.5); padding: 15px 0; max-width: 850px;">
+  <h2 style="color: #39FF14; font-family: 'Consolas', 'Fira Code', monospace; margin: 0; letter-spacing: 2px; text-shadow: 0 0 10px rgba(57,255,20,0.6);">
+    <span style="color: #ffffff;">></span> IDENTITY_PANEL.EXE
+  </h2>
+  <div style="color: #888888; font-family: 'Consolas', 'Fira Code', monospace; font-size: 12px; letter-spacing: 3px; margin-top: 5px;">
+    // SOVEREIGN AI ARCHITECT & SYSTEMS ENGINEER
+  </div>
+</div>
 
-<div style="background: #0a0a0a; border: 1px solid rgba(57, 255, 20, 0.3); border-radius: 12px; padding: 10px; box-shadow: 0 4px 30px rgba(0, 0, 0, 0.8); margin: 20px 0;">
+<div align="center" style="display: flex; flex-wrap: wrap; justify-content: center; gap: 20px; max-width: 850px; margin: 0 auto;">
 
-  <table width="100%" style="border-collapse: collapse;">
-    <tr>
-      <td width="50%" style="padding: 20px; vertical-align: top;">
-        <h3 style="color: #ffffff; font-family: 'Consolas', 'Fira Code', monospace; margin-top: 0; text-shadow: 0 0 5px rgba(255,255,255,0.3);">[EN] GLOBAL PERSPECTIVE</h3>
-        <p style="color: #aaaaaa; font-family: 'Consolas', 'Fira Code', monospace; font-size: 14px; line-height: 1.6;">
-          I specialize in autonomous agent architectures. My work focuses on replacing fragmented workflows with unified, self-governing protocols. I engineer the foundations for AI to operate, evolve, and execute independently without human bottlenecks.
-        </p>
-      </td>
-      <td width="50%" style="padding: 20px; vertical-align: top; border-left: 1px solid rgba(57, 255, 20, 0.2);">
-        <h3 style="color: #ffffff; font-family: 'Consolas', 'Fira Code', monospace; margin-top: 0; text-shadow: 0 0 5px rgba(255,255,255,0.3);">[AR] المنظور العالمي</h3>
-        <p style="color: #aaaaaa; font-family: 'Consolas', 'Fira Code', monospace; font-size: 14px; line-height: 1.6;">
-          مهندس ذكاء اصطناعي متخصص في معماريات الوكلاء المستقلين. عملي يتركز على استبدال مسارات العمل المجزأة ببروتوكولات موحدة وذاتية الإدارة. أقوم بهندسة الأسس التي تسمح للذكاء الاصطناعي بالعمل، التطور، والتنفيذ باستقلالية تامة.
-        </p>
-      </td>
-    </tr>
-  </table>
+  <!-- EN Card -->
+  <div style="background: #0d0d0d; border-left: 4px solid #39FF14; border-radius: 8px; padding: 25px; box-shadow: 0 5px 15px rgba(0,0,0,0.6); flex: 1; min-width: 300px; text-align: left; position: relative; overflow: hidden;">
+    <div style="position: absolute; top: 0; right: 0; width: 50px; height: 50px; background: linear-gradient(135deg, transparent 50%, rgba(57,255,20,0.1) 50%);"></div>
+    <h3 style="color: #ffffff; font-family: 'Consolas', 'Fira Code', monospace; margin-top: 0; margin-bottom: 15px; border-bottom: 1px dashed rgba(57,255,20,0.3); padding-bottom: 10px; display: inline-block;">
+      <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Globe%20Showing%20Americas.png" width="20" style="vertical-align: middle; margin-right: 5px;"/>
+      <span style="text-shadow: 0 0 5px rgba(255,255,255,0.3);">[EN] GLOBAL PERSPECTIVE</span>
+    </h3>
+    <p style="color: #aaaaaa; font-family: 'Consolas', 'Fira Code', monospace; font-size: 14px; line-height: 1.7; margin: 0;">
+      I specialize in autonomous agent architectures. My work focuses on replacing fragmented workflows with unified, self-governing protocols. I engineer the foundations for AI to operate, evolve, and execute independently without human bottlenecks.
+    </p>
+  </div>
+
+  <!-- AR Card -->
+  <div style="background: #0d0d0d; border-right: 4px solid #39FF14; border-radius: 8px; padding: 25px; box-shadow: 0 5px 15px rgba(0,0,0,0.6); flex: 1; min-width: 300px; text-align: right; position: relative; overflow: hidden;" dir="rtl">
+    <div style="position: absolute; top: 0; left: 0; width: 50px; height: 50px; background: linear-gradient(225deg, transparent 50%, rgba(57,255,20,0.1) 50%);"></div>
+    <h3 style="color: #ffffff; font-family: 'Consolas', 'Fira Code', monospace; margin-top: 0; margin-bottom: 15px; border-bottom: 1px dashed rgba(57,255,20,0.3); padding-bottom: 10px; display: inline-block;">
+      <span style="text-shadow: 0 0 5px rgba(255,255,255,0.3);">المنظور العالمي [AR]</span>
+      <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Globe%20Showing%20Europe-Africa.png" width="20" style="vertical-align: middle; margin-left: 5px;"/>
+    </h3>
+    <p style="color: #aaaaaa; font-family: 'Consolas', 'Fira Code', monospace; font-size: 14px; line-height: 1.7; margin: 0;">
+      مهندس ذكاء اصطناعي متخصص في معماريات الوكلاء المستقلين. عملي يتركز على استبدال مسارات العمل المجزأة ببروتوكولات موحدة وذاتية الإدارة. أقوم بهندسة الأسس التي تسمح للذكاء الاصطناعي بالعمل، التطور، والتنفيذ باستقلالية تامة.
+    </p>
+  </div>
 
 </div>
 
 <br>
 
 <!-- UI Section: Arsenal -->
-<h2 align="center" style="color: #39FF14; font-family: 'Consolas', 'Fira Code', monospace; border-bottom: 1px solid rgba(57, 255, 20, 0.3); padding-bottom: 10px; text-shadow: 0 0 5px rgba(57,255,20,0.4);">  
-> SYSTEM_ARSENAL.CFG <span style="font-size: 14px; color: #888888;">// SOVEREIGN AI ARCHITECT & SYSTEMS ENGINEER</span></h2>
+<div align="center" style="margin: 40px 0 20px 0; background: linear-gradient(90deg, transparent 0%, rgba(57,255,20,0.05) 50%, transparent 100%); border-top: 1px solid rgba(57,255,20,0.5); border-bottom: 1px solid rgba(57,255,20,0.5); padding: 15px 0; max-width: 850px;">
+  <h2 style="color: #39FF14; font-family: 'Consolas', 'Fira Code', monospace; margin: 0; letter-spacing: 2px; text-shadow: 0 0 10px rgba(57,255,20,0.6);">
+    <span style="color: #ffffff;">></span> SYSTEM_ARSENAL.CFG
+  </h2>
+  <div style="color: #888888; font-family: 'Consolas', 'Fira Code', monospace; font-size: 12px; letter-spacing: 3px; margin-top: 5px;">
+    // SOVEREIGN AI ARCHITECT & SYSTEMS ENGINEER
+  </div>
+</div>
 
 <div align="center" style="background: #0a0a0a; border: 1px solid rgba(57, 255, 20, 0.3); border-radius: 12px; padding: 20px; box-shadow: 0 4px 30px rgba(0, 0, 0, 0.8); margin: 20px 0; max-width: 800px; margin-left: auto; margin-right: auto;">
 
@@ -84,8 +103,14 @@
 </div>
 
 <!-- UI Section: Core Infrastructure -->
-<h2 align="center" style="color: #39FF14; font-family: 'Consolas', 'Fira Code', monospace; border-bottom: 1px solid rgba(57, 255, 20, 0.3); padding-bottom: 10px; text-shadow: 0 0 5px rgba(57,255,20,0.4);">
-> CORE_INFRASTRUCTURE.SYS <span style="font-size: 14px; color: #888888;">// SOVEREIGN AI ARCHITECT & SYSTEMS ENGINEER</span></h2>
+<div align="center" style="margin: 40px 0 20px 0; background: linear-gradient(90deg, transparent 0%, rgba(57,255,20,0.05) 50%, transparent 100%); border-top: 1px solid rgba(57,255,20,0.5); border-bottom: 1px solid rgba(57,255,20,0.5); padding: 15px 0; max-width: 850px;">
+  <h2 style="color: #39FF14; font-family: 'Consolas', 'Fira Code', monospace; margin: 0; letter-spacing: 2px; text-shadow: 0 0 10px rgba(57,255,20,0.6);">
+    <span style="color: #ffffff;">></span> CORE_INFRASTRUCTURE.SYS
+  </h2>
+  <div style="color: #888888; font-family: 'Consolas', 'Fira Code', monospace; font-size: 12px; letter-spacing: 3px; margin-top: 5px;">
+    // SOVEREIGN AI ARCHITECT & SYSTEMS ENGINEER
+  </div>
+</div>
 
 <div align="center">
   <!-- Project Card 1 -->
@@ -144,8 +169,14 @@
 <br><br>
 
 <!-- UI Section: Stats -->
-<h2 align="center" style="color: #39FF14; font-family: 'Consolas', 'Fira Code', monospace; border-bottom: 1px solid rgba(57, 255, 20, 0.3); padding-bottom: 10px; text-shadow: 0 0 5px rgba(57,255,20,0.4);">
-> SYSTEM_DIAGNOSTICS.LOG <span style="font-size: 14px; color: #888888;">// SOVEREIGN AI ARCHITECT & SYSTEMS ENGINEER</span></h2>
+<div align="center" style="margin: 40px 0 20px 0; background: linear-gradient(90deg, transparent 0%, rgba(57,255,20,0.05) 50%, transparent 100%); border-top: 1px solid rgba(57,255,20,0.5); border-bottom: 1px solid rgba(57,255,20,0.5); padding: 15px 0; max-width: 850px;">
+  <h2 style="color: #39FF14; font-family: 'Consolas', 'Fira Code', monospace; margin: 0; letter-spacing: 2px; text-shadow: 0 0 10px rgba(57,255,20,0.6);">
+    <span style="color: #ffffff;">></span> SYSTEM_DIAGNOSTICS.LOG
+  </h2>
+  <div style="color: #888888; font-family: 'Consolas', 'Fira Code', monospace; font-size: 12px; letter-spacing: 3px; margin-top: 5px;">
+    // SOVEREIGN AI ARCHITECT & SYSTEMS ENGINEER
+  </div>
+</div>
 
 <div align="center" style="margin: 20px 0;">
   <img src="https://github-readme-stats.vercel.app/api?username=Moeabdelaziz007&show_icons=true&theme=radical&bg_color=0a0a0a&hide_border=true&title_color=39FF14&icon_color=39FF14&text_color=aaaaaa" alt="GitHub Stats" style="margin-bottom: 10px; border: 1px solid rgba(57, 255, 20, 0.3); border-radius: 8px; box-shadow: 0 4px 15px rgba(0,0,0,0.5);" />
@@ -153,8 +184,14 @@
 </div>
 
 <!-- UI Section: Telemetry -->
-<h2 align="center" style="color: #39FF14; font-family: 'Consolas', 'Fira Code', monospace; border-bottom: 1px solid rgba(57, 255, 20, 0.3); padding-bottom: 10px; text-shadow: 0 0 5px rgba(57,255,20,0.4);">  
-> SYSTEM_TELEMETRY.LOG <span style="font-size: 14px; color: #888888;">// SOVEREIGN AI ARCHITECT & SYSTEMS ENGINEER</span></h2>
+<div align="center" style="margin: 40px 0 20px 0; background: linear-gradient(90deg, transparent 0%, rgba(57,255,20,0.05) 50%, transparent 100%); border-top: 1px solid rgba(57,255,20,0.5); border-bottom: 1px solid rgba(57,255,20,0.5); padding: 15px 0; max-width: 850px;">
+  <h2 style="color: #39FF14; font-family: 'Consolas', 'Fira Code', monospace; margin: 0; letter-spacing: 2px; text-shadow: 0 0 10px rgba(57,255,20,0.6);">
+    <span style="color: #ffffff;">></span> SYSTEM_TELEMETRY.LOG
+  </h2>
+  <div style="color: #888888; font-family: 'Consolas', 'Fira Code', monospace; font-size: 12px; letter-spacing: 3px; margin-top: 5px;">
+    // SOVEREIGN AI ARCHITECT & SYSTEMS ENGINEER
+  </div>
+</div>
 
 <!-- START_LIVE_DATA -->
 <p align="center">
@@ -166,8 +203,14 @@
 <br><br>
 
 <!-- UI Section: Secure Comm Link -->
-<h2 align="center" style="color: #39FF14; font-family: 'Consolas', 'Fira Code', monospace; border-bottom: 1px solid rgba(57, 255, 20, 0.3); padding-bottom: 10px; text-shadow: 0 0 5px rgba(57,255,20,0.4);">  
-> SECURE_COMM_LINK.SH <span style="font-size: 14px; color: #888888;">// SOVEREIGN AI ARCHITECT & SYSTEMS ENGINEER</span></h2>
+<div align="center" style="margin: 40px 0 20px 0; background: linear-gradient(90deg, transparent 0%, rgba(57,255,20,0.05) 50%, transparent 100%); border-top: 1px solid rgba(57,255,20,0.5); border-bottom: 1px solid rgba(57,255,20,0.5); padding: 15px 0; max-width: 850px;">
+  <h2 style="color: #39FF14; font-family: 'Consolas', 'Fira Code', monospace; margin: 0; letter-spacing: 2px; text-shadow: 0 0 10px rgba(57,255,20,0.6);">
+    <span style="color: #ffffff;">></span> SECURE_COMM_LINK.SH
+  </h2>
+  <div style="color: #888888; font-family: 'Consolas', 'Fira Code', monospace; font-size: 12px; letter-spacing: 3px; margin-top: 5px;">
+    // SOVEREIGN AI ARCHITECT & SYSTEMS ENGINEER
+  </div>
+</div>
 
 <p align="center">
   <a href="https://www.linkedin.com/in/mohamed-abdelaziz-815797347/" target="_blank">

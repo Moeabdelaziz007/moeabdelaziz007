@@ -110,7 +110,7 @@ def main():
         with open('README.md', 'r', encoding='utf-8') as f:
             readme_content = f.read()
 
-        metrics_html = '<p align="center"><img src="./assets/telemetry.svg" alt="Live Telemetry"></p>'
+        metrics_html = '<p align="center">\n  <img src="https://komarev.com/ghpvc/?username=Moeabdelaziz007&label=GLOBAL_PINGS&color=39FF14&style=for-the-badge&base=1000" alt="Visitor Count" style="margin-bottom: 15px; box-shadow: 0 0 10px rgba(57,255,20,0.3);" />\n</p>\n<p align="center"><img src="./assets/telemetry.svg" alt="Live Telemetry"></p>'
 
         # Define the tags
         start_tag = '<!-- START_LIVE_DATA -->'
