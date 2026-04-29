@@ -53,19 +53,7 @@
 <h3 style="color: #ffffff; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 14px; letter-spacing: 1px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 5px; max-width: 800px; text-align: left; margin-bottom: 20px;">SYSTEM TELEMETRY</h3>
 
 <!-- START_LIVE_DATA -->
-
-<div align="center">
-
-| Metric | Value | Status |
-| :--- | :--- | :--- |
-| **System Uptime** | `395 days` | 🟢 OPERATIONAL |
-| **Active Agents** | `228` | 🟢 ONLINE |
-| **Network Payload** | `6486 ops` | 🟢 STABLE |
-| **Last Sync** | `2026-04-29 12:21:03 UTC` | 🔒 VERIFIED |
-
-</div>
-
-<br><p align="center"><img src="./assets/aix_dashboard.svg" alt="System Telemetry Dashboard" width="800"></p>
+<p align="center"><img src="./assets/telemetry.svg" alt="Live Telemetry"></p>
 <!-- END_LIVE_DATA -->
 
 <br><br><br>
