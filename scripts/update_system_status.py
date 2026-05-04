@@ -102,7 +102,6 @@ def update_telemetry_svg():
     os.makedirs('assets', exist_ok=True)
     with open('assets/telemetry.svg', 'w') as f:
         f.write(svg)
-    return True
 
 def main():
     try:
