@@ -169,3 +169,19 @@
         <span style="color: #666666; font-size: 12px;">"The goal is <span style="color: #ffffff;">10x</span>, or it's not worth the logic."</span>
     </p>
 </div>    
+
+<!-- START_LIVE_DATA -->
+
+<div align="center">
+
+| Metric | Value | Status |
+| :--- | :--- | :--- |
+| **System Uptime** | `457 days` | 🟢 OPERATIONAL |
+| **Active Agents** | `281` | 🟢 ONLINE |
+| **Network Payload** | `11469 ops` | 🟢 STABLE |
+| **Last Sync** | `2026-05-03 12:44:35 UTC` | 🔒 VERIFIED |
+
+</div>
+
+<br><p align="center"><img src="./assets/aix_dashboard.svg" alt="System Telemetry Dashboard" width="800"></p>
+<!-- END_LIVE_DATA -->

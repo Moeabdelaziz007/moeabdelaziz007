@@ -114,11 +114,11 @@ def main():
 
         pattern = re.compile(r'<!-- START_LIVE_DATA -->.*?<!-- END_LIVE_DATA -->', re.DOTALL)
 
-        if not re.search(pattern, readme_content):
+        new_content, count = re.subn(pattern, full_injection.strip(), readme_content)
+
+        if count == 0:
             print("Tags not found in README.md. Please ensure <!-- START_LIVE_DATA --> and <!-- END_LIVE_DATA --> exist.")
             return
-
-        new_content = re.sub(pattern, full_injection.strip(), readme_content)
 
         with open(readme_path, 'w', encoding='utf-8') as f:
             f.write(new_content)
