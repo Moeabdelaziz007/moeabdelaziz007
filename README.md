@@ -151,9 +151,9 @@
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Moeabdelaziz007&layout=compact&theme=transparent&hide_border=true&bg_color=000000&title_color=ffffff&text_color=aaaaaa&border_color=333333&border_radius=6&custom_title=CORE_LANGUAGES" alt="Top Languages" style="border: 1px solid rgba(255,255,255,0.1); border-radius: 6px;"/>
 </div>
 
-<p align="center">
-  <img src="./assets/telemetry.svg" alt="Live Telemetry" style="border: 1px solid rgba(255,255,255,0.1); border-radius: 6px;">
-</p>
+<!-- START_LIVE_DATA -->
+<p align="center"><img src="./assets/telemetry.svg" alt="Live Telemetry"></p>
+<!-- END_LIVE_DATA -->
 <div align="center" style="margin-top: 50px; padding: 40px 20px; background: #000000; border-top: 1px solid rgba(255,255,255,0.2); border-bottom: 1px solid rgba(255,255,255,0.2);">
     <p style="margin: 0; padding: 10px 0;">
         <code style="color: #ffffff; font-size: 16px; font-family: 'Fira Code', monospace; font-weight: bold; background: none;">

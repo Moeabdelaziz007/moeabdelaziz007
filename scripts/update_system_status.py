@@ -3,24 +3,7 @@ import random
 import datetime
 import os
 
-def update_telemetry_svg():
-    visitors = random.randint(3500, 8000)
-    agents = random.randint(80, 200)
-    uptime = random.randint(200, 400)
-
-    now = datetime.datetime.now(datetime.timezone.utc)
-    date_str = now.strftime("%Y-%m-%d %H:%M:%S UTC")
-
-    # Generate Hexagons for background (Neon Green tint)
-    hexagons_list = []
-    for _ in range(30):
-        x = random.randint(0, 850)
-        y = random.randint(0, 200)
-        opacity = random.uniform(0.02, 0.08)
-        hexagons_list.append(f'<polygon points="{x},{y-10} {x+8.6},{y-5} {x+8.6},{y+5} {x},{y+10} {x-8.6},{y+5} {x-8.6},{y-5}" fill="none" stroke="#39FF14" stroke-width="1" opacity="{opacity}"/>\n')
-    hexagons = "".join(hexagons_list)
-
-    svg = f"""<svg width="850" height="200" viewBox="0 0 850 200" xmlns="http://www.w3.org/2000/svg">
+TELEMETRY_SVG_TEMPLATE = """<svg width="850" height="200" viewBox="0 0 850 200" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <!-- Carbon Fiber Pattern -->
     <pattern id="carbonFiber" width="10" height="10" patternUnits="userSpaceOnUse">
@@ -99,8 +82,37 @@ def update_telemetry_svg():
   <text x="425" y="185" font-family="'Consolas', 'Fira Code', monospace" font-size="10" fill="#aaaaaa" opacity="0.6" text-anchor="middle">LAST TELEMETRY PING: {date_str} // ENCRYPTED_TUNNEL</text>
 </svg>"""
 
-    os.makedirs('assets', exist_ok=True)
-    with open('assets/telemetry.svg', 'w') as f:
+def update_telemetry_svg():
+    visitors = random.randint(3500, 8000)
+    agents = random.randint(80, 200)
+    uptime = random.randint(200, 400)
+
+    now = datetime.datetime.now(datetime.timezone.utc)
+    date_str = now.strftime("%Y-%m-%d %H:%M:%S UTC")
+
+    # Generate Hexagons for background (Neon Green tint)
+    hexagons_list = []
+    for _ in range(30):
+        x = random.randint(0, 850)
+        y = random.randint(0, 200)
+        opacity = random.uniform(0.02, 0.08)
+        hexagons_list.append(f'<polygon points="{x},{y-10} {x+8.6},{y-5} {x+8.6},{y+5} {x},{y+10} {x-8.6},{y+5} {x-8.6},{y-5}" fill="none" stroke="#39FF14" stroke-width="1" opacity="{opacity}"/>\n')
+    hexagons = "".join(hexagons_list)
+
+    svg = TELEMETRY_SVG_TEMPLATE.format(
+        hexagons=hexagons,
+        visitors=visitors,
+        agents=agents,
+        uptime=uptime,
+        date_str=date_str
+    )
+
+    base_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+    assets_dir = os.path.join(base_dir, 'assets')
+    os.makedirs(assets_dir, exist_ok=True)
+
+    svg_path = os.path.join(assets_dir, 'telemetry.svg')
+    with open(svg_path, 'w', encoding='utf-8') as f:
         f.write(svg)
     return True
 
@@ -108,7 +120,10 @@ def main():
     try:
         update_telemetry_svg()
 
-        with open('README.md', 'r', encoding='utf-8') as f:
+        base_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+        readme_path = os.path.join(base_dir, 'README.md')
+
+        with open(readme_path, 'r', encoding='utf-8') as f:
             readme_content = f.read()
 
         metrics_html = '<p align="center"><img src="./assets/telemetry.svg" alt="Live Telemetry"></p>'
@@ -125,7 +140,7 @@ def main():
 
         new_content = re.sub(pattern, f"{start_tag}\n{metrics_html}\n{end_tag}", readme_content)
 
-        with open('README.md', 'w', encoding='utf-8') as f:
+        with open(readme_path, 'w', encoding='utf-8') as f:
             f.write(new_content)
 
         print("Successfully generated advanced telemetry.svg and updated README.md.")
