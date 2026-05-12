@@ -3,6 +3,11 @@ import random
 import datetime
 import os
 
+# Precompiled regex for live data injection
+START_TAG = '<!-- START_LIVE_DATA -->'
+END_TAG = '<!-- END_LIVE_DATA -->'
+LIVE_DATA_PATTERN = re.compile(rf'{START_TAG}.*?{END_TAG}', re.DOTALL)
+
 def update_telemetry_svg():
     visitors = random.randint(3500, 8000)
     agents = random.randint(80, 200)
@@ -113,17 +118,11 @@ def main():
 
         metrics_html = '<p align="center"><img src="./assets/telemetry.svg" alt="Live Telemetry"></p>'
 
-        # Define the tags
-        start_tag = '<!-- START_LIVE_DATA -->'
-        end_tag = '<!-- END_LIVE_DATA -->'
-
-        pattern = re.compile(rf'{start_tag}.*?{end_tag}', re.DOTALL)
-
-        if not re.search(pattern, readme_content):
+        if not LIVE_DATA_PATTERN.search(readme_content):
             print("Tags not found in README.md. Please ensure <!-- START_LIVE_DATA --> and <!-- END_LIVE_DATA --> exist.")
             return
 
-        new_content = re.sub(pattern, f"{start_tag}\n{metrics_html}\n{end_tag}", readme_content)
+        new_content = LIVE_DATA_PATTERN.sub(f"{START_TAG}\n{metrics_html}\n{END_TAG}", readme_content)
 
         with open('README.md', 'w', encoding='utf-8') as f:
             f.write(new_content)

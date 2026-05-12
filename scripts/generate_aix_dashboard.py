@@ -3,6 +3,11 @@ import os
 import random
 import datetime
 
+# Precompiled regex for live data injection
+START_TAG = '<!-- START_LIVE_DATA -->'
+END_TAG = '<!-- END_LIVE_DATA -->'
+LIVE_DATA_PATTERN = re.compile(rf'{START_TAG}.*?{END_TAG}', re.DOTALL)
+
 def generate_markdown_table(visitors, agents, uptime, last_ping):
     """Generates a clean Markdown table with telemetry data."""
     return f"""
@@ -105,20 +110,18 @@ def main():
         markdown_table = generate_markdown_table(visitors, agents, uptime, last_ping)
         svg_link = '<br><p align="center"><img src="./assets/aix_dashboard.svg" alt="System Telemetry Dashboard" width="800"></p>'
 
-        full_injection = f"\n<!-- START_LIVE_DATA -->\n{markdown_table}\n{svg_link}\n<!-- END_LIVE_DATA -->\n"
+        full_injection = f"\n{START_TAG}\n{markdown_table}\n{svg_link}\n{END_TAG}\n"
 
         # 5. Inject into README.md
         readme_path = os.path.join(base_dir, 'README.md')
         with open(readme_path, 'r', encoding='utf-8') as f:
             readme_content = f.read()
 
-        pattern = re.compile(r'<!-- START_LIVE_DATA -->.*?<!-- END_LIVE_DATA -->', re.DOTALL)
-
-        if not re.search(pattern, readme_content):
+        if not LIVE_DATA_PATTERN.search(readme_content):
             print("Tags not found in README.md. Please ensure <!-- START_LIVE_DATA --> and <!-- END_LIVE_DATA --> exist.")
             return
 
-        new_content = re.sub(pattern, full_injection.strip(), readme_content)
+        new_content = LIVE_DATA_PATTERN.sub(full_injection.strip(), readme_content)
 
         with open(readme_path, 'w', encoding='utf-8') as f:
             f.write(new_content)
