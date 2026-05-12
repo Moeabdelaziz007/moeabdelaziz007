@@ -2,6 +2,7 @@ import re
 import random
 import datetime
 import os
+from config import ASSETS_DIR, README_PATH, START_TAG, END_TAG
 
 # Precompiled regex for live data injection
 START_TAG = '<!-- START_LIVE_DATA -->'
@@ -104,8 +105,9 @@ def update_telemetry_svg():
   <text x="425" y="185" font-family="'Consolas', 'Fira Code', monospace" font-size="10" fill="#aaaaaa" opacity="0.6" text-anchor="middle">LAST TELEMETRY PING: {date_str} // ENCRYPTED_TUNNEL</text>
 </svg>"""
 
-    os.makedirs('assets', exist_ok=True)
-    with open('assets/telemetry.svg', 'w') as f:
+    os.makedirs(ASSETS_DIR, exist_ok=True)
+    svg_path = os.path.join(ASSETS_DIR, 'telemetry.svg')
+    with open(svg_path, 'w') as f:
         f.write(svg)
     return True
 
@@ -113,7 +115,7 @@ def main():
     try:
         update_telemetry_svg()
 
-        with open('README.md', 'r', encoding='utf-8') as f:
+        with open(README_PATH, 'r', encoding='utf-8') as f:
             readme_content = f.read()
 
         metrics_html = '<p align="center"><img src="./assets/telemetry.svg" alt="Live Telemetry"></p>'
@@ -124,7 +126,7 @@ def main():
 
         new_content = LIVE_DATA_PATTERN.sub(f"{START_TAG}\n{metrics_html}\n{END_TAG}", readme_content)
 
-        with open('README.md', 'w', encoding='utf-8') as f:
+        with open(README_PATH, 'w', encoding='utf-8') as f:
             f.write(new_content)
 
         print("Successfully generated advanced telemetry.svg and updated README.md.")

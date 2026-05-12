@@ -2,6 +2,7 @@ import re
 import os
 import random
 import datetime
+from config import ASSETS_DIR, README_PATH, START_TAG, END_TAG
 
 # Precompiled regex for live data injection
 START_TAG = '<!-- START_LIVE_DATA -->'
@@ -95,14 +96,11 @@ def main():
         last_ping = now.strftime("%Y-%m-%d %H:%M:%S UTC")
 
         # 2. Ensure assets directory exists
-        # Use relative path dynamically based on script location to avoid hardcoded absolute paths
-        base_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-        assets_dir = os.path.join(base_dir, 'assets')
-        os.makedirs(assets_dir, exist_ok=True)
+        os.makedirs(ASSETS_DIR, exist_ok=True)
 
         # 3. Write SVG
         svg_content = generate_svg_dashboard(visitors, agents, uptime, last_ping)
-        svg_path = os.path.join(assets_dir, 'aix_dashboard.svg')
+        svg_path = os.path.join(ASSETS_DIR, 'aix_dashboard.svg')
         with open(svg_path, 'w', encoding='utf-8') as f:
             f.write(svg_content)
 
@@ -113,17 +111,18 @@ def main():
         full_injection = f"\n{START_TAG}\n{markdown_table}\n{svg_link}\n{END_TAG}\n"
 
         # 5. Inject into README.md
-        readme_path = os.path.join(base_dir, 'README.md')
-        with open(readme_path, 'r', encoding='utf-8') as f:
+        with open(README_PATH, 'r', encoding='utf-8') as f:
             readme_content = f.read()
 
-        if not LIVE_DATA_PATTERN.search(readme_content):
-            print("Tags not found in README.md. Please ensure <!-- START_LIVE_DATA --> and <!-- END_LIVE_DATA --> exist.")
+        pattern = re.compile(rf'{START_TAG}.*?{END_TAG}', re.DOTALL)
+
+        if not re.search(pattern, readme_content):
+            print(f"Tags not found in README.md. Please ensure {START_TAG} and {END_TAG} exist.")
             return
 
         new_content = LIVE_DATA_PATTERN.sub(full_injection.strip(), readme_content)
 
-        with open(readme_path, 'w', encoding='utf-8') as f:
+        with open(README_PATH, 'w', encoding='utf-8') as f:
             f.write(new_content)
 
         print("Successfully generated aix_dashboard.svg and updated README.md.")
