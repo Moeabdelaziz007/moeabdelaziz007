@@ -2,6 +2,7 @@ import re
 import random
 import datetime
 import os
+from config import ASSETS_DIR, README_PATH, START_TAG, END_TAG
 
 def update_telemetry_svg():
     visitors = random.randint(3500, 8000)
@@ -99,8 +100,9 @@ def update_telemetry_svg():
   <text x="425" y="185" font-family="'Consolas', 'Fira Code', monospace" font-size="10" fill="#aaaaaa" opacity="0.6" text-anchor="middle">LAST TELEMETRY PING: {date_str} // ENCRYPTED_TUNNEL</text>
 </svg>"""
 
-    os.makedirs('assets', exist_ok=True)
-    with open('assets/telemetry.svg', 'w') as f:
+    os.makedirs(ASSETS_DIR, exist_ok=True)
+    svg_path = os.path.join(ASSETS_DIR, 'telemetry.svg')
+    with open(svg_path, 'w') as f:
         f.write(svg)
     return True
 
@@ -108,24 +110,20 @@ def main():
     try:
         update_telemetry_svg()
 
-        with open('README.md', 'r', encoding='utf-8') as f:
+        with open(README_PATH, 'r', encoding='utf-8') as f:
             readme_content = f.read()
 
         metrics_html = '<p align="center"><img src="./assets/telemetry.svg" alt="Live Telemetry"></p>'
 
-        # Define the tags
-        start_tag = '<!-- START_LIVE_DATA -->'
-        end_tag = '<!-- END_LIVE_DATA -->'
-
-        pattern = re.compile(rf'{start_tag}.*?{end_tag}', re.DOTALL)
+        pattern = re.compile(rf'{START_TAG}.*?{END_TAG}', re.DOTALL)
 
         if not re.search(pattern, readme_content):
-            print("Tags not found in README.md. Please ensure <!-- START_LIVE_DATA --> and <!-- END_LIVE_DATA --> exist.")
+            print(f"Tags not found in README.md. Please ensure {START_TAG} and {END_TAG} exist.")
             return
 
-        new_content = re.sub(pattern, f"{start_tag}\n{metrics_html}\n{end_tag}", readme_content)
+        new_content = re.sub(pattern, f"{START_TAG}\n{metrics_html}\n{END_TAG}", readme_content)
 
-        with open('README.md', 'w', encoding='utf-8') as f:
+        with open(README_PATH, 'w', encoding='utf-8') as f:
             f.write(new_content)
 
         print("Successfully generated advanced telemetry.svg and updated README.md.")
