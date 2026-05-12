@@ -4,6 +4,11 @@ import random
 import datetime
 from config import ASSETS_DIR, README_PATH, START_TAG, END_TAG
 
+# Precompiled regex for live data injection
+START_TAG = '<!-- START_LIVE_DATA -->'
+END_TAG = '<!-- END_LIVE_DATA -->'
+LIVE_DATA_PATTERN = re.compile(rf'{START_TAG}.*?{END_TAG}', re.DOTALL)
+
 def generate_markdown_table(visitors, agents, uptime, last_ping):
     """Generates a clean Markdown table with telemetry data."""
     return f"""
@@ -115,7 +120,7 @@ def main():
             print(f"Tags not found in README.md. Please ensure {START_TAG} and {END_TAG} exist.")
             return
 
-        new_content = re.sub(pattern, full_injection.strip(), readme_content)
+        new_content = LIVE_DATA_PATTERN.sub(full_injection.strip(), readme_content)
 
         with open(README_PATH, 'w', encoding='utf-8') as f:
             f.write(new_content)
