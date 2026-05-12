@@ -152,9 +152,7 @@
 </div>
 
 <!-- START_LIVE_DATA -->
-<p align="center">
-  <img src="./assets/telemetry.svg" alt="Live Telemetry" style="border: 1px solid rgba(255,255,255,0.1); border-radius: 6px;">
-</p>
+<p align="center"><img src="./assets/telemetry.svg" alt="Live Telemetry"></p>
 <!-- END_LIVE_DATA -->
 <div align="center" style="margin-top: 50px; padding: 40px 20px; background: #000000; border-top: 1px solid rgba(255,255,255,0.2); border-bottom: 1px solid rgba(255,255,255,0.2);">
     <p style="margin: 0; padding: 10px 0;">
