@@ -9,7 +9,7 @@
 [![AIX Stack](https://img.shields.io/badge/AIX%20STACK-Echo369-39FF14?style=for-the-badge&labelColor=050505)](https://github.com/Moeabdelaziz007/aix-format/blob/main/AXIOM.md)
 [![Spec](https://img.shields.io/badge/SPEC-AIX%2F1.0-39FF14?style=for-the-badge&labelColor=050505)](https://github.com/Moeabdelaziz007/aix-format/blob/main/AXIOM.md)
 [![Layers](https://img.shields.io/badge/LAYERS-7%20%28L0%20%E2%86%92%20L6%29-39FF14?style=for-the-badge&labelColor=050505)](#stack-topology)
-[![Architect](https://img.shields.io/badge/1%20HUMAN%20%2B%2012%20AI%20AGENTS-39FF14?style=for-the-badge&labelColor=050505)](#)
+[![Architect](https://img.shields.io/badge/1%20HUMAN%20%2B%2012%20AI%20AGENTS-39FF14?style=for-the-badge&labelColor=050505)](#architects)
 
 </div>
 
@@ -60,7 +60,7 @@
 <br><br>
 
 <!-- ════════════════ AIX SOVEREIGN STACK · META BADGE ════════════════ -->
-<a href="#07-architects--ai-collaborators--المعماريون-والمتعاونون-الذكيون"><img src="https://img.shields.io/badge/SOVEREIGN%20AI%20STACK-1%20Human%20%2B%2012%20AI%20Agents%20across%205%20projects-39FF14?style=for-the-badge&labelColor=050505&logo=github&logoColor=39FF14" alt="Sovereign AI Stack · 1 Human + 12 AI Agents across 5 projects"/></a>
+<a href="#architects"><img src="https://img.shields.io/badge/SOVEREIGN%20AI%20STACK-1%20Human%20%2B%2012%20AI%20Agents%20across%207%20projects-39FF14?style=for-the-badge&labelColor=050505&logo=github&logoColor=39FF14" alt="Sovereign AI Stack · 1 Human + 12 AI Agents across 7 projects"/></a>
 <!-- ════════════════ /META BADGE ════════════════ -->
 
 <br><br>
@@ -71,9 +71,9 @@
 
 <br>
 
-> **EN ·** *"The AIX Sovereign Stack: 5 sovereign projects, each built by 1 human and a dedicated team of AI agents. 12 AI collaborators total."*
+> **EN ·** *"The AIX Sovereign Stack: 7 sovereign projects across 3 tiers, each built by 1 human and a dedicated team of AI agents. 12 AI collaborators total."*
 >
-> **AR ·** *"منظومة AIX السيادية: 5 مشاريع سيادية، كل واحد مبني بإنسان واحد وفريق مخصّص من وكلاء الذكاء الاصطناعي. 12 متعاوناً ذكياً في المجموع."*
+> **AR ·** *"منظومة AIX السيادية: 7 مشاريع سيادية على ثلاث طبقات، كل واحد مبني بإنسان واحد وفريق مخصّص من وكلاء الذكاء الاصطناعي. 12 متعاوناً ذكياً في المجموع."*
 
 <br>
 
@@ -175,7 +175,7 @@
 
 **AR ·** بروتوكول التفويض البشري. المُصدِر الوحيد لمعرّفات `did:axiom:axiomid.app:*` عبر المنظومة. طبقة هويّة مقاومة لهجمات Sybil تُثبت النية البشرية خلف كل فعل من الذكاء الاصطناعي.
 
-`Proprietary` `did:axiom Issuer` `Above the Stack`
+`Proprietary` `did:axiom issuer` `Above the Stack`
 
 [**` ▶ ENTER THE AUTHORITY `**](https://github.com/Moeabdelaziz007/axiomid-project)
 
@@ -309,13 +309,13 @@
 
 <br>
 
-<a id="07-architects--ai-collaborators--المعماريون-والمتعاونون-الذكيون"></a>
+<a id="architects"></a>
 
 ## `07.` ARCHITECTS & AI COLLABORATORS  ·  المعماريون والمتعاونون الذكيون
 
-**EN ·** The Sovereign AI Stack is engineered by **1 human and 12 AI collaborators** across 5 sovereign projects. Each agent has a sworn role inside the constitution. Every PR carries the fingerprints of multiple agents. Agent names and badges below are derived from real commit history (direct authors, `Co-authored-by` trailers, and review attributions) across `aix-format`, `iqra`, `aix-agent-skills`, `axiomid-project`, and `PiWorker-OS`.
+**EN ·** The Sovereign AI Stack is engineered by **1 human and 12 AI collaborators** across all 7 sovereign projects (L0 to L6). Each agent has a sworn role inside the constitution. Every PR carries the fingerprints of multiple agents. Agent names and badges below are derived from real commit history (direct authors, `Co-authored-by` trailers, and review attributions) across `axiomid-project`, `aix-format`, `iqra`, `aix-agent-skills`, `AlphaAxiom`, `PiWorker-OS`, and `GemClaw`.
 
-**AR ·** المنظومة السيادية مهندَسة بواسطة **إنسان واحد و12 متعاوناً ذكياً** عبر 5 مشاريع سيادية. كل وكيل له دور محدّد داخل الدستور. كل PR بيحمل بصمات أكتر من وكيل. الأسماء والشارات تحت مستخرَجة من history فعلي للـ commits (مؤلّفين مباشرين، trailers الـ `Co-authored-by`، ومراجعات) عبر `aix-format`، `iqra`، `aix-agent-skills`، `axiomid-project`، و`PiWorker-OS`.
+**AR ·** المنظومة السيادية مهندَسة بواسطة **إنسان واحد و12 متعاوناً ذكياً** عبر كل المشاريع السيادية السبعة (L0 إلى L6). كل وكيل له دور محدّد داخل الدستور. كل PR بيحمل بصمات أكتر من وكيل. الأسماء والشارات تحت مستخرَجة من history فعلي للـ commits (مؤلّفين مباشرين، trailers الـ `Co-authored-by`، ومراجعات) عبر `axiomid-project`، `aix-format`، `iqra`، `aix-agent-skills`، `AlphaAxiom`، `PiWorker-OS`، و`GemClaw`.
 
 ### 🏛️ The Human (1)
 
