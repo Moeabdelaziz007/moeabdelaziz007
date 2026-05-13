@@ -190,19 +190,7 @@
 </div>
 
 <!-- START_LIVE_DATA -->
-
-<div align="center">
-
-| Metric | Value | Status |
-| :--- | :--- | :--- |
-| **System Uptime** | `355 days` | 🟢 OPERATIONAL |
-| **Active Agents** | `204` | 🟢 ONLINE |
-| **Network Payload** | `5785 ops` | 🟢 STABLE |
-| **Last Sync** | `2026-05-13 12:39:43 UTC` | 🔒 VERIFIED |
-
-</div>
-
-<br><p align="center"><img src="./assets/aix_dashboard.svg" alt="System Telemetry Dashboard" width="800"></p>
+<p align="center"><img src="./assets/telemetry.svg" alt="Live Telemetry"></p>
 <!-- END_LIVE_DATA -->
 
 <br>
