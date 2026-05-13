@@ -183,12 +183,11 @@ Dynamic dashboards regenerated every 3 hours from the GitHub API. They show what
 
 **Languages**
 <br>
-<img src="https://img.shields.io/badge/Python-050505?style=flat-square&logo=python&logoColor=39FF14"/>
-<img src="https://img.shields.io/badge/TypeScript-050505?style=flat-square&logo=typescript&logoColor=39FF14"/>
-<img src="https://img.shields.io/badge/Go-050505?style=flat-square&logo=go&logoColor=39FF14"/>
-<img src="https://img.shields.io/badge/Rust-050505?style=flat-square&logo=rust&logoColor=39FF14"/>
-<img src="https://img.shields.io/badge/Solidity-050505?style=flat-square&logo=solidity&logoColor=39FF14"/>
-<img src="https://img.shields.io/badge/C++-050505?style=flat-square&logo=cplusplus&logoColor=39FF14"/>
+<img src="https://img.shields.io/badge/Python-050505?style=flat-square&logo=python&logoColor=39FF14" alt="Python"/>
+<img src="https://img.shields.io/badge/TypeScript-050505?style=flat-square&logo=typescript&logoColor=39FF14" alt="TypeScript"/>
+<img src="https://img.shields.io/badge/Go-050505?style=flat-square&logo=go&logoColor=39FF14" alt="Go"/>
+<img src="https://img.shields.io/badge/Rust-050505?style=flat-square&logo=rust&logoColor=39FF14" alt="Rust"/>
+<img src="https://img.shields.io/badge/TerboQuant-050505?style=flat-square&logo=quicktype&logoColor=39FF14" alt="TerboQuant"/>
 
 **AI & ML**
 <br>
@@ -201,18 +200,17 @@ Dynamic dashboards regenerated every 3 hours from the GitHub API. They show what
 
 **Infra & Cloud**
 <br>
-<img src="https://img.shields.io/badge/Google_Cloud-050505?style=flat-square&logo=googlecloud&logoColor=39FF14"/>
-<img src="https://img.shields.io/badge/AWS-050505?style=flat-square&logo=amazonaws&logoColor=39FF14"/>
-<img src="https://img.shields.io/badge/Docker-050505?style=flat-square&logo=docker&logoColor=39FF14"/>
-<img src="https://img.shields.io/badge/Kubernetes-050505?style=flat-square&logo=kubernetes&logoColor=39FF14"/>
-<img src="https://img.shields.io/badge/Firebase-050505?style=flat-square&logo=firebase&logoColor=39FF14"/>
-<img src="https://img.shields.io/badge/Linux-050505?style=flat-square&logo=linux&logoColor=39FF14"/>
+<img src="https://img.shields.io/badge/Google_Cloud-050505?style=flat-square&logo=googlecloud&logoColor=39FF14" alt="Google Cloud"/>
+<img src="https://img.shields.io/badge/macOS-050505?style=flat-square&logo=apple&logoColor=39FF14" alt="macOS"/>
+<img src="https://img.shields.io/badge/Docker-050505?style=flat-square&logo=docker&logoColor=39FF14" alt="Docker"/>
+<img src="https://img.shields.io/badge/Kubernetes-050505?style=flat-square&logo=kubernetes&logoColor=39FF14" alt="Kubernetes"/>
+<img src="https://img.shields.io/badge/Firebase-050505?style=flat-square&logo=firebase&logoColor=39FF14" alt="Firebase"/>
 
 **Blockchain & Crypto**
 <br>
-<img src="https://img.shields.io/badge/Ethereum-050505?style=flat-square&logo=ethereum&logoColor=39FF14"/>
-<img src="https://img.shields.io/badge/Ed25519-050505?style=flat-square&logo=letsencrypt&logoColor=39FF14"/>
-<img src="https://img.shields.io/badge/secp256k1-050505?style=flat-square&logo=bitcoin&logoColor=39FF14"/>
+<img src="https://img.shields.io/badge/Pi_Network-050505?style=flat-square&logo=pi&logoColor=39FF14" alt="Pi Network"/>
+<img src="https://img.shields.io/badge/Bitcoin-050505?style=flat-square&logo=bitcoin&logoColor=39FF14" alt="Bitcoin"/>
+<img src="https://img.shields.io/badge/Solana-050505?style=flat-square&logo=solana&logoColor=39FF14" alt="Solana"/>
 
 </div>
 
