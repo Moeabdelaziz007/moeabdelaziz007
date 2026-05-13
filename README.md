@@ -210,9 +210,9 @@ Dynamic dashboards regenerated every 3 hours from the GitHub API. They show what
 
 **Blockchain & Crypto**
 <br>
-<img src="https://img.shields.io/badge/Ethereum-050505?style=flat-square&logo=ethereum&logoColor=39FF14"/>
-<img src="https://img.shields.io/badge/Ed25519-050505?style=flat-square&logo=letsencrypt&logoColor=39FF14"/>
-<img src="https://img.shields.io/badge/secp256k1-050505?style=flat-square&logo=bitcoin&logoColor=39FF14"/>
+<img src="https://img.shields.io/badge/Pi_Network-050505?style=flat-square&logo=pi&logoColor=39FF14" alt="Pi Network"/>
+<img src="https://img.shields.io/badge/Bitcoin-050505?style=flat-square&logo=bitcoin&logoColor=39FF14" alt="Bitcoin"/>
+<img src="https://img.shields.io/badge/Solana-050505?style=flat-square&logo=solana&logoColor=39FF14" alt="Solana"/>
 
 </div>
 
