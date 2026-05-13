@@ -48,9 +48,9 @@
 
 ## `01.` THE MISSION  ·  المهمة
 
-**EN ·** Building a **Sovereign AI Stack**: a unified ecosystem where autonomous agents are portable, cryptographically secure, and economically self-sustaining. Three projects compose the stack: a flagship operating system, an open exchange format, and a marketplace of vetted skills.
+**EN ·** Building a **Sovereign AI Stack**: a unified ecosystem where autonomous agents are portable, cryptographically secure, and economically self-sustaining. Six projects compose the stack across two tiers — three flagship layers (a sovereign operating system, an open exchange format, and a marketplace of vetted skills) and three supporting systems (a local-first digital twin, an autonomous quant engine, and a human-authorization identity protocol).
 
-**AR ·** بناء **منظومة ذكاء اصطناعي سيادية**: نظام بيئي موحَّد يكون فيه الوكلاء المستقلون قابلين للنقل، آمنين تشفيرياً، ومستدامين اقتصادياً ذاتياً. تتكوّن المنظومة من ثلاثة مشاريع: نظام تشغيل رئيسي، معيار تبادل مفتوح، وسوق للمهارات الموثَّقة.
+**AR ·** بناء **منظومة ذكاء اصطناعي سيادية**: نظام بيئي موحَّد يكون فيه الوكلاء المستقلون قابلين للنقل، آمنين تشفيرياً، ومستدامين اقتصادياً ذاتياً. تتكوّن المنظومة من ستة مشاريع على طبقتين: ثلاث طبقات رئيسية (نظام تشغيل سيادي، معيار تبادل مفتوح، وسوق للمهارات الموثَّقة) وثلاثة أنظمة داعمة (توأم رقمي محلي، محرّك تداول كمّي مستقل، وبروتوكول هوية بشرية للتفويض).
 
 <div align="center">
   <img src="./assets/ecosystem_graph.svg" alt="The Sovereign AI Stack: IQRA, AIX-Format, AIX-Agent-Skills" width="100%"/>
@@ -71,7 +71,7 @@
 
 **EN ·** The first AI OS architected around **7 Sovereign Loops**: Read & Map, Evaluate, Plan, Verify, Prioritize, Fix (Tawbah), Evolve. Governed by the **Damir Conscience** and **Pristine Reward Engine**. Built to obey the creator, then the user.
 
-**AR ·** أول نظام تشغيل ذكاء اصطناعي مبني حول **سبع دوائر سيادية**: القراءة والتخطيط، التقييم، التخطيط، التحقق، تحديد الأولويات، الإصلاح (التوبة)، التطوّر. يحكمه **ضمير ضمير** و**محرّك المكافأة النقية**. مُصمَّم ليُطيع الخالق، ثم المستخدم.
+**AR ·** أول نظام تشغيل ذكاء اصطناعي مبني حول **سبع دوائر سيادية**: القراءة والتخطيط، التقييم، التخطيط، التحقق، تحديد الأولويات، الإصلاح (التوبة)، التطوّر. يحكمه **الضمير النقي** و**محرّك المكافأة النقية**. مُصمَّم ليُطيع الخالق، ثم المستخدم.
 
 `MCTS-369` `7 Loops` `Constitution-Governed`
 
@@ -119,7 +119,7 @@
 
 <table>
 <tr>
-<td width="50%" valign="top">
+<td width="33%" valign="top">
 
 ### PiWorker
 **EN ·** Local-first AI digital twin with voice, memory graph, ambient mini-agent presence, and a private on-device speech pipeline. *Privacy-preserving by design.*
@@ -129,7 +129,7 @@
 [`Source →`](https://github.com/Moeabdelaziz007/PiWorker)
 
 </td>
-<td width="50%" valign="top">
+<td width="33%" valign="top">
 
 ### AlphaAxiom
 **EN ·** Autonomous quant-trading engine using **Monte Carlo Tree Search** and World Models for zero-cost edge computing in volatile markets.
@@ -139,19 +139,7 @@
 [`Source →`](https://github.com/Moeabdelaziz007/AlphaAxiom)
 
 </td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-### Amrikyy-Agent
-**EN ·** Smart AI travel assistant for planning, booking, and exploring trips. Friendly, respectful, and conversational.
-
-**AR ·** مساعد سفر ذكي بالذكاء الاصطناعي للتخطيط، الحجز، واستكشاف الرحلات. ودود، محترم، وتفاعلي.
-
-[`Source →`](https://github.com/Moeabdelaziz007/Amrikyy-Agent)
-
-</td>
-<td width="50%" valign="top">
+<td width="33%" valign="top">
 
 ### AxiomID
 **EN ·** The Human Authorization Protocol for the Agentic Era. A Sybil-resistant identity layer proving human intent behind AI actions.
