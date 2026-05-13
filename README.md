@@ -183,12 +183,11 @@ Dynamic dashboards regenerated every 3 hours from the GitHub API. They show what
 
 **Languages**
 <br>
-<img src="https://img.shields.io/badge/Python-050505?style=flat-square&logo=python&logoColor=39FF14"/>
-<img src="https://img.shields.io/badge/TypeScript-050505?style=flat-square&logo=typescript&logoColor=39FF14"/>
-<img src="https://img.shields.io/badge/Go-050505?style=flat-square&logo=go&logoColor=39FF14"/>
-<img src="https://img.shields.io/badge/Rust-050505?style=flat-square&logo=rust&logoColor=39FF14"/>
-<img src="https://img.shields.io/badge/Solidity-050505?style=flat-square&logo=solidity&logoColor=39FF14"/>
-<img src="https://img.shields.io/badge/C++-050505?style=flat-square&logo=cplusplus&logoColor=39FF14"/>
+<img src="https://img.shields.io/badge/Python-050505?style=flat-square&logo=python&logoColor=39FF14" alt="Python"/>
+<img src="https://img.shields.io/badge/TypeScript-050505?style=flat-square&logo=typescript&logoColor=39FF14" alt="TypeScript"/>
+<img src="https://img.shields.io/badge/Go-050505?style=flat-square&logo=go&logoColor=39FF14" alt="Go"/>
+<img src="https://img.shields.io/badge/Rust-050505?style=flat-square&logo=rust&logoColor=39FF14" alt="Rust"/>
+<img src="https://img.shields.io/badge/TerboQuant-050505?style=flat-square&logo=quicktype&logoColor=39FF14" alt="TerboQuant"/>
 
 **AI & ML**
 <br>
