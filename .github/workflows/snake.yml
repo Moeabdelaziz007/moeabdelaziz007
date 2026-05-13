@@ -8,12 +8,16 @@ on:
   # يسمح لك بتشغيله يدوياً في أي وقت للتجربة
   workflow_dispatch:
 
+permissions:
+  contents: read
+
 jobs:
-  build:
+  generate:
     runs-on: ubuntu-latest
+    timeout-minutes: 5
     
     permissions: 
-      contents: write # هذا السطر هو الذي يلغي الحاجة لعمل Token يدوي
+      contents: read
 
     steps:
       - uses: actions/checkout@v4
@@ -28,6 +32,27 @@ jobs:
           outputs: |
             dist/github-contribution-grid-snake.svg
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+
+      - name: Upload Snake SVGs
+        uses: actions/upload-artifact@v4
+        with:
+          name: snake-svgs
+          path: dist/
+          retention-days: 1
+
+  publish:
+    runs-on: ubuntu-latest
+    needs: generate
+
+    permissions:
+      contents: write
+
+    steps:
+      - name: Download Snake SVGs
+        uses: actions/download-artifact@v4
+        with:
+          name: snake-svgs
+          path: dist
 
       - name: Push to Output Branch
         uses: crazy-max/ghaction-github-pages@v4
