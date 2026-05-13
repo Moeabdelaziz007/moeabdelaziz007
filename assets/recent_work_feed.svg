@@ -9,12 +9,28 @@
       <stop offset="50%" stop-color="#39FF14" stop-opacity="0.9"/>
       <stop offset="100%" stop-color="#39FF14" stop-opacity="0.1"/>
     </linearGradient>
+    <linearGradient id="scanlineFeed" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#39FF14" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#39FF14" stop-opacity="0.12"/>
+      <stop offset="100%" stop-color="#39FF14" stop-opacity="0"/>
+    </linearGradient>
+    <clipPath id="feedClip">
+      <rect x="0" y="0" width="720" height="462" rx="10"/>
+    </clipPath>
   </defs>
 
   <rect width="720" height="462" fill="url(#cfFeed)" rx="10"
         stroke="#39FF14" stroke-opacity="0.3" stroke-width="1"/>
   <rect width="720" height="462" fill="#000000" opacity="0.45" rx="10"/>
-  <rect width="720" height="3" fill="url(#topBarFeed)" rx="2"/>
+  <rect width="720" height="3" fill="url(#topBarFeed)" rx="2">
+    <animate attributeName="opacity" values="0.6;1;0.6" dur="3.4s" repeatCount="indefinite"/>
+  </rect>
+  <g clip-path="url(#feedClip)">
+    <rect x="-180" y="0" width="180" height="462" fill="url(#scanlineFeed)">
+      <animateTransform attributeName="transform" type="translate"
+                        from="0 0" to="900 0" dur="7.5s" repeatCount="indefinite"/>
+    </rect>
+  </g>
 
   <text x="30" y="40" font-family="'Consolas','Fira Code',monospace" font-size="11"
         fill="#888888" letter-spacing="3">// LIVE EVENT STREAM</text>
@@ -28,38 +44,122 @@
   <line x1="30" y1="82" x2="690" y2="82" stroke="#39FF14" stroke-opacity="0.25" stroke-width="1"/>
 
   
-  <g transform="translate(30, 90)">
-    <rect width="660" height="48" rx="6" fill="#0a0a0a"
-          stroke="#7FFF50" stroke-opacity="0.35" stroke-width="1"/>
-    <rect width="3" height="48" rx="2" fill="#7FFF50"/>
-    <text x="22" y="22" font-family="'Consolas',monospace" font-size="18" fill="#7FFF50">⌥</text>
-    <text x="48" y="22" font-family="'Consolas',monospace" font-size="9" fill="#7FFF50"
-          letter-spacing="2">PR</text>
-    <text x="92" y="22" font-family="'Consolas',monospace" font-size="12" fill="#ffffff"
-          font-weight="600">Moeabdelaziz007/aix-agent-skills</text>
-    <text x="22" y="40" font-family="'Consolas',monospace" font-size="10" fill="#aaaaaa">PR labeled · </text>
-    <text x="650" y="22" font-family="'Consolas',monospace" font-size="10"
-          fill="#666666" text-anchor="end">12m ago</text>
-  </g>
-
-  <g transform="translate(30, 146)">
-    <rect width="660" height="48" rx="6" fill="#0a0a0a"
-          stroke="#7FFF50" stroke-opacity="0.35" stroke-width="1"/>
-    <rect width="3" height="48" rx="2" fill="#7FFF50"/>
-    <text x="22" y="22" font-family="'Consolas',monospace" font-size="18" fill="#7FFF50">⌥</text>
-    <text x="48" y="22" font-family="'Consolas',monospace" font-size="9" fill="#7FFF50"
-          letter-spacing="2">PR</text>
-    <text x="92" y="22" font-family="'Consolas',monospace" font-size="12" fill="#ffffff"
-          font-weight="600">Moeabdelaziz007/aix-agent-skills</text>
-    <text x="22" y="40" font-family="'Consolas',monospace" font-size="10" fill="#aaaaaa">PR labeled · </text>
-    <text x="650" y="22" font-family="'Consolas',monospace" font-size="10"
-          fill="#666666" text-anchor="end">12m ago</text>
-  </g>
-
-  <g transform="translate(30, 202)">
+  <g transform="translate(30, 98)" opacity="0">
+    <animate attributeName="opacity" from="0" to="1" dur="0.5s" begin="0.0s" fill="freeze"/>
+    <animateTransform attributeName="transform" type="translate"
+                      from="30 98" to="30 90" dur="0.5s"
+                      begin="0.0s" fill="freeze"/>
     <rect width="660" height="48" rx="6" fill="#0a0a0a"
           stroke="#39FF14" stroke-opacity="0.35" stroke-width="1"/>
-    <rect width="3" height="48" rx="2" fill="#39FF14"/>
+    <rect width="3" height="48" rx="2" fill="#39FF14">
+      <animate attributeName="opacity" values="1;0.45;1" dur="2.6s"
+               begin="0.0s" repeatCount="indefinite"/>
+    </rect>
+    <text x="22" y="22" font-family="'Consolas',monospace" font-size="18" fill="#39FF14">↥</text>
+    <text x="48" y="22" font-family="'Consolas',monospace" font-size="9" fill="#39FF14"
+          letter-spacing="2">PUSH</text>
+    <text x="92" y="22" font-family="'Consolas',monospace" font-size="12" fill="#ffffff"
+          font-weight="600">Moeabdelaziz007/moeabdelaziz007</text>
+    <text x="22" y="40" font-family="'Consolas',monospace" font-size="10" fill="#aaaaaa">0 commit pushed</text>
+    <text x="650" y="22" font-family="'Consolas',monospace" font-size="10"
+          fill="#666666" text-anchor="end">1m ago</text>
+  </g>
+
+  <g transform="translate(30, 154)" opacity="0">
+    <animate attributeName="opacity" from="0" to="1" dur="0.5s" begin="0.12s" fill="freeze"/>
+    <animateTransform attributeName="transform" type="translate"
+                      from="30 154" to="30 146" dur="0.5s"
+                      begin="0.12s" fill="freeze"/>
+    <rect width="660" height="48" rx="6" fill="#0a0a0a"
+          stroke="#7FFF50" stroke-opacity="0.35" stroke-width="1"/>
+    <rect width="3" height="48" rx="2" fill="#7FFF50">
+      <animate attributeName="opacity" values="1;0.45;1" dur="2.6s"
+               begin="0.12s" repeatCount="indefinite"/>
+    </rect>
+    <text x="22" y="22" font-family="'Consolas',monospace" font-size="18" fill="#7FFF50">⌥</text>
+    <text x="48" y="22" font-family="'Consolas',monospace" font-size="9" fill="#7FFF50"
+          letter-spacing="2">PR</text>
+    <text x="92" y="22" font-family="'Consolas',monospace" font-size="12" fill="#ffffff"
+          font-weight="600">Moeabdelaziz007/moeabdelaziz007</text>
+    <text x="22" y="40" font-family="'Consolas',monospace" font-size="10" fill="#aaaaaa">PR merged · </text>
+    <text x="650" y="22" font-family="'Consolas',monospace" font-size="10"
+          fill="#666666" text-anchor="end">1m ago</text>
+  </g>
+
+  <g transform="translate(30, 210)" opacity="0">
+    <animate attributeName="opacity" from="0" to="1" dur="0.5s" begin="0.24s" fill="freeze"/>
+    <animateTransform attributeName="transform" type="translate"
+                      from="30 210" to="30 202" dur="0.5s"
+                      begin="0.24s" fill="freeze"/>
+    <rect width="660" height="48" rx="6" fill="#0a0a0a"
+          stroke="#7FFF50" stroke-opacity="0.35" stroke-width="1"/>
+    <rect width="3" height="48" rx="2" fill="#7FFF50">
+      <animate attributeName="opacity" values="1;0.45;1" dur="2.6s"
+               begin="0.24s" repeatCount="indefinite"/>
+    </rect>
+    <text x="22" y="22" font-family="'Consolas',monospace" font-size="18" fill="#7FFF50">⌥</text>
+    <text x="48" y="22" font-family="'Consolas',monospace" font-size="9" fill="#7FFF50"
+          letter-spacing="2">PR</text>
+    <text x="92" y="22" font-family="'Consolas',monospace" font-size="12" fill="#ffffff"
+          font-weight="600">Moeabdelaziz007/moeabdelaziz007</text>
+    <text x="22" y="40" font-family="'Consolas',monospace" font-size="10" fill="#aaaaaa">PR opened · </text>
+    <text x="650" y="22" font-family="'Consolas',monospace" font-size="10"
+          fill="#666666" text-anchor="end">3m ago</text>
+  </g>
+
+  <g transform="translate(30, 266)" opacity="0">
+    <animate attributeName="opacity" from="0" to="1" dur="0.5s" begin="0.36s" fill="freeze"/>
+    <animateTransform attributeName="transform" type="translate"
+                      from="30 266" to="30 258" dur="0.5s"
+                      begin="0.36s" fill="freeze"/>
+    <rect width="660" height="48" rx="6" fill="#0a0a0a"
+          stroke="#39FFC4" stroke-opacity="0.35" stroke-width="1"/>
+    <rect width="3" height="48" rx="2" fill="#39FFC4">
+      <animate attributeName="opacity" values="1;0.45;1" dur="2.6s"
+               begin="0.36s" repeatCount="indefinite"/>
+    </rect>
+    <text x="22" y="22" font-family="'Consolas',monospace" font-size="18" fill="#39FFC4">✚</text>
+    <text x="48" y="22" font-family="'Consolas',monospace" font-size="9" fill="#39FFC4"
+          letter-spacing="2">CREATE</text>
+    <text x="92" y="22" font-family="'Consolas',monospace" font-size="12" fill="#ffffff"
+          font-weight="600">Moeabdelaziz007/moeabdelaziz007</text>
+    <text x="22" y="40" font-family="'Consolas',monospace" font-size="10" fill="#aaaaaa">branch created · chore/migrate-workflows-to-blacksmith</text>
+    <text x="650" y="22" font-family="'Consolas',monospace" font-size="10"
+          fill="#666666" text-anchor="end">3m ago</text>
+  </g>
+
+  <g transform="translate(30, 322)" opacity="0">
+    <animate attributeName="opacity" from="0" to="1" dur="0.5s" begin="0.48s" fill="freeze"/>
+    <animateTransform attributeName="transform" type="translate"
+                      from="30 322" to="30 314" dur="0.5s"
+                      begin="0.48s" fill="freeze"/>
+    <rect width="660" height="48" rx="6" fill="#0a0a0a"
+          stroke="#7FFF50" stroke-opacity="0.35" stroke-width="1"/>
+    <rect width="3" height="48" rx="2" fill="#7FFF50">
+      <animate attributeName="opacity" values="1;0.45;1" dur="2.6s"
+               begin="0.48s" repeatCount="indefinite"/>
+    </rect>
+    <text x="22" y="22" font-family="'Consolas',monospace" font-size="18" fill="#7FFF50">⌥</text>
+    <text x="48" y="22" font-family="'Consolas',monospace" font-size="9" fill="#7FFF50"
+          letter-spacing="2">PR</text>
+    <text x="92" y="22" font-family="'Consolas',monospace" font-size="12" fill="#ffffff"
+          font-weight="600">Moeabdelaziz007/AlphaAxiom</text>
+    <text x="22" y="40" font-family="'Consolas',monospace" font-size="10" fill="#aaaaaa">PR labeled · </text>
+    <text x="650" y="22" font-family="'Consolas',monospace" font-size="10"
+          fill="#666666" text-anchor="end">1h ago</text>
+  </g>
+
+  <g transform="translate(30, 378)" opacity="0">
+    <animate attributeName="opacity" from="0" to="1" dur="0.5s" begin="0.6s" fill="freeze"/>
+    <animateTransform attributeName="transform" type="translate"
+                      from="30 378" to="30 370" dur="0.5s"
+                      begin="0.6s" fill="freeze"/>
+    <rect width="660" height="48" rx="6" fill="#0a0a0a"
+          stroke="#39FF14" stroke-opacity="0.35" stroke-width="1"/>
+    <rect width="3" height="48" rx="2" fill="#39FF14">
+      <animate attributeName="opacity" values="1;0.45;1" dur="2.6s"
+               begin="0.6s" repeatCount="indefinite"/>
+    </rect>
     <text x="22" y="22" font-family="'Consolas',monospace" font-size="18" fill="#39FF14">↥</text>
     <text x="48" y="22" font-family="'Consolas',monospace" font-size="9" fill="#39FF14"
           letter-spacing="2">PUSH</text>
@@ -67,49 +167,7 @@
           font-weight="600">Moeabdelaziz007/aix-agent-skills</text>
     <text x="22" y="40" font-family="'Consolas',monospace" font-size="10" fill="#aaaaaa">0 commit pushed</text>
     <text x="650" y="22" font-family="'Consolas',monospace" font-size="10"
-          fill="#666666" text-anchor="end">14m ago</text>
-  </g>
-
-  <g transform="translate(30, 258)">
-    <rect width="660" height="48" rx="6" fill="#0a0a0a"
-          stroke="#39FF14" stroke-opacity="0.35" stroke-width="1"/>
-    <rect width="3" height="48" rx="2" fill="#39FF14"/>
-    <text x="22" y="22" font-family="'Consolas',monospace" font-size="18" fill="#39FF14">↥</text>
-    <text x="48" y="22" font-family="'Consolas',monospace" font-size="9" fill="#39FF14"
-          letter-spacing="2">PUSH</text>
-    <text x="92" y="22" font-family="'Consolas',monospace" font-size="12" fill="#ffffff"
-          font-weight="600">Moeabdelaziz007/aix-agent-skills</text>
-    <text x="22" y="40" font-family="'Consolas',monospace" font-size="10" fill="#aaaaaa">0 commit pushed</text>
-    <text x="650" y="22" font-family="'Consolas',monospace" font-size="10"
-          fill="#666666" text-anchor="end">14m ago</text>
-  </g>
-
-  <g transform="translate(30, 314)">
-    <rect width="660" height="48" rx="6" fill="#0a0a0a"
-          stroke="#7FFF50" stroke-opacity="0.35" stroke-width="1"/>
-    <rect width="3" height="48" rx="2" fill="#7FFF50"/>
-    <text x="22" y="22" font-family="'Consolas',monospace" font-size="18" fill="#7FFF50">⌥</text>
-    <text x="48" y="22" font-family="'Consolas',monospace" font-size="9" fill="#7FFF50"
-          letter-spacing="2">PR</text>
-    <text x="92" y="22" font-family="'Consolas',monospace" font-size="12" fill="#ffffff"
-          font-weight="600">Moeabdelaziz007/aix-agent-skills</text>
-    <text x="22" y="40" font-family="'Consolas',monospace" font-size="10" fill="#aaaaaa">PR merged · </text>
-    <text x="650" y="22" font-family="'Consolas',monospace" font-size="10"
-          fill="#666666" text-anchor="end">14m ago</text>
-  </g>
-
-  <g transform="translate(30, 370)">
-    <rect width="660" height="48" rx="6" fill="#0a0a0a"
-          stroke="#7FFF50" stroke-opacity="0.35" stroke-width="1"/>
-    <rect width="3" height="48" rx="2" fill="#7FFF50"/>
-    <text x="22" y="22" font-family="'Consolas',monospace" font-size="18" fill="#7FFF50">⌥</text>
-    <text x="48" y="22" font-family="'Consolas',monospace" font-size="9" fill="#7FFF50"
-          letter-spacing="2">PR</text>
-    <text x="92" y="22" font-family="'Consolas',monospace" font-size="12" fill="#ffffff"
-          font-weight="600">Moeabdelaziz007/aix-agent-skills</text>
-    <text x="22" y="40" font-family="'Consolas',monospace" font-size="10" fill="#aaaaaa">PR merged · </text>
-    <text x="650" y="22" font-family="'Consolas',monospace" font-size="10"
-          fill="#666666" text-anchor="end">15m ago</text>
+          fill="#666666" text-anchor="end">1h ago</text>
   </g>
 
 

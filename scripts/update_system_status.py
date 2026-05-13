@@ -49,6 +49,15 @@ def update_telemetry_svg():
         <stop offset="0%" stop-color="#111111"/>
         <stop offset="100%" stop-color="#39FF14"/>
     </linearGradient>
+    <!-- Vertical scanline gradient: bright neon center, transparent edges -->
+    <linearGradient id="scanlineGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+        <stop offset="0%" stop-color="#39FF14" stop-opacity="0"/>
+        <stop offset="50%" stop-color="#39FF14" stop-opacity="0.18"/>
+        <stop offset="100%" stop-color="#39FF14" stop-opacity="0"/>
+    </linearGradient>
+    <clipPath id="dashClip">
+        <rect x="0" y="0" width="850" height="200" rx="12"/>
+    </clipPath>
   </defs>
 
   <rect width="100%" height="100%" fill="url(#carbonFiber)" rx="12" stroke="#39FF14" stroke-width="1" stroke-opacity="0.3"/>
@@ -60,6 +69,14 @@ def update_telemetry_svg():
   <path d="M 830 180 L 810 180 L 800 170" fill="none" stroke="#39FF14" stroke-width="2" opacity="0.5"/>
   <rect x="20" y="100" width="2" height="40" fill="#ffffff" opacity="0.4"/>
   <rect x="828" y="60" width="2" height="40" fill="#39FF14" opacity="0.6"/>
+
+  <!-- Looping horizontal scanline sweep (cyberpunk HUD effect) -->
+  <g clip-path="url(#dashClip)">
+    <rect x="-160" y="0" width="160" height="200" fill="url(#scanlineGrad)">
+      <animateTransform attributeName="transform" type="translate"
+                        from="0 0" to="1010 0" dur="6s" repeatCount="indefinite"/>
+    </rect>
+  </g>
 
   <g font-family="'Consolas', 'Fira Code', monospace" text-anchor="middle">
 
@@ -79,26 +96,40 @@ def update_telemetry_svg():
 
     <!-- LIVE TRAFFIC -->
     <g transform="translate(330, 100)">
-        <rect x="-60" y="-45" width="120" height="90" fill="#0a0a0a" rx="8" stroke="#39FF14" stroke-opacity="0.4" stroke-width="1"/>
+        <rect x="-60" y="-45" width="120" height="90" fill="#0a0a0a" rx="8" stroke="#39FF14" stroke-opacity="0.4" stroke-width="1">
+            <animate attributeName="stroke-opacity" values="0.4;0.9;0.4" dur="3.2s" repeatCount="indefinite"/>
+        </rect>
         <text x="0" y="-20" font-size="12" fill="#aaaaaa">NETWORK LOAD</text>
-        <text x="0" y="15" font-size="28" fill="#ffffff" font-weight="bold" filter="url(#textGlow)">{visitors}</text>
+        <text x="0" y="15" font-size="28" fill="#ffffff" font-weight="bold" filter="url(#textGlow)">{visitors}
+            <animate attributeName="opacity" values="1;0.55;1" dur="2.4s" repeatCount="indefinite"/>
+        </text>
         <text x="0" y="35" font-size="10" fill="#777777">ACTIVE SESSIONS</text>
     </g>
 
     <!-- ACTIVE AGENTS -->
     <g transform="translate(530, 100)">
-        <rect x="-60" y="-45" width="120" height="90" fill="#0a0a0a" rx="8" stroke="#39FF14" stroke-opacity="0.4" stroke-width="1"/>
+        <rect x="-60" y="-45" width="120" height="90" fill="#0a0a0a" rx="8" stroke="#39FF14" stroke-opacity="0.4" stroke-width="1">
+            <animate attributeName="stroke-opacity" values="0.4;0.9;0.4" dur="3.2s" begin="0.6s" repeatCount="indefinite"/>
+        </rect>
         <text x="0" y="-20" font-size="12" fill="#aaaaaa">SWARM ENTITIES</text>
-        <text x="0" y="15" font-size="28" fill="#ffffff" font-weight="bold" filter="url(#textGlow)">{agents}</text>
+        <text x="0" y="15" font-size="28" fill="#ffffff" font-weight="bold" filter="url(#textGlow)">{agents}
+            <animate attributeName="opacity" values="1;0.55;1" dur="2.4s" begin="0.8s" repeatCount="indefinite"/>
+        </text>
         <text x="0" y="35" font-size="10" fill="#777777">AUTONOMOUS</text>
     </g>
 
     <!-- UPTIME -->
     <g transform="translate(730, 100)">
-        <path d="M -40 -35 L 40 -35 L 50 -25 L 50 35 L -40 35 L -50 25 Z" fill="#0a0a0a" stroke="#39FF14" stroke-opacity="0.4" stroke-width="1"/>
+        <path d="M -40 -35 L 40 -35 L 50 -25 L 50 35 L -40 35 L -50 25 Z" fill="#0a0a0a" stroke="#39FF14" stroke-opacity="0.4" stroke-width="1">
+            <animate attributeName="stroke-opacity" values="0.4;0.9;0.4" dur="3.2s" begin="1.2s" repeatCount="indefinite"/>
+        </path>
         <text x="0" y="-15" font-size="12" fill="#aaaaaa">CONTINUITY</text>
         <text x="0" y="15" font-size="24" fill="#ffffff" font-weight="bold">{uptime}<tspan font-size="14" fill="#777777">d</tspan></text>
-        <rect x="-35" y="25" width="70" height="4" fill="url(#neonBar)" rx="2"/>
+        <!-- Uptime bar fills/refills on a loop -->
+        <rect x="-35" y="25" width="70" height="4" fill="#111111" rx="2"/>
+        <rect x="-35" y="25" width="0" height="4" fill="url(#neonBar)" rx="2">
+            <animate attributeName="width" values="0;70;70;0" keyTimes="0;0.5;0.85;1" dur="4s" repeatCount="indefinite"/>
+        </rect>
     </g>
   </g>
 

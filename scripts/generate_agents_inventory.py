@@ -91,11 +91,18 @@ def render_svg(repos: List[Dict], total_repos: int) -> str:
         desc = truncate(repo.get("description") or "", 78)
         stars = int(repo.get("stargazers_count") or 0)
         lang = repo.get("language") or "—"
+        # Stagger card appearance: each card fades in 0.08s after the previous.
+        stagger = round(idx * 0.08, 2)
         cards.append(
-            f'<g transform="translate({x}, {y})">'
+            f'<g transform="translate({x}, {y})" opacity="0">'
+            f'<animate attributeName="opacity" from="0" to="1" dur="0.5s" '
+            f'begin="{stagger}s" fill="freeze"/>'
             f'<rect width="{card_w}" height="{card_h}" rx="8" '
             f'fill="{PALETTE["carbon_mid"]}" stroke="{accent}" stroke-opacity="0.5" stroke-width="1"/>'
-            f'<rect width="3" height="{card_h}" rx="2" fill="{accent}"/>'
+            f'<rect width="3" height="{card_h}" rx="2" fill="{accent}">'
+            f'<animate attributeName="opacity" values="1;0.45;1" dur="3s" '
+            f'begin="{stagger}s" repeatCount="indefinite"/>'
+            f'</rect>'
             f'<text x="14" y="22" font-family="\'Consolas\',monospace" font-size="13" '
             f'fill="{PALETTE["white"]}" font-weight="600">{escape(name)}</text>'
             f'<text x="14" y="44" font-family="\'Consolas\',monospace" font-size="10" '
@@ -135,12 +142,28 @@ def render_svg(repos: List[Dict], total_repos: int) -> str:
       <stop offset="50%" stop-color="{PALETTE['neon']}" stop-opacity="0.9"/>
       <stop offset="100%" stop-color="{PALETTE['neon']}" stop-opacity="0.1"/>
     </linearGradient>
+    <linearGradient id="scanlineAgents" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="{PALETTE['neon']}" stop-opacity="0"/>
+      <stop offset="50%" stop-color="{PALETTE['neon']}" stop-opacity="0.12"/>
+      <stop offset="100%" stop-color="{PALETTE['neon']}" stop-opacity="0"/>
+    </linearGradient>
+    <clipPath id="agentsClip">
+      <rect x="0" y="0" width="{width}" height="{height}" rx="10"/>
+    </clipPath>
   </defs>
 
   <rect width="{width}" height="{height}" fill="url(#cfAgents)" rx="10"
         stroke="{PALETTE['neon']}" stroke-opacity="0.3" stroke-width="1"/>
   <rect width="{width}" height="{height}" fill="#000000" opacity="0.45" rx="10"/>
-  <rect width="{width}" height="3" fill="url(#topBarAgents)" rx="2"/>
+  <rect width="{width}" height="3" fill="url(#topBarAgents)" rx="2">
+    <animate attributeName="opacity" values="0.6;1;0.6" dur="3.4s" repeatCount="indefinite"/>
+  </rect>
+  <g clip-path="url(#agentsClip)">
+    <rect x="-200" y="0" width="200" height="{height}" fill="url(#scanlineAgents)">
+      <animateTransform attributeName="transform" type="translate"
+                        from="0 0" to="{width + 200} 0" dur="8s" repeatCount="indefinite"/>
+    </rect>
+  </g>
 
   <text x="{margin_x}" y="40" font-family="'Consolas','Fira Code',monospace" font-size="11"
         fill="{PALETTE['gray_label']}" letter-spacing="3">// AGENT INVENTORY</text>

@@ -117,11 +117,21 @@ def render_svg(events: List[Dict]) -> str:
         summary = summarize(event)
 
         y = header_h + idx * row_h
+        # Each row slides in from below + fades in, staggered.
+        # Newest entries appear first, giving the feed a "live ticker" feel.
+        stagger = round(idx * 0.12, 2)
         row_svg.append(f"""
-  <g transform="translate(30, {y})">
+  <g transform="translate(30, {y + 8})" opacity="0">
+    <animate attributeName="opacity" from="0" to="1" dur="0.5s" begin="{stagger}s" fill="freeze"/>
+    <animateTransform attributeName="transform" type="translate"
+                      from="30 {y + 8}" to="30 {y}" dur="0.5s"
+                      begin="{stagger}s" fill="freeze"/>
     <rect width="{width - 60}" height="{row_h - 8}" rx="6" fill="{PALETTE['carbon_mid']}"
           stroke="{color}" stroke-opacity="0.35" stroke-width="1"/>
-    <rect width="3" height="{row_h - 8}" rx="2" fill="{color}"/>
+    <rect width="3" height="{row_h - 8}" rx="2" fill="{color}">
+      <animate attributeName="opacity" values="1;0.45;1" dur="2.6s"
+               begin="{stagger}s" repeatCount="indefinite"/>
+    </rect>
     <text x="22" y="22" font-family="'Consolas',monospace" font-size="18" fill="{color}">{icon}</text>
     <text x="48" y="22" font-family="'Consolas',monospace" font-size="9" fill="{color}"
           letter-spacing="2">{kind}</text>
@@ -151,12 +161,28 @@ def render_svg(events: List[Dict]) -> str:
       <stop offset="50%" stop-color="{PALETTE['neon']}" stop-opacity="0.9"/>
       <stop offset="100%" stop-color="{PALETTE['neon']}" stop-opacity="0.1"/>
     </linearGradient>
+    <linearGradient id="scanlineFeed" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="{PALETTE['neon']}" stop-opacity="0"/>
+      <stop offset="50%" stop-color="{PALETTE['neon']}" stop-opacity="0.12"/>
+      <stop offset="100%" stop-color="{PALETTE['neon']}" stop-opacity="0"/>
+    </linearGradient>
+    <clipPath id="feedClip">
+      <rect x="0" y="0" width="{width}" height="{height}" rx="10"/>
+    </clipPath>
   </defs>
 
   <rect width="{width}" height="{height}" fill="url(#cfFeed)" rx="10"
         stroke="{PALETTE['neon']}" stroke-opacity="0.3" stroke-width="1"/>
   <rect width="{width}" height="{height}" fill="#000000" opacity="0.45" rx="10"/>
-  <rect width="{width}" height="3" fill="url(#topBarFeed)" rx="2"/>
+  <rect width="{width}" height="3" fill="url(#topBarFeed)" rx="2">
+    <animate attributeName="opacity" values="0.6;1;0.6" dur="3.4s" repeatCount="indefinite"/>
+  </rect>
+  <g clip-path="url(#feedClip)">
+    <rect x="-180" y="0" width="180" height="{height}" fill="url(#scanlineFeed)">
+      <animateTransform attributeName="transform" type="translate"
+                        from="0 0" to="{width + 180} 0" dur="7.5s" repeatCount="indefinite"/>
+    </rect>
+  </g>
 
   <text x="30" y="40" font-family="'Consolas','Fira Code',monospace" font-size="11"
         fill="{PALETTE['gray_label']}" letter-spacing="3">// LIVE EVENT STREAM</text>
