@@ -30,20 +30,6 @@
   
   <g transform="translate(30, 90)">
     <rect width="660" height="48" rx="6" fill="#0a0a0a"
-          stroke="#7FFF50" stroke-opacity="0.35" stroke-width="1"/>
-    <rect width="3" height="48" rx="2" fill="#7FFF50"/>
-    <text x="22" y="22" font-family="'Consolas',monospace" font-size="18" fill="#7FFF50">⌥</text>
-    <text x="48" y="22" font-family="'Consolas',monospace" font-size="9" fill="#7FFF50"
-          letter-spacing="2">PR</text>
-    <text x="92" y="22" font-family="'Consolas',monospace" font-size="12" fill="#ffffff"
-          font-weight="600">Moeabdelaziz007/moeabdelaziz007</text>
-    <text x="22" y="40" font-family="'Consolas',monospace" font-size="10" fill="#aaaaaa">PR merged · </text>
-    <text x="650" y="22" font-family="'Consolas',monospace" font-size="10"
-          fill="#666666" text-anchor="end">17s ago</text>
-  </g>
-
-  <g transform="translate(30, 146)">
-    <rect width="660" height="48" rx="6" fill="#0a0a0a"
           stroke="#39FF14" stroke-opacity="0.35" stroke-width="1"/>
     <rect width="3" height="48" rx="2" fill="#39FF14"/>
     <text x="22" y="22" font-family="'Consolas',monospace" font-size="18" fill="#39FF14">↥</text>
@@ -56,18 +42,32 @@
           fill="#666666" text-anchor="end">15s ago</text>
   </g>
 
-  <g transform="translate(30, 202)">
+  <g transform="translate(30, 146)">
     <rect width="660" height="48" rx="6" fill="#0a0a0a"
-          stroke="#39FF14" stroke-opacity="0.35" stroke-width="1"/>
-    <rect width="3" height="48" rx="2" fill="#39FF14"/>
-    <text x="22" y="22" font-family="'Consolas',monospace" font-size="18" fill="#39FF14">↥</text>
-    <text x="48" y="22" font-family="'Consolas',monospace" font-size="9" fill="#39FF14"
-          letter-spacing="2">PUSH</text>
+          stroke="#7FFF50" stroke-opacity="0.35" stroke-width="1"/>
+    <rect width="3" height="48" rx="2" fill="#7FFF50"/>
+    <text x="22" y="22" font-family="'Consolas',monospace" font-size="18" fill="#7FFF50">⌥</text>
+    <text x="48" y="22" font-family="'Consolas',monospace" font-size="9" fill="#7FFF50"
+          letter-spacing="2">PR</text>
     <text x="92" y="22" font-family="'Consolas',monospace" font-size="12" fill="#ffffff"
           font-weight="600">Moeabdelaziz007/moeabdelaziz007</text>
-    <text x="22" y="40" font-family="'Consolas',monospace" font-size="10" fill="#aaaaaa">0 commit pushed</text>
+    <text x="22" y="40" font-family="'Consolas',monospace" font-size="10" fill="#aaaaaa">PR merged · </text>
     <text x="650" y="22" font-family="'Consolas',monospace" font-size="10"
-          fill="#666666" text-anchor="end">30s ago</text>
+          fill="#666666" text-anchor="end">16s ago</text>
+  </g>
+
+  <g transform="translate(30, 202)">
+    <rect width="660" height="48" rx="6" fill="#0a0a0a"
+          stroke="#7FFF50" stroke-opacity="0.35" stroke-width="1"/>
+    <rect width="3" height="48" rx="2" fill="#7FFF50"/>
+    <text x="22" y="22" font-family="'Consolas',monospace" font-size="18" fill="#7FFF50">⌥</text>
+    <text x="48" y="22" font-family="'Consolas',monospace" font-size="9" fill="#7FFF50"
+          letter-spacing="2">PR</text>
+    <text x="92" y="22" font-family="'Consolas',monospace" font-size="12" fill="#ffffff"
+          font-weight="600">Moeabdelaziz007/moeabdelaziz007</text>
+    <text x="22" y="40" font-family="'Consolas',monospace" font-size="10" fill="#aaaaaa">PR opened · </text>
+    <text x="650" y="22" font-family="'Consolas',monospace" font-size="10"
+          fill="#666666" text-anchor="end">41s ago</text>
   </g>
 
   <g transform="translate(30, 258)">
@@ -78,38 +78,38 @@
     <text x="48" y="22" font-family="'Consolas',monospace" font-size="9" fill="#7FFF50"
           letter-spacing="2">PR</text>
     <text x="92" y="22" font-family="'Consolas',monospace" font-size="12" fill="#ffffff"
-          font-weight="600">Moeabdelaziz007/moeabdelaziz007</text>
-    <text x="22" y="40" font-family="'Consolas',monospace" font-size="10" fill="#aaaaaa">PR closed · </text>
+          font-weight="600">Moeabdelaziz007/iqra</text>
+    <text x="22" y="40" font-family="'Consolas',monospace" font-size="10" fill="#aaaaaa">PR opened · </text>
     <text x="650" y="22" font-family="'Consolas',monospace" font-size="10"
-          fill="#666666" text-anchor="end">16d ago</text>
+          fill="#666666" text-anchor="end">1m ago</text>
   </g>
 
   <g transform="translate(30, 314)">
     <rect width="660" height="48" rx="6" fill="#0a0a0a"
-          stroke="#7FFF50" stroke-opacity="0.35" stroke-width="1"/>
-    <rect width="3" height="48" rx="2" fill="#7FFF50"/>
-    <text x="22" y="22" font-family="'Consolas',monospace" font-size="18" fill="#7FFF50">⌥</text>
-    <text x="48" y="22" font-family="'Consolas',monospace" font-size="9" fill="#7FFF50"
-          letter-spacing="2">PR</text>
+          stroke="#39FFC4" stroke-opacity="0.35" stroke-width="1"/>
+    <rect width="3" height="48" rx="2" fill="#39FFC4"/>
+    <text x="22" y="22" font-family="'Consolas',monospace" font-size="18" fill="#39FFC4">✚</text>
+    <text x="48" y="22" font-family="'Consolas',monospace" font-size="9" fill="#39FFC4"
+          letter-spacing="2">CREATE</text>
     <text x="92" y="22" font-family="'Consolas',monospace" font-size="12" fill="#ffffff"
-          font-weight="600">Moeabdelaziz007/moeabdelaziz007</text>
-    <text x="22" y="40" font-family="'Consolas',monospace" font-size="10" fill="#aaaaaa">PR closed · </text>
+          font-weight="600">Moeabdelaziz007/iqra</text>
+    <text x="22" y="40" font-family="'Consolas',monospace" font-size="10" fill="#aaaaaa">branch created · fix/page-tsx-jsx-syntax</text>
     <text x="650" y="22" font-family="'Consolas',monospace" font-size="10"
-          fill="#666666" text-anchor="end">8d ago</text>
+          fill="#666666" text-anchor="end">1m ago</text>
   </g>
 
   <g transform="translate(30, 370)">
     <rect width="660" height="48" rx="6" fill="#0a0a0a"
-          stroke="#7FFF50" stroke-opacity="0.35" stroke-width="1"/>
-    <rect width="3" height="48" rx="2" fill="#7FFF50"/>
-    <text x="22" y="22" font-family="'Consolas',monospace" font-size="18" fill="#7FFF50">⌥</text>
-    <text x="48" y="22" font-family="'Consolas',monospace" font-size="9" fill="#7FFF50"
-          letter-spacing="2">PR</text>
+          stroke="#39FF14" stroke-opacity="0.35" stroke-width="1"/>
+    <rect width="3" height="48" rx="2" fill="#39FF14"/>
+    <text x="22" y="22" font-family="'Consolas',monospace" font-size="18" fill="#39FF14">↥</text>
+    <text x="48" y="22" font-family="'Consolas',monospace" font-size="9" fill="#39FF14"
+          letter-spacing="2">PUSH</text>
     <text x="92" y="22" font-family="'Consolas',monospace" font-size="12" fill="#ffffff"
           font-weight="600">Moeabdelaziz007/moeabdelaziz007</text>
-    <text x="22" y="40" font-family="'Consolas',monospace" font-size="10" fill="#aaaaaa">PR closed · </text>
+    <text x="22" y="40" font-family="'Consolas',monospace" font-size="10" fill="#aaaaaa">0 commit pushed</text>
     <text x="650" y="22" font-family="'Consolas',monospace" font-size="10"
-          fill="#666666" text-anchor="end">8d ago</text>
+          fill="#666666" text-anchor="end">1m ago</text>
   </g>
 
 
