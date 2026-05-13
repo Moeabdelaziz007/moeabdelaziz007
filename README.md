@@ -323,7 +323,7 @@
 <table>
 <tr>
 <td align="center" width="200" valign="top">
-  <a href="https://github.com/Moeabdelaziz007"><img src="https://github.com/Moeabdelaziz007.png" width="90" style="border-radius:50%;"/></a>
+  <a href="https://github.com/Moeabdelaziz007"><img src="./assets/avatar.svg" width="110" alt="Mohamed Abdelaziz"/></a>
   <br/><br/>
   <b>Mohamed Abdelaziz</b>
   <br/>
@@ -343,6 +343,8 @@ These agents **write production code**: they author commits, open PRs, refactor,
 <table>
 <tr>
 <td align="center" width="180" valign="top">
+  <img src="https://api.dicebear.com/9.x/bottts/svg?seed=Codesmith&backgroundColor=050505&radius=50" width="92" height="92" alt="Codesmith avatar"/>
+  <br/>
   <a href="https://blacksmith.sh"><img src="https://img.shields.io/badge/AI-Codesmith-ff6b35?style=for-the-badge&logo=githubactions&logoColor=white" height="40"/></a>
   <br/><br/><b>Codesmith</b><br/>
   <sub>🔨 Forge &amp; CI Steward<br/>Blacksmith · Autofix · PRs</sub>
@@ -350,6 +352,8 @@ These agents **write production code**: they author commits, open PRs, refactor,
   <sub><code>aix-format · iqra · skills</code><br/><code>axiomid · alphaaxiom · piworker</code></sub>
 </td>
 <td align="center" width="180" valign="top">
+  <img src="https://api.dicebear.com/9.x/bottts/svg?seed=JulesAgent&backgroundColor=050505&radius=50" width="92" height="92" alt="Jules avatar"/>
+  <br/>
   <a href="https://jules.google"><img src="https://img.shields.io/badge/AI-Jules-10b981?style=for-the-badge&logo=googlecloud&logoColor=white" height="40"/></a>
   <br/><br/><b>Jules</b><br/>
   <sub>🔁 Async Task Agent<br/>Google Antigravity · Background</sub>
@@ -357,6 +361,8 @@ These agents **write production code**: they author commits, open PRs, refactor,
   <sub><code>iqra · aix-format · skills</code><br/><code>axiomid · piworker</code></sub>
 </td>
 <td align="center" width="180" valign="top">
+  <img src="https://api.dicebear.com/9.x/bottts/svg?seed=Junie&backgroundColor=050505&radius=50" width="92" height="92" alt="Junie avatar"/>
+  <br/>
   <a href="https://www.jetbrains.com/junie/"><img src="https://img.shields.io/badge/AI-Junie-6366f1?style=for-the-badge&logo=jetbrains&logoColor=white" height="40"/></a>
   <br/><br/><b>Junie</b><br/>
   <sub>⚙️ Core Implementation<br/>JetBrains · TypeScript · Refactor</sub>
@@ -364,6 +370,8 @@ These agents **write production code**: they author commits, open PRs, refactor,
   <sub><code>aix-format</code></sub>
 </td>
 <td align="center" width="180" valign="top">
+  <img src="https://api.dicebear.com/9.x/bottts/svg?seed=CursorAI&backgroundColor=050505&radius=50" width="92" height="92" alt="Cursor avatar"/>
+  <br/>
   <a href="https://cursor.sh"><img src="https://img.shields.io/badge/AI-Cursor-0ea5e9?style=for-the-badge&logo=cursor&logoColor=white" height="40"/></a>
   <br/><br/><b>Cursor</b><br/>
   <sub>💻 Inline Completion<br/>Anysphere · Edits · Fixes</sub>
@@ -373,6 +381,8 @@ These agents **write production code**: they author commits, open PRs, refactor,
 </tr>
 <tr>
 <td align="center" width="180" valign="top">
+  <img src="https://api.dicebear.com/9.x/bottts/svg?seed=v0dev&backgroundColor=050505&radius=50" width="92" height="92" alt="v0 avatar"/>
+  <br/>
   <a href="https://v0.dev"><img src="https://img.shields.io/badge/AI-v0-000000?style=for-the-badge&logo=vercel&logoColor=white" height="40"/></a>
   <br/><br/><b>v0</b><br/>
   <sub>🎨 UI/UX Generation<br/>Vercel · Components · Studio</sub>
@@ -380,6 +390,8 @@ These agents **write production code**: they author commits, open PRs, refactor,
   <sub><code>aix-format</code></sub>
 </td>
 <td align="center" width="180" valign="top">
+  <img src="https://api.dicebear.com/9.x/bottts/svg?seed=VercelAI&backgroundColor=050505&radius=50" width="92" height="92" alt="Vercel AI avatar"/>
+  <br/>
   <a href="https://vercel.com/ai"><img src="https://img.shields.io/badge/AI-Vercel_AI-111827?style=for-the-badge&logo=vercel&logoColor=white" height="40"/></a>
   <br/><br/><b>Vercel AI</b><br/>
   <sub>🚀 Deployment Agent<br/>CI/CD · Hosting · Previews</sub>
@@ -387,6 +399,8 @@ These agents **write production code**: they author commits, open PRs, refactor,
   <sub><code>aix-format · axiomid</code></sub>
 </td>
 <td align="center" width="180" valign="top">
+  <img src="https://api.dicebear.com/9.x/bottts/svg?seed=ClaudeCode&backgroundColor=050505&radius=50" width="92" height="92" alt="Claude Code avatar"/>
+  <br/>
   <a href="https://claude.com"><img src="https://img.shields.io/badge/AI-Claude_Code-d97757?style=for-the-badge&logo=anthropic&logoColor=white" height="40"/></a>
   <br/><br/><b>Claude Code</b><br/>
   <sub>🧠 Deep Reasoning<br/>Anthropic · Long-form synthesis</sub>
@@ -394,7 +408,9 @@ These agents **write production code**: they author commits, open PRs, refactor,
   <sub><code>alphaaxiom · aix-format</code></sub>
 </td>
 <td align="center" width="180" valign="top">
-  <a href="#"><img src="https://img.shields.io/badge/Research-AIX_4.6-8b5cf6?style=for-the-badge&logo=anthropic&logoColor=white" height="40"/></a>
+  <img src="https://api.dicebear.com/9.x/bottts/svg?seed=AIX46&backgroundColor=050505&radius=50" width="92" height="92" alt="AIX 4.6 avatar"/>
+  <br/>
+  <a href="#architects"><img src="https://img.shields.io/badge/Research-AIX_4.6-8b5cf6?style=for-the-badge&logo=anthropic&logoColor=white" height="40"/></a>
   <br/><br/><b>AIX 4.6</b><br/>
   <sub>🧬 House Architect &amp; Constitution<br/>Deep analysis · Gap roadmap</sub>
   <br/><br/>
@@ -412,6 +428,8 @@ These agents **find bugs, debug, and review PRs**: they read every diff with a s
 <table>
 <tr>
 <td align="center" width="240" valign="top">
+  <img src="https://api.dicebear.com/9.x/bottts/svg?seed=CodeRabbit&backgroundColor=050505&radius=50" width="100" height="100" alt="CodeRabbit avatar"/>
+  <br/>
   <a href="https://coderabbit.ai"><img src="https://img.shields.io/badge/AI-CodeRabbit-7c3aed?style=for-the-badge&logo=githubactions&logoColor=white" height="40"/></a>
   <br/><br/><b>CodeRabbit</b><br/>
   <sub>🔍 Pattern Watcher<br/>PR review · Quality gate · Major findings</sub>
@@ -419,6 +437,8 @@ These agents **find bugs, debug, and review PRs**: they read every diff with a s
   <sub><code>iqra · aix-format · skills</code><br/><code>alphaaxiom · piworker</code></sub>
 </td>
 <td align="center" width="240" valign="top">
+  <img src="https://api.dicebear.com/9.x/bottts/svg?seed=CodexAgent&backgroundColor=050505&radius=50" width="100" height="100" alt="Codex avatar"/>
+  <br/>
   <a href="https://openai.com/codex"><img src="https://img.shields.io/badge/AI-Codex-10a37f?style=for-the-badge&logo=openai&logoColor=white" height="40"/></a>
   <br/><br/><b>Codex</b><br/>
   <sub>🧪 Code Reviewer<br/>OpenAI · P1/P2 findings · Debug</sub>
@@ -426,6 +446,8 @@ These agents **find bugs, debug, and review PRs**: they read every diff with a s
   <sub><code>iqra · aix-format · skills</code><br/><code>alphaaxiom · piworker</code></sub>
 </td>
 <td align="center" width="240" valign="top">
+  <img src="https://api.dicebear.com/9.x/bottts/svg?seed=GeminiCodeAssist&backgroundColor=050505&radius=50" width="100" height="100" alt="Gemini Code Assist avatar"/>
+  <br/>
   <a href="https://developers.google.com/gemini-code-assist"><img src="https://img.shields.io/badge/AI-Gemini_Code_Assist-4285F4?style=for-the-badge&logo=googlegemini&logoColor=white" height="40"/></a>
   <br/><br/><b>Gemini Code Assist</b><br/>
   <sub>🔬 Stream Review &amp; Embeddings<br/>Google · Multi-model review</sub>
@@ -444,6 +466,8 @@ This agent is **integrated as part of the running system** rather than committin
 <table>
 <tr>
 <td align="center" width="240" valign="top">
+  <img src="https://api.dicebear.com/9.x/bottts/svg?seed=GrokVoice&backgroundColor=050505&radius=50" width="100" height="100" alt="Grok avatar"/>
+  <br/>
   <a href="https://x.ai"><img src="https://img.shields.io/badge/AI-Grok-000000?style=for-the-badge&logo=x&logoColor=white" height="40"/></a>
   <br/><br/><b>Grok</b><br/>
   <sub>🛰️ Sovereign Voice &amp; Realtime<br/>xAI · IQRA Voice integration</sub>

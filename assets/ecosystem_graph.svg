@@ -9,6 +9,14 @@
       <stop offset="50%" stop-color="#39FF14" stop-opacity="0.9"/>
       <stop offset="100%" stop-color="#39FF14" stop-opacity="0.1"/>
     </linearGradient>
+    <linearGradient id="scanlineEco" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#39FF14" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#39FF14" stop-opacity="0.10"/>
+      <stop offset="100%" stop-color="#39FF14" stop-opacity="0"/>
+    </linearGradient>
+    <clipPath id="ecoClip">
+      <rect x="0" y="0" width="900" height="560" rx="10"/>
+    </clipPath>
     <filter id="ecoGlow">
       <feGaussianBlur stdDeviation="2" result="blur"/>
       <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
@@ -18,7 +26,15 @@
   <rect width="900" height="560" fill="url(#cfEco)" rx="10"
         stroke="#39FF14" stroke-opacity="0.3" stroke-width="1"/>
   <rect width="900" height="560" fill="#000000" opacity="0.45" rx="10"/>
-  <rect width="900" height="3" fill="url(#topBarEco)" rx="2"/>
+  <rect width="900" height="3" fill="url(#topBarEco)" rx="2">
+    <animate attributeName="opacity" values="0.6;1;0.6" dur="3.4s" repeatCount="indefinite"/>
+  </rect>
+  <g clip-path="url(#ecoClip)">
+    <rect x="-220" y="0" width="220" height="560" fill="url(#scanlineEco)">
+      <animateTransform attributeName="transform" type="translate"
+                        from="0 0" to="1120 0" dur="9s" repeatCount="indefinite"/>
+    </rect>
+  </g>
 
   <text x="30" y="40" font-family="'Consolas','Fira Code',monospace" font-size="11"
         fill="#888888" letter-spacing="3">// ECOSYSTEM TOPOLOGY</text>
@@ -51,7 +67,7 @@
     <text y="12" font-family="'Consolas',monospace" font-size="9" fill="#7FFF50"
           text-anchor="middle" letter-spacing="2">TRUST PROTOCOL</text>
     <text y="28" font-family="'Consolas',monospace" font-size="9" fill="#666666"
-          text-anchor="middle">★ 1 · TYPESCRIPT</text>
+          text-anchor="middle">★ 0 · TYPESCRIPT</text>
   </g>
   <g transform="translate(760, 220)">
     <circle r="66" fill="none" stroke="#39FFC4" stroke-opacity="0.25" stroke-width="1"/>

@@ -223,6 +223,14 @@ def render_svg(meta_by_id: Dict[str, Dict]) -> str:
       <stop offset="50%" stop-color="{PALETTE['neon']}" stop-opacity="0.9"/>
       <stop offset="100%" stop-color="{PALETTE['neon']}" stop-opacity="0.1"/>
     </linearGradient>
+    <linearGradient id="scanlineEco" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="{PALETTE['neon']}" stop-opacity="0"/>
+      <stop offset="50%" stop-color="{PALETTE['neon']}" stop-opacity="0.10"/>
+      <stop offset="100%" stop-color="{PALETTE['neon']}" stop-opacity="0"/>
+    </linearGradient>
+    <clipPath id="ecoClip">
+      <rect x="0" y="0" width="{CANVAS_W}" height="{CANVAS_H}" rx="10"/>
+    </clipPath>
     <filter id="ecoGlow">
       <feGaussianBlur stdDeviation="2" result="blur"/>
       <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
@@ -232,7 +240,15 @@ def render_svg(meta_by_id: Dict[str, Dict]) -> str:
   <rect width="{CANVAS_W}" height="{CANVAS_H}" fill="url(#cfEco)" rx="10"
         stroke="{PALETTE['neon']}" stroke-opacity="0.3" stroke-width="1"/>
   <rect width="{CANVAS_W}" height="{CANVAS_H}" fill="#000000" opacity="0.45" rx="10"/>
-  <rect width="{CANVAS_W}" height="3" fill="url(#topBarEco)" rx="2"/>
+  <rect width="{CANVAS_W}" height="3" fill="url(#topBarEco)" rx="2">
+    <animate attributeName="opacity" values="0.6;1;0.6" dur="3.4s" repeatCount="indefinite"/>
+  </rect>
+  <g clip-path="url(#ecoClip)">
+    <rect x="-220" y="0" width="220" height="{CANVAS_H}" fill="url(#scanlineEco)">
+      <animateTransform attributeName="transform" type="translate"
+                        from="0 0" to="{CANVAS_W + 220} 0" dur="9s" repeatCount="indefinite"/>
+    </rect>
+  </g>
 
   <text x="30" y="40" font-family="'Consolas','Fira Code',monospace" font-size="11"
         fill="{PALETTE['gray_label']}" letter-spacing="3">// ECOSYSTEM TOPOLOGY</text>
