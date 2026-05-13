@@ -201,12 +201,11 @@ Dynamic dashboards regenerated every 3 hours from the GitHub API. They show what
 
 **Infra & Cloud**
 <br>
-<img src="https://img.shields.io/badge/Google_Cloud-050505?style=flat-square&logo=googlecloud&logoColor=39FF14"/>
-<img src="https://img.shields.io/badge/AWS-050505?style=flat-square&logo=amazonaws&logoColor=39FF14"/>
-<img src="https://img.shields.io/badge/Docker-050505?style=flat-square&logo=docker&logoColor=39FF14"/>
-<img src="https://img.shields.io/badge/Kubernetes-050505?style=flat-square&logo=kubernetes&logoColor=39FF14"/>
-<img src="https://img.shields.io/badge/Firebase-050505?style=flat-square&logo=firebase&logoColor=39FF14"/>
-<img src="https://img.shields.io/badge/Linux-050505?style=flat-square&logo=linux&logoColor=39FF14"/>
+<img src="https://img.shields.io/badge/Google_Cloud-050505?style=flat-square&logo=googlecloud&logoColor=39FF14" alt="Google Cloud"/>
+<img src="https://img.shields.io/badge/macOS-050505?style=flat-square&logo=apple&logoColor=39FF14" alt="macOS"/>
+<img src="https://img.shields.io/badge/Docker-050505?style=flat-square&logo=docker&logoColor=39FF14" alt="Docker"/>
+<img src="https://img.shields.io/badge/Kubernetes-050505?style=flat-square&logo=kubernetes&logoColor=39FF14" alt="Kubernetes"/>
+<img src="https://img.shields.io/badge/Firebase-050505?style=flat-square&logo=firebase&logoColor=39FF14" alt="Firebase"/>
 
 **Blockchain & Crypto**
 <br>
