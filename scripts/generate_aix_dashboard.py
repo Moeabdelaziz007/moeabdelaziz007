@@ -2,7 +2,7 @@ import re
 import os
 import random
 import datetime
-from config import ASSETS_DIR, README_PATH, START_TAG, END_TAG
+from scripts.config import ASSETS_DIR, README_PATH, START_TAG, END_TAG
 
 # Precompiled regex for live data injection
 START_TAG = '<!-- START_LIVE_DATA -->'

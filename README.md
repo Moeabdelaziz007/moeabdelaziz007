@@ -167,36 +167,36 @@ The Human Authorization Protocol for the Agentic Era. A Sybil-resistant identity
 
 **Languages**
 <br>
-<img src="https://img.shields.io/badge/Python-050505?style=flat-square&logo=python&logoColor=39FF14"/>
-<img src="https://img.shields.io/badge/TypeScript-050505?style=flat-square&logo=typescript&logoColor=39FF14"/>
-<img src="https://img.shields.io/badge/Go-050505?style=flat-square&logo=go&logoColor=39FF14"/>
-<img src="https://img.shields.io/badge/Rust-050505?style=flat-square&logo=rust&logoColor=39FF14"/>
-<img src="https://img.shields.io/badge/Solidity-050505?style=flat-square&logo=solidity&logoColor=39FF14"/>
-<img src="https://img.shields.io/badge/C++-050505?style=flat-square&logo=cplusplus&logoColor=39FF14"/>
+<img src="https://img.shields.io/badge/Python-050505?style=flat-square&logo=python&logoColor=39FF14" alt="Python badge"/>
+<img src="https://img.shields.io/badge/TypeScript-050505?style=flat-square&logo=typescript&logoColor=39FF14" alt="TypeScript badge"/>
+<img src="https://img.shields.io/badge/Go-050505?style=flat-square&logo=go&logoColor=39FF14" alt="Go badge"/>
+<img src="https://img.shields.io/badge/Rust-050505?style=flat-square&logo=rust&logoColor=39FF14" alt="Rust badge"/>
+<img src="https://img.shields.io/badge/Solidity-050505?style=flat-square&logo=solidity&logoColor=39FF14" alt="Solidity badge"/>
+<img src="https://img.shields.io/badge/C++-050505?style=flat-square&logo=cplusplus&logoColor=39FF14" alt="C++ badge"/>
 
 **AI & ML**
 <br>
-<img src="https://img.shields.io/badge/Gemini-050505?style=flat-square&logo=googlebard&logoColor=39FF14"/>
-<img src="https://img.shields.io/badge/Claude-050505?style=flat-square&logo=anthropic&logoColor=39FF14"/>
-<img src="https://img.shields.io/badge/TensorFlow-050505?style=flat-square&logo=tensorflow&logoColor=39FF14"/>
-<img src="https://img.shields.io/badge/JAX-050505?style=flat-square&logo=google&logoColor=39FF14"/>
-<img src="https://img.shields.io/badge/PyTorch-050505?style=flat-square&logo=pytorch&logoColor=39FF14"/>
-<img src="https://img.shields.io/badge/LangChain-050505?style=flat-square&logo=chainlink&logoColor=39FF14"/>
+<img src="https://img.shields.io/badge/Gemini-050505?style=flat-square&logo=googlebard&logoColor=39FF14" alt="Gemini badge"/>
+<img src="https://img.shields.io/badge/Claude-050505?style=flat-square&logo=anthropic&logoColor=39FF14" alt="Claude badge"/>
+<img src="https://img.shields.io/badge/TensorFlow-050505?style=flat-square&logo=tensorflow&logoColor=39FF14" alt="TensorFlow badge"/>
+<img src="https://img.shields.io/badge/JAX-050505?style=flat-square&logo=google&logoColor=39FF14" alt="JAX badge"/>
+<img src="https://img.shields.io/badge/PyTorch-050505?style=flat-square&logo=pytorch&logoColor=39FF14" alt="PyTorch badge"/>
+<img src="https://img.shields.io/badge/LangChain-050505?style=flat-square&logo=chainlink&logoColor=39FF14" alt="LangChain badge"/>
 
 **Infra & Cloud**
 <br>
-<img src="https://img.shields.io/badge/Google_Cloud-050505?style=flat-square&logo=googlecloud&logoColor=39FF14"/>
-<img src="https://img.shields.io/badge/AWS-050505?style=flat-square&logo=amazonaws&logoColor=39FF14"/>
-<img src="https://img.shields.io/badge/Docker-050505?style=flat-square&logo=docker&logoColor=39FF14"/>
-<img src="https://img.shields.io/badge/Kubernetes-050505?style=flat-square&logo=kubernetes&logoColor=39FF14"/>
-<img src="https://img.shields.io/badge/Firebase-050505?style=flat-square&logo=firebase&logoColor=39FF14"/>
-<img src="https://img.shields.io/badge/Linux-050505?style=flat-square&logo=linux&logoColor=39FF14"/>
+<img src="https://img.shields.io/badge/Google_Cloud-050505?style=flat-square&logo=googlecloud&logoColor=39FF14" alt="Google Cloud badge"/>
+<img src="https://img.shields.io/badge/AWS-050505?style=flat-square&logo=amazonaws&logoColor=39FF14" alt="AWS badge"/>
+<img src="https://img.shields.io/badge/Docker-050505?style=flat-square&logo=docker&logoColor=39FF14" alt="Docker badge"/>
+<img src="https://img.shields.io/badge/Kubernetes-050505?style=flat-square&logo=kubernetes&logoColor=39FF14" alt="Kubernetes badge"/>
+<img src="https://img.shields.io/badge/Firebase-050505?style=flat-square&logo=firebase&logoColor=39FF14" alt="Firebase badge"/>
+<img src="https://img.shields.io/badge/Linux-050505?style=flat-square&logo=linux&logoColor=39FF14" alt="Linux badge"/>
 
 **Blockchain & Crypto**
 <br>
-<img src="https://img.shields.io/badge/Ethereum-050505?style=flat-square&logo=ethereum&logoColor=39FF14"/>
-<img src="https://img.shields.io/badge/Ed25519-050505?style=flat-square&logo=letsencrypt&logoColor=39FF14"/>
-<img src="https://img.shields.io/badge/secp256k1-050505?style=flat-square&logo=bitcoin&logoColor=39FF14"/>
+<img src="https://img.shields.io/badge/Ethereum-050505?style=flat-square&logo=ethereum&logoColor=39FF14" alt="Ethereum badge"/>
+<img src="https://img.shields.io/badge/Ed25519-050505?style=flat-square&logo=letsencrypt&logoColor=39FF14" alt="Ed25519 badge"/>
+<img src="https://img.shields.io/badge/secp256k1-050505?style=flat-square&logo=bitcoin&logoColor=39FF14" alt="secp256k1 badge"/>
 
 </div>
 
