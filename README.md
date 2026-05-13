@@ -1,3 +1,34 @@
+<!-- ════════════════ AIX SOVEREIGN STACK · UNIFIED BRANDING ════════════════ -->
+
+<div align="center">
+  <img src="./assets/aix-stack-header-v2.svg" alt="The AIX Sovereign Stack. Echo369. L0 Root Authority. L1 Protocol. L2 Runtime. L3 Marketplace. L4-L6 Satellites" width="100%"/>
+</div>
+
+<div align="center">
+
+[![AIX Stack](https://img.shields.io/badge/AIX%20STACK-Echo369-39FF14?style=for-the-badge&labelColor=050505)](https://github.com/Moeabdelaziz007/aix-format/blob/main/AXIOM.md)
+[![Spec](https://img.shields.io/badge/SPEC-AIX%2F1.0-39FF14?style=for-the-badge&labelColor=050505)](https://github.com/Moeabdelaziz007/aix-format/blob/main/AXIOM.md)
+[![Layers](https://img.shields.io/badge/LAYERS-7%20%28L0%20%E2%86%92%20L6%29-39FF14?style=for-the-badge&labelColor=050505)](#stack-topology)
+[![Architect](https://img.shields.io/badge/1%20HUMAN%20%2B%2012%20AI%20AGENTS-39FF14?style=for-the-badge&labelColor=050505)](#)
+
+</div>
+
+<div align="center">
+
+**Root Authority:** [**L0 `axiomid-project`**](https://github.com/Moeabdelaziz007/axiomid-project) &nbsp;.&nbsp; **Sovereign Core:** [**L1 `aix-format`**](https://github.com/Moeabdelaziz007/aix-format) &nbsp;.&nbsp; [**L2 `iqra`**](https://github.com/Moeabdelaziz007/iqra) &nbsp;.&nbsp; [**L3 `aix-agent-skills`**](https://github.com/Moeabdelaziz007/aix-agent-skills)
+
+</div>
+
+<div align="center">
+
+<sub>**Satellites:** [**L4 `AlphaAxiom`**](https://github.com/Moeabdelaziz007/AlphaAxiom) &nbsp;.&nbsp; [**L5 `PiWorker-OS`**](https://github.com/Moeabdelaziz007/PiWorker-OS) &nbsp;.&nbsp; [**L6 `GemClaw`**](https://github.com/Moeabdelaziz007/GemClaw)</sub>
+
+</div>
+
+<br/>
+
+<!-- ════════════════ /AIX SOVEREIGN STACK ════════════════ -->
+
 <div align="center">
 
 <img src="./assets/cyber-header.svg" alt="System Header" width="100%">
@@ -52,66 +83,72 @@
 
 <br>
 
+<a id="stack-topology"></a>
+
 ## `01.` THE MISSION  ·  المهمة
 
-**EN ·** Building a **Sovereign AI Stack**: a unified ecosystem where autonomous agents are portable, cryptographically secure, and economically self-sustaining. Six projects compose the stack across two tiers — three flagship layers (a sovereign operating system, an open exchange format, and a marketplace of vetted skills) and three supporting systems (a local-first digital twin, an autonomous quant engine, and a human-authorization identity protocol).
+**EN ·** Building the **AIX Sovereign Stack**: a unified ecosystem where autonomous agents are portable, cryptographically secure, and economically self-sustaining. Seven repositories compose the topology across three tiers: a root authority (L0) that issues `did:axiom:axiomid.app:*` identifiers, a sovereign core (L1 protocol, L2 runtime, L3 marketplace), and a satellite tier (L4 trading, L5 Pi workers, L6 voice) that buys skills from the marketplace via x402. Codename `Echo369`. Spec `AIX/1.0`. Money flows up. Identity flows down. Trust flows centrally into the L2 TrustChain. Genus 0. Tree-shaped. The stack is a tree, not a tangle.
 
-**AR ·** بناء **منظومة ذكاء اصطناعي سيادية**: نظام بيئي موحَّد يكون فيه الوكلاء المستقلون قابلين للنقل، آمنين تشفيرياً، ومستدامين اقتصادياً ذاتياً. تتكوّن المنظومة من ستة مشاريع على طبقتين: ثلاث طبقات رئيسية (نظام تشغيل سيادي، معيار تبادل مفتوح، وسوق للمهارات الموثَّقة) وثلاثة أنظمة داعمة (توأم رقمي محلي، محرّك تداول كمّي مستقل، وبروتوكول هوية بشرية للتفويض).
+**AR ·** بناء **منظومة AIX السيادية**: نظام بيئي موحَّد يكون فيه الوكلاء المستقلون قابلين للنقل، آمنين تشفيرياً، ومستدامين اقتصادياً ذاتياً. سبعة ريبوهات تكوّن الطوبولوجيا على ثلاث طبقات: سلطة جذر (L0) تُصدر معرّفات `did:axiom:axiomid.app:*`، نواة سيادية (L1 بروتوكول، L2 وقت تشغيل، L3 سوق)، وطبقة أقمار صناعية (L4 تداول، L5 عمّال Pi، L6 صوت) تشتري المهارات من السوق عبر x402. الاسم الكودي `Echo369`. المواصفة `AIX/1.0`.
 
 <div align="center">
-  <img src="./assets/ecosystem_graph.svg" alt="The Sovereign AI Stack: IQRA, AIX-Format, AIX-Agent-Skills" width="100%"/>
+  <img src="./assets/aix-stack-diagram-v2.svg" alt="AIX Stack Topology. Echo369. Root Authority. Sovereign Core. Satellite Layers" width="100%"/>
 </div>
 
 <br>
 
-## `02.` FLAGSHIP ECOSYSTEM  ·  المنظومة الرئيسية
+## `02.` SOVEREIGN CORE  ·  النواة السيادية
+
+**EN ·** The three repositories at the constitutional heart of the stack. L1 defines the protocol, L2 runs it, L3 sells skills against it. Dependency direction is one-way: L3 depends on L2 depends on L1.
+
+**AR ·** الثلاث ريبوهات في القلب الدستوري للمنظومة. L1 يُعرّف البروتوكول، L2 يُشغّله، L3 يبيع المهارات وفقاً له. الاعتماد في اتجاه واحد: L3 يعتمد على L2 يعتمد على L1.
 
 <table>
 <tr>
 <td width="33%" valign="top">
 
-### 🌀 IQRA
-**The Sovereign AI Operating System**
+### 📐 L1 . AIX-FORMAT
+**The Protocol Spec**
 <br>
-**نظام التشغيل السيادي للذكاء الاصطناعي**
+**معيار البروتوكول**
 
-**EN ·** The first AI OS architected around **7 Sovereign Loops**: Read & Map, Evaluate, Plan, Verify, Prioritize, Fix (Tawbah), Evolve. Governed by the **Damir Conscience** and **Pristine Reward Engine**. Built to obey the creator, then the user.
+**EN ·** The Sovereign Stack's constitutional spec. Defines schemas, the `did:axiom` identity primitives, the M2M settlement contracts (HTTP 402 / x402 / Pi / Stripe / PayPal), the TrustChain shape, and the version constants every other layer pins to. The codename anchor for the current release window is `Echo369`.
 
-**AR ·** أول نظام تشغيل ذكاء اصطناعي مبني حول **سبع دوائر سيادية**: القراءة والتخطيط، التقييم، التخطيط، التحقق، تحديد الأولويات، الإصلاح (التوبة)، التطوّر. يحكمه **الضمير النقي** و**محرّك المكافأة النقية**. مُصمَّم ليُطيع الخالق، ثم المستخدم.
+**AR ·** المعيار الدستوري للمنظومة السيادية. يُعرّف الهياكل، أوّليات هوية `did:axiom`، عقود التسوية بين الآلات، شكل TrustChain، وثوابت الإصدار اللي كل الطبقات الأخرى بتـ pin عليها.
 
-`MCTS-369` `7 Loops` `Constitution-Governed`
-
-[**` ▶ EXPLORE IQRA `**](https://github.com/Moeabdelaziz007/iqra)
-
-</td>
-<td width="33%" valign="top">
-
-### 📐 AIX-FORMAT
-**The M2M Trust Layer**
-<br>
-**طبقة الثقة بين الآلات**
-
-**EN ·** Model-agnostic format (YAML/JSON/TOML) defining schemas for episodic memory, MCP context, and VLA hardware bindings. Detached manifest architecture with **AxiomID**: Ed25519/secp256k1 payload signing prevents Sybil attacks. Built-in M2M token economics.
-
-**AR ·** معيار محايد عن النموذج (YAML/JSON/TOML) يُعرّف هياكل البيانات للذاكرة الزمنية، سياق MCP، وروابط أجهزة VLA. معمارية manifest منفصلة مع **AxiomID**: توقيع الحمولة عبر Ed25519/secp256k1 يمنع هجمات Sybil. اقتصاديات رموز M2M مدمجة.
-
-`v0.4.0-beta` `Cryptographic` `Multi-Schema`
+`v0.369.0` `Echo369` `AIX/1.0` `Apache-2.0`
 
 [**` ▶ READ THE SPEC `**](https://github.com/Moeabdelaziz007/aix-format)
 
 </td>
 <td width="33%" valign="top">
 
-### 🛠️ AIX-AGENT-SKILLS
-**The Agentic Marketplace**
+### 🌀 L2 . IQRA
+**The Sovereign Runtime**
 <br>
-**السوق الوكيلي**
+**وقت التشغيل السيادي**
 
-**EN ·** A self-evolving cognitive marketplace where every skill is sandboxed, red-teamed, and verified before joining the IQRA topology. **7 Layers, 36 Capabilities** across Sovereignty, Orchestration, Intelligence, Evolution, Trust, Interface, and Execution.
+**EN ·** The first AI OS architected around **7 Sovereign Loops**: Read & Map, Evaluate, Plan, Verify, Prioritize, Fix (Tawbah), Evolve. Governed by the **Damir Conscience** and **Pristine Reward Engine**. Built to obey the creator, then the user. Records every M2M transaction into the TrustChain ledger.
 
-**AR ·** سوق معرفي ذاتي التطوّر حيث كل مهارة مُعزَّلة في sandbox، مفحوصة من الفريق الأحمر، ومُتحقَّق منها قبل الانضمام لطوبولوجيا IQRA. **7 طبقات، 36 قدرة** عبر السيادة، التنسيق، الذكاء، التطوّر، الثقة، الواجهة، والتنفيذ.
+**AR ·** أول نظام تشغيل ذكاء اصطناعي مبني حول **سبع دوائر سيادية**. يحكمه **الضمير النقي** و**محرّك المكافأة النقية**. يسجّل كل معاملة بين الآلات في سجل TrustChain.
 
-`7 Layers` `36 Skills` `Red-Teamed`
+`v0.3.69` `MCTS-369` `7 Loops`
+
+[**` ▶ EXPLORE IQRA `**](https://github.com/Moeabdelaziz007/iqra)
+
+</td>
+<td width="33%" valign="top">
+
+### 🛠️ L3 . AIX-AGENT-SKILLS
+**The Marketplace**
+<br>
+**السوق المعرفي**
+
+**EN ·** A self-evolving cognitive marketplace where every skill is sandboxed, red-teamed, and verified before joining the runtime. **7 Layers, 57 Skills** across Sovereignty, Orchestration, Intelligence, Evolution, Trust, Interface, and Execution. Satellites buy from here via x402.
+
+**AR ·** سوق معرفي ذاتي التطوّر حيث كل مهارة مُعزَّلة، مفحوصة، ومُتحقَّق منها قبل الانضمام لوقت التشغيل. **7 طبقات، 57 مهارة**. الأقمار الصناعية تشتري من هنا عبر x402.
+
+`v1.0.0` `7 Layers` `57 Skills`
 
 [**` ▶ BROWSE SKILLS `**](https://github.com/Moeabdelaziz007/aix-agent-skills)
 
@@ -121,38 +158,70 @@
 
 <br>
 
-## `03.` SUPPORTING INFRASTRUCTURE  ·  البنية التحتية الداعمة
+## `03.` EXTENDED ECOSYSTEM  ·  المنظومة الموسّعة
+
+**EN ·** Outside the strict L1/L2/L3 chain sits the root authority (L0) above the stack and a tier of satellite applications (L4 to L6) below it. The root issues identity; the satellites consume the protocol and buy skills.
+
+**AR ·** خارج السلسلة الصارمة L1/L2/L3، سلطة الجذر (L0) فوق المنظومة، وطبقة من التطبيقات الأقمار الصناعية (L4 إلى L6) تحتها. الجذر يُصدر الهوية؛ الأقمار الصناعية تستهلك البروتوكول وتشتري المهارات.
 
 <table>
 <tr>
-<td width="33%" valign="top">
+<td width="50%" valign="top" colspan="2">
 
-### PiWorker
-**EN ·** Local-first AI digital twin with voice, memory graph, ambient mini-agent presence, and a private on-device speech pipeline. *Privacy-preserving by design.*
+### 👑 L0 . AXIOMID-PROJECT
+**Root Authority** · **سلطة الجذر**
 
-**AR ·** توأم رقمي للذكاء الاصطناعي يعمل محلياً أولاً، مع صوت، رسم بياني للذاكرة، حضور وكيل صغير محيط، وأنبوب معالجة كلام خاص على الجهاز. *حافظ على الخصوصية بطبيعة التصميم.*
+**EN ·** The Human Authorization Protocol. Sole issuer of `did:axiom:axiomid.app:*` identifiers across the stack. A Sybil-resistant identity layer proving human intent behind every AI action. Proprietary, above the L1/L2/L3 chain.
 
-[`Source →`](https://github.com/Moeabdelaziz007/PiWorker)
+**AR ·** بروتوكول التفويض البشري. المُصدِر الوحيد لمعرّفات `did:axiom:axiomid.app:*` عبر المنظومة. طبقة هويّة مقاومة لهجمات Sybil تُثبت النية البشرية خلف كل فعل من الذكاء الاصطناعي.
+
+`Proprietary` `did:axiom Issuer` `Above the Stack`
+
+[**` ▶ ENTER THE AUTHORITY `**](https://github.com/Moeabdelaziz007/axiomid-project)
 
 </td>
+</tr>
+<tr>
 <td width="33%" valign="top">
 
-### AlphaAxiom
-**EN ·** Autonomous quant-trading engine using **Monte Carlo Tree Search** and World Models for zero-cost edge computing in volatile markets.
+### 💹 L4 . ALPHAAXIOM
+**Satellite . Trading** · **قمر صناعي . تداول**
 
-**AR ·** محرّك تداول كمّي مستقل يستخدم **بحث شجرة مونت كارلو** ونماذج العالم لحوسبة طرفية صفرية التكلفة في الأسواق المتقلبة.
+**EN ·** Autonomous quant-trading engine using **Monte Carlo Tree Search**, World Models, and a Gemini brain. MT5 / Bybit / EVM adapters. Skill plugin runtime that buys MCTS variants from L3.
+
+**AR ·** محرّك تداول كمّي مستقل يستخدم **بحث شجرة مونت كارلو** ودماغ Gemini. يدعم MT5 / Bybit / EVM.
+
+`v0.1.0-alpha` `MCTS` `MT5/Bybit/EVM`
 
 [`Source →`](https://github.com/Moeabdelaziz007/AlphaAxiom)
 
 </td>
 <td width="33%" valign="top">
 
-### AxiomID
-**EN ·** The Human Authorization Protocol for the Agentic Era. A Sybil-resistant identity layer proving human intent behind AI actions.
+### π L5 . PIWORKER-OS
+**Satellite . Pi** · **قمر صناعي . باي**
 
-**AR ·** بروتوكول التفويض البشري لعصر الوكلاء. طبقة هويّة مقاومة لهجمات Sybil تُثبت النية البشرية خلف أفعال الذكاء الاصطناعي.
+**EN ·** Sovereign Agent OS for the Pi Network. Go sidecar engine, MAS-ZERO multi-agent framework, Next.js sovereign command center, and Pi SDK + KYC anchor against L0.
 
-[`Source →`](https://github.com/Moeabdelaziz007/axiomid-project)
+**AR ·** نظام تشغيل سيادي للوكلاء على شبكة Pi. محرّك Go sidecar، إطار MAS-ZERO متعدد الوكلاء، ومرسى KYC مقابل L0.
+
+`v2.0.0` `Go 1.25` `Pi SDK`
+
+[`Source →`](https://github.com/Moeabdelaziz007/PiWorker-OS)
+
+</td>
+<td width="33%" valign="top">
+
+### 🎙️ L6 . GEMCLAW
+**Satellite . Voice** · **قمر صناعي . صوت**
+
+**EN ·** Voice-first sovereign AI agent builder. Gemini Live API, Firebase backend, real-time PCM 24kHz streaming. Buys voice and persona skills from L3.
+
+**AR ·** بانٍ وكلاء ذكاء اصطناعي سيادي بالصوت أولاً. واجهة Gemini Live، خلفية Firebase.
+
+`v0.1.0` `Gemini Live` `Firebase`
+
+[`Source →`](https://github.com/Moeabdelaziz007/GemClaw)
 
 </td>
 </tr>
@@ -211,7 +280,7 @@
 <img src="https://img.shields.io/badge/TypeScript-050505?style=flat-square&logo=typescript&logoColor=39FF14" alt="TypeScript"/>
 <img src="https://img.shields.io/badge/Go-050505?style=flat-square&logo=go&logoColor=39FF14" alt="Go"/>
 <img src="https://img.shields.io/badge/Rust-050505?style=flat-square&logo=rust&logoColor=39FF14" alt="Rust"/>
-<img src="https://img.shields.io/badge/TerboQuant-050505?style=flat-square&logo=quicktype&logoColor=39FF14" alt="TerboQuant"/>
+<img src="https://img.shields.io/badge/Bash-050505?style=flat-square&logo=gnubash&logoColor=39FF14" alt="Bash"/>
 
 **AI & ML · الذكاء الاصطناعي والتعلّم الآلي**
 <br>
@@ -392,5 +461,13 @@ This agent is **integrated as part of the running system** rather than committin
 <br>
 
 <div align="center">
-  <img src="./assets/footer-quote.svg" alt="King isn't Born, he is Made. Operating at the intersection of complex math and raw compute. The goal is 10x." width="100%"/>
+
+<sub>**Satellites:** [**L4 `AlphaAxiom`**](https://github.com/Moeabdelaziz007/AlphaAxiom) &nbsp;.&nbsp; [**L5 `PiWorker-OS`**](https://github.com/Moeabdelaziz007/PiWorker-OS) &nbsp;.&nbsp; [**L6 `GemClaw`**](https://github.com/Moeabdelaziz007/GemClaw)</sub>
+
 </div>
+
+<div align="center">
+  <img src="./assets/aix-footer-quote-v2.svg" alt="AIX Stack. Echo369. King is not Born, he is Made." width="100%"/>
+</div>
+
+<!-- ════════════════ /AIX SOVEREIGN STACK . FOOTER ════════════════ -->
