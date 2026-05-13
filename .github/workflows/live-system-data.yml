@@ -2,7 +2,7 @@ name: Live System Data Updater
 
 on:
   schedule:
-    - cron: "0 */6 * * *" # Runs every 6 hours
+    - cron: "0 */3 * * *" # Runs every 3 hours
   push:
     branches:
       - main
@@ -13,6 +13,8 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: write
+    env:
+      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v4
@@ -22,13 +24,28 @@ jobs:
         with:
           python-version: '3.x'
 
-      - name: Generate Dynamic Data
+      - name: Refresh telemetry banner
         run: python scripts/update_system_status.py
+
+      - name: Generate stack dashboard
+        run: python scripts/generate_stack_dashboard.py
+
+      - name: Generate agents inventory
+        run: python scripts/generate_agents_inventory.py
+
+      - name: Generate contribution heatmap
+        run: python scripts/generate_contribution_heatmap.py
+
+      - name: Generate ecosystem graph
+        run: python scripts/generate_ecosystem_graph.py
+
+      - name: Generate recent work feed
+        run: python scripts/generate_recent_work_feed.py
 
       - name: Commit Changes
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git add README.md assets/
-          git diff --quiet && git diff --staged --quiet || git commit -m "[Automated] Update live system metrics"
+          git diff --quiet && git diff --staged --quiet || git commit -m "[Automated] Update live dashboards and telemetry"
           git push

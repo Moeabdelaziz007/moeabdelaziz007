@@ -44,14 +44,9 @@
 
 Building a **Sovereign AI Stack**: a unified ecosystem where autonomous agents are portable, cryptographically secure, and economically self-sustaining. Three projects compose the stack: a flagship operating system, an open exchange format, and a marketplace of vetted skills.
 
-```
-   ┌─────────────────────────────────────────────────────────┐
-   │                                                         │
-   │     IQRA  ⇆  AIX-FORMAT  ⇆  AIX-AGENT-SKILLS            │
-   │       OS         PROTOCOL          MARKETPLACE          │
-   │                                                         │
-   └─────────────────────────────────────────────────────────┘
-```
+<div align="center">
+  <img src="./assets/ecosystem_graph.svg" alt="The Sovereign AI Stack: IQRA, AIX-Format, AIX-Agent-Skills" width="100%"/>
+</div>
 
 <br>
 
@@ -143,15 +138,36 @@ The Human Authorization Protocol for the Agentic Era. A Sybil-resistant identity
 
 <br>
 
-## `04.` LIVE TELEMETRY
+## `04.` INTELLIGENCE MAP
+
+Dynamic dashboards regenerated every 3 hours from the GitHub API. They show what the profile is actually made of: which languages dominate the codebase, which repos form the AI fleet, and how contributions evolve over time.
+
+<div align="center">
+  <img src="./assets/stack_dashboard.svg" alt="Stack Dashboard — Language Distribution Across All Repos" width="100%"/>
+</div>
+
+<div align="center">
+  <img src="./assets/agents_inventory.svg" alt="AI Agent Inventory — Classified Repositories" width="100%"/>
+</div>
+
+<div align="center">
+  <img src="./assets/contribution_heatmap.svg" alt="Contribution Heatmap — Last 12 Months" width="100%"/>
+</div>
+
+<br>
+
+## `05.` LIVE TELEMETRY
+
+<div align="center">
+  <img src="./assets/recent_work_feed.svg" alt="Recent Work Feed — Latest Public Activity" width="100%"/>
+</div>
 
 <div align="center">
 
 <img src="https://github-readme-stats.vercel.app/api?username=Moeabdelaziz007&show_icons=true&theme=transparent&hide_border=true&bg_color=050505&title_color=39FF14&text_color=aaaaaa&icon_color=39FF14&border_radius=8&custom_title=SYSTEM+METRICS" alt="GitHub Stats" width="48%"/>
 <img src="https://github-readme-streak-stats.herokuapp.com/?user=Moeabdelaziz007&theme=transparent&hide_border=true&background=050505&stroke=39FF14&ring=39FF14&fire=39FF14&currStreakLabel=39FF14&sideLabels=aaaaaa&dates=666666&currStreakNum=ffffff&sideNums=ffffff" alt="Streak" width="48%"/>
 
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Moeabdelaziz007&layout=compact&theme=transparent&hide_border=true&bg_color=050505&title_color=39FF14&text_color=aaaaaa&border_radius=8&custom_title=CORE+LANGUAGES&langs_count=10" alt="Top Languages" width="48%"/>
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Moeabdelaziz007&theme=react-dark&bg_color=050505&color=39FF14&line=39FF14&point=ffffff&hide_border=true&custom_title=CODING+ACTIVITY+%E2%80%94+LAST+31+DAYS&radius=8" alt="Activity Graph" width="48%"/>
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=Moeabdelaziz007&theme=react-dark&bg_color=050505&color=39FF14&line=39FF14&point=ffffff&hide_border=true&custom_title=CODING+ACTIVITY+%E2%80%94+LAST+31+DAYS&radius=8" alt="Activity Graph" width="100%"/>
 
 </div>
 
@@ -161,7 +177,7 @@ The Human Authorization Protocol for the Agentic Era. A Sybil-resistant identity
 
 <br>
 
-## `05.` SYSTEM ARSENAL
+## `06.` SYSTEM ARSENAL
 
 <div align="center">
 
