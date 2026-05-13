@@ -46,7 +46,7 @@
 <p><i>إنسان واحد، دستور واحد، منظومة واحدة &mdash; مبنية عشان الوكلاء يعيشوا أطول من صانعيهم.</i></p>
 
 <p>
-  <img src="https://img.shields.io/badge/Architecture-3_Flagship_+_3_Supporting-gold?style=flat-square"/>
+  <img src="https://img.shields.io/badge/Architecture-3_Flagship_+_4_Supporting-gold?style=flat-square"/>
   <img src="https://img.shields.io/badge/Protocol-Sovereign-green?style=flat-square"/>
   <img src="https://img.shields.io/badge/Trust-TrustChain%20%2B%20did%3Aaxiom-blue?style=flat-square"/>
   <img src="https://img.shields.io/badge/Economy-M2M%20+%20HTTP%20402-red?style=flat-square"/>
@@ -58,9 +58,9 @@
 
 ## 🌐 What is AIX-Format? | ما هو AIX-Format؟
 
-**EN ·** AIX-Format is the home of the **Sovereign AI Stack**: a vertically integrated ecosystem where autonomous agents are portable, cryptographically signed, economically self-sustaining, and governed by an explicit constitution rather than vendor goodwill. The org ships one project in three flagship layers (protocol, runtime, marketplace) and a supporting constellation that grounds the stack in real hardware, real markets, and real human authorization.
+**EN ·** AIX-Format is the home of the **Sovereign AI Stack**: a vertically integrated ecosystem where autonomous agents are portable, cryptographically signed, economically self-sustaining, and governed by an explicit constitution rather than vendor goodwill. The org ships one project in three flagship layers (protocol, runtime, marketplace) and a supporting constellation of four user-surface systems (a local-first twin OS, a web-based agentic OS, a quant engine, and a human-authorization protocol) that grounds the stack in real hardware, real markets, real browsers, and real human authorization.
 
-**AR ·** AIX-Format هو البيت الرسمي لـ **المنظومة السيادية للذكاء الاصطناعي**: نظام بيئي متكامل رأسياً يكون فيه الوكلاء المستقلون قابلين للنقل، موقَّعين تشفيرياً، ومستدامين اقتصادياً ذاتياً، ومحكومين بدستور واضح بدلاً من حسن نية البائع. الـ org بيقدّم مشروع واحد على ثلاث طبقات رئيسية (بروتوكول، runtime، سوق) ومجموعة مشاريع داعمة بتربط المنظومة بالعتاد الحقيقي، الأسواق الحقيقية، والتفويض البشري الحقيقي.
+**AR ·** AIX-Format هو البيت الرسمي لـ **المنظومة السيادية للذكاء الاصطناعي**: نظام بيئي متكامل رأسياً يكون فيه الوكلاء المستقلون قابلين للنقل، موقَّعين تشفيرياً، ومستدامين اقتصادياً ذاتياً، ومحكومين بدستور واضح بدلاً من حسن نية البائع. الـ org بيقدّم مشروع واحد على ثلاث طبقات رئيسية (بروتوكول، runtime، سوق) وكوكبة داعمة من أربعة أنظمة واجهات للمستخدم (نظام تشغيل توأم محلي، نظام تشغيل ويب، محرّك تداول كمّي، وبروتوكول تفويض بشري) بتربط المنظومة بالعتاد الحقيقي، الأسواق الحقيقية، المتصفّحات الحقيقية، والتفويض البشري الحقيقي.
 
 ---
 
@@ -82,11 +82,12 @@ The flagship trio is **one project in three layers**. The protocol is the contra
 
 ## 🛰️ Supporting Constellation | الكوكبة الداعمة
 
-The three supporting systems ground the stack in the physical world: a local-first digital twin, an autonomous quant engine, and a human-authorization identity protocol.
+Four supporting systems ground the stack in the physical world and in concrete user surfaces: a local-first twin OS, a web-based agentic OS, an autonomous quant engine, and a human-authorization identity protocol.
 
 | Repo | Role | Description | الوصف |
 |:---|:---|:---|:---|
-| [`PiWorker`](https://github.com/Moeabdelaziz007/PiWorker) | **Digital Twin** | Local-first AI digital twin with voice, memory graph, ambient mini-agent presence, and a private on-device speech pipeline. Privacy-preserving by design. | توأم رقمي محلي مع صوت، رسم بياني للذاكرة، حضور وكيل صغير محيط، وأنبوب معالجة كلام خاص على الجهاز. |
+| [`PiWorker`](https://github.com/Moeabdelaziz007/PiWorker) | **Twin OS** | Local-first AI digital twin operating system &mdash; voice, memory graph, ambient mini-agent presence, on-device speech pipeline, and an autonomous holding structure (OpenClaw + Paperclip + MAS-ZERO). Privacy-preserving by design. | نظام تشغيل التوأم الرقمي محلياً &mdash; صوت، رسم بياني للذاكرة، حضور وكيل صغير محيط، أنبوب معالجة كلام على الجهاز، وهيكل قابض ذاتي. حافظ على الخصوصية بطبيعة التصميم. |
+| [`Amrikyy-Agent`](https://github.com/Moeabdelaziz007/Amrikyy-Agent) | **Web AI OS** | A web-based operating system with AI-powered agents &mdash; React/Vite frontend, Node/Express backend, Gemini-powered agent suite (travel, content, productivity). The browser-side companion to PiWorker's local twin. | نظام تشغيل ويب مدعوم بالذكاء الاصطناعي &mdash; واجهة React/Vite، Backend بـ Node/Express، وكلاء مدعومين بـ Gemini (سفر، محتوى، إنتاجية). الرفيق المتصفِّحي لتوأم PiWorker المحلي. |
 | [`AlphaAxiom`](https://github.com/Moeabdelaziz007/AlphaAxiom) | **Quant Engine** | Autonomous quant-trading engine using Monte Carlo Tree Search and World Models for zero-cost edge computing in volatile markets. | محرّك تداول كمّي مستقل يستخدم بحث شجرة مونت كارلو ونماذج العالم لحوسبة طرفية صفرية التكلفة. |
 | [`axiomid-project`](https://github.com/Moeabdelaziz007/axiomid-project) | **Human Auth** | The Human Authorization Protocol for the Agentic Era. A Sybil-resistant identity layer proving human intent behind AI actions. | بروتوكول التفويض البشري لعصر الوكلاء. طبقة هويّة مقاومة لهجمات Sybil تُثبت النية البشرية خلف أفعال الذكاء الاصطناعي. |
 
@@ -113,7 +114,8 @@ The fastest path into the stack depends on what you want to build. Each repo shi
 | **Issue a portable agent identity** (DID, manifest, ABOM, TrustChain) | `aix-format` | [Read the spec →](https://github.com/Moeabdelaziz007/aix-format#-core-concepts--المفاهيم-الأساسية) |
 | **Run a sovereign multi-agent OS** (7 loops, MCTS, Damir conscience) | `iqra` | [Local install →](https://github.com/Moeabdelaziz007/iqra#-quick-start) |
 | **Publish or consume verified skills** (7 layers, 36+ capabilities) | `aix-agent-skills` | [Browse the registry →](https://github.com/Moeabdelaziz007/aix-agent-skills#-the-universal-skill-language-agentsskills) |
-| **Build a local-first AI twin** | `PiWorker` | [Set up the twin →](https://github.com/Moeabdelaziz007/PiWorker#-quickstart--ابدأ-التشغيل) |
+| **Build a local-first AI twin OS** | `PiWorker` | [Set up the twin →](https://github.com/Moeabdelaziz007/PiWorker#-quickstart--ابدأ-التشغيل) |
+| **Run a web-based agentic OS in the browser** | `Amrikyy-Agent` | [Launch Amrikyy AI OS →](https://github.com/Moeabdelaziz007/Amrikyy-Agent#-getting-started) |
 | **Anchor agent actions to a verified human** | `axiomid-project` | [Read AxiomID →](https://github.com/Moeabdelaziz007/axiomid-project) |
 
 ---
