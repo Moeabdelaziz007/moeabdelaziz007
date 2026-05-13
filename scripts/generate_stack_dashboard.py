@@ -42,6 +42,7 @@ DEFAULT_LANG_COLOR = "#888888"
 def aggregate_languages(client: GitHubClient, username: str) -> Tuple[Dict[str, int], int]:
     repos = client.list_user_repos(username)
     totals: Dict[str, int] = {}
+    scanned = 0
     for repo in repos:
         if repo.get("archived") or repo.get("private"):
             continue
@@ -49,10 +50,11 @@ def aggregate_languages(client: GitHubClient, username: str) -> Tuple[Dict[str, 
         name = repo.get("name")
         if not name:
             continue
+        scanned += 1
         languages = client.get_repo_languages(owner, name)
         for lang, bytes_count in languages.items():
             totals[lang] = totals.get(lang, 0) + int(bytes_count)
-    return totals, len(repos)
+    return totals, scanned
 
 
 def top_languages(totals: Dict[str, int], n: int = 10) -> List[Tuple[str, int, float]]:
