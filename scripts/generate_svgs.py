@@ -154,7 +154,7 @@ def create_advanced_header():
         f.write(svg)
 
 def create_footer_quote():
-    svg = f"""<svg width="850" height="180" viewBox="0 0 850 180" xmlns="http://www.w3.org/2000/svg">
+    svg = f"""<svg width="850" height="240" viewBox="0 0 850 240" xmlns="http://www.w3.org/2000/svg">
     <defs>
         <pattern id="carbonFiberFooter" width="10" height="10" patternUnits="userSpaceOnUse">
             <rect width="10" height="10" fill="#050505"/>
@@ -178,6 +178,11 @@ def create_footer_quote():
             fill: #aaaaaa;
             font-style: italic;
         }}
+        .quote-ar {{
+            font-family: 'Noto Naskh Arabic', 'Amiri', 'Segoe UI', sans-serif;
+            font-size: 15px;
+            fill: #888888;
+        }}
         .king {{
             font-family: 'Consolas', 'Fira Code', monospace;
             font-size: 22px;
@@ -197,15 +202,6 @@ def create_footer_quote():
             0%, 100% {{ opacity: 1; }}
             50% {{ opacity: 0; }}
         }}
-        .typing {{
-            clip-path: inset(0 100% 0 0);
-            animation: typing 4s steps(60, end) forwards;
-            animation-delay: 1s;
-        }}
-        @keyframes typing {{
-            from {{ clip-path: inset(0 100% 0 0); }}
-            to {{ clip-path: inset(0 0 0 0); }}
-        }}
     </style>
 
     <rect width="100%" height="100%" fill="url(#carbonFiberFooter)" rx="12" stroke="#39FF14" stroke-width="1" stroke-opacity="0.4"/>
@@ -215,23 +211,30 @@ def create_footer_quote():
     <rect x="0" y="0" width="100%" height="2" fill="url(#neonFade)" rx="1"/>
 
     <g text-anchor="middle">
-        <text class="king" x="425" y="60" filter="url(#glowEffect)">
-            <tspan fill="#FFD700">👑</tspan> King isn't Born, he is Made.
+        <text class="king" x="425" y="55" filter="url(#glowEffect)">
+            King isn't Born, he is Made.
         </text>
 
-        <g class="typing">
-            <text class="quote" x="425" y="105">
-                "Operating at the intersection of <tspan class="highlight">complex math</tspan> and <tspan class="highlight">raw compute</tspan>."
-            </text>
-            <text class="quote" x="425" y="135">
-                "The goal is <tspan class="highlight">10x</tspan>, or it's not worth the logic."<tspan class="cursor">_</tspan>
-            </text>
-        </g>
+        <!-- Decorative divider -->
+        <line x1="350" y1="75" x2="500" y2="75" stroke="#39FF14" stroke-width="1" stroke-opacity="0.4"/>
+
+        <text class="quote" x="425" y="110">
+            "Operating at the intersection of <tspan class="highlight">complex math</tspan> and <tspan class="highlight">raw compute</tspan>."
+        </text>
+
+        <text class="quote-ar" x="425" y="140" direction="rtl">
+            &quot;العمل عند تقاطع <tspan class="highlight">الرياضيات المعقدة</tspan> و <tspan class="highlight">قوة الحوسبة الخام</tspan>&quot;
+        </text>
+
+        <text class="quote" x="425" y="180">
+            "The goal is <tspan class="highlight">10x</tspan>, or it's not worth the logic."<tspan class="cursor">_</tspan>
+        </text>
     </g>
 
     <!-- Bottom decorative lines -->
-    <path d="M 20 160 L 100 160 L 110 170" fill="none" stroke="#39FF14" stroke-width="1" stroke-opacity="0.3"/>
-    <path d="M 830 160 L 750 160 L 740 170" fill="none" stroke="#39FF14" stroke-width="1" stroke-opacity="0.3"/>
+    <path d="M 20 215 L 100 215 L 110 225" fill="none" stroke="#39FF14" stroke-width="1" stroke-opacity="0.3"/>
+    <path d="M 830 215 L 750 215 L 740 225" fill="none" stroke="#39FF14" stroke-width="1" stroke-opacity="0.3"/>
+    <text x="425" y="222" font-family="'Consolas', monospace" font-size="9" fill="#444444" text-anchor="middle" letter-spacing="3">// END_OF_TRANSMISSION</text>
 </svg>"""
     svg_path = os.path.join(ASSETS_DIR, 'footer-quote.svg')
     with open(svg_path, 'w') as f:
