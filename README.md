@@ -2,6 +2,8 @@
 
 <img src="./assets/cyber-header.svg" alt="System Header" width="100%">
 
+<img src="./assets/avatar.svg" alt="Mohamed Abdelaziz" width="140" align="center"/>
+
 <br>
 
 # MOHAMED HOSSAM-ELDIN ABDELAZIZ
