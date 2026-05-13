@@ -108,8 +108,8 @@ class GitHubClient:
             if page > 10:  # hard cap, prevents runaway pagination
                 break
 
-        # Strip forks and archived from default consideration but retain flag
-        filtered = [r for r in results if not r.get("fork")]
+        # Filter out forked and archived repositories.
+        filtered = [r for r in results if not r.get("fork") and not r.get("archived")]
         self._cache_set(cache_key, filtered)
         return filtered
 
