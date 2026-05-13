@@ -26,13 +26,17 @@
 <a href="https://github.com/Moeabdelaziz007?tab=followers"><img src="https://img.shields.io/github/followers/Moeabdelaziz007?label=FOLLOWERS&style=for-the-badge&color=39FF14&labelColor=050505&logo=github&logoColor=39FF14" alt="Followers"/></a>
 <a href="#"><img src="https://img.shields.io/badge/STATUS-OPERATIONAL-39FF14?style=for-the-badge&labelColor=050505" alt="Status"/></a>
 
+<br><br>
+
+<img src="https://img.shields.io/badge/LANG-🇬🇧%20EN%20%C2%B7%20🇸🇦%20عربي-39FF14?style=for-the-badge&labelColor=050505" alt="Bilingual EN/AR"/>
+
 </div>
 
 <br>
 
-> *"Building systems that outlive their creators. Establishing self-evolving ecosystems and sovereign AI infrastructure."*
+> **EN ·** *"Building systems that outlive their creators. Establishing self-evolving ecosystems and sovereign AI infrastructure."*
 >
-> *"بناء أنظمة تعيش أطول من صانعيها. إنشاء أنظمة بيئية ذاتية التطور وبنية تحتية مستقلة للذكاء الاصطناعي."*
+> **AR ·** *"بناء أنظمة تعيش أطول من صانعيها. إنشاء أنظمة بيئية ذاتية التطور وبنية تحتية مستقلة للذكاء الاصطناعي."*
 
 <br>
 
@@ -42,9 +46,11 @@
 
 <br>
 
-## `01.` THE MISSION
+## `01.` THE MISSION  ·  المهمة
 
-Building a **Sovereign AI Stack**: a unified ecosystem where autonomous agents are portable, cryptographically secure, and economically self-sustaining. Three projects compose the stack: a flagship operating system, an open exchange format, and a marketplace of vetted skills.
+**EN ·** Building a **Sovereign AI Stack**: a unified ecosystem where autonomous agents are portable, cryptographically secure, and economically self-sustaining. Three projects compose the stack: a flagship operating system, an open exchange format, and a marketplace of vetted skills.
+
+**AR ·** بناء **منظومة ذكاء اصطناعي سيادية**: نظام بيئي موحَّد يكون فيه الوكلاء المستقلون قابلين للنقل، آمنين تشفيرياً، ومستدامين اقتصادياً ذاتياً. تتكوّن المنظومة من ثلاثة مشاريع: نظام تشغيل رئيسي، معيار تبادل مفتوح، وسوق للمهارات الموثَّقة.
 
 <div align="center">
   <img src="./assets/ecosystem_graph.svg" alt="The Sovereign AI Stack: IQRA, AIX-Format, AIX-Agent-Skills" width="100%"/>
@@ -52,7 +58,7 @@ Building a **Sovereign AI Stack**: a unified ecosystem where autonomous agents a
 
 <br>
 
-## `02.` FLAGSHIP ECOSYSTEM
+## `02.` FLAGSHIP ECOSYSTEM  ·  المنظومة الرئيسية
 
 <table>
 <tr>
@@ -60,8 +66,12 @@ Building a **Sovereign AI Stack**: a unified ecosystem where autonomous agents a
 
 ### 🌀 IQRA
 **The Sovereign AI Operating System**
+<br>
+**نظام التشغيل السيادي للذكاء الاصطناعي**
 
-The first AI OS architected around **7 Sovereign Loops**: Read & Map, Evaluate, Plan, Verify, Prioritize, Fix (Tawbah), Evolve. Governed by the **Damir Conscience** and **Pristine Reward Engine**. Built to obey the creator, then the user.
+**EN ·** The first AI OS architected around **7 Sovereign Loops**: Read & Map, Evaluate, Plan, Verify, Prioritize, Fix (Tawbah), Evolve. Governed by the **Damir Conscience** and **Pristine Reward Engine**. Built to obey the creator, then the user.
+
+**AR ·** أول نظام تشغيل ذكاء اصطناعي مبني حول **سبع دوائر سيادية**: القراءة والتخطيط، التقييم، التخطيط، التحقق، تحديد الأولويات، الإصلاح (التوبة)، التطوّر. يحكمه **ضمير ضمير** و**محرّك المكافأة النقية**. مُصمَّم ليُطيع الخالق، ثم المستخدم.
 
 `MCTS-369` `7 Loops` `Constitution-Governed`
 
@@ -72,8 +82,12 @@ The first AI OS architected around **7 Sovereign Loops**: Read & Map, Evaluate, 
 
 ### 📐 AIX-FORMAT
 **The M2M Trust Layer**
+<br>
+**طبقة الثقة بين الآلات**
 
-Model-agnostic format (YAML/JSON/TOML) defining schemas for episodic memory, MCP context, and VLA hardware bindings. Detached manifest architecture with **AxiomID**: Ed25519/secp256k1 payload signing prevents Sybil attacks. Built-in M2M token economics.
+**EN ·** Model-agnostic format (YAML/JSON/TOML) defining schemas for episodic memory, MCP context, and VLA hardware bindings. Detached manifest architecture with **AxiomID**: Ed25519/secp256k1 payload signing prevents Sybil attacks. Built-in M2M token economics.
+
+**AR ·** معيار محايد عن النموذج (YAML/JSON/TOML) يُعرّف هياكل البيانات للذاكرة الزمنية، سياق MCP، وروابط أجهزة VLA. معمارية manifest منفصلة مع **AxiomID**: توقيع الحمولة عبر Ed25519/secp256k1 يمنع هجمات Sybil. اقتصاديات رموز M2M مدمجة.
 
 `v0.4.0-beta` `Cryptographic` `Multi-Schema`
 
@@ -84,8 +98,12 @@ Model-agnostic format (YAML/JSON/TOML) defining schemas for episodic memory, MCP
 
 ### 🛠️ AIX-AGENT-SKILLS
 **The Agentic Marketplace**
+<br>
+**السوق الوكيلي**
 
-A self-evolving cognitive marketplace where every skill is sandboxed, red-teamed, and verified before joining the IQRA topology. **7 Layers, 36 Capabilities** across Sovereignty, Orchestration, Intelligence, Evolution, Trust, Interface, and Execution.
+**EN ·** A self-evolving cognitive marketplace where every skill is sandboxed, red-teamed, and verified before joining the IQRA topology. **7 Layers, 36 Capabilities** across Sovereignty, Orchestration, Intelligence, Evolution, Trust, Interface, and Execution.
+
+**AR ·** سوق معرفي ذاتي التطوّر حيث كل مهارة مُعزَّلة في sandbox، مفحوصة من الفريق الأحمر، ومُتحقَّق منها قبل الانضمام لطوبولوجيا IQRA. **7 طبقات، 36 قدرة** عبر السيادة، التنسيق، الذكاء، التطوّر، الثقة، الواجهة، والتنفيذ.
 
 `7 Layers` `36 Skills` `Red-Teamed`
 
@@ -97,14 +115,16 @@ A self-evolving cognitive marketplace where every skill is sandboxed, red-teamed
 
 <br>
 
-## `03.` SUPPORTING INFRASTRUCTURE
+## `03.` SUPPORTING INFRASTRUCTURE  ·  البنية التحتية الداعمة
 
 <table>
 <tr>
 <td width="50%" valign="top">
 
 ### PiWorker
-Local-first AI digital twin with voice, memory graph, ambient mini-agent presence, and a private on-device speech pipeline. *Privacy-preserving by design.*
+**EN ·** Local-first AI digital twin with voice, memory graph, ambient mini-agent presence, and a private on-device speech pipeline. *Privacy-preserving by design.*
+
+**AR ·** توأم رقمي للذكاء الاصطناعي يعمل محلياً أولاً، مع صوت، رسم بياني للذاكرة، حضور وكيل صغير محيط، وأنبوب معالجة كلام خاص على الجهاز. *حافظ على الخصوصية بطبيعة التصميم.*
 
 [`Source →`](https://github.com/Moeabdelaziz007/PiWorker)
 
@@ -112,7 +132,9 @@ Local-first AI digital twin with voice, memory graph, ambient mini-agent presenc
 <td width="50%" valign="top">
 
 ### AlphaAxiom
-Autonomous quant-trading engine using **Monte Carlo Tree Search** and World Models for zero-cost edge computing in volatile markets.
+**EN ·** Autonomous quant-trading engine using **Monte Carlo Tree Search** and World Models for zero-cost edge computing in volatile markets.
+
+**AR ·** محرّك تداول كمّي مستقل يستخدم **بحث شجرة مونت كارلو** ونماذج العالم لحوسبة طرفية صفرية التكلفة في الأسواق المتقلبة.
 
 [`Source →`](https://github.com/Moeabdelaziz007/AlphaAxiom)
 
@@ -122,7 +144,9 @@ Autonomous quant-trading engine using **Monte Carlo Tree Search** and World Mode
 <td width="50%" valign="top">
 
 ### Amrikyy-Agent
-Smart AI travel assistant for planning, booking, and exploring trips. Friendly, respectful, and conversational.
+**EN ·** Smart AI travel assistant for planning, booking, and exploring trips. Friendly, respectful, and conversational.
+
+**AR ·** مساعد سفر ذكي بالذكاء الاصطناعي للتخطيط، الحجز، واستكشاف الرحلات. ودود، محترم، وتفاعلي.
 
 [`Source →`](https://github.com/Moeabdelaziz007/Amrikyy-Agent)
 
@@ -130,7 +154,9 @@ Smart AI travel assistant for planning, booking, and exploring trips. Friendly, 
 <td width="50%" valign="top">
 
 ### AxiomID
-The Human Authorization Protocol for the Agentic Era. A Sybil-resistant identity layer proving human intent behind AI actions.
+**EN ·** The Human Authorization Protocol for the Agentic Era. A Sybil-resistant identity layer proving human intent behind AI actions.
+
+**AR ·** بروتوكول التفويض البشري لعصر الوكلاء. طبقة هويّة مقاومة لهجمات Sybil تُثبت النية البشرية خلف أفعال الذكاء الاصطناعي.
 
 [`Source →`](https://github.com/Moeabdelaziz007/axiomid-project)
 
@@ -140,28 +166,30 @@ The Human Authorization Protocol for the Agentic Era. A Sybil-resistant identity
 
 <br>
 
-## `04.` INTELLIGENCE MAP
+## `04.` INTELLIGENCE MAP  ·  خريطة الذكاء
 
-Dynamic dashboards regenerated every 3 hours from the GitHub API. They show what the profile is actually made of: which languages dominate the codebase, which repos form the AI fleet, and how contributions evolve over time.
+**EN ·** Dynamic dashboards regenerated every 3 hours from the GitHub API. They show what the profile is actually made of: which languages dominate the codebase, which repos form the AI fleet, and how contributions evolve over time.
+
+**AR ·** لوحات بيانات ديناميكية تُحدَّث كل 3 ساعات من واجهة GitHub. تُظهر مكوّنات البروفايل الفعلية: اللغات المسيطرة، خريطة وكلاء الذكاء الاصطناعي، وتطوّر المساهمات عبر الزمن.
 
 <div align="center">
-  <img src="./assets/stack_dashboard.svg" alt="Stack Dashboard — Language Distribution Across All Repos" width="100%"/>
+  <img src="./assets/stack_dashboard.svg" alt="Stack Dashboard · Language Distribution Across All Repos" width="100%"/>
 </div>
 
 <div align="center">
-  <img src="./assets/agents_inventory.svg" alt="AI Agent Inventory — Classified Repositories" width="100%"/>
+  <img src="./assets/agents_inventory.svg" alt="AI Agent Inventory · Classified Repositories" width="100%"/>
 </div>
 
 <div align="center">
-  <img src="./assets/contribution_heatmap.svg" alt="Contribution Heatmap — Last 12 Months" width="100%"/>
+  <img src="./assets/contribution_heatmap.svg" alt="Contribution Heatmap · Last 12 Months" width="100%"/>
 </div>
 
 <br>
 
-## `05.` LIVE TELEMETRY
+## `05.` LIVE TELEMETRY  ·  القياسات الحيّة
 
 <div align="center">
-  <img src="./assets/recent_work_feed.svg" alt="Recent Work Feed — Latest Public Activity" width="100%"/>
+  <img src="./assets/recent_work_feed.svg" alt="Recent Work Feed · Latest Public Activity" width="100%"/>
 </div>
 
 <div align="center">
@@ -179,11 +207,11 @@ Dynamic dashboards regenerated every 3 hours from the GitHub API. They show what
 
 <br>
 
-## `06.` SYSTEM ARSENAL
+## `06.` SYSTEM ARSENAL  ·  الترسانة التقنية
 
 <div align="center">
 
-**Languages**
+**Languages · اللغات**
 <br>
 <img src="https://img.shields.io/badge/Python-050505?style=flat-square&logo=python&logoColor=39FF14" alt="Python"/>
 <img src="https://img.shields.io/badge/TypeScript-050505?style=flat-square&logo=typescript&logoColor=39FF14" alt="TypeScript"/>
@@ -191,16 +219,16 @@ Dynamic dashboards regenerated every 3 hours from the GitHub API. They show what
 <img src="https://img.shields.io/badge/Rust-050505?style=flat-square&logo=rust&logoColor=39FF14" alt="Rust"/>
 <img src="https://img.shields.io/badge/TerboQuant-050505?style=flat-square&logo=quicktype&logoColor=39FF14" alt="TerboQuant"/>
 
-**AI & ML**
+**AI & ML · الذكاء الاصطناعي والتعلّم الآلي**
 <br>
-<img src="https://img.shields.io/badge/Gemini-050505?style=flat-square&logo=googlebard&logoColor=39FF14"/>
-<img src="https://img.shields.io/badge/Claude-050505?style=flat-square&logo=anthropic&logoColor=39FF14"/>
-<img src="https://img.shields.io/badge/TensorFlow-050505?style=flat-square&logo=tensorflow&logoColor=39FF14"/>
-<img src="https://img.shields.io/badge/JAX-050505?style=flat-square&logo=google&logoColor=39FF14"/>
-<img src="https://img.shields.io/badge/PyTorch-050505?style=flat-square&logo=pytorch&logoColor=39FF14"/>
-<img src="https://img.shields.io/badge/LangChain-050505?style=flat-square&logo=chainlink&logoColor=39FF14"/>
+<img src="https://img.shields.io/badge/Gemini-050505?style=flat-square&logo=googlebard&logoColor=39FF14" alt="Gemini"/>
+<img src="https://img.shields.io/badge/Claude-050505?style=flat-square&logo=anthropic&logoColor=39FF14" alt="Claude"/>
+<img src="https://img.shields.io/badge/TensorFlow-050505?style=flat-square&logo=tensorflow&logoColor=39FF14" alt="TensorFlow"/>
+<img src="https://img.shields.io/badge/JAX-050505?style=flat-square&logo=google&logoColor=39FF14" alt="JAX"/>
+<img src="https://img.shields.io/badge/PyTorch-050505?style=flat-square&logo=pytorch&logoColor=39FF14" alt="PyTorch"/>
+<img src="https://img.shields.io/badge/LangChain-050505?style=flat-square&logo=chainlink&logoColor=39FF14" alt="LangChain"/>
 
-**Infra & Cloud**
+**Infra & Cloud · البنية التحتية والسحابة**
 <br>
 <img src="https://img.shields.io/badge/Google_Cloud-050505?style=flat-square&logo=googlecloud&logoColor=39FF14" alt="Google Cloud"/>
 <img src="https://img.shields.io/badge/macOS-050505?style=flat-square&logo=apple&logoColor=39FF14" alt="macOS"/>
@@ -208,7 +236,7 @@ Dynamic dashboards regenerated every 3 hours from the GitHub API. They show what
 <img src="https://img.shields.io/badge/Kubernetes-050505?style=flat-square&logo=kubernetes&logoColor=39FF14" alt="Kubernetes"/>
 <img src="https://img.shields.io/badge/Firebase-050505?style=flat-square&logo=firebase&logoColor=39FF14" alt="Firebase"/>
 
-**Blockchain & Crypto**
+**Blockchain & Crypto · البلوكشين والعملات الرقمية**
 <br>
 <img src="https://img.shields.io/badge/Pi_Network-050505?style=flat-square&logo=pi&logoColor=39FF14" alt="Pi Network"/>
 <img src="https://img.shields.io/badge/Bitcoin-050505?style=flat-square&logo=bitcoin&logoColor=39FF14" alt="Bitcoin"/>
