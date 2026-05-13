@@ -63,8 +63,11 @@ def build_avatar_svg(image_bytes: bytes, size: int = 220) -> str:
     encoded = base64.b64encode(image_bytes).decode("ascii")
     cx = cy = size / 2
 
-    # Concentric radii, from photo outward
-    photo_r = size * 0.36        # photo radius
+    # Concentric radii, from photo outward.
+    # Clamp photo_r so the outermost element (backdrop disc at outer_r + 6)
+    # stays inside the square viewBox at any size. Without this the HUD
+    # crops on default sizes (220) because outer_r + 6 > size / 2.
+    photo_r = min(size * 0.36, (size / 2) - 44)
     inner_r = photo_r + 4        # solid neon border
     pulse_r = photo_r + 10       # pulsing accent
     mid_r = photo_r + 22         # counter-rotating dashed ring
