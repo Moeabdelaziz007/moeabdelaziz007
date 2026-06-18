@@ -9,14 +9,7 @@ START_TAG = '<!-- START_LIVE_DATA -->'
 END_TAG = '<!-- END_LIVE_DATA -->'
 LIVE_DATA_PATTERN = re.compile(rf'{START_TAG}.*?{END_TAG}', re.DOTALL)
 
-def update_telemetry_svg():
-    # AxiomID Metrics
-    users = random.randint(12400, 15500)
-    agents = random.randint(3100, 4800)
-    txs = random.randint(25000, 42000)
-
-    now = datetime.datetime.now(datetime.timezone.utc)
-    date_str = now.strftime("%Y-%m-%d %H:%M:%S UTC")
+def update_telemetry_svg(users, agents, txs, date_str):
 
     # Generate Hexagons for background (Neon Green tint)
     hexagons_list = []
@@ -133,7 +126,7 @@ def main():
         now = datetime.datetime.now(datetime.timezone.utc)
         date_str = now.strftime("%Y-%m-%d %H:%M:%S UTC")
 
-        update_telemetry_svg(users, agents, txs)
+        update_telemetry_svg(users, agents, txs, date_str)
 
         with open(README_PATH, 'r', encoding='utf-8') as f:
             readme_content = f.read()
