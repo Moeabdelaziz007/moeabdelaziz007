@@ -46,7 +46,7 @@ def current_streak(days: List[Dict]) -> int:
     import datetime
     today_str = datetime.date.today().isoformat()
     # Filter out future dates
-    filtered = [d for d in days if d.get("date", "") <= today_str]
+    filtered = [d for d in days if d.get("date") and d.get("date") <= today_str]
     streak = 0
     for d in reversed(filtered):
         if int(d.get("contributionCount", 0)) > 0:
