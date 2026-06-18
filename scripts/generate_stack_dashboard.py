@@ -6,11 +6,9 @@ Reads from GitHub REST API. Requires GITHUB_TOKEN for higher rate limits.
 Falls back to a static placeholder render if the API is unavailable.
 """
 
-from __future__ import annotations
 
 import os
 import sys
-from typing import Dict, List, Tuple
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from config import ASSETS_DIR, GITHUB_USER, PALETTE  # noqa: E402
@@ -39,9 +37,9 @@ LANGUAGE_COLORS = {
 DEFAULT_LANG_COLOR = "#888888"
 
 
-def aggregate_languages(client: GitHubClient, username: str) -> Tuple[Dict[str, int], int]:
+def aggregate_languages(client: GitHubClient, username: str) -> tuple[dict[str, int], int]:
     repos = client.list_user_repos(username)
-    totals: Dict[str, int] = {}
+    totals: dict[str, int] = {}
     scanned = 0
     for repo in repos:
         if repo.get("archived") or repo.get("private"):
@@ -57,13 +55,13 @@ def aggregate_languages(client: GitHubClient, username: str) -> Tuple[Dict[str, 
     return totals, scanned
 
 
-def top_languages(totals: Dict[str, int], n: int = 10) -> List[Tuple[str, int, float]]:
+def top_languages(totals: dict[str, int], n: int = 10) -> list[tuple[str, int, float]]:
     grand = sum(totals.values()) or 1
     ranked = sorted(totals.items(), key=lambda kv: kv[1], reverse=True)[:n]
     return [(lang, count, count / grand * 100.0) for lang, count in ranked]
 
 
-def render_svg(rows: List[Tuple[str, int, float]], repo_count: int) -> str:
+def render_svg(rows: list[tuple[str, int, float]], repo_count: int) -> str:
     bar_max = 360
     line_h = 32
     height = 100 + line_h * max(len(rows), 1) + 30

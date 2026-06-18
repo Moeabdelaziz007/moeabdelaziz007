@@ -3,12 +3,10 @@
 Output: assets/agents_inventory.svg
 """
 
-from __future__ import annotations
 
 import os
 import re
 import sys
-from typing import Dict, List
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from config import ASSETS_DIR, GITHUB_USER, PALETTE  # noqa: E402
@@ -29,7 +27,7 @@ CATEGORY_RULES = [
 ]
 
 
-def classify(repo: Dict) -> str:
+def classify(repo: dict) -> str:
     text = " ".join([
         str(repo.get("name") or ""),
         str(repo.get("description") or ""),
@@ -42,7 +40,7 @@ def classify(repo: Dict) -> str:
     return "Other"
 
 
-def select_top_repos(repos: List[Dict], limit: int = 12) -> List[Dict]:
+def select_top_repos(repos: list[dict], limit: int = 12) -> list[dict]:
     """Pick repos that look meaningful: have description, sorted by stars then update time."""
     ranked = [r for r in repos if not r.get("archived") and not r.get("fork")]
     ranked.sort(
@@ -62,7 +60,7 @@ def truncate(text: str, n: int) -> str:
     return text if len(text) <= n else text[: n - 1].rstrip() + "…"
 
 
-def render_svg(repos: List[Dict], total_repos: int) -> str:
+def render_svg(repos: list[dict], total_repos: int) -> str:
     cols = 3
     card_w = 220
     card_h = 110

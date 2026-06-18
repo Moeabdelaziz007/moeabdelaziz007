@@ -14,7 +14,6 @@ self-contained and works regardless of GitHub's cross-origin image loading
 rules for nested <image href="..."> tags.
 """
 
-from __future__ import annotations
 
 import base64
 import io

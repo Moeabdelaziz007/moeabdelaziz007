@@ -3,11 +3,9 @@
 Output: assets/contribution_heatmap.svg
 """
 
-from __future__ import annotations
 
 import os
 import sys
-from typing import Dict, List, Tuple
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from config import ASSETS_DIR, GITHUB_USER, PALETTE  # noqa: E402
@@ -31,7 +29,7 @@ def neon_shade(count: int, max_count: int) -> str:
     return "#39FF14"
 
 
-def longest_streak(days: List[Dict]) -> int:
+def longest_streak(days: list[dict]) -> int:
     best = current = 0
     for d in days:
         if int(d.get("contributionCount", 0)) > 0:
@@ -42,7 +40,7 @@ def longest_streak(days: List[Dict]) -> int:
     return best
 
 
-def current_streak(days: List[Dict]) -> int:
+def current_streak(days: list[dict]) -> int:
     import datetime
     today_str = datetime.date.today().isoformat()
     # Filter out future dates
@@ -64,15 +62,15 @@ def current_streak(days: List[Dict]) -> int:
     return streak
 
 
-def flatten_days(weeks: List[Dict]) -> List[Dict]:
-    out: List[Dict] = []
+def flatten_days(weeks: list[dict]) -> list[dict]:
+    out: list[dict] = []
     for w in weeks:
         for d in w.get("contributionDays", []):
             out.append(d)
     return out
 
 
-def render_svg(contributions: Dict) -> str:
+def render_svg(contributions: dict) -> str:
     calendar = contributions.get("contributionCalendar", {})
     weeks = calendar.get("weeks", [])
     total = int(calendar.get("totalContributions", 0))
