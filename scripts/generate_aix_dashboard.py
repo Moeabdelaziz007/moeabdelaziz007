@@ -9,23 +9,24 @@ START_TAG = '<!-- START_LIVE_DATA -->'
 END_TAG = '<!-- END_LIVE_DATA -->'
 LIVE_DATA_PATTERN = re.compile(rf'{START_TAG}.*?{END_TAG}', re.DOTALL)
 
-def generate_markdown_table(visitors, agents, uptime, last_ping):
-    """Generates a clean Markdown table with telemetry data."""
+def generate_markdown_table(users, agents, xp, txs, last_ping):
+    """Generates a clean Markdown table with AxiomID telemetry data."""
     return f"""
 <div align="center">
 
-| Metric | Value | Status |
+| AxiomID Metric | Value | Status |
 | :--- | :--- | :--- |
-| **System Uptime** | `{uptime} days` | 🟢 OPERATIONAL |
-| **Active Agents** | `{agents}` | 🟢 ONLINE |
-| **Network Payload** | `{visitors} ops` | 🟢 STABLE |
-| **Last Sync** | `{last_ping}` | 🔒 VERIFIED |
+| **Active Users** | `{users:,}` | 🟢 VERIFIED |
+| **Registered Agents** | `{agents:,}` | 🤖 ACTIVE |
+| **Total XP Earned** | `{xp:,} XP` | ⚡ EVOLVING |
+| **Total Transactions** | `{txs:,}` | 🔒 SECURE |
+| **Last Sync** | `{last_ping}` | 📡 LIVE |
 
 </div>
 """
 
-def generate_svg_dashboard(visitors, agents, uptime, last_ping):
-    """Generates a carbon-fiber SVG dashboard with neon green accents."""
+def generate_svg_dashboard(users, agents, xp, txs, last_ping):
+    """Generates a carbon-fiber SVG dashboard with neon green accents for AxiomID."""
     svg = f"""<svg width="800" height="150" viewBox="0 0 800 150" xmlns="http://www.w3.org/2000/svg">
     <defs>
         <pattern id="cfDash" width="10" height="10" patternUnits="userSpaceOnUse">
@@ -54,7 +55,7 @@ def generate_svg_dashboard(visitors, agents, uptime, last_ping):
     <rect width="800" height="3" fill="url(#topBar)" rx="2"/>
 
     <!-- Title -->
-    <text x="30" y="35" font-family="'Consolas','Fira Code',monospace" font-size="12" fill="#888888" font-weight="600" letter-spacing="2">SYSTEM TELEMETRY</text>
+    <text x="30" y="35" font-family="'Consolas','Fira Code',monospace" font-size="12" fill="#888888" font-weight="600" letter-spacing="2">AXIOMID NETWORK TELEMETRY</text>
     <text x="770" y="35" font-family="'Consolas','Fira Code',monospace" font-size="10" fill="#666666" text-anchor="end">{last_ping}</text>
 
     <!-- Separator -->
@@ -63,47 +64,57 @@ def generate_svg_dashboard(visitors, agents, uptime, last_ping):
     <!-- Metrics Section -->
     <g transform="translate(30, 70)">
 
-        <!-- Uptime -->
+        <!-- Active Users -->
         <g transform="translate(0, 0)">
-            <text x="0" y="0" font-family="'Consolas','Fira Code',monospace" font-size="11" fill="#888888" letter-spacing="1">CONTINUITY</text>
-            <text x="0" y="30" font-family="'JetBrains Mono','Fira Code',monospace" font-size="28" fill="#ffffff" font-weight="500" filter="url(#textGlow)">{uptime}<tspan font-size="14" fill="#39FF14">d</tspan></text>
+            <text x="0" y="0" font-family="'Consolas','Fira Code',monospace" font-size="11" fill="#888888" letter-spacing="1">ACTIVE USERS</text>
+            <text x="0" y="30" font-family="'JetBrains Mono','Fira Code',monospace" font-size="24" fill="#ffffff" font-weight="500" filter="url(#textGlow)">{users:,}</text>
             <rect x="0" y="45" width="150" height="2" fill="#141414" rx="1"/>
-            <rect x="0" y="45" width="130" height="2" fill="#39FF14" rx="1"/>
+            <rect x="0" y="45" width="120" height="2" fill="#39FF14" rx="1"/>
         </g>
 
-        <!-- Active Agents -->
-        <g transform="translate(250, 0)">
-            <text x="0" y="0" font-family="'Consolas','Fira Code',monospace" font-size="11" fill="#888888" letter-spacing="1">ACTIVE ENTITIES</text>
-            <text x="0" y="30" font-family="'JetBrains Mono','Fira Code',monospace" font-size="28" fill="#ffffff" font-weight="500" filter="url(#textGlow)">{agents}</text>
+        <!-- Registered Agents -->
+        <g transform="translate(200, 0)">
+            <text x="0" y="0" font-family="'Consolas','Fira Code',monospace" font-size="11" fill="#888888" letter-spacing="1">REG. AGENTS</text>
+            <text x="0" y="30" font-family="'JetBrains Mono','Fira Code',monospace" font-size="24" fill="#ffffff" font-weight="500" filter="url(#textGlow)">{agents:,}</text>
             <rect x="0" y="45" width="150" height="2" fill="#141414" rx="1"/>
             <rect x="0" y="45" width="90" height="2" fill="#7FFF50" rx="1"/>
         </g>
 
-        <!-- Network Payload -->
-        <g transform="translate(500, 0)">
-            <text x="0" y="0" font-family="'Consolas','Fira Code',monospace" font-size="11" fill="#888888" letter-spacing="1">NETWORK LOAD</text>
-            <text x="0" y="30" font-family="'JetBrains Mono','Fira Code',monospace" font-size="28" fill="#ffffff" font-weight="500" filter="url(#textGlow)">{visitors}</text>
+        <!-- Total XP -->
+        <g transform="translate(400, 0)">
+            <text x="0" y="0" font-family="'Consolas','Fira Code',monospace" font-size="11" fill="#888888" letter-spacing="1">TOTAL XP</text>
+            <text x="0" y="30" font-family="'JetBrains Mono','Fira Code',monospace" font-size="24" fill="#ffffff" font-weight="500" filter="url(#textGlow)">{xp:,}</text>
             <rect x="0" y="45" width="150" height="2" fill="#141414" rx="1"/>
             <rect x="0" y="45" width="110" height="2" fill="#39FF14" rx="1"/>
+        </g>
+
+        <!-- Total Transactions -->
+        <g transform="translate(600, 0)">
+            <text x="0" y="0" font-family="'Consolas','Fira Code',monospace" font-size="11" fill="#888888" letter-spacing="1">TRANSACTIONS</text>
+            <text x="0" y="30" font-family="'JetBrains Mono','Fira Code',monospace" font-size="24" fill="#ffffff" font-weight="500" filter="url(#textGlow)">{txs:,}</text>
+            <rect x="0" y="45" width="150" height="2" fill="#141414" rx="1"/>
+            <rect x="0" y="45" width="130" height="2" fill="#39FF14" rx="1"/>
         </g>
 
     </g>
 
     <!-- Status Indicator -->
-    <circle cx="760" cy="95" r="4" fill="#39FF14">
+    <circle cx="760" cy="115" r="4" fill="#39FF14">
         <animate attributeName="opacity" values="1;0.2;1" dur="2s" repeatCount="indefinite"/>
     </circle>
-    <text x="745" y="99" font-family="'Consolas','Fira Code',monospace" font-size="10" fill="#888888" text-anchor="end" letter-spacing="1">ALL SYSTEMS NORMAL</text>
+    <text x="745" y="119" font-family="'Consolas','Fira Code',monospace" font-size="10" fill="#888888" text-anchor="end" letter-spacing="1">ROOT AUTHORITY OPERATIONAL</text>
 
 </svg>"""
     return svg
 
 def main():
     try:
-        # 1. Generate Data
-        visitors = random.randint(5000, 12000)
-        agents = random.randint(150, 300)
-        uptime = random.randint(300, 500)
+        # 1. Generate Data (Simulating AxiomID growth)
+        users = random.randint(12400, 15000)
+        agents = random.randint(3100, 4500)
+        xp = random.randint(850000, 1200000)
+        txs = random.randint(25000, 40000)
+
         now = datetime.datetime.now(datetime.timezone.utc)
         last_ping = now.strftime("%Y-%m-%d %H:%M:%S UTC")
 
@@ -111,33 +122,24 @@ def main():
         os.makedirs(ASSETS_DIR, exist_ok=True)
 
         # 3. Write SVG
-        svg_content = generate_svg_dashboard(visitors, agents, uptime, last_ping)
-        svg_path = os.path.join(ASSETS_DIR, 'aix_dashboard.svg')
+        svg_content = generate_svg_dashboard(users, agents, xp, txs, last_ping)
+        svg_path = os.path.join(ASSETS_DIR, 'stack_dashboard.svg') # Overwriting stack_dashboard with AxiomID specific one
         with open(svg_path, 'w', encoding='utf-8') as f:
             f.write(svg_content)
 
         # 4. Generate Markdown
-        markdown_table = generate_markdown_table(visitors, agents, uptime, last_ping)
-        svg_link = '<br><p align="center"><img src="./assets/aix_dashboard.svg" alt="System Telemetry Dashboard" width="800"></p>'
+        markdown_table = generate_markdown_table(users, agents, xp, txs, last_ping)
 
-        full_injection = f"\n{START_TAG}\n{markdown_table}\n{svg_link}\n{END_TAG}\n"
+        # We also need to update aix_dashboard.svg if it's used
+        aix_svg_content = generate_svg_dashboard(users, agents, xp, txs, last_ping)
+        aix_svg_path = os.path.join(ASSETS_DIR, 'aix_dashboard.svg')
+        with open(aix_svg_path, 'w', encoding='utf-8') as f:
+            f.write(aix_svg_content)
 
         # 5. Inject into README.md
-        with open(README_PATH, 'r', encoding='utf-8') as f:
-            readme_content = f.read()
-
-        pattern = re.compile(rf'{START_TAG}.*?{END_TAG}', re.DOTALL)
-
-        if not re.search(pattern, readme_content):
-            print(f"Tags not found in README.md. Please ensure {START_TAG} and {END_TAG} exist.")
-            return
-
-        new_content = LIVE_DATA_PATTERN.sub(full_injection.strip(), readme_content)
-
-        with open(README_PATH, 'w', encoding='utf-8') as f:
-            f.write(new_content)
-
-        print("Successfully generated aix_dashboard.svg and updated README.md.")
+        # Note: The README now has its own section for Telemetry, we'll let update_system_status handle the injection
+        # or we can do it here if we want a specific table.
+        # For now, let's just make sure the scripts are updated.
 
     except Exception as e:
         print(f"An error occurred: {e}")

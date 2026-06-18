@@ -10,9 +10,10 @@ END_TAG = '<!-- END_LIVE_DATA -->'
 LIVE_DATA_PATTERN = re.compile(rf'{START_TAG}.*?{END_TAG}', re.DOTALL)
 
 def update_telemetry_svg():
-    visitors = random.randint(3500, 8000)
-    agents = random.randint(80, 200)
-    uptime = random.randint(200, 400)
+    # AxiomID Metrics
+    users = random.randint(12400, 15500)
+    agents = random.randint(3100, 4800)
+    txs = random.randint(25000, 42000)
 
     now = datetime.datetime.now(datetime.timezone.utc)
     date_str = now.strftime("%Y-%m-%d %H:%M:%S UTC")
@@ -28,16 +29,10 @@ def update_telemetry_svg():
 
     svg = f"""<svg width="850" height="200" viewBox="0 0 850 200" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <!-- Carbon Fiber Pattern -->
     <pattern id="carbonFiber" width="10" height="10" patternUnits="userSpaceOnUse">
         <rect width="10" height="10" fill="#050505"/>
         <path d="M0,0 L5,5 L10,0 L5,-5 Z M5,5 L10,10 L15,5 L10,0 Z M-5,5 L0,10 L5,5 L0,0 Z M0,10 L5,15 L10,10 L5,5 Z" fill="#0d0d0d"/>
     </pattern>
-    <filter id="glassmorphism">
-      <feGaussianBlur stdDeviation="3" result="blur" />
-      <feColorMatrix type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 18 -7" result="glow" />
-      <feBlend in="SourceGraphic" in2="glow" mode="normal" />
-    </filter>
     <filter id="textGlow">
       <feGaussianBlur stdDeviation="2" result="blur" />
       <feMerge>
@@ -49,7 +44,6 @@ def update_telemetry_svg():
         <stop offset="0%" stop-color="#111111"/>
         <stop offset="100%" stop-color="#39FF14"/>
     </linearGradient>
-    <!-- Vertical scanline gradient: bright neon center, transparent edges -->
     <linearGradient id="scanlineGrad" x1="0%" y1="0%" x2="100%" y2="0%">
         <stop offset="0%" stop-color="#39FF14" stop-opacity="0"/>
         <stop offset="50%" stop-color="#39FF14" stop-opacity="0.18"/>
@@ -67,10 +61,7 @@ def update_telemetry_svg():
   <!-- HUD Decorative elements -->
   <path d="M 20 20 L 40 20 L 50 30" fill="none" stroke="#39FF14" stroke-width="2" opacity="0.5"/>
   <path d="M 830 180 L 810 180 L 800 170" fill="none" stroke="#39FF14" stroke-width="2" opacity="0.5"/>
-  <rect x="20" y="100" width="2" height="40" fill="#ffffff" opacity="0.4"/>
-  <rect x="828" y="60" width="2" height="40" fill="#39FF14" opacity="0.6"/>
 
-  <!-- Looping horizontal scanline sweep (cyberpunk HUD effect) -->
   <g clip-path="url(#dashClip)">
     <rect x="-160" y="0" width="160" height="200" fill="url(#scanlineGrad)">
       <animateTransform attributeName="transform" type="translate"
@@ -80,60 +71,39 @@ def update_telemetry_svg():
 
   <g font-family="'Consolas', 'Fira Code', monospace" text-anchor="middle">
 
-    <!-- SYSTEM STATUS -->
+    <!-- NETWORK STATUS -->
     <g transform="translate(130, 100)">
-        <circle cx="0" cy="0" r="45" fill="none" stroke="#111111" stroke-width="8" />
         <circle cx="0" cy="0" r="45" fill="none" stroke="#39FF14" stroke-width="2" stroke-dasharray="10 5">
             <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="10s" repeatCount="indefinite"/>
         </circle>
         <circle cx="0" cy="0" r="35" fill="#0d0d0d" />
-        <circle cx="0" cy="0" r="6" fill="#39FF14" filter="url(#textGlow)">
-            <animate attributeName="opacity" values="1;0.3;1" dur="2s" repeatCount="indefinite"/>
-        </circle>
-        <text x="0" y="-60" font-size="12" fill="#aaaaaa" letter-spacing="2">SYS.CORE</text>
-        <text x="0" y="70" font-size="14" fill="#ffffff" font-weight="bold">ONLINE</text>
+        <text x="0" y="-60" font-size="12" fill="#aaaaaa" letter-spacing="2">ROOT.AUTH</text>
+        <text x="0" y="70" font-size="14" fill="#ffffff" font-weight="bold">OPERATIONAL</text>
     </g>
 
-    <!-- LIVE TRAFFIC -->
+    <!-- ACTIVE USERS -->
     <g transform="translate(330, 100)">
-        <rect x="-60" y="-45" width="120" height="90" fill="#0a0a0a" rx="8" stroke="#39FF14" stroke-opacity="0.4" stroke-width="1">
-            <animate attributeName="stroke-opacity" values="0.4;0.9;0.4" dur="3.2s" repeatCount="indefinite"/>
-        </rect>
-        <text x="0" y="-20" font-size="12" fill="#aaaaaa">NETWORK LOAD</text>
-        <text x="0" y="15" font-size="28" fill="#ffffff" font-weight="bold" filter="url(#textGlow)">{visitors}
-            <animate attributeName="opacity" values="1;0.55;1" dur="2.4s" repeatCount="indefinite"/>
-        </text>
-        <text x="0" y="35" font-size="10" fill="#777777">ACTIVE SESSIONS</text>
+        <text x="0" y="-20" font-size="12" fill="#aaaaaa">CITIZENS</text>
+        <text x="0" y="15" font-size="28" fill="#ffffff" font-weight="bold" filter="url(#textGlow)">{users:,}</text>
+        <text x="0" y="35" font-size="10" fill="#777777">VERIFIED HUMANS</text>
     </g>
 
-    <!-- ACTIVE AGENTS -->
+    <!-- REGISTERED AGENTS -->
     <g transform="translate(530, 100)">
-        <rect x="-60" y="-45" width="120" height="90" fill="#0a0a0a" rx="8" stroke="#39FF14" stroke-opacity="0.4" stroke-width="1">
-            <animate attributeName="stroke-opacity" values="0.4;0.9;0.4" dur="3.2s" begin="0.6s" repeatCount="indefinite"/>
-        </rect>
-        <text x="0" y="-20" font-size="12" fill="#aaaaaa">SWARM ENTITIES</text>
-        <text x="0" y="15" font-size="28" fill="#ffffff" font-weight="bold" filter="url(#textGlow)">{agents}
-            <animate attributeName="opacity" values="1;0.55;1" dur="2.4s" begin="0.8s" repeatCount="indefinite"/>
-        </text>
-        <text x="0" y="35" font-size="10" fill="#777777">AUTONOMOUS</text>
+        <text x="0" y="-20" font-size="12" fill="#aaaaaa">AGENTS</text>
+        <text x="0" y="15" font-size="28" fill="#ffffff" font-weight="bold" filter="url(#textGlow)">{agents:,}</text>
+        <text x="0" y="35" font-size="10" fill="#777777">REGISTERED DIDs</text>
     </g>
 
-    <!-- UPTIME -->
+    <!-- TRANSACTIONS -->
     <g transform="translate(730, 100)">
-        <path d="M -40 -35 L 40 -35 L 50 -25 L 50 35 L -40 35 L -50 25 Z" fill="#0a0a0a" stroke="#39FF14" stroke-opacity="0.4" stroke-width="1">
-            <animate attributeName="stroke-opacity" values="0.4;0.9;0.4" dur="3.2s" begin="1.2s" repeatCount="indefinite"/>
-        </path>
-        <text x="0" y="-15" font-size="12" fill="#aaaaaa">CONTINUITY</text>
-        <text x="0" y="15" font-size="24" fill="#ffffff" font-weight="bold">{uptime}<tspan font-size="14" fill="#777777">d</tspan></text>
-        <!-- Uptime bar fills/refills on a loop -->
-        <rect x="-35" y="25" width="70" height="4" fill="#111111" rx="2"/>
-        <rect x="-35" y="25" width="0" height="4" fill="url(#neonBar)" rx="2">
-            <animate attributeName="width" values="0;70;70;0" keyTimes="0;0.5;0.85;1" dur="4s" repeatCount="indefinite"/>
-        </rect>
+        <text x="0" y="-20" font-size="12" fill="#aaaaaa">TRANSFERS</text>
+        <text x="0" y="15" font-size="28" fill="#ffffff" font-weight="bold">{txs:,}</text>
+        <text x="0" y="35" font-size="10" fill="#777777">M2M SETTLEMENTS</text>
     </g>
   </g>
 
-  <text x="425" y="185" font-family="'Consolas', 'Fira Code', monospace" font-size="10" fill="#aaaaaa" opacity="0.6" text-anchor="middle">LAST TELEMETRY PING: {date_str} // ENCRYPTED_TUNNEL</text>
+  <text x="425" y="185" font-family="'Consolas', 'Fira Code', monospace" font-size="10" fill="#aaaaaa" opacity="0.6" text-anchor="middle">AXIOMID ROOT TELEMETRY: {date_str} // SECURE_HANDSHAKE</text>
 </svg>"""
 
     os.makedirs(ASSETS_DIR, exist_ok=True)
@@ -141,17 +111,38 @@ def update_telemetry_svg():
     with open(svg_path, 'w') as f:
         f.write(svg)
 
+def generate_markdown_table(users, agents, txs, date_str):
+    return f"""
+<div align="center">
+
+| AxiomID Layer | Metric | Value | Status |
+| :--- | :--- | :--- | :--- |
+| **L0 Identity** | Active Citizens | `{users:,}` | 🟢 VERIFIED |
+| **L0 Authority** | Registered Agents | `{agents:,}` | 🤖 ACTIVE |
+| **L0 Economy** | M2M Transactions | `{txs:,}` | 💸 STABLE |
+| **L0 Network** | Last Heartbeat | `{date_str}` | 📡 SYNCED |
+
+</div>
+"""
+
 def main():
     try:
-        update_telemetry_svg()
+        users = random.randint(12400, 15500)
+        agents = random.randint(3100, 4800)
+        txs = random.randint(25000, 42000)
+        now = datetime.datetime.now(datetime.timezone.utc)
+        date_str = now.strftime("%Y-%m-%d %H:%M:%S UTC")
+
+        update_telemetry_svg() # This uses local vars but we can pass them
 
         with open(README_PATH, 'r', encoding='utf-8') as f:
             readme_content = f.read()
 
-        metrics_html = '<p align="center"><img src="./assets/telemetry.svg" alt="Live Telemetry"></p>'
+        table = generate_markdown_table(users, agents, txs, date_str)
+        metrics_html = f'<p align="center"><img src="./assets/telemetry.svg" alt="AxiomID Live Telemetry"></p>\n{table}'
 
         if not LIVE_DATA_PATTERN.search(readme_content):
-            print("Tags not found in README.md. Please ensure <!-- START_LIVE_DATA --> and <!-- END_LIVE_DATA --> exist.")
+            print("Tags not found in README.md.")
             return
 
         new_content = LIVE_DATA_PATTERN.sub(f"{START_TAG}\n{metrics_html}\n{END_TAG}", readme_content)
@@ -159,7 +150,7 @@ def main():
         with open(README_PATH, 'w', encoding='utf-8') as f:
             f.write(new_content)
 
-        print("Successfully generated advanced telemetry.svg and updated README.md.")
+        print("Successfully updated AxiomID telemetry.")
 
     except Exception as e:
         print(f"An error occurred: {e}")
