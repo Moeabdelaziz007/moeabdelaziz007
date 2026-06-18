@@ -154,7 +154,7 @@ def create_advanced_header():
         f.write(svg)
 
 def create_footer_quote():
-    svg = """<svg width="850" height="240" viewBox="0 0 850 240" xmlns="http://www.w3.org/2000/svg">
+    svg = f"""<svg width="850" height="240" viewBox="0 0 850 240" xmlns="http://www.w3.org/2000/svg">
     <defs>
         <pattern id="carbonFiberFooter" width="10" height="10" patternUnits="userSpaceOnUse">
             <rect width="10" height="10" fill="#050505"/>
