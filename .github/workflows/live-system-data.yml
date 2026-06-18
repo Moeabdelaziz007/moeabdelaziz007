@@ -13,7 +13,7 @@ permissions:
 
 jobs:
   update-readme:
-    runs-on: blacksmith-2vcpu-ubuntu-2404
+    runs-on: ubuntu-latest
     permissions:
       contents: write
     env:
@@ -38,9 +38,6 @@ jobs:
 
       - name: Generate contribution heatmap
         run: python scripts/generate_contribution_heatmap.py
-
-      - name: Generate ecosystem graph
-        run: python scripts/generate_ecosystem_graph.py
 
       - name: Generate recent work feed
         run: python scripts/generate_recent_work_feed.py

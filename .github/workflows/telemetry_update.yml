@@ -1,8 +1,8 @@
 name: Update System Telemetry
 
 on:
-  schedule:
-    - cron: "0 */6 * * *"
+  # Disabled scheduled runs: live-system-data.yml is the single source of truth
+  # for telemetry + README injection. Kept for manual runs only.
   workflow_dispatch:
 
 permissions:
@@ -10,7 +10,7 @@ permissions:
 
 jobs:
   update-telemetry:
-    runs-on: blacksmith-2vcpu-ubuntu-2404
+    runs-on: ubuntu-latest
     permissions:
       contents: write
 
