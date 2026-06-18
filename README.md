@@ -52,6 +52,12 @@
 
 <br>
 
+<div align="center">
+  <img src="./assets/contribution_heatmap.svg" alt="Day-by-Day Contribution Journey · Last 12 Months" width="100%"/>
+</div>
+
+<br>
+
 ## `01.` THE MISSION  ·  المهمة
 
 **EN ·** AxiomID is the **Human Authorization Protocol**. We reject the dystopian future of hardware dependencies and iris scans. Instead, we architect a software-first, privacy-preserving ecosystem where reputation is earned through history, actions, and stakes. As the L0 Root Authority, AxiomID issues `did:axiom:axiomid.app:*` identifiers that empower humans to delegate authority to their AI agents securely and economically via the Pi Network.
