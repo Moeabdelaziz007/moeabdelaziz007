@@ -133,7 +133,7 @@ def main():
         now = datetime.datetime.now(datetime.timezone.utc)
         date_str = now.strftime("%Y-%m-%d %H:%M:%S UTC")
 
-        update_telemetry_svg() # This uses local vars but we can pass them
+        update_telemetry_svg(users, agents, txs)
 
         with open(README_PATH, 'r', encoding='utf-8') as f:
             readme_content = f.read()
