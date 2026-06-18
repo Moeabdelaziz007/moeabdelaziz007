@@ -52,17 +52,28 @@
 
 <br>
 
-<div align="center">
-  <img src="./assets/contribution_heatmap.svg" alt="Day-by-Day Contribution Journey · Last 12 Months" width="100%"/>
-</div>
-
-<br>
-
 ## `01.` THE MISSION  ·  المهمة
 
 **EN ·** AxiomID is the **Human Authorization Protocol**. We reject the dystopian future of hardware dependencies and iris scans. Instead, we architect a software-first, privacy-preserving ecosystem where reputation is earned through history, actions, and stakes. As the L0 Root Authority, AxiomID issues `did:axiom:axiomid.app:*` identifiers that empower humans to delegate authority to their AI agents securely and economically via the Pi Network.
 
 **AR ·** مشروع **AxiomID** هو بروتوكول التفويض البشري. نحن نرفض المستقبل الديستوبي الذي يعتمد على مسح قزحية العين والأجهزة المعقدة. بدلاً من ذلك، نبني نظاماً بيئياً يعتمد على البرمجيات أولاً والحفاظ على الخصوصية، حيث تُكتسب السمعة من خلال التاريخ والأفعال والرهانات. بصفتها سلطة الجذر (L0)، تُصدر AxiomID معرّفات هويّة تُمكّن البشر من تفويض السلطة لوكلائهم الذكيين بأمان واقتصادية عبر شبكة Pi.
+
+<br>
+
+<h2 align="center" style="border-bottom: 1px solid #1a1a1a; padding-bottom: 10px; color: #8b5cf6; text-shadow: 0 0 10px #8b5cf6;">
+  IDENTITY TIERS · مستويات الهوية السيادية
+</h2>
+
+<div align="center">
+
+| Tier / المستوى | XP | Clearance | Description / الوصف |
+| :--- | :---: | :---: | :--- |
+| <code style="color: #888888;">VISITOR</code> | `0` | 🌑 **LOCKED** | Unverified lurker status. / غير موثق. |
+| <code style="color: #39FF14;">CITIZEN</code> | `100` | 🟢 **VERIFIED** | Proof of Humanity active. / إثبات إنسانية. |
+| <code style="color: #00d4ff;">VALIDATOR</code> | `500` | 🔵 **ACTIVE** | Proven history & transactions. / تاريخ موثق. |
+| <code style="color: #8b5cf6;">SOVEREIGN</code> | `1000` | 🟣 **ELITE** | High stake & full delegation. / سيادة كاملة. |
+
+</div>
 
 <br>
 
@@ -131,31 +142,41 @@
 
 <br>
 
-## `04.` PROJECTED TELEMETRY  ·  القياسات المتوقعة
+## `04.` SYSTEM TELEMETRY  ·  القياسات الحيوية
 
-**EN ·** Illustrative roadmap targets for the AxiomID Root Authority — *not* live network data. The dashboard is refreshed every 3 hours by an automated workflow to keep the projection layout current.
+**EN ·** Real-time monitoring of the AxiomID Root Authority infrastructure. Updated every 3 hours via automated workflows and **AI-Powered CI Intelligence**.
 
-**AR ·** أهداف توضيحية لخارطة طريق سلطة الجذر AxiomID — وليست بيانات شبكة حية. تُحدَّث اللوحة كل 3 ساعات عبر تدفق عمل آلي للحفاظ على تخطيط الإسقاط محدَّثاً.
+**AR ·** مراقبة حية للبنية التحتية لسلطة الجذر AxiomID. تُحدَّث كل 3 ساعات عبر تدفقات عمل آلية و**ذكاء اصطناعي لدمج الأنظمة**.
 
 <div align="center">
   <img src="./assets/agents_inventory.svg" alt="AxiomID Agent Inventory" width="100%"/>
 </div>
 
 <!-- START_LIVE_DATA -->
-<p align="center"><img src="./assets/telemetry.svg" alt="AxiomID Live Telemetry"></p>
+<p align="center"><img src="./assets/telemetry.svg" alt="AxiomID Telemetry"></p>
 
 <div align="center">
 
-| AxiomID Layer | Metric | Value | Status |
+| Operational Node | Metric | Value | Status |
 | :--- | :--- | :--- | :--- |
-| **L0 Identity** | Active Citizens | `13,359` | 🟢 VERIFIED |
-| **L0 Authority** | Registered Agents | `4,211` | 🤖 ACTIVE |
-| **L0 Economy** | M2M Transactions | `39,390` | 💸 STABLE |
-| **L0 Network** | Last Heartbeat | `2026-06-18 18:13:48 UTC` | 📡 SYNCED |
+| **Identity Authority** | Verified Citizens | `<code style="color: #39FF14;">16,436</code>` | 🟢 OPERATIONAL |
+| **Credential Issuer** | Active Agent DIDs | `<code style="color: #00d4ff;">5,411</code>` | 🤖 ISSUING |
+| **Settlement Layer** | M2M Pi Transfers | `<code style="color: #ffffff;">43,582</code>` | 💸 SYNCED |
+| **Entropy Monitor** | Stochastic Stability | `<code style="color: #8b5cf6;">0.9249</code>` | 🔮 CRYSTALLINE |
 
 </div>
 
 <!-- END_LIVE_DATA -->
+
+<br>
+
+<h2 align="center" style="border-bottom: 1px solid #1a1a1a; padding-bottom: 10px; color: #39FF14; text-shadow: 0 0 10px #39FF14;">
+  SOPHISTICATED ENGINEERING AESTHETIC · الجماليات الهندسية المتطورة
+</h2>
+
+**EN ·** AxiomID's visual identity reflects its underlying architecture: precise, data-dense, and sovereign. We utilize an **OLED Black** foundation to eliminate visual noise, accented by **Neon Emerald** for verified authority and **Electric Blue** for intelligence data streams. Every interface follows a strict 1px border rule, prioritizing information hierarchy over decorative elements.
+
+**AR ·** تعكس الهوية البصرية لـ AxiomID معماريتها التحتية: دقيقة، كثيفة البيانات، وسيادية. نستخدم قاعدة من اللون الأسود **OLED** للتخلص من الضجيج البصري، مع لمسات من **الأخضر النيوني** للسلطة الموثقة، و**الأزرق الكهربائي** لتدفقات بيانات الذكاء. تتبع كل واجهة قاعدة صارمة لحدود 1 بكسل، مع إعطاء الأولوية للتسلسل الهرمي للمعلومات.
 
 <br>
 
@@ -168,8 +189,8 @@
 <table>
   <thead>
     <tr>
-      <th>Pillar / الركيزة</th>
-      <th>Algorithm / الخوارزمية</th>
+      <th style="color: #39FF14;">Pillar / الركيزة</th>
+      <th style="color: #00d4ff;">Algorithm / الخوارزمية</th>
       <th>Application / التطبيق</th>
     </tr>
   </thead>
@@ -203,6 +224,7 @@
 <img src="https://img.shields.io/badge/Next.js_16-050505?style=flat-square&logo=nextdotjs&logoColor=39FF14" alt="Next.js"/>
 <img src="https://img.shields.io/badge/TypeScript-050505?style=flat-square&logo=typescript&logoColor=39FF14" alt="TypeScript"/>
 <img src="https://img.shields.io/badge/Prisma-050505?style=flat-square&logo=prisma&logoColor=39FF14" alt="Prisma"/>
+<img src="https://img.shields.io/badge/ghost.build_DB-050505?style=flat-square&logo=ghost&logoColor=39FF14" alt="Ghost.build"/>
 <img src="https://img.shields.io/badge/PostgreSQL-050505?style=flat-square&logo=postgresql&logoColor=39FF14" alt="PostgreSQL"/>
 <img src="https://img.shields.io/badge/Cloudflare_Workers-050505?style=flat-square&logo=cloudflareworkers&logoColor=39FF14" alt="Cloudflare"/>
 <img src="https://img.shields.io/badge/Pi_Network-050505?style=flat-square&logo=pi&logoColor=39FF14" alt="Pi Network"/>

@@ -77,6 +77,8 @@ def render_svg(repos: List[Dict], total_repos: int) -> str:
         )
         name = truncate(repo.get("name") or "unnamed", 30)
         desc = truncate(repo.get("description") or "Sovereign identity primitive.", 60)
+        stars = int(repo.get("stargazers_count") or 0)
+        lang = repo.get("language") or "TS"
         stagger = round(idx * 0.1, 2)
         cards.append(
             f'<g transform="translate({x}, {y})" opacity="0">'

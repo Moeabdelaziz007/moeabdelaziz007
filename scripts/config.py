@@ -14,9 +14,21 @@ START_TAG = '<!-- START_LIVE_DATA -->'
 END_TAG = '<!-- END_LIVE_DATA -->'
 
 # ---------------------------------------------------------------------------
-# AxiomID Visual Palette: OLED Black + Neon Emerald + Electric Blue
+# AxiomID Unified Visual Palette (Compatible with legacy scripts)
 # ---------------------------------------------------------------------------
 PALETTE = {
+    # Semantic Naming (New)
+    "background":   "#050505", # OLED Black
+    "surface":      "#0a0a0a", # Carbon Mid
+    "border":       "#1a1a1a", # Subtle Border
+    "text_main":    "#ffffff", # Pure White
+    "text_dim":     "#888888", # Label Gray
+    "text_mute":    "#444444", # Muted Gray
+    "neon":         "#39FF14", # Neon Emerald (Verified/Authority)
+    "blue":         "#00d4ff", # Electric Blue (Data/Intelligence)
+    "accent":       "#8b5cf6", # Royal Purple (Sovereign Tier)
+
+    # Legacy Compatibility (Old Scripts)
     "carbon_deep":  "#050505",
     "carbon_mid":   "#0a0a0a",
     "carbon_high":  "#141414",
@@ -24,8 +36,8 @@ PALETTE = {
     "gray_mid":     "#666666",
     "gray_label":   "#888888",
     "gray_text":    "#aaaaaa",
-    "neon":         "#39FF14",  # Neon Emerald
-    "blue":         "#00d4ff",  # Electric Blue (AxiomID Data)
+    "neon_soft":    "#7FFF50",
+    "neon_glow":    "#39FF14",
     "white":        "#ffffff",
 }
 

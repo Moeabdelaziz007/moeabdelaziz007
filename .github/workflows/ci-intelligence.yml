@@ -1,0 +1,27 @@
+name: AI-Powered CI Intelligence
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    types: [opened, synchronize, reopened]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: write
+  pull-requests: write
+
+jobs:
+  intelligence:
+    runs-on: blacksmith-2vcpu-ubuntu-2404
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Amrikky CI Intelligence
+        uses: Moeabdelaziz007/amrikky-ci-intelligence-agent@main # Assuming this is the action from the app
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          # Add any other required secrets for the agent here

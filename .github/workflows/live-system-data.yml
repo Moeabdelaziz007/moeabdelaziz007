@@ -13,11 +13,12 @@ permissions:
 
 jobs:
   update-readme:
-    runs-on: ubuntu-latest
+    runs-on: blacksmith-2vcpu-ubuntu-2404
     permissions:
       contents: write
     env:
       GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      PYTHONPATH: ${{ github.workspace }}/scripts
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v4
@@ -27,11 +28,12 @@ jobs:
         with:
           python-version: '3.x'
 
+      - name: Install dependencies
+        run: |
+          pip install requests
+
       - name: Refresh telemetry banner
         run: python scripts/update_system_status.py
-
-      - name: Generate stack dashboard
-        run: python scripts/generate_stack_dashboard.py
 
       - name: Generate agents inventory
         run: python scripts/generate_agents_inventory.py
@@ -47,5 +49,5 @@ jobs:
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git add README.md assets/
-          git diff --quiet && git diff --staged --quiet || git commit -m "[Automated] Update live dashboards and telemetry"
+          git diff --quiet && git diff --staged --quiet || git commit -m "[Automated] Update AxiomID live dashboards and telemetry"
           git push
