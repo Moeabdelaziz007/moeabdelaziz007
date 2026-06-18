@@ -9,7 +9,6 @@ workflow share work, and so that local development does not burn through
 rate limit quota while iterating.
 """
 
-from __future__ import annotations
 
 import json
 import os
@@ -17,7 +16,7 @@ import time
 import urllib.error
 import urllib.parse
 import urllib.request
-from typing import Any, Dict, List, Optional
+from typing import Any
 
 GITHUB_API = "https://api.github.com"
 GITHUB_GRAPHQL = "https://api.github.com/graphql"
@@ -26,13 +25,13 @@ CACHE_TTL_SECONDS = 60 * 30  # 30 minutes
 
 
 class GitHubClient:
-    def __init__(self, token: Optional[str] = None, cache_path: str = CACHE_PATH):
+    def __init__(self, token: str | None = None, cache_path: str = CACHE_PATH):
         self.token = token or os.environ.get("GITHUB_TOKEN") or os.environ.get("GH_TOKEN")
         self.cache_path = cache_path
         self._cache = self._load_cache()
 
     # ---------------------------------------------------------------- cache
-    def _load_cache(self) -> Dict[str, Any]:
+    def _load_cache(self) -> dict[str, Any]:
         try:
             with open(self.cache_path, "r", encoding="utf-8") as f:
                 data = json.load(f)
@@ -49,7 +48,7 @@ class GitHubClient:
         except OSError:
             pass
 
-    def _cache_get(self, key: str) -> Optional[Any]:
+    def _cache_get(self, key: str) -> Any | None:
         entry = self._cache.get(key)
         if not entry:
             return None
@@ -62,7 +61,7 @@ class GitHubClient:
         self._save_cache()
 
     # -------------------------------------------------------- http transport
-    def _headers(self, accept: str = "application/vnd.github+json") -> Dict[str, str]:
+    def _headers(self, accept: str = "application/vnd.github+json") -> dict[str, str]:
         headers = {
             "Accept": accept,
             "User-Agent": "moeabdelaziz007-profile-bot",
@@ -72,8 +71,8 @@ class GitHubClient:
             headers["Authorization"] = f"Bearer {self.token}"
         return headers
 
-    def _request(self, url: str, *, method: str = "GET", data: Optional[bytes] = None,
-                 headers: Optional[Dict[str, str]] = None) -> Any:
+    def _request(self, url: str, *, method: str = "GET", data: bytes | None = None,
+                 headers: dict[str, str] | None = None) -> Any:
         req = urllib.request.Request(url, data=data, method=method,
                                      headers=headers or self._headers())
         try:
@@ -85,13 +84,13 @@ class GitHubClient:
             raise RuntimeError(f"GitHub API {method} {url} -> {exc.code}: {body}") from exc
 
     # ----------------------------------------------------------------- REST
-    def list_user_repos(self, username: str) -> List[Dict[str, Any]]:
+    def list_user_repos(self, username: str) -> list[dict[str, Any]]:
         cache_key = f"repos::{username}"
         cached = self._cache_get(cache_key)
         if cached is not None:
             return cached
 
-        results: List[Dict[str, Any]] = []
+        results: list[dict[str, Any]] = []
         page = 1
         while True:
             url = (
@@ -113,7 +112,7 @@ class GitHubClient:
         self._cache_set(cache_key, filtered)
         return filtered
 
-    def get_repo_languages(self, owner: str, repo: str) -> Dict[str, int]:
+    def get_repo_languages(self, owner: str, repo: str) -> dict[str, int]:
         cache_key = f"lang::{owner}/{repo}"
         cached = self._cache_get(cache_key)
         if cached is not None:
@@ -129,7 +128,7 @@ class GitHubClient:
         return data
 
     # --------------------------------------------------------------- GraphQL
-    def graphql(self, query: str, variables: Optional[Dict[str, Any]] = None) -> Dict[str, Any]:
+    def graphql(self, query: str, variables: dict[str, Any] | None = None) -> dict[str, Any]:
         if not self.token:
             # GraphQL endpoint requires authentication.
             return {}
@@ -141,7 +140,7 @@ class GitHubClient:
         except RuntimeError:
             return {}
 
-    def contribution_calendar(self, username: str) -> Dict[str, Any]:
+    def contribution_calendar(self, username: str) -> dict[str, Any]:
         cache_key = f"contrib::{username}"
         cached = self._cache_get(cache_key)
         if cached is not None:

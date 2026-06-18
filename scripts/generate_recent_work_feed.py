@@ -6,7 +6,6 @@ Shows the latest meaningful events (push, PR, release, issue) from the
 profile's public activity, styled to match the carbon/neon palette.
 """
 
-from __future__ import annotations
 
 import datetime as dt
 import json
@@ -15,7 +14,6 @@ import sys
 import urllib.error
 import urllib.parse
 import urllib.request
-from typing import Dict, List
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from config import ASSETS_DIR, GITHUB_USER, PALETTE  # noqa: E402
@@ -31,7 +29,7 @@ INTERESTING_EVENTS = {
 MAX_ROWS = 6
 
 
-def fetch_events(username: str, token: str | None) -> List[Dict]:
+def fetch_events(username: str, token: str | None) -> list[dict]:
     headers = {
         "Accept": "application/vnd.github+json",
         "User-Agent": "moeabdelaziz007-profile-bot",
@@ -61,7 +59,7 @@ def humanize(delta: dt.timedelta) -> str:
     return f"{seconds // (86400 * 30)}mo ago"
 
 
-def summarize(event: Dict) -> str:
+def summarize(event: dict) -> str:
     payload = event.get("payload", {}) or {}
     etype = event.get("type")
     if etype == "PushEvent":
@@ -92,7 +90,7 @@ def summarize(event: Dict) -> str:
     return etype or "activity"
 
 
-def render_svg(events: List[Dict]) -> str:
+def render_svg(events: list[dict]) -> str:
     width = 720
     row_h = 56
     header_h = 90

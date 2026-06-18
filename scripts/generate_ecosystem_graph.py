@@ -12,14 +12,12 @@ Pulls live stars / language / description from GitHub so the graph stays
 fresh, but the topology is intentionally hand-curated rather than inferred.
 """
 
-from __future__ import annotations
 
 import json
 import os
 import sys
 import urllib.error
 import urllib.request
-from typing import Dict
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from config import ASSETS_DIR, GITHUB_USER, PALETTE  # noqa: E402
@@ -110,7 +108,7 @@ EDGES = [
 ]
 
 
-def fetch_repo_meta(full_name: str, token: str | None) -> Dict:
+def fetch_repo_meta(full_name: str, token: str | None) -> dict:
     headers = {
         "Accept": "application/vnd.github+json",
         "User-Agent": "moeabdelaziz007-profile-bot",
@@ -125,11 +123,11 @@ def fetch_repo_meta(full_name: str, token: str | None) -> Dict:
         return {}
 
 
-def node_by_id(nid: str) -> Dict:
+def node_by_id(nid: str) -> dict:
     return next(n for n in NODES if n["id"] == nid)
 
 
-def trim_to_circle(src: Dict, dst: Dict) -> tuple[float, float, float, float]:
+def trim_to_circle(src: dict, dst: dict) -> tuple[float, float, float, float]:
     """Return (x1, y1, x2, y2) trimmed to each node's circle boundary."""
     dx = dst["x"] - src["x"]
     dy = dst["y"] - src["y"]
@@ -144,7 +142,7 @@ def trim_to_circle(src: Dict, dst: Dict) -> tuple[float, float, float, float]:
     return x1, y1, x2, y2
 
 
-def render_svg(meta_by_id: Dict[str, Dict]) -> str:
+def render_svg(meta_by_id: dict[str, dict]) -> str:
     edges_svg: list[str] = []
     edge_labels: list[str] = []
     for edge in EDGES:

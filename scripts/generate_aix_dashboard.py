@@ -5,8 +5,8 @@ import datetime
 from config import ASSETS_DIR, README_PATH, START_TAG, END_TAG
 
 # Precompiled regex for live data injection
-START_TAG = '<!-- START_LIVE_DATA -->'
-END_TAG = '<!-- END_LIVE_DATA -->'
+
+
 LIVE_DATA_PATTERN = re.compile(rf'{START_TAG}.*?{END_TAG}', re.DOTALL)
 
 def generate_markdown_table(visitors, agents, uptime, last_ping):
