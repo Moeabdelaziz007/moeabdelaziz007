@@ -44,9 +44,17 @@ def longest_streak(days: List[Dict]) -> int:
 
 def current_streak(days: List[Dict]) -> int:
     import datetime
-    today = datetime.date.today()
+    today_str = datetime.date.today().isoformat()
     # Filter out future dates
-    filtered = [d for d in days if datetime.datetime.strptime(d.get("date", ""), "%Y-%m-%d").date() <= today]
+    filtered = [
+        d
+        for d in days
+        if (date := d.get("date"))
+        and len(date) == 10
+        and date[4] == "-"
+        and date[7] == "-"
+        and date <= today_str
+    ]
     streak = 0
     for d in reversed(filtered):
         if int(d.get("contributionCount", 0)) > 0:
