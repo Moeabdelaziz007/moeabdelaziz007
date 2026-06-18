@@ -131,11 +131,11 @@
 
 <br>
 
-## `04.` SYSTEM TELEMETRY  ·  القياسات الحيوية
+## `04.` PROJECTED TELEMETRY  ·  القياسات المتوقعة
 
-**EN ·** Real-time monitoring of the AxiomID Root Authority infrastructure. Updated every 3 hours via automated workflows.
+**EN ·** Illustrative roadmap targets for the AxiomID Root Authority — *not* live network data. The dashboard is refreshed every 3 hours by an automated workflow to keep the projection layout current.
 
-**AR ·** مراقبة حية للبنية التحتية لسلطة الجذر AxiomID. تُحدَّث كل 3 ساعات عبر تدفقات عمل آلية.
+**AR ·** أهداف توضيحية لخارطة طريق سلطة الجذر AxiomID — وليست بيانات شبكة حية. تُحدَّث اللوحة كل 3 ساعات عبر تدفق عمل آلي للحفاظ على تخطيط الإسقاط محدَّثاً.
 
 <div align="center">
   <img src="./assets/agents_inventory.svg" alt="AxiomID Agent Inventory" width="100%"/>
