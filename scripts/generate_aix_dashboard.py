@@ -14,13 +14,15 @@ def generate_markdown_table(users, agents, xp, txs, last_ping):
     return f"""
 <div align="center">
 
-| AxiomID Metric | Value | Status |
+| AxiomID Metric | Projected Value | Status |
 | :--- | :--- | :--- |
-| **Active Users** | `{users:,}` | 🟢 VERIFIED |
-| **Registered Agents** | `{agents:,}` | 🤖 ACTIVE |
-| **Total XP Earned** | `{xp:,} XP` | ⚡ EVOLVING |
-| **Total Transactions** | `{txs:,}` | 🔒 SECURE |
-| **Last Sync** | `{last_ping}` | 📡 LIVE |
+| **Active Users** | `{users:,}` | 🟢 PROJECTED |
+| **Registered Agents** | `{agents:,}` | 🤖 PROJECTED |
+| **Total XP Earned** | `{xp:,} XP` | ⚡ PROJECTED |
+| **Total Transactions** | `{txs:,}` | 🔒 PROJECTED |
+| **Last Refresh** | `{last_ping}` | 📡 SYNCED |
+
+<sub><i>Illustrative roadmap targets — not live network data.</i></sub>
 
 </div>
 """
@@ -55,7 +57,7 @@ def generate_svg_dashboard(users, agents, xp, txs, last_ping):
     <rect width="800" height="3" fill="url(#topBar)" rx="2"/>
 
     <!-- Title -->
-    <text x="30" y="35" font-family="'Consolas','Fira Code',monospace" font-size="12" fill="#888888" font-weight="600" letter-spacing="2">AXIOMID NETWORK TELEMETRY</text>
+    <text x="30" y="35" font-family="'Consolas','Fira Code',monospace" font-size="12" fill="#888888" font-weight="600" letter-spacing="2">AXIOMID PROJECTED TARGETS (ILLUSTRATIVE)</text>
     <text x="770" y="35" font-family="'Consolas','Fira Code',monospace" font-size="10" fill="#666666" text-anchor="end">{last_ping}</text>
 
     <!-- Separator -->
@@ -121,20 +123,16 @@ def main():
         # 2. Ensure assets directory exists
         os.makedirs(ASSETS_DIR, exist_ok=True)
 
-        # 3. Write SVG
+        # 3. Write SVG (aix_dashboard.svg only — does NOT overwrite
+        # stack_dashboard.svg, which generate_stack_dashboard.py owns with
+        # real language data).
         svg_content = generate_svg_dashboard(users, agents, xp, txs, last_ping)
-        svg_path = os.path.join(ASSETS_DIR, 'stack_dashboard.svg') # Overwriting stack_dashboard with AxiomID specific one
-        with open(svg_path, 'w', encoding='utf-8') as f:
+        aix_svg_path = os.path.join(ASSETS_DIR, 'aix_dashboard.svg')
+        with open(aix_svg_path, 'w', encoding='utf-8') as f:
             f.write(svg_content)
 
         # 4. Generate Markdown
         markdown_table = generate_markdown_table(users, agents, xp, txs, last_ping)
-
-        # We also need to update aix_dashboard.svg if it's used
-        aix_svg_content = generate_svg_dashboard(users, agents, xp, txs, last_ping)
-        aix_svg_path = os.path.join(ASSETS_DIR, 'aix_dashboard.svg')
-        with open(aix_svg_path, 'w', encoding='utf-8') as f:
-            f.write(aix_svg_content)
 
         # 5. Inject into README.md
         # Note: The README now has its own section for Telemetry, we'll let update_system_status handle the injection

@@ -96,7 +96,7 @@ def update_telemetry_svg(users, agents, txs, date_str):
     </g>
   </g>
 
-  <text x="425" y="185" font-family="'Consolas', 'Fira Code', monospace" font-size="10" fill="#aaaaaa" opacity="0.6" text-anchor="middle">AXIOMID ROOT TELEMETRY: {date_str} // SECURE_HANDSHAKE</text>
+  <text x="425" y="185" font-family="'Consolas', 'Fira Code', monospace" font-size="10" fill="#aaaaaa" opacity="0.6" text-anchor="middle">AXIOMID PROJECTED TARGETS (ILLUSTRATIVE): {date_str} // SECURE_HANDSHAKE</text>
 </svg>"""
 
     os.makedirs(ASSETS_DIR, exist_ok=True)
@@ -108,12 +108,14 @@ def generate_markdown_table(users, agents, txs, date_str):
     return f"""
 <div align="center">
 
-| AxiomID Layer | Metric | Value | Status |
+| AxiomID Layer | Metric | Projected Value | Status |
 | :--- | :--- | :--- | :--- |
-| **L0 Identity** | Active Citizens | `{users:,}` | 🟢 VERIFIED |
-| **L0 Authority** | Registered Agents | `{agents:,}` | 🤖 ACTIVE |
-| **L0 Economy** | M2M Transactions | `{txs:,}` | 💸 STABLE |
-| **L0 Network** | Last Heartbeat | `{date_str}` | 📡 SYNCED |
+| **L0 Identity** | Active Citizens | `{users:,}` | 🟢 PROJECTED |
+| **L0 Authority** | Registered Agents | `{agents:,}` | 🤖 PROJECTED |
+| **L0 Economy** | M2M Transactions | `{txs:,}` | 💸 PROJECTED |
+| **L0 Network** | Last Refresh | `{date_str}` | 📡 SYNCED |
+
+<sub><i>Illustrative roadmap targets — not live network data. Refreshed every 3 hours.</i></sub>
 
 </div>
 """
@@ -132,7 +134,7 @@ def main():
             readme_content = f.read()
 
         table = generate_markdown_table(users, agents, txs, date_str)
-        metrics_html = f'<p align="center"><img src="./assets/telemetry.svg" alt="AxiomID Live Telemetry"></p>\n{table}'
+        metrics_html = f'<p align="center"><img src="./assets/telemetry.svg" alt="AxiomID Projected Targets (Illustrative)"></p>\n{table}'
 
         if not LIVE_DATA_PATTERN.search(readme_content):
             print("Tags not found in README.md.")
