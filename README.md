@@ -142,16 +142,18 @@
 </div>
 
 <!-- START_LIVE_DATA -->
-<p align="center"><img src="./assets/telemetry.svg" alt="AxiomID Live Telemetry"></p>
+<p align="center"><img src="./assets/telemetry.svg" alt="AxiomID Projected Targets (Illustrative)"></p>
 
 <div align="center">
 
-| AxiomID Layer | Metric | Value | Status |
+| AxiomID Layer | Metric | Projected Value | Status |
 | :--- | :--- | :--- | :--- |
-| **L0 Identity** | Active Citizens | `13,359` | 🟢 VERIFIED |
-| **L0 Authority** | Registered Agents | `4,211` | 🤖 ACTIVE |
-| **L0 Economy** | M2M Transactions | `39,390` | 💸 STABLE |
-| **L0 Network** | Last Heartbeat | `2026-06-18 18:13:48 UTC` | 📡 SYNCED |
+| **L0 Identity** | Active Citizens | `13,438` | 🟢 PROJECTED |
+| **L0 Authority** | Registered Agents | `3,558` | 🤖 PROJECTED |
+| **L0 Economy** | M2M Transactions | `30,545` | 💸 PROJECTED |
+| **L0 Network** | Last Refresh | `2026-06-18 18:45:12 UTC` | 📡 SYNCED |
+
+<sub><i>Illustrative roadmap targets — not live network data. Refreshed every 3 hours.</i></sub>
 
 </div>
 

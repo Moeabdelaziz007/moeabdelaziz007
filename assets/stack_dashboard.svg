@@ -1,78 +1,51 @@
-<svg width="800" height="150" viewBox="0 0 800 150" xmlns="http://www.w3.org/2000/svg">
-    <defs>
-        <pattern id="cfDash" width="10" height="10" patternUnits="userSpaceOnUse">
-            <rect width="10" height="10" fill="#050505"/>
-            <path d="M0,0 L5,5 L10,0 L5,-5 Z M5,5 L10,10 L15,5 L10,0 Z M-5,5 L0,10 L5,5 L0,0 Z M0,10 L5,15 L10,10 L5,5 Z" fill="#0d0d0d"/>
-        </pattern>
-        <linearGradient id="topBar" x1="0%" y1="0%" x2="100%" y2="0%">
-            <stop offset="0%" stop-color="#39FF14" stop-opacity="0.1"/>
-            <stop offset="50%" stop-color="#39FF14" stop-opacity="0.8"/>
-            <stop offset="100%" stop-color="#39FF14" stop-opacity="0.1"/>
-        </linearGradient>
-        <filter id="textGlow">
-            <feGaussianBlur stdDeviation="1.2" result="blur"/>
-            <feMerge>
-                <feMergeNode in="blur"/>
-                <feMergeNode in="SourceGraphic"/>
-            </feMerge>
-        </filter>
-    </defs>
+<svg width="720" height="450" viewBox="0 0 720 450" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <pattern id="cfStack" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#050505"/>
+      <path d="M0,0 L5,5 L10,0 L5,-5 Z M5,5 L10,10 L15,5 L10,0 Z M-5,5 L0,10 L5,5 L0,0 Z M0,10 L5,15 L10,10 L5,5 Z" fill="#0a0a0a"/>
+    </pattern>
+    <linearGradient id="topBarStack" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#39FF14" stop-opacity="0.1"/>
+      <stop offset="50%" stop-color="#39FF14" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#39FF14" stop-opacity="0.1"/>
+    </linearGradient>
+    <linearGradient id="scanlineStack" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#39FF14" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#39FF14" stop-opacity="0.14"/>
+      <stop offset="100%" stop-color="#39FF14" stop-opacity="0"/>
+    </linearGradient>
+    <clipPath id="stackClip">
+      <rect x="0" y="0" width="720" height="450" rx="10"/>
+    </clipPath>
+  </defs>
 
-    <!-- Background -->
-    <rect width="800" height="150" fill="url(#cfDash)" rx="6" stroke="#39FF14" stroke-opacity="0.3" stroke-width="1"/>
-    <rect width="800" height="150" fill="#000000" opacity="0.5" rx="6"/>
+  <rect width="720" height="450" fill="url(#cfStack)" rx="10" stroke="#39FF14" stroke-opacity="0.3" stroke-width="1"/>
+  <rect width="720" height="450" fill="#000000" opacity="0.45" rx="10"/>
+  <!-- Top accent bar: pulses opacity for "live link" feel -->
+  <rect width="720" height="3" fill="url(#topBarStack)" rx="2">
+    <animate attributeName="opacity" values="0.6;1;0.6" dur="3.4s" repeatCount="indefinite"/>
+  </rect>
+  <!-- Horizontal scanline sweep -->
+  <g clip-path="url(#stackClip)">
+    <rect x="-180" y="0" width="180" height="450" fill="url(#scanlineStack)">
+      <animateTransform attributeName="transform" type="translate"
+                        from="0 0" to="900 0" dur="7s" repeatCount="indefinite"/>
+    </rect>
+  </g>
 
-    <!-- Top accent bar -->
-    <rect width="800" height="3" fill="url(#topBar)" rx="2"/>
+  <text x="40" y="40" font-family="'Consolas','Fira Code',monospace" font-size="11"
+        fill="#888888" letter-spacing="3">// STACK ANALYSIS</text>
+  <text x="40" y="68" font-family="'Consolas','Fira Code',monospace" font-size="22"
+        fill="#ffffff" font-weight="600" letter-spacing="2">CORE LANGUAGES</text>
+  <text x="680" y="40" font-family="'Consolas',monospace" font-size="11"
+        fill="#666666" text-anchor="end" letter-spacing="1">8 REPOSITORIES SCANNED</text>
+  <line x1="40" y1="82" x2="680" y2="82" stroke="#39FF14" stroke-opacity="0.25" stroke-width="1"/>
 
-    <!-- Title -->
-    <text x="30" y="35" font-family="'Consolas','Fira Code',monospace" font-size="12" fill="#888888" font-weight="600" letter-spacing="2">AXIOMID NETWORK TELEMETRY</text>
-    <text x="770" y="35" font-family="'Consolas','Fira Code',monospace" font-size="10" fill="#666666" text-anchor="end">2026-06-18 18:13:48 UTC</text>
+  <g transform="translate(40, 100)" opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="0.0s" fill="freeze"/><text x="0" y="14" font-family="'Consolas',monospace" font-size="12" fill="#aaaaaa" letter-spacing="1">Python</text><rect x="170" y="2" width="360" height="16" rx="3" fill="#141414"/><rect x="170" y="2" width="0" height="16" rx="3" fill="#3572A5"><animate attributeName="width" from="0" to="250" dur="1.4s" begin="0.0s" fill="freeze"/></rect><rect x="170" y="2" width="0" height="16" rx="3" fill="#39FF14" opacity="0.18"><animate attributeName="width" from="0" to="250" dur="1.4s" begin="0.0s" fill="freeze"/></rect><text x="542" y="14" font-family="'JetBrains Mono',monospace" font-size="12" fill="#ffffff">69.7%</text></g><g transform="translate(40, 132)" opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="0.18s" fill="freeze"/><text x="0" y="14" font-family="'Consolas',monospace" font-size="12" fill="#aaaaaa" letter-spacing="1">JavaScript</text><rect x="170" y="2" width="360" height="16" rx="3" fill="#141414"/><rect x="170" y="2" width="0" height="16" rx="3" fill="#F1E05A"><animate attributeName="width" from="0" to="55" dur="1.4s" begin="0.18s" fill="freeze"/></rect><rect x="170" y="2" width="0" height="16" rx="3" fill="#39FF14" opacity="0.18"><animate attributeName="width" from="0" to="55" dur="1.4s" begin="0.18s" fill="freeze"/></rect><text x="542" y="14" font-family="'JetBrains Mono',monospace" font-size="12" fill="#ffffff">15.5%</text></g><g transform="translate(40, 164)" opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="0.36s" fill="freeze"/><text x="0" y="14" font-family="'Consolas',monospace" font-size="12" fill="#aaaaaa" letter-spacing="1">TypeScript</text><rect x="170" y="2" width="360" height="16" rx="3" fill="#141414"/><rect x="170" y="2" width="0" height="16" rx="3" fill="#3178C6"><animate attributeName="width" from="0" to="34" dur="1.4s" begin="0.36s" fill="freeze"/></rect><rect x="170" y="2" width="0" height="16" rx="3" fill="#39FF14" opacity="0.18"><animate attributeName="width" from="0" to="34" dur="1.4s" begin="0.36s" fill="freeze"/></rect><text x="542" y="14" font-family="'JetBrains Mono',monospace" font-size="12" fill="#ffffff">9.7%</text></g><g transform="translate(40, 196)" opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="0.54s" fill="freeze"/><text x="0" y="14" font-family="'Consolas',monospace" font-size="12" fill="#aaaaaa" letter-spacing="1">HTML</text><rect x="170" y="2" width="360" height="16" rx="3" fill="#141414"/><rect x="170" y="2" width="0" height="16" rx="3" fill="#E34C26"><animate attributeName="width" from="0" to="12" dur="1.4s" begin="0.54s" fill="freeze"/></rect><rect x="170" y="2" width="0" height="16" rx="3" fill="#39FF14" opacity="0.18"><animate attributeName="width" from="0" to="12" dur="1.4s" begin="0.54s" fill="freeze"/></rect><text x="542" y="14" font-family="'JetBrains Mono',monospace" font-size="12" fill="#ffffff">3.4%</text></g><g transform="translate(40, 228)" opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="0.72s" fill="freeze"/><text x="0" y="14" font-family="'Consolas',monospace" font-size="12" fill="#aaaaaa" letter-spacing="1">Go</text><rect x="170" y="2" width="360" height="16" rx="3" fill="#141414"/><rect x="170" y="2" width="0" height="16" rx="3" fill="#00ADD8"><animate attributeName="width" from="0" to="4" dur="1.4s" begin="0.72s" fill="freeze"/></rect><rect x="170" y="2" width="0" height="16" rx="3" fill="#39FF14" opacity="0.18"><animate attributeName="width" from="0" to="4" dur="1.4s" begin="0.72s" fill="freeze"/></rect><text x="542" y="14" font-family="'JetBrains Mono',monospace" font-size="12" fill="#ffffff">0.9%</text></g><g transform="translate(40, 260)" opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="0.9s" fill="freeze"/><text x="0" y="14" font-family="'Consolas',monospace" font-size="12" fill="#aaaaaa" letter-spacing="1">PLpgSQL</text><rect x="170" y="2" width="360" height="16" rx="3" fill="#141414"/><rect x="170" y="2" width="0" height="16" rx="3" fill="#888888"><animate attributeName="width" from="0" to="4" dur="1.4s" begin="0.9s" fill="freeze"/></rect><rect x="170" y="2" width="0" height="16" rx="3" fill="#39FF14" opacity="0.18"><animate attributeName="width" from="0" to="4" dur="1.4s" begin="0.9s" fill="freeze"/></rect><text x="542" y="14" font-family="'JetBrains Mono',monospace" font-size="12" fill="#ffffff">0.3%</text></g><g transform="translate(40, 292)" opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="1.08s" fill="freeze"/><text x="0" y="14" font-family="'Consolas',monospace" font-size="12" fill="#aaaaaa" letter-spacing="1">Shell</text><rect x="170" y="2" width="360" height="16" rx="3" fill="#141414"/><rect x="170" y="2" width="0" height="16" rx="3" fill="#89E051"><animate attributeName="width" from="0" to="4" dur="1.4s" begin="1.08s" fill="freeze"/></rect><rect x="170" y="2" width="0" height="16" rx="3" fill="#39FF14" opacity="0.18"><animate attributeName="width" from="0" to="4" dur="1.4s" begin="1.08s" fill="freeze"/></rect><text x="542" y="14" font-family="'JetBrains Mono',monospace" font-size="12" fill="#ffffff">0.2%</text></g><g transform="translate(40, 324)" opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="1.26s" fill="freeze"/><text x="0" y="14" font-family="'Consolas',monospace" font-size="12" fill="#aaaaaa" letter-spacing="1">CSS</text><rect x="170" y="2" width="360" height="16" rx="3" fill="#141414"/><rect x="170" y="2" width="0" height="16" rx="3" fill="#563D7C"><animate attributeName="width" from="0" to="4" dur="1.4s" begin="1.26s" fill="freeze"/></rect><rect x="170" y="2" width="0" height="16" rx="3" fill="#39FF14" opacity="0.18"><animate attributeName="width" from="0" to="4" dur="1.4s" begin="1.26s" fill="freeze"/></rect><text x="542" y="14" font-family="'JetBrains Mono',monospace" font-size="12" fill="#ffffff">0.2%</text></g><g transform="translate(40, 356)" opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="1.44s" fill="freeze"/><text x="0" y="14" font-family="'Consolas',monospace" font-size="12" fill="#aaaaaa" letter-spacing="1">Rust</text><rect x="170" y="2" width="360" height="16" rx="3" fill="#141414"/><rect x="170" y="2" width="0" height="16" rx="3" fill="#DEA584"><animate attributeName="width" from="0" to="4" dur="1.4s" begin="1.44s" fill="freeze"/></rect><rect x="170" y="2" width="0" height="16" rx="3" fill="#39FF14" opacity="0.18"><animate attributeName="width" from="0" to="4" dur="1.4s" begin="1.44s" fill="freeze"/></rect><text x="542" y="14" font-family="'JetBrains Mono',monospace" font-size="12" fill="#ffffff">0.1%</text></g><g transform="translate(40, 388)" opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="1.62s" fill="freeze"/><text x="0" y="14" font-family="'Consolas',monospace" font-size="12" fill="#aaaaaa" letter-spacing="1">PowerShell</text><rect x="170" y="2" width="360" height="16" rx="3" fill="#141414"/><rect x="170" y="2" width="0" height="16" rx="3" fill="#888888"><animate attributeName="width" from="0" to="4" dur="1.4s" begin="1.62s" fill="freeze"/></rect><rect x="170" y="2" width="0" height="16" rx="3" fill="#39FF14" opacity="0.18"><animate attributeName="width" from="0" to="4" dur="1.4s" begin="1.62s" fill="freeze"/></rect><text x="542" y="14" font-family="'JetBrains Mono',monospace" font-size="12" fill="#ffffff">0.0%</text></g>
 
-    <!-- Separator -->
-    <line x1="30" y1="45" x2="770" y2="45" stroke="#39FF14" stroke-opacity="0.2" stroke-width="1"/>
-
-    <!-- Metrics Section -->
-    <g transform="translate(30, 70)">
-
-        <!-- Active Users -->
-        <g transform="translate(0, 0)">
-            <text x="0" y="0" font-family="'Consolas','Fira Code',monospace" font-size="11" fill="#888888" letter-spacing="1">ACTIVE USERS</text>
-            <text x="0" y="30" font-family="'JetBrains Mono','Fira Code',monospace" font-size="24" fill="#ffffff" font-weight="500" filter="url(#textGlow)">13,556</text>
-            <rect x="0" y="45" width="150" height="2" fill="#141414" rx="1"/>
-            <rect x="0" y="45" width="120" height="2" fill="#39FF14" rx="1"/>
-        </g>
-
-        <!-- Registered Agents -->
-        <g transform="translate(200, 0)">
-            <text x="0" y="0" font-family="'Consolas','Fira Code',monospace" font-size="11" fill="#888888" letter-spacing="1">REG. AGENTS</text>
-            <text x="0" y="30" font-family="'JetBrains Mono','Fira Code',monospace" font-size="24" fill="#ffffff" font-weight="500" filter="url(#textGlow)">3,720</text>
-            <rect x="0" y="45" width="150" height="2" fill="#141414" rx="1"/>
-            <rect x="0" y="45" width="90" height="2" fill="#7FFF50" rx="1"/>
-        </g>
-
-        <!-- Total XP -->
-        <g transform="translate(400, 0)">
-            <text x="0" y="0" font-family="'Consolas','Fira Code',monospace" font-size="11" fill="#888888" letter-spacing="1">TOTAL XP</text>
-            <text x="0" y="30" font-family="'JetBrains Mono','Fira Code',monospace" font-size="24" fill="#ffffff" font-weight="500" filter="url(#textGlow)">876,726</text>
-            <rect x="0" y="45" width="150" height="2" fill="#141414" rx="1"/>
-            <rect x="0" y="45" width="110" height="2" fill="#39FF14" rx="1"/>
-        </g>
-
-        <!-- Total Transactions -->
-        <g transform="translate(600, 0)">
-            <text x="0" y="0" font-family="'Consolas','Fira Code',monospace" font-size="11" fill="#888888" letter-spacing="1">TRANSACTIONS</text>
-            <text x="0" y="30" font-family="'JetBrains Mono','Fira Code',monospace" font-size="24" fill="#ffffff" font-weight="500" filter="url(#textGlow)">32,873</text>
-            <rect x="0" y="45" width="150" height="2" fill="#141414" rx="1"/>
-            <rect x="0" y="45" width="130" height="2" fill="#39FF14" rx="1"/>
-        </g>
-
-    </g>
-
-    <!-- Status Indicator -->
-    <circle cx="760" cy="115" r="4" fill="#39FF14">
-        <animate attributeName="opacity" values="1;0.2;1" dur="2s" repeatCount="indefinite"/>
-    </circle>
-    <text x="745" y="119" font-family="'Consolas','Fira Code',monospace" font-size="10" fill="#888888" text-anchor="end" letter-spacing="1">ROOT AUTHORITY OPERATIONAL</text>
-
+  <text x="40" y="436" font-family="'Consolas',monospace" font-size="9"
+        fill="#444444" letter-spacing="2">// SOURCE: GITHUB REST API · LANGUAGES ENDPOINT</text>
+  <circle cx="680" cy="432" r="3" fill="#39FF14">
+    <animate attributeName="opacity" values="1;0.2;1" dur="2s" repeatCount="indefinite"/>
+  </circle>
 </svg>
