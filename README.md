@@ -148,10 +148,10 @@
 
 | AxiomID Layer | Metric | Projected Value | Status |
 | :--- | :--- | :--- | :--- |
-| **L0 Identity** | Active Citizens | `12,631` | 🟢 PROJECTED |
-| **L0 Authority** | Registered Agents | `4,598` | 🤖 PROJECTED |
-| **L0 Economy** | M2M Transactions | `31,586` | 💸 PROJECTED |
-| **L0 Network** | Last Refresh | `2026-06-19 04:30:15 UTC` | 📡 SYNCED |
+| **L0 Identity** | Active Citizens | `15,018` | 🟢 PROJECTED |
+| **L0 Authority** | Registered Agents | `3,354` | 🤖 PROJECTED |
+| **L0 Economy** | M2M Transactions | `26,187` | 💸 PROJECTED |
+| **L0 Network** | Last Refresh | `2026-06-19 07:46:35 UTC` | 📡 SYNCED |
 
 <sub><i>Illustrative roadmap targets — not live network data. Refreshed every 3 hours.</i></sub>
 
