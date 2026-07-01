@@ -62,7 +62,7 @@
           font-weight="600">Moeabdelaziz007/AxiomID</text>
     <text x="22" y="40" font-family="'Consolas',monospace" font-size="10" fill="#aaaaaa">0 commit pushed</text>
     <text x="650" y="22" font-family="'Consolas',monospace" font-size="10"
-          fill="#666666" text-anchor="end">1m ago</text>
+          fill="#666666" text-anchor="end">33m ago</text>
   </g>
 
   <g transform="translate(30, 154)" opacity="0">
@@ -83,7 +83,7 @@
           font-weight="600">Moeabdelaziz007/AxiomID</text>
     <text x="22" y="40" font-family="'Consolas',monospace" font-size="10" fill="#aaaaaa">0 commit pushed</text>
     <text x="650" y="22" font-family="'Consolas',monospace" font-size="10"
-          fill="#666666" text-anchor="end">2m ago</text>
+          fill="#666666" text-anchor="end">43m ago</text>
   </g>
 
   <g transform="translate(30, 210)" opacity="0">
@@ -92,19 +92,19 @@
                       from="30 210" to="30 202" dur="0.5s"
                       begin="0.24s" fill="freeze"/>
     <rect width="660" height="48" rx="6" fill="#0a0a0a"
-          stroke="#39FF14" stroke-opacity="0.35" stroke-width="1"/>
-    <rect width="3" height="48" rx="2" fill="#39FF14">
+          stroke="#7FFF50" stroke-opacity="0.35" stroke-width="1"/>
+    <rect width="3" height="48" rx="2" fill="#7FFF50">
       <animate attributeName="opacity" values="1;0.45;1" dur="2.6s"
                begin="0.24s" repeatCount="indefinite"/>
     </rect>
-    <text x="22" y="22" font-family="'Consolas',monospace" font-size="18" fill="#39FF14">↥</text>
-    <text x="48" y="22" font-family="'Consolas',monospace" font-size="9" fill="#39FF14"
-          letter-spacing="2">PUSH</text>
+    <text x="22" y="22" font-family="'Consolas',monospace" font-size="18" fill="#7FFF50">⌥</text>
+    <text x="48" y="22" font-family="'Consolas',monospace" font-size="9" fill="#7FFF50"
+          letter-spacing="2">PR</text>
     <text x="92" y="22" font-family="'Consolas',monospace" font-size="12" fill="#ffffff"
           font-weight="600">Moeabdelaziz007/AxiomID</text>
-    <text x="22" y="40" font-family="'Consolas',monospace" font-size="10" fill="#aaaaaa">0 commit pushed</text>
+    <text x="22" y="40" font-family="'Consolas',monospace" font-size="10" fill="#aaaaaa">PR opened · </text>
     <text x="650" y="22" font-family="'Consolas',monospace" font-size="10"
-          fill="#666666" text-anchor="end">2m ago</text>
+          fill="#666666" text-anchor="end">2h ago</text>
   </g>
 
   <g transform="translate(30, 266)" opacity="0">
@@ -113,19 +113,19 @@
                       from="30 266" to="30 258" dur="0.5s"
                       begin="0.36s" fill="freeze"/>
     <rect width="660" height="48" rx="6" fill="#0a0a0a"
-          stroke="#39FF14" stroke-opacity="0.35" stroke-width="1"/>
-    <rect width="3" height="48" rx="2" fill="#39FF14">
+          stroke="#39FFC4" stroke-opacity="0.35" stroke-width="1"/>
+    <rect width="3" height="48" rx="2" fill="#39FFC4">
       <animate attributeName="opacity" values="1;0.45;1" dur="2.6s"
                begin="0.36s" repeatCount="indefinite"/>
     </rect>
-    <text x="22" y="22" font-family="'Consolas',monospace" font-size="18" fill="#39FF14">↥</text>
-    <text x="48" y="22" font-family="'Consolas',monospace" font-size="9" fill="#39FF14"
-          letter-spacing="2">PUSH</text>
+    <text x="22" y="22" font-family="'Consolas',monospace" font-size="18" fill="#39FFC4">✚</text>
+    <text x="48" y="22" font-family="'Consolas',monospace" font-size="9" fill="#39FFC4"
+          letter-spacing="2">CREATE</text>
     <text x="92" y="22" font-family="'Consolas',monospace" font-size="12" fill="#ffffff"
           font-weight="600">Moeabdelaziz007/AxiomID</text>
-    <text x="22" y="40" font-family="'Consolas',monospace" font-size="10" fill="#aaaaaa">0 commit pushed</text>
+    <text x="22" y="40" font-family="'Consolas',monospace" font-size="10" fill="#aaaaaa">branch created · feat/marketplace-enhancements</text>
     <text x="650" y="22" font-family="'Consolas',monospace" font-size="10"
-          fill="#666666" text-anchor="end">2m ago</text>
+          fill="#666666" text-anchor="end">2h ago</text>
   </g>
 
   <g transform="translate(30, 322)" opacity="0">
@@ -146,7 +146,7 @@
           font-weight="600">Moeabdelaziz007/AxiomID</text>
     <text x="22" y="40" font-family="'Consolas',monospace" font-size="10" fill="#aaaaaa">0 commit pushed</text>
     <text x="650" y="22" font-family="'Consolas',monospace" font-size="10"
-          fill="#666666" text-anchor="end">2m ago</text>
+          fill="#666666" text-anchor="end">2h ago</text>
   </g>
 
   <g transform="translate(30, 378)" opacity="0">
@@ -167,7 +167,7 @@
           font-weight="600">Moeabdelaziz007/AxiomID</text>
     <text x="22" y="40" font-family="'Consolas',monospace" font-size="10" fill="#aaaaaa">0 commit pushed</text>
     <text x="650" y="22" font-family="'Consolas',monospace" font-size="10"
-          fill="#666666" text-anchor="end">3m ago</text>
+          fill="#666666" text-anchor="end">2h ago</text>
   </g>
 
 
