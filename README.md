@@ -4,7 +4,7 @@
 
 <div align="center">
   <img src="./assets/cyber-header.svg" alt="System Header" width="100%"/>
-  <img src="./assets/avatar.svg" alt="Mohamed Abdelaziz" width="140" align="center"/>
+  <img src="./assets/avatar.svg" alt="Mohamed Abdelaziz" width="110"align="center"/>
   <br>
   <h1>MOHAMED HOSSAM-ELDIN ABDELAZIZ</h1>
   <h3>محمد حسام الدين عبدالعزيز</h3>
