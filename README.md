@@ -75,7 +75,7 @@ I act the same in private as in public, because the work is recorded either way.
 
 ## `02.` THE TEAM  ·  الفريق
 
-**One human + six AI agents, each with a distinct role.** This is the actual current roster, not the original roster in this README.
+**One human + five AI agents, each with a distinct role.** This is the actual current roster, not the original roster in this README.
 
 | Agent | Role | Status |
 |:---|:---|:---|
@@ -83,7 +83,6 @@ I act the same in private as in public, because the work is recorded either way.
 | **Hermes** (Nous Research) | Reasoning partner · Audit · Planning · Reports | Active daily |
 | **OpenCode** | Primary execution agent for repo work | Standing by (brief ready) |
 | **CodeRabbit** | PR review automation · Unit test generation | Active (30+ commits) |
-| **Devin** | Autonomous refactoring · Codemap generation | Active (10+ commits) |
 | **Jules** (Google Labs) | Performance optimization · Test backfilling | Active (10+ commits) |
 | **Gemini CLI** | Research · Multimodal analysis | Configured, awaiting API key activation |
 
