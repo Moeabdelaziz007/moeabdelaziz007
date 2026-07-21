@@ -18,7 +18,7 @@
 <i>Building software-first sovereign identity systems with a team of AI agents</i>
 </td>
 <td align="center" width="50%">
-<b>■ CO-FOUNDER · PAI</b><br>
+<b>■ FOUNDER · PAI</b><br>
 <i>Pi Agentic Infrastructure — the agentic layer for Pi Network</i>
 </td>
 </tr>
