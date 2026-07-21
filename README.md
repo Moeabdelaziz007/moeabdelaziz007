@@ -14,7 +14,7 @@
 <table border="0" cellspacing="0" cellpadding="0">
 <tr>
 <td align="center" width="50%">
-<b>■ FOUNDER · AXIOMID</b><br>
+<b>■ FOUNDER · <a href="https://github.com/Moeabdelaziz007/AxiomID"><img src="axiomid.svg" align="absmiddle" alt="AxiomID" /></a></b><br>
 <i>Building software-first sovereign identity systems with a team of AI agents</i>
 </td>
 <td align="center" width="50%">
