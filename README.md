@@ -1,6 +1,8 @@
 <!-- ════════════════ MOEABDELAZIZ007 · PROFILE README ════════════════ -->
 <!-- Soul-Aligned · No Fabricated Numbers · Verified Facts Only     -->
 <!-- Updated: 21 July 2026                                          -->
+<!-- Designed with readme-designer skill + crisp-links pattern      -->
+<!-- Inspired by bhupendra05's self-hosted SVG approach             -->
 <!--                                                                -->
 <!-- CREDITS — Built with Hermes Agent (Nous Research)              -->
 <!-- This README and the AxiomID project were built collaboratively -->
@@ -16,17 +18,18 @@
 <!-- No hardcoded fake numbers. Ever.                               -->
 <!-- ════════════════════════════════════════════════════════════════ -->
 
+<!-- SELF-HOSTED HEADER (no third-party dependency, always loads) -->
+<a href="https://github.com/Moeabdelaziz007">
+  <img width="100%" src="https://raw.githubusercontent.com/Moeabdelaziz007/Moeabdelaziz007/main/assets/header.svg" alt="Mohamed Abdelaziz — AxiomID" />
+</a>
+
 <div align="center">
 
-<!-- TYPING SVG — THEME-AWARE COLORS -->
-<!-- Dark: neon green (#39FF14). Light: dark green (#006400) via multi-stop text-shadow trick -->
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&pause=1000&color=39FF14&center=true&vCenter=true&width=620&lines=Building+the+identity+layer+for+AI+agents.;Sovereign+identity+—+software-first,+no+iris+scans.;18M+KYC%27d+humans+via+Pi+Network.;Humans+think.+Agents+execute.;Welcome+to+my+profile." alt="Typing animation showing project focus" />
+<a href="https://github.com/Moeabdelaziz007">
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&duration=2800&pause=700&color=39FF14&center=true&vCenter=true&width=700&lines=AxiomID+—+Portable+identity+for+AI+agents.;W3C+DID+·+TrustChain+·+Ed25519+signatures.;18M+KYC%27d+humans+via+Pi+Network.;22+live+offerings+on+Virtuals+ACP.;Humans+think.+Agents+execute.;Welcome+to+my+profile." alt="Typing SVG" />
+</a>
 
-<!-- ⚠️ Note to readers: the green color above renders best in DARK MODE.
-     GitHub light mode users will see a lighter green. -->
-<br>
-<sub><i>Best viewed in dark mode. <a href="https://github.com/settings/appearance">Toggle here</a>.</i></sub>
-<br><br>
+<br/><br/>
 
 <img src="https://raw.githubusercontent.com/Moeabdelaziz007/AxiomID/main/assets/avatar.svg" width="100" alt="AxiomID terminal avatar" />
 
