@@ -44,12 +44,17 @@
   <sub>Portable identity for humans and agents · sovereign · software-first</sub>
 </p>
 
-<!-- SOCIAL LINKS — brand-colored flat badges -->
+<!-- CRISP LINKS NAVIGATION MATRIX (aza-ali/github-readme-crisp-links pattern) -->
+<div align="center">
+
+<a href="https://axiomid.app"><img src="https://img.shields.io/badge/AxiomID--App-00FF41?style=for-the-badge&logo=shield&logoColor=black" alt="AxiomID App" /></a>
+<a href="https://github.com/pai-list"><img src="https://img.shields.io/badge/PAI--Universe-7C3AED?style=for-the-badge&logo=github&logoColor=white" alt="PAI Universe Org" /></a>
+<a href="https://github.com/pai-list/openidentity.md"><img src="https://img.shields.io/badge/OpenIdentity--Spec-00A36C?style=for-the-badge&logo=markdown&logoColor=white" alt="OpenIdentity Standard" /></a>
+<a href="https://app.virtuals.io/acp/agents/019f6ec8-a056-7a45-bae1-8d905362a587"><img src="https://img.shields.io/badge/Virtuals--ACP-F59E0B?style=for-the-badge&logo=ethereum&logoColor=white" alt="Virtuals ACP Agent" /></a>
+<br/>
 <a href="https://www.linkedin.com/in/mohamed-abdelaziz-b1b2442a2/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
-<a href="https://github.com/Moeabdelaziz007"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
-<a href="https://axiomid.app"><img src="https://img.shields.io/badge/AxiomID-00FF41?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiIgZmlsbD0iI2ZmZiI+PHBvbHlsaW5lIHBvaW50cz0iMSwxIDE1LDEgMTUsMTUgMSwxNSAxLDEiIHN0cm9rZT0iI2ZmZiIgc3Ryb2tlLXdpZHRoPSIyIiBmaWxsPSJub25lIi8+PHRleHQgeD0iNCIgeT0iMTIiIGZvbnQtZmFtaWx5PSJtb25vc3BhY2UiIGZvbnQtc2l6ZT0iMTAiIGZpbGw9IiNmZmYiPkE8L3RleHQ+PC9zdmc+&logoColor=white" alt="AxiomID" /></a>
-<a href="https://app.virtuals.io/acp/agents/019f6ec8-a056-7a45-bae1-8d905362a587"><img src="https://img.shields.io/badge/ACP-7C3AED?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiIgZmlsbD0iI2ZmZiI+PGNpcmNsZSBjeD0iOCIgY3k9IjgiIHI9IjciIHN0cm9rZT0iI2ZmZiIgc3Ryb2tlLXdpZHRoPSIxLjUiIGZpbGw9Im5vbmUiLz48cGF0aCBkPSJNNSA4aDZNNyA1bDIgM2wtMiAzIiBzdHJva2U9IiNmZmYiIHN0cm9rZS13aWR0aD0iMS41IiBmaWxsPSJub25lIi8+PC9zdmc+&logoColor=white" alt="ACP Marketplace" /></a>
-<a href="mailto:momtaz2727@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
+<a href="https://github.com/Moeabdelaziz007"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub Profile" /></a>
+<a href="mailto:momtaz2727@gmail.com"><img src="https://img.shields.io/badge/Direct--Contact-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Direct Email" /></a>
 
 </div>
 
