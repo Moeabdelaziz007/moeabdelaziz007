@@ -61,28 +61,32 @@
 
 <table>
 <tr>
-<td width="50%">
+<td width="50%" valign="top">
 
-■ **FOUNDER** · AxiomID
-Portable, sovereign identity infrastructure for humans + AI agents.
-Building the **first W3C DID + TrustChain protocol** that doesn't require
-centralized registries, biometric databases, or vendor lock-in.
+### 🌐 English
 
-■ **FOUNDER** · PAI (Pi Agentic Infrastructure)
-The agentic layer for Pi Network's 18M+ KYC'd humans.
-One-click deploy agents, MCP gateways, verifiable passports.
+■ **FOUNDER** · **AxiomID**  
+Portable, sovereign identity infrastructure for humans + AI agents. Building the **first W3C DID + TrustChain protocol** that eliminates centralized registries, biometric tracking, and vendor lock-in.
+
+■ **FOUNDER** · **PAI (Pi Agentic Infrastructure)**  
+The agentic ecosystem for Pi Network's 18M+ KYC'd humans. Zero-cost agent deployment, unified MCP gateways, and verifiable agent passports.
+
+■ **AUTHOR** · **OpenIdentity.md**  
+The **Discovery Layer for AI Agent Identity**. A portable USB-like manifest standardizing DIDs, roles, skills, MCP tools, A2A metadata, memory discovery, and wallet authorization.
 
 </td>
-<td width="50%">
+<td width="50%" valign="top">
 
-■ **المؤسس** · AxiomID
-بنية تحتية للهوية السيادية المحمولة للبشر والوكلاء.
-أبني أول بروتوكول هوية لا مركزية (DID) مع TrustChain
-لا يحتاج إلى قواعد بيانات مركزية أو مسح للقزحية.
+### 🇸🇦 العربية
 
-■ **المؤسس** · PAI
-الطبقة الوكيلية لشبكة باي — 18 مليون+ إنسان موثق.
-نشر الوكلاء بنقرة واحدة، بوابات MCP، جوازات سفر قابلة للتحقق.
+■ **المؤسس** · **AxiomID**  
+بنية تحتية للهوية السيادية المحمولة للبشر والوكلاء. أبني أول بروتوكول **W3C DID + TrustChain** لا يحتاج إلى قواعد بيانات مركزية أو مسح للقزحية أو احتكار المزودين.
+
+■ **المؤسس** · **PAI (الطبقة الوكيلية لشبكة باي)**  
+البيئة الوكيلية لشبكة باي — 18+ مليون إنسان موثق. نشر الوكلاء بنقرة واحدة بكلفة صفرية، بوابات MCP موحدة، وجوازات سفر قابلة للتحقق.
+
+■ **المؤلف** · **OpenIdentity.md**  
+**طبقة الاكتشاف لهوية وكلاء الذكاء الاصطناعي**. ملف هوية محمول يشبه واصف USB يجمع الهوية، المهارات، أدوات MCP، بيانات A2A، وروابط المحافظ في مواصفة آمنة.
 
 </td>
 </tr>
@@ -94,25 +98,31 @@ One-click deploy agents, MCP gateways, verifiable passports.
 
 <!-- ═══════════ 01. TECH STACK ═══════════ -->
 
-## `01.` TECH STACK · <bdo dir="rtl">التقنيات</bdo>
+## `01.` TECH STACK · <bdo dir="rtl">التقنيات والمعايير</bdo>
 
 <div align="center">
 
-### Languages & Frameworks
+### Languages & Runtimes
 
-<a href="https://www.typescriptlang.org"><img src="https://skillicons.dev/icons?i=ts,js,react,nextjs,nodejs,py,go,rust" alt="TypeScript, React, Next.js, Node.js, Python, Go, Rust" /></a>
+<a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=ts,js,py,go,rust,zig,cpp,nodejs" alt="TypeScript, JavaScript, Python, Go, Rust, Zig, C++, Node.js" /></a>
 
-<a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=tailwind,postgres,redis,docker,git,githubactions,cloudflare,vercel" alt="Tailwind, PostgreSQL, Redis, Docker, Git, GitHub Actions, Cloudflare, Vercel" /></a>
+### Web, Frameworks & Storage
 
-### Core Protocols
+<a href="https://skillicons.dev"><img src="https://skillicons.dev/icons?i=nextjs,react,tailwind,cloudflare,vercel,postgres,supabase,redis,docker,git,githubactions" alt="Next.js, React, Tailwind, Cloudflare, Vercel, Postgres, Supabase, Redis, Docker, Git, GitHub Actions" /></a>
 
-| Protocol | Standard | Status |
-|:---|:---|---:|
-| W3C Decentralized Identifiers (DID) | [DID-Core](https://www.w3.org/TR/did-core/) | ✅ Implemented |
-| Verifiable Credentials | [VC-DATA-MODEL](https://www.w3.org/TR/vc-data-model/) | ✅ Implemented |
-| Ed25519 Signatures | [RFC 8032](https://datatracker.ietf.org/doc/rfc8032/) | ✅ Implemented |
-| TrustChain (append-only) | AxiomID proprietary | ✅ v0.3.0 |
-| SOUL Protocol | AGENTS.md | ✅ Enforced |
+<br>
+
+### Core Protocols & Cryptographic Standards
+
+| Protocol / Standard | Specification | Implementation & Status |
+|:---|:---|:---:|
+| **W3C DID (Decentralized Identifiers)** | [W3C DID-Core Specification](https://www.w3.org/TR/did-core/) | ✅ `did:axiom` Native Resolver |
+| **Verifiable Credentials (VC)** | [W3C VC Data Model v2.0](https://www.w3.org/TR/vc-data-model-2.0/) | ✅ Sovereign Passport Engine |
+| **OpenIdentity Protocol** | [`openidentity.md`](https://github.com/pai-list/openidentity.md) | ✅ Discovery Layer Standard v1.0 |
+| **Ed25519 Cryptographic Signatures** | [RFC 8032 High-Speed Ed25519](https://datatracker.ietf.org/doc/rfc8032/) | ✅ WebCrypto Native Signatures |
+| **Model Context Protocol (MCP)** | [Model Context Protocol Specification](https://modelcontextprotocol.io/) | ✅ `pai-mcp` Unified Gateway |
+| **TrustChain Ledger** | Append-Only Cryptographic Hash Chain | ✅ Live v0.3.0 Engine |
+| **SOUL Protocol (IQRA)** | Conscience & Ethical Substrate | ✅ Enforced Governance |
 
 </div>
 
