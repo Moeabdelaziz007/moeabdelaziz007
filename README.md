@@ -31,7 +31,7 @@
 
 <br/><br/>
 
-<img src="https://raw.githubusercontent.com/Moeabdelaziz007/AxiomID/main/assets/avatar.svg" width="100" alt="AxiomID terminal avatar" />
+<img src="https://raw.githubusercontent.com/Moeabdelaziz007/Moeabdelaziz007/main/assets/avatar.svg" width="100" alt="AxiomID terminal avatar" />
 
 <h1>MOHAMED HOSSAM-ELDIN ABDELAZIZ</h1>
 <h3><bdo dir="rtl">محمد حسام الدين عبد العزيز</bdo></h3>
@@ -282,7 +282,7 @@ Package: `@pai/llm-registry` (on branch `feat/llm-registry-us-china-bridge`, PR 
 | CI | Passing (build fix in progress) | `.github/workflows/` |
 | Open Issues | 19 | GitHub API |
 | Stars | 2 | GitHub API |
-| License | Not yet declared | TBD |
+| License | ✅ MIT License | [LICENSE](https://github.com/pai-list/AxiomID/blob/main/LICENSE) |
 
 ### Stack
 
