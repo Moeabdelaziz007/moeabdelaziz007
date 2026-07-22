@@ -217,6 +217,7 @@ The **Discovery Layer for AI Agent Identity**. A portable USB-like manifest stan
 | **axiomid-piverify** | [`pai-list/axiomid-piverify`](https://github.com/pai-list/axiomid-piverify) | KYA Verification on Virtuals ACP for Pi Network | ✅ MIT | 🟡 Alpha |
 | **PiWorker** | [`pai-list/PiWorker`](https://github.com/pai-list/PiWorker) | Pi Network Edge Worker Services | ✅ MIT | 🟡 Alpha |
 | **openidentity.md** | [`pai-list/openidentity.md`](https://github.com/pai-list/openidentity.md) | Agent Identity Specification & Standard | Spec | 📝 Spec |
+| **pai-rehearse** | [`pai-list/pai-rehearse`](https://github.com/pai-list/pai-rehearse) | Cognitive Pre-Simulation & World Model Dreaming Protocol | ✅ MIT | 🟢 Active |
 
 ### Governance & Licensing Note
 
