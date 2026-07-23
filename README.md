@@ -81,6 +81,12 @@ The agentic ecosystem for Pi Network's 18M+ KYC'd humans. Zero-cost agent deploy
 ■ **AUTHOR** · **OpenIdentity.md**  
 The **Discovery Layer for AI Agent Identity**. A portable USB-like manifest standardizing DIDs, roles, skills, MCP tools, A2A metadata, memory discovery, and wallet authorization.
 
+■ **CREATOR** · **SAAM-Al-Mizan**  
+Serverless Agentic Application Model (SAAM) + tri-regional model arbitrage router. Declarative `pai-saam.jsonc` blueprint deploying zero-cost agents across US/CN/MENA. Implemented in `pai-rehearse` with CLI support in `pai saam`.
+
+■ **AUTHOR** · **AlphaAxiom**  
+Research sandbox for AxiomID — experimental features, cognitive simulations, and protocol prototypes.
+
 </td>
 <td width="50%" valign="top">
 
@@ -128,6 +134,7 @@ The **Discovery Layer for AI Agent Identity**. A portable USB-like manifest stan
 | **OpenIdentity Protocol** | [`openidentity.md`](https://github.com/pai-list/openidentity.md) | ✅ Discovery Layer Standard v1.0 |
 | **Ed25519 Cryptographic Signatures** | [RFC 8032 High-Speed Ed25519](https://datatracker.ietf.org/doc/rfc8032/) | ✅ WebCrypto Native Signatures |
 | **Model Context Protocol (MCP)** | [Model Context Protocol Specification](https://modelcontextprotocol.io/) | ✅ `pai-mcp` Unified Gateway |
+| **SAAM-Al-Mizan** | Serverless Agentic Application Model + Tri-Regional Arbitrage | ✅ `pai saam` CLI · `pai-rehearse` Engine |
 | **TrustChain Ledger** | Append-Only Cryptographic Hash Chain | ✅ Live v0.3.0 Engine |
 | **SOUL Protocol (IQRA)** | Conscience & Ethical Substrate | ✅ Enforced Governance |
 
@@ -233,17 +240,19 @@ The **Discovery Layer for AI Agent Identity**. A portable USB-like manifest stan
 
 | Module | Repository | Role | License | Status |
 |:---|:---|:---|:---:|---:|
-| **AxiomID** | [`pai-list/AxiomID`](https://github.com/pai-list/AxiomID) | Identity Protocol · TrustChain · Passport | Proprietary | 🟢 Live |
-| **pai-website** | [`pai-list/pai-website`](https://github.com/pai-list/pai-website) | PAI Marketing Hub & Docs (Next.js 15) | ✅ MIT | 🟢 Active |
+| **AxiomID** | [`pai-list/AxiomID`](https://github.com/pai-list/AxiomID) | Identity Protocol · TrustChain · Passport | Custom | 🟢 Live |
+| **pai-website** | [`pai-list/pai-website`](https://github.com/pai-list/pai-website) | PAI Marketing Hub & Docs (Next.js 15, i18n EN/AR/ZH) | ✅ MIT | 🟢 Active |
 | **pai-mcp** | [`pai-list/pai-mcp`](https://github.com/pai-list/pai-mcp) | Unified MCP Gateway (CF Workers + TigerData $1k OpenLLM) | ✅ MIT | 🟢 Active |
 | **pai-agent-kit** | [`pai-list/pai-agent-kit`](https://github.com/pai-list/pai-agent-kit) | Agent Runtime · Token Delta Engine · Vectorize | ✅ MIT | 🟢 Active |
-| **pai-cli** | [`pai-list/pai-cli`](https://github.com/pai-list/pai-cli) | Developer CLI — `pai create`, `deploy`, `verify` | ✅ MIT | 🟡 Alpha |
+| **pai-rehearse** | [`pai-list/pai-rehearse`](https://github.com/pai-list/pai-rehearse) | SAAM-Al-Mizan — Cognitive Pre-Simulation & Self-Play Engine | ✅ MIT | 🟢 Active |
+| **pai-cli** | [`pai-list/pai-cli`](https://github.com/pai-list/pai-cli) | Developer CLI — `pai create`, `pai saam`, `deploy`, `verify` | ✅ MIT | 🟡 Alpha |
 | **pai-skills** | [`pai-list/pai-skills`](https://github.com/pai-list/pai-skills) | Capability Marketplace & Skills Registry | ✅ MIT | 🟡 Alpha |
 | **pai-atom** | [`pai-list/pai-atom`](https://github.com/pai-list/pai-atom) | THE ATOM — Immutable PaiSkill ABI & UI primitives | ✅ MIT | 🟡 Alpha |
 | **pai-startkit** | [`pai-list/pai-startkit`](https://github.com/pai-list/pai-startkit) | One-Click Deploy Starter Template | ✅ MIT | 🟡 Alpha |
 | **axiomid-piverify** | [`pai-list/axiomid-piverify`](https://github.com/pai-list/axiomid-piverify) | KYA Verification on Virtuals ACP for Pi Network | ✅ MIT | 🟡 Alpha |
 | **PiWorker** | [`pai-list/PiWorker`](https://github.com/pai-list/PiWorker) | Pi Network Edge Worker Services | ✅ MIT | 🟡 Alpha |
 | **openidentity.md** | [`pai-list/openidentity.md`](https://github.com/pai-list/openidentity.md) | Agent Identity Specification & Standard | Spec | 📝 Spec |
+| **AlphaAxiom** | [`pai-list/AlphaAxiom`](https://github.com/pai-list/AlphaAxiom) | Research Sandbox — Experimental features & protocol prototypes | ✅ MIT | 🟡 Alpha |
 
 ### Governance & Licensing Note
 
@@ -351,6 +360,16 @@ KYA on Virtuals ACP — verifiable credentials for Pi Network.
 ![stars](https://img.shields.io/github/stars/pai-list/axiomid-piverify?style=flat-square&logo=pi-network&color=F97316&labelColor=0D1117)
 
 [`pai-list/axiomid-piverify`](https://github.com/pai-list/axiomid-piverify)
+
+</td>
+<td width="50%" valign="top">
+
+### 🧠 [PAI-Rehearse](https://github.com/pai-list/pai-rehearse)
+SAAM-Al-Mizan cognitive pre-simulation — self-play engine for agent readiness.
+
+![stars](https://img.shields.io/github/stars/pai-list/pai-rehearse?style=flat-square&logo=python&color=39FF14&labelColor=0D1117)
+
+[`pai-list/pai-rehearse`](https://github.com/pai-list/pai-rehearse)
 
 </td>
 </tr>
