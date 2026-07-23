@@ -1,8 +1,10 @@
 <!-- ════════════════ MOEABDELAZIZ007 · PROFILE README ════════════════ -->
 <!-- Soul-Aligned · No Fabricated Numbers · Verified Facts Only     -->
-<!-- Updated: 21 July 2026                                          -->
+<!-- Updated: 23 July 2026                                          -->
 <!-- Designed with readme-designer skill + crisp-links pattern      -->
+<!-- Applied: standardgalactic-design-patterns v1                   -->
 <!-- Inspired by bhupendra05's self-hosted SVG approach             -->
+<!-- Inspired by standardgalactic's README-as-launchpad approach    -->
 <!--                                                                -->
 <!-- CREDITS — Built with Hermes Agent (Nous Research)              -->
 <!-- This README and the AxiomID project were built collaboratively -->
@@ -164,39 +166,64 @@ The **Discovery Layer for AI Agent Identity**. A portable USB-like manifest stan
 
 <br>
 
-<!-- ═══════════ 03. THE ARCHITECTURE ═══════════ -->
+<!-- ═══════════ 03. TOPOLOGY — 7-POOL SPATIAL ARCHITECTURE ═══════════ -->
 
-## `03.` THE ARCHITECTURE · <bdo dir="rtl">المعمارية</bdo>
+## `03.` 7-POOL TOPOLOGY · <bdo dir="rtl">المعمارية المكانية</bdo>
+
+> Following spherepop's spatial/visual programming pattern — nested bubbles showing containment, not just connection. Each pool encloses the next, forming a topological stack.
 
 ```
-┌─────────────────────────────────────────────────────────────────┐
-│                        PAI                                       │
-│           Pi Agentic Infrastructure                              │
-│                                                                  │
-│   ┌─────────┐  ┌─────────┐  ┌─────────┐  ┌─────────┐            │
-│   │ PAI-BYE │  │ PAI-HAI │  │ PAI-TRY │  │ PAI-FLY │            │
-│   │  Entry  │  │  Trust  │  │  School │  │  Travel │            │
-│   └────┬────┘  └────┬────┘  └────┬────┘  └────┬────┘            │
-│        │            │            │            │                  │
-│   ┌────┴────────────┴────────────┴────────────┴────┐            │
-│   │              PAI-PPP                             │            │
-│   │     Protocol Network · Topology Index            │            │
-│   └───────────────────────┬──────────────────────────┘          │
-│                            │                                     │
-│              ┌─────────────┴─────────────┐                      │
-│              │     AxiomID (AIP)          │                      │
-│              │  Identity Primitive Layer  │                      │
-│              │  W3C DID · TrustChain · KYA│                      │
-│              └────────────────────────────┘                      │
-│                            │                                     │
-│              ┌─────────────┴─────────────┐                      │
-│              │     Pi Network (Base)      │                      │
-│              │  18M+ KYC'd Humans         │                      │
-│              │  Pi SDK · Stellar · Wallet │                      │
-│              └────────────────────────────┘                      │
-│                                                                  │
-└──────────────────────────────────────────────────────────────────┘
+                  ┌──────────────────────────────────────────────┐
+                  │               POOL 0 · Identity               │
+                  │     W3C DID · TrustChain · Ed25519 · KYA      │
+                  │                                                │
+                  │  ┌──────────────────────────────────────────┐  │
+                  │  │           POOL 1 · Compute                │  │
+                  │  │  Hermes · Workers · LLMs · Lambda         │  │
+                  │  │                                           │  │
+                  │  │  ┌────────────────────────────────────┐  │  │
+                  │  │  │        POOL 2 · Tools               │  │  │
+                  │  │  │  MCP · Skills · ACP · CLI           │  │  │
+                  │  │  │                                    │  │  │
+                  │  │  │  ┌──────────────────────────────┐  │  │  │
+                  │  │  │  │     POOL 3 · Data             │  │  │  │
+                  │  │  │  │  Postgres · Vectorize · KV    │  │  │  │
+                  │  │  │  │                              │  │  │  │
+                  │  │  │  │  ┌────────────────────────┐  │  │  │  │
+                  │  │  │  │  │  POOL 4 · Memory        │  │  │  │  │
+                  │  │  │  │  │  Histories · Sessions   │  │  │  │  │
+                  │  │  │  │  │                        │  │  │  │  │
+                  │  │  │  │  │  ┌──────────────────┐  │  │  │  │  │
+                  │  │  │  │  │  │ POOL 5 · Evolve   │  │  │  │  │  │
+                  │  │  │  │  │  │ Learning · Skills │  │  │  │  │  │
+                  │  │  │  │  │  │                  │  │  │  │  │  │
+                  │  │  │  │  │  │  ┌────────────┐  │  │  │  │  │  │
+                  │  │  │  │  │  │  │POOL 6·Bridge│  │  │  │  │  │  │
+                  │  │  │  │  │  │  │Pi ↔ Stellar │  │  │  │  │  │  │
+                  │  │  │  │  │  │  └────────────┘  │  │  │  │  │  │
+                  │  │  │  │  │  └──────────────────┘  │  │  │  │  │
+                  │  │  │  │  └────────────────────────┘  │  │  │  │
+                  │  │  │  └──────────────────────────────┘  │  │  │
+                  │  │  └────────────────────────────────────┘  │  │
+                  │  └──────────────────────────────────────────┘  │
+                  └────────────────────────────────────────────────┘
+
+    Vertical flow: 0 → 1 → 2 → 3 → 4 → 5 → 6
+    Each pool knows its parent (identity) and child (bridge)
+    Agents traverse the topology outward (bridge) and inward (identity)
 ```
+
+**Mapping to PAI Stack:**
+
+| Pool | Domain | Primary Technology | Status |
+|:---|:---|---:|---:|
+| 0 · Identity | W3C DIDs, TrustChain, Passport | AxiomID Engine | 🟢 Live |
+| 1 · Compute | Agent runtime, LLM routing | Hermes · Workers · TigerData | 🟢 Live |
+| 2 · Tools | MCP, skills registry, ACP | pai-mcp · pai-skills | 🟢 Live |
+| 3 · Data | Persistent storage, vectors | Ghost.Build · Vectorize | 🟢 Live |
+| 4 · Memory | Agent histories, sessions | pai-agent-kit | 🟡 Alpha |
+| 5 · Evolution | Learning, skill acquisition | PaiSkillLearner | 🟡 Alpha |
+| 6 · Bridge | Cross-chain Pi ↔ Stellar | PiWorker · PiVerify | 🟡 Alpha |
 
 <br>
 
@@ -221,6 +248,113 @@ The **Discovery Layer for AI Agent Identity**. A portable USB-like manifest stan
 ### Governance & Licensing Note
 
 > All open-source repositories under the [`pai-list`](https://github.com/pai-list) organization are **100% MIT Licensed**, maintained for open agentic infrastructure built on Pi Network.
+
+<br>
+
+<!-- ═══════════ LAUNCHPAD — STANDARDGALACTIC PATTERN ═══════════ -->
+
+## `❯` LIVING PROJECTS · <bdo dir="rtl">مشاريع حية</bdo>
+
+> Every project below has a **live demo** — click to launch. Inspired by [standardgalactic](https://github.com/standardgalactic)'s README-as-application-launcher pattern.
+
+<table>
+<tr>
+<td width="33%" valign="top">
+
+### 🔷 [AxiomID App](https://axiomid.app)
+Sovereign identity platform — W3C DID, TrustChain, Ed25519 passports.
+
+</td>
+<td width="33%" valign="top">
+
+### 🟣 [PAI Website](https://pai-website.vercel.app)
+Marketing hub & docs — Next.js 15, bilingual, agent playground.
+
+</td>
+<td width="33%" valign="top">
+
+### 🟢 [ACP Marketplace](https://app.virtuals.io/acp/agents/019f6ec8-a056-7a45-bae1-8d905362a587)
+22 live agent offerings — identity, safety, code, validation.
+
+</td>
+</tr>
+<tr>
+<td width="33%" valign="top">
+
+### 🟡 [OpenIdentity Spec](https://github.com/pai-list/openidentity.md)
+Agent identity standard — DIDs, roles, MCP tools, wallet auth.
+
+</td>
+<td width="33%" valign="top">
+
+### 🟠 [PAI MCP Gateway](https://github.com/pai-list/pai-mcp)
+Unified MCP gateway — 11 tools across 5 providers.
+
+</td>
+<td width="33%" valign="top">
+
+### 🔵 [PAI Agent Kit](https://github.com/pai-list/pai-agent-kit)
+Agent runtime, token delta engine, vectorize.
+
+</td>
+</tr>
+</table>
+
+<br>
+
+## `❯` FLAGSHIP_BUILDS · <bdo dir="rtl">المشاريع الرئيسية</bdo>
+
+Applying the **featured builds table** pattern — each card is a live, verified project with direct demo access.
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+### ▲ [AxiomID](https://axiomid.app)
+Portable identity layer for the agentic era.
+
+![stars](https://img.shields.io/github/stars/pai-list/AxiomID?style=flat-square&logo=github&color=00FF41&labelColor=0D1117)
+![issues](https://img.shields.io/github/issues/pai-list/AxiomID?style=flat-square&color=ff6b6b&labelColor=0D1117)
+![license](https://img.shields.io/github/license/pai-list/AxiomID?style=flat-square&color=00A36C&labelColor=0D1117)
+
+[`pai-list/AxiomID`](https://github.com/pai-list/AxiomID)
+
+</td>
+<td width="50%" valign="top">
+
+### ⚡ [PAI-MCP Gateway](https://github.com/pai-list/pai-mcp)
+Unified MCP — Cloudflare Workers + Vercel + Ghost.Build + Pi + Kernel.
+
+![stars](https://img.shields.io/github/stars/pai-list/pai-mcp?style=flat-square&logo=github&color=7C3AED&labelColor=0D1117)
+![license](https://img.shields.io/github/license/pai-list/pai-mcp?style=flat-square&color=00A36C&labelColor=0D1117)
+
+[`pai-list/pai-mcp`](https://github.com/pai-list/pai-mcp)
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### 🌐 [OpenIdentity.md](https://github.com/pai-list/openidentity.md)
+Discovery layer for AI agent identity — the portable USB manifest.
+
+![stars](https://img.shields.io/github/stars/pai-list/openidentity.md?style=flat-square&logo=markdown&color=00A36C&labelColor=0D1117)
+
+[`pai-list/openidentity.md`](https://github.com/pai-list/openidentity.md)
+
+</td>
+<td width="50%" valign="top">
+
+### 🛡️ [PiVerify](https://github.com/pai-list/axiomid-piverify)
+KYA on Virtuals ACP — verifiable credentials for Pi Network.
+
+![stars](https://img.shields.io/github/stars/pai-list/axiomid-piverify?style=flat-square&logo=pi-network&color=F97316&labelColor=0D1117)
+
+[`pai-list/axiomid-piverify`](https://github.com/pai-list/axiomid-piverify)
+
+</td>
+</tr>
+</table>
 
 <br>
 
@@ -321,7 +455,7 @@ The **Discovery Layer for AI Agent Identity**. A portable USB-like manifest stan
 | API Routes | 48+ (25 MVP) | `src/app/api/` |
 | Pages | 16 | `src/app/` |
 | CI | Passing (build fix in progress) | `.github/workflows/` |
-| Open Issues | 19 | GitHub API |
+| Open Issues | 14 | GitHub API |
 | Stars | 2 | GitHub API |
 | License | ✅ MIT License | [LICENSE](https://github.com/pai-list/AxiomID/blob/main/LICENSE) |
 
@@ -422,7 +556,7 @@ This README follows the **SOUL Protocol** defined in `AGENTS.md`. Every number i
 
 <br><br>
 
-**Last updated**: 22 July 2026 · Verified with `gh` + `curl` + `wc -l`
+**Last updated**: 23 July 2026 · Verified with `gh` + `curl` + `wc -l`
 
 > *"King Isn't Born, He is Made"* · Built for the next agentic era ❤️
 
