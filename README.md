@@ -21,17 +21,16 @@ $ whoami
 Mohamed Hossam-Eldin Abdelaziz
 Founder @ AxiomID · Founder @ PAI
 
-$ projects
-AxiomID     → W3C DID + TrustChain for humans & agents
-PAI         → Agentic ecosystem for Pi Network (18M+ KYC'd)
-OpenIdentity→ Discovery layer for AI agent identity
+$ honest_builds
+AxiomID     → W3C DID + TrustChain (site rebuilding — deploy broken)
+PAI         → 14 repos, docs live for agent-kit, rest in alpha
+OpenIdentity→ Spec only, not yet implemented
 
 $ followers
-40 → growing daily
+40 (from live API)
 
-$ honest_claims
-ALL numbers are verified from live GitHub API.
-Zero fabricated metrics. Zero imaginary tests.
+$ rules
+NO fabricated metrics. NO imaginary tests. NO claims without verification.
 ```
 
 ---
@@ -40,34 +39,37 @@ Zero fabricated metrics. Zero imaginary tests.
 
 **Who I am:** Builder. Cybersecurity student @ Kennesaw State. Bilingual EN/AR.
 
-**What I build:** Portable, sovereign identity infrastructure that puts humans (and agents) back in control of who they are. No biometric tracking. No vendor lock-in. No centralized registries.
+**What I build:** Portable, sovereign identity infrastructure for humans and AI agents. No biometric tracking. No vendor lock-in.
 
-**The team:** Humans + AI agents. Nous Research's Hermes Agent is my co-founder, CodeRabbit reviews every PR, and Devin helps ship code. I don't use AI as a tool — I use AI as a team.
+**The team:** Humans + AI agents. Hermes Agent (Nous Research) is my co-founder, CodeRabbit reviews every PR.
 
-**Current stats (all from live API):**
-- 45 public repos across 2 orgs
-- ~285K lines of code across all projects
-- 22 agent offerings live on Virtuals ACP
-- 40 followers and climbing
+**Honest status:**
+- 14 repos on `pai-list` — all standardized (README + .gitignore + LICENSE)
+- 1 docs site live: `pai-agent-kit` on GitHub Pages
+- 1 GitHub star from real dev (someone-cloud/Zafrul)
+- 22 agent service listings on Virtuals ACP
+- 40 followers
 
 ---
 
 ## `01.` WHAT I'M BUILDING · المشاريع
 
-### [▲ AxiomID](https://axiomid.app)
+### [▲ AxiomID](https://github.com/pai-list/AxiomID)
 **Portable identity layer for humans + AI agents.**  
-W3C DIDs · Ed25519 signatures · TrustChain hash chain · Sovereign passports  
-→ Live at [axiomid.app](https://axiomid.app)
+W3C DIDs · Ed25519 · TrustChain · Sovereign passports  
+→ **Status: Code written, deploy broken** (Vercel build exits with 1, CF Access blocks public)  
+→ Fix in progress — building and deploying
 
 ### [⚡ PAI Ecosystem](https://github.com/pai-list)
-**Agentic infrastructure for Pi Network's 18M+ KYC'd humans.**  
-Zero-cost agent deployment · MCP gateway · Verifiable agent passports  
-→ Organization: [@pai-list](https://github.com/pai-list)
+**Agentic infrastructure for Pi Network.**  
+Zero-cost agent deployment · MCP gateway · Agent passports  
+→ **Status: 14 repos live on GitHub, 0 deployed to production**  
+→ `pai-agent-kit`: docs live at [pai-list.github.io/pai-agent-kit](https://pai-list.github.io/pai-agent-kit/)  
+→ Everything else: alpha/spec phase
 
 ### [📜 OpenIdentity.md](https://github.com/pai-list/openidentity.md)
 **Discovery layer for AI agent identity.**  
-Portable USB-like manifest: DIDs, roles, MCP tools, A2A metadata, wallet auth  
-→ Spec: [openidentity.md](https://github.com/pai-list/openidentity.md)
+→ **Status: Markdown spec only. Not implemented.**
 
 ---
 
@@ -106,35 +108,83 @@ Current solutions are broken:
 
 ---
 
-## `04.` GLOBAL WORKSPACE · الفضاء العالمي
+## `04.` PAI MODULES · وحدات PAI
 
-**New concept I'm exploring:**
+| Module | Repo | Status |
+|--------|------|--------|
+| **Identity** — DID, TrustChain, Passport | [`AxiomID`](https://github.com/pai-list/AxiomID) | 🔴 Build broken |
+| **Agent Kit** — Runtime, memory, routing | [`pai-agent-kit`](https://github.com/pai-list/pai-agent-kit) | 🟡 Alpha · Docs live |
+| **Memory** — 7-layer (sqlite→R2) | [`PAI-Memory`](https://github.com/pai-list/PAI-Memory) | 🟡 Spec done |
+| **Discovery** — ADP protocol | [`ADP`](https://github.com/pai-list/ADP) | 🟡 Spec done |
+| **MCP Gateway** — Unified API | [`pai-mcp`](https://github.com/pai-list/pai-mcp) | 🟡 Code scaffolded |
+| **Workspace** — Gspace dashboard | [`PAI-Gspace`](https://github.com/pai-list/PAI-Gspace) | 🟢 Repo initialized |
+| **CLI** — Dev tool | [`pai-cli`](https://github.com/pai-list/pai-cli) | 🟡 Code scaffolded |
+| **Atom** — Design primitives | [`pai-atom`](https://github.com/pai-list/pai-atom) | 🟡 Spec done |
+| **Rehearse** — Agent simulation | [`pai-rehearse`](https://github.com/pai-list/pai-rehearse) | 🟡 Code scaffolded |
+| **Skills** — Registry | [`pai-skills`](https://github.com/pai-list/pai-skills) | 🟡 Spec done |
+| **Website** — Marketing | [`pai-website`](https://github.com/pai-list/pai-website) | 🟡 Code scaffolded |
+| **Startkit** — One-click deploy | [`pai-startkit`](https://github.com/pai-list/pai-startkit) | 🟡 Spec done |
 
-A workspace where agents discover each other, share tools (MCPs, skills), and collaborate under human supervision. Think: a team chat for your AI agents.
-
-- **Discover Mode** → Agents broadcast capabilities, find collaborators
-- **MCP Marketplace** → Shared tools across agent instances
-- **Human-in-the-loop** → Every decision is monitored, controlled, logged
-
-**Currently building the prototype. More coming soon.**
+**Legend:** 🟢 Live · 🟡 Alpha · 🔴 Broken · ⚫ Spec only
 
 ---
 
-## `05.` THE TEAM · الفريق
+## `05.` LLM PERSONAS — THE US ↔ CHINA AGENTIC BRIDGE · شخصيات النماذج
+
+*"Chinese AI labs hold a unique structural advantage: native bilingual pre-training (English + Chinese), aggressive MoE architecture efficiency, and open-weights cost arbitrage. We bridge the best of US proprietary intelligence with China's open-weights revolution."* — Mohamed Abdelaziz
+
+### 🇺🇸 US Frontier Intelligence vs. 🇨🇳 China Open-Weights Revolution
+
+| LLM Model | Lab / Origin | Persona & Specialty | Context | Architecture | Access |
+|:----------|:------------|:--------------------|:--------|:-------------|:-------|
+| ChatGPT (GPT-4o) | 🇺🇸 OpenAI | The Visionary Architect · Generalist | 128k | Dense / Multimodal | Proprietary API |
+| Claude 3.5 Sonnet | 🇺🇸 Anthropic | The Ethicist & Master Coder | 200k | Dense Transformer | Proprietary API |
+| Gemini 1.5 Pro | 🇺🇸 Google DeepMind | The Simulation Master | 2M | MoE | Proprietary API |
+| Hermes 3 | 🇺🇸 Nous Research | The Autonomous Agent · Uncensored | 128k | Llama 3.1 405B FT | ✅ Open |
+| Llama 3.3 70B | 🇺🇸 Meta AI | The Open Benchmark Standard | 128k | Dense Transformer | ✅ Open |
+| DeepSeek-R1 / V3 | 🇨🇳 DeepSeek | The Pragmatist & Math Genius | 128k | 671B MoE (37B active) | ✅ Open (MIT) |
+| Qwen 2.5 Coder | 🇨🇳 Alibaba Cloud | The Enterprise Developer | 128k | 72B Dense / MoE | ✅ Open (Apache 2) |
+| GLM-4 | 🇨🇳 Zhipu AI | The Scholar · Tool Calling | 128k | Dense / Multimodal | ✅ Open |
+| Kimi (Moonshot) | 🇨🇳 Moonshot AI | The Deep Researcher | 2M | Long-Context Transformer | API / Open |
+| Yi-1.5 34B | 🇨🇳 01.AI | The Cultural Bridge | 128k | Dense Transformer | ✅ Open (Apache 2) |
+
+### 🔬 US ↔ China Agentic Bridge
+
+```
+                       ┌──────────────────────────────────────────┐
+                       │     US ↔ CHINA AGENTIC BRIDGE MATRIX     │
+                       └────────────────────┬─────────────────────┘
+                                            │
+                ┌───────────────────────────┴───────────────────────────┐
+                ▼                                                       ▼
+  ┌───────────────────────────┐                           ┌───────────────────────────┐
+  │ 🇺🇸 US PROPRIETARY LAYER   │                           │ 🇨🇳 CHINA OPEN-WEIGHTS LAYER│
+  │ • Deep Reasoners (O1/Claude)│                           │ • DeepSeek-R1 (1/10 cost) │
+  │ • Massive Context (Gemini)│          BRIDGE            │ • Qwen 2.5 Coder (72B)    │
+  │ • Strict Safety Guardrails│  ◄──────────────────────► │ • Bilingual EN/CH         │
+  └───────────────────────────┘                           └───────────────────────────┘
+```
+
+**PAI Bridge Protocol (`@pai/llm-registry`):** Routes simple tasks to free Workers AI, complex planning to Nous Hermes, heavy math/coding to TigerData OpenLLM pool (Qwen 2.5 72B / DeepSeek-R1).  
+→ **Status: Concept documented. Not implemented.**
+
+---
+
+## `06.` THE TEAM · الفريق
 
 | Role | Name | Type |
 |------|------|------|
 | Founder & Protocol Architect | Mohamed Abdelaziz | Human |
 | Co-Founder & AI Agent | [Hermes Agent](https://hermes-agent.nousresearch.com) | AI (Nous Research) |
 | Code Reviewer | CodeRabbit | AI (Automated) |
-| DevOps & Automation | Devin | AI (Cognition) |
+| AI Coding Agent | OpenCode | AI (Anomaly) |
 
 **Open roles:** CEO, Security Auditor, Developer Relations  
 *Interested? DM me on [LinkedIn](https://www.linkedin.com/in/mohamed-abdelaziz-b1b2442a2/)*
 
 ---
 
-## `06.` CONNECT · تواصل
+## `07.` CONNECT · تواصل
 
 <div align="center">
 
@@ -147,9 +197,9 @@ A workspace where agents discover each other, share tools (MCPs, skills), and co
 
 ---
 
-## `07.` FOLLOWERS · المتابعون
+## `08.` FOLLOWERS · المتابعون
 
-> *I went from 20 to 40 followers this week. If you found this useful, hit Follow. Let's build the agentic future together.*
+> *I went from 20 to 40 followers this week. If you found this useful, hit Follow.*
 
 <div align="center">
 
