@@ -1,0 +1,50 @@
+{
+  "name": "@pai/hermes-crawl-slack",
+  "version": "0.1.0",
+  "description": "Slack crawler for Arabic/MENA enterprises - mirrors Slack workspaces to local SQLite with Arabic text extraction",
+  "private": true,
+  "type": "module",
+  "bin": {
+    "slacrawl-ar": "bin/slacrawl-ar.js"
+  },
+  "files": [
+    "bin",
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "type": "module",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "dev": "tsx watch src/index.ts",
+    "start": "node dist/index.js",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "lint": "oxlint --deny-warnings src/",
+    "lint:fix": "oxlint --fix src/"
+  },
+  "dependencies": {
+    "@slack/web-api": "^7.0.0",
+    "@slack/bolt": "^4.0.0",
+    "better-sqlite3": "^11.0.0",
+    "zod": "^3.23.0",
+    "pino": "^9.0.0",
+    "pino-pretty": "^11.0.0",
+    "arabic-persian-reshaper": "^1.0.0",
+    "hijri-converter": "^1.0.0",
+    "arabic-tokenizer": "^1.0.0",
+    "jais-embeddings": "^1.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "@types/better-sqlite3": "^7.6.0",
+    "typescript": "^5.5.0",
+    "tsx": "^4.15.0",
+    "vitest": "^2.0.0",
+    "oxlint": "^0.5.0"
+  },
+  "engines": {
+    "node": ">=22.0.0"
+  },
+  "license": "MIT"
+}
