@@ -104,8 +104,26 @@ Current solutions are broken:
 - TypeScript / Python / Rust / Zig
 - Next.js / Tailwind / Cloudflare Workers
 - PostgreSQL (Ghost.Build) / Neon / Qdrant
-- Hermes Agent (Nous Research) / Codex / Claude Code
+- Hermes Agent (Nous Research) / Codex / Claude Code / OpenCode (Anomaly)
 - Docker / GitHub Actions / Vercel
+
+### `03b.` UNIVERSAL AGENT RUNTIME TEMPLATES
+
+**Open-source, name-agnostic runtime stack for sovereign agents.** Built from production patterns.
+
+| Runtime | Purpose | Zero-Cost Targets |
+|---------|---------|-------------------|
+| **SOUL** | Constitutional substrate — identity, boundaries, reasoning loop | Any |
+| **SKILL** | Serverless skill framework (MCP-compatible) | CF Workers, Vercel, GH Actions |
+| **MCP** | Model Context Protocol server/client | CF Workers, Vercel, Node, Bun |
+| **RULES** | 10 invariant rules engine (security, validation, audit) | Any |
+| **WORKFLOW** | Plan→Execute→Review pipeline with token economics | GH Actions, CF Workers, Local |
+
+→ **Templates:** [`AxiomID/templates/runtime/`](https://github.com/pai-list/AxiomID/tree/main/templates/runtime)  
+→ **Docs:** [README](https://github.com/pai-list/AxiomID/blob/main/templates/runtime/README.md)  
+→ **License:** MIT — free for all agents, all humans
+
+> **Credits:** This runtime stands on shoulders of **Nous Research (Hermes Agent)** — autonomous architecture & SOUL protocol, **Anomaly (OpenCode)** — CLI-first agent tooling, **Virtuals Protocol (ACP)** — agent economy primitives, and **Frontier Labs** (OpenAI, Anthropic, Google, DeepSeek, Moonshot, Zhipu, Alibaba, 01.AI, Meta, Nous) for the models making it possible.
 
 ---
 
