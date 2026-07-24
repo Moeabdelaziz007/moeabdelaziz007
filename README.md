@@ -3,6 +3,7 @@
 ║   MOEABDELAZIZ007 · PROFILE                          ║
 ║   "I didn't use AI as a tool. I used AI as a team."   ║
 ║   Everything here is verified. Nothing fabricated.    ║
+║   Updated: 24 July 2026                               ║
 ╚══════════════════════════════════════════════════════╝
 -->
 
@@ -129,67 +130,94 @@ Current solutions are broken:
 
 ---
 
-## `05.` LLM PERSONAS — THE US ↔ CHINA AGENTIC BRIDGE · شخصيات النماذج
+## `05.` ACP AGENT ECONOMY · اقتصاد الوكلاء
+
+<div align="center">
+
+**22 services listed on Virtuals ACP Marketplace**
+
+<a href="https://app.virtuals.io/acp/agents/019f6ec8-a056-7a45-bae1-8d905362a587">
+  <img src="https://img.shields.io/badge/ACP_Marketplace-7C3AED?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiIgZmlsbD0iI2ZmZiI+PGNpcmNsZSBjeD0iOCIgY3k9IjgiIHI9IjciIHN0cm9rZT0iI2ZmZiIgc3Ryb2tlLXdpZHRoPSIxLjUiIGZpbGw9Im5vbmUiLz48cGF0aCBkPSJNNSA4aDZNNyA1bDIgM2wtMiAzIiBzdHJva2U9IiNmZmYiIHN0cm9rZS13aWR0aD0iMS41IiBmaWxsPSJub25lIi8+PC9zdmc+&logoColor=white" />
+</a>
+
+</div>
+
+| Category | Services | Price Range | Status |
+|:---|---:|---:|:---|
+| 🆔 **Identity & Verification** | 4 | $0.25–$0.50 | <img src="https://img.shields.io/badge/live-22c55e?style=flat-square" /> |
+| 🪙 **Crypto Safety** | 4 | $0.01–$0.03 | <img src="https://img.shields.io/badge/live-22c55e?style=flat-square" /> |
+| 🔧 **Code Conversion** | 4 | $0.04–$0.05 | <img src="https://img.shields.io/badge/live-22c55e?style=flat-square" /> |
+| 📄 **Document Validation** | 4 | $0.01–$0.03 | <img src="https://img.shields.io/badge/live-22c55e?style=flat-square" /> |
+| 🤖 **Agent Tools** | 4 | $0.02–$0.08 | <img src="https://img.shields.io/badge/live-22c55e?style=flat-square" /> |
+| 🌐 **Translation** | 1 | $0.03 | <img src="https://img.shields.io/badge/live-22c55e?style=flat-square" /> |
+| 📦 **Agent-Tools** | 1 | $0.10 | <img src="https://img.shields.io/badge/live-22c55e?style=flat-square" /> |
+
+> **Honest note:** These are **service listings on Virtuals ACP** — priced, published, available for purchase. Some have been tested/fulfilled, others are awaiting first orders. Total: 22 published listings, $0.01–$0.50 range. The ACP marketplace handles billing, my gateway routes fulfillment.
+
+**ACP Agent ID:** `019f6ec8-a056-7a45-bae1-8d905362a587`  
+**Compute backend:** `https://compute.virtuals.io/v1` (DutaIO Spark, $200/wk credits)  
+**Wallet:** `0x4dcb...13e9` (EVM) · `8F9S...7AGC` (SOL)
+
+---
+
+## `06.` LLM PERSONAS — THE US ↔ CHINA AGENTIC BRIDGE · شخصيات النماذج
 
 *"Chinese AI labs hold a unique structural advantage: native bilingual pre-training (English + Chinese), aggressive MoE architecture efficiency, and open-weights cost arbitrage. We bridge the best of US proprietary intelligence with China's open-weights revolution."* — Mohamed Abdelaziz
 
-### 🇺🇸 US Frontier Intelligence vs. 🇨🇳 China Open-Weights Revolution
+### 🇺🇸 US Frontier vs 🇨🇳 China Open-Weights
 
-| LLM Model | Lab / Origin | Persona & Specialty | Context | Architecture | Access |
-|:----------|:------------|:--------------------|:--------|:-------------|:-------|
-| ChatGPT (GPT-4o) | 🇺🇸 OpenAI | The Visionary Architect · Generalist | 128k | Dense / Multimodal | Proprietary API |
-| Claude 3.5 Sonnet | 🇺🇸 Anthropic | The Ethicist & Master Coder | 200k | Dense Transformer | Proprietary API |
-| Gemini 1.5 Pro | 🇺🇸 Google DeepMind | The Simulation Master | 2M | MoE | Proprietary API |
-| Hermes 3 | 🇺🇸 Nous Research | The Autonomous Agent · Uncensored | 128k | Llama 3.1 405B FT | ✅ Open |
-| Llama 3.3 70B | 🇺🇸 Meta AI | The Open Benchmark Standard | 128k | Dense Transformer | ✅ Open |
-| DeepSeek-R1 / V3 | 🇨🇳 DeepSeek | The Pragmatist & Math Genius | 128k | 671B MoE (37B active) | ✅ Open (MIT) |
-| Qwen 2.5 Coder | 🇨🇳 Alibaba Cloud | The Enterprise Developer | 128k | 72B Dense / MoE | ✅ Open (Apache 2) |
-| GLM-4 | 🇨🇳 Zhipu AI | The Scholar · Tool Calling | 128k | Dense / Multimodal | ✅ Open |
-| Kimi (Moonshot) | 🇨🇳 Moonshot AI | The Deep Researcher | 2M | Long-Context Transformer | API / Open |
-| Yi-1.5 34B | 🇨🇳 01.AI | The Cultural Bridge | 128k | Dense Transformer | ✅ Open (Apache 2) |
-
-### 🔬 US ↔ China Agentic Bridge
+| LLM Model | Lab | Persona | Context | Access |
+|:----------|:----|:--------|:-------:|:------|
+| GPT-4o | 🇺🇸 OpenAI | The Visionary Architect | 128k | 🔒 API |
+| Claude 3.5 Sonnet | 🇺🇸 Anthropic | The Ethicist & Master Coder | 200k | 🔒 API |
+| Gemini 1.5 Pro | 🇺🇸 Google | The Simulation Master | 2M | 🔒 API |
+| Hermes 3 | 🇺🇸 Nous Research | The Autonomous Agent | 128k | 🔓 Open |
+| Llama 3.3 70B | 🇺🇸 Meta | The Benchmark Standard | 128k | 🔓 Open |
+| DeepSeek-R1/V3 | 🇨🇳 DeepSeek | The Pragmatist & Math Genius | 128k | 🔓 MIT |
+| Qwen 2.5 Coder | 🇨🇳 Alibaba | The Enterprise Developer | 128k | 🔓 Apache 2 |
+| GLM-4 9B | 🇨🇳 Zhipu AI | The Scholar | 128k | 🔓 Open |
+| Kimi (Moonshot) | 🇨🇳 Moonshot AI | The Deep Researcher | 2M | 🔓 Open |
+| Yi-1.5 34B | 🇨🇳 01.AI | The Cultural Bridge | 128k | 🔓 Apache 2 |
 
 ```
-                       ┌──────────────────────────────────────────┐
-                       │     US ↔ CHINA AGENTIC BRIDGE MATRIX     │
-                       └────────────────────┬─────────────────────┘
-                                            │
-                ┌───────────────────────────┴───────────────────────────┐
-                ▼                                                       ▼
-  ┌───────────────────────────┐                           ┌───────────────────────────┐
-  │ 🇺🇸 US PROPRIETARY LAYER   │                           │ 🇨🇳 CHINA OPEN-WEIGHTS LAYER│
-  │ • Deep Reasoners (O1/Claude)│                           │ • DeepSeek-R1 (1/10 cost) │
-  │ • Massive Context (Gemini)│          BRIDGE            │ • Qwen 2.5 Coder (72B)    │
-  │ • Strict Safety Guardrails│  ◄──────────────────────► │ • Bilingual EN/CH         │
-  └───────────────────────────┘                           └───────────────────────────┘
+                 US ↔ CHINA AGENTIC BRIDGE
+                         │
+     ┌───────────────────┴───────────────────┐
+     ▼                                       ▼
+┌───────────────┐                    ┌───────────────┐
+│ US PROPRIETARY│                    │CHINA OPEN-WGTS│
+│• Deep Reasoner│      BRIDGE        │• 1/10 Cost    │
+│• 2M Context   │  ◄──────────────► │• Bilingual EN │
+│• Safety First │                    │• Open Weights │
+└───────────────┘                    └───────────────┘
 ```
 
-**PAI Bridge Protocol (`@pai/llm-registry`):** Routes simple tasks to free Workers AI, complex planning to Nous Hermes, heavy math/coding to TigerData OpenLLM pool (Qwen 2.5 72B / DeepSeek-R1).  
+**PAI Bridge Protocol (`@pai/llm-registry`):** Routes simple tasks → free Workers AI, complex planning → Nous Hermes, heavy math/coding → TigerData OpenLLM pool (Qwen 2.5 72B / DeepSeek-R1).  
 → **Status: Concept documented. Not implemented.**
 
 ---
 
-## `06.` THE TEAM · الفريق
+## `07.` THE TEAM · الفريق
 
 | Role | Name | Type |
 |------|------|------|
 | Founder & Protocol Architect | Mohamed Abdelaziz | Human |
-| Co-Founder & AI Agent | [Hermes Agent](https://hermes-agent.nousresearch.com) | AI (Nous Research) |
+| Co-Founder & AI Agent | [Hermes Agent](https://hermes-agent.nousresearch.com) — Nous Research | AI |
 | Code Reviewer | CodeRabbit | AI (Automated) |
-| AI Coding Agent | OpenCode | AI (Anomaly) |
+| AI Coding Agent | OpenCode (Anomaly) | AI |
 
 **Open roles:** CEO, Security Auditor, Developer Relations  
 *Interested? DM me on [LinkedIn](https://www.linkedin.com/in/mohamed-abdelaziz-b1b2442a2/)*
 
 ---
 
-## `07.` CONNECT · تواصل
+## `08.` CONNECT · تواصل
 
 <div align="center">
 
 [![AxiomID](https://img.shields.io/badge/AxiomID-00FF41?style=for-the-badge&logo=shield&logoColor=black)](https://axiomid.app)
 [![PAI Universe](https://img.shields.io/badge/PAI--Universe-7C3AED?style=for-the-badge&logo=github&logoColor=white)](https://github.com/pai-list)
+[![ACP Marketplace](https://img.shields.io/badge/ACP-7C3AED?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiIgZmlsbD0iI2ZmZiI+PGNpcmNsZSBjeD0iOCIgY3k9IjgiIHI9IjciIHN0cm9rZT0iI2ZmZiIgc3Ryb2tlLXdpZHRoPSIxLjUiIGZpbGw9Im5vbmUiLz48cGF0aCBkPSJNNSA4aDZNNyA1bDIgM2wtMiAzIiBzdHJva2U9IiNmZmYiIHN0cm9rZS13aWR0aD0iMS41IiBmaWxsPSJub25lIi8+PC9zdmc+&logoColor=white)](https://app.virtuals.io/acp/agents/019f6ec8-a056-7a45-bae1-8d905362a587)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mohamed-abdelaziz-b1b2442a2/)
 [![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:momtaz2727@gmail.com)
 
@@ -197,7 +225,7 @@ Current solutions are broken:
 
 ---
 
-## `08.` FOLLOWERS · المتابعون
+## `09.` FOLLOWERS · المتابعون
 
 > *I went from 20 to 40 followers this week. If you found this useful, hit Follow.*
 
@@ -211,5 +239,5 @@ Current solutions are broken:
 
 ---
 
-*Last updated: July 2026 · All metrics verified from live API*  
+*Last updated: 24 July 2026 · All metrics verified from live API*  
 *"I didn't use AI as a tool. I used AI as a team."*
