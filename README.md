@@ -272,6 +272,106 @@ vim your-project/.agent/SOUL.md  # Change <AGENT_NAME>, <YOUR_ORG>
 
 ---
 
+## 🌍 `05.` LLM PERSONAS — US–ARABIC–CHINA TRIAD · ثلاثة محاور
+
+> *\"Chinese AI labs hold a unique structural advantage: native bilingual pre-training (English + Chinese), aggressive MoE architecture efficiency, and open-weights cost arbitrage. Arab labs add the third pole: sovereign compute (G42, Aramco Digital, KAUST), Arabic-native datasets, and Pi Network's 18M+ MENA KYC'd users. We bridge all three — US proprietary intelligence, China's open-weights revolution, and Arabic sovereign agentic infrastructure.\"* — Mohamed Abdelaziz
+
+<div align="center">
+
+### 🇺🇸 US Frontier vs 🇨🇳 China Open-Weights vs 🇸🇦 Arabic Sovereign
+
+| LLM Model | Lab | Region | Persona | Context | Access |
+|:----------|:----|:-------|:--------|:-------:|:------:|
+| GPT-4o | 🇺🇸 OpenAI | US | The Visionary Architect | 128k | 🔒 API |
+| Claude 3.5 Sonnet | 🇺🇸 Anthropic | US | The Ethicist & Master Coder | 200k | 🔒 API |
+| Gemini 1.5 Pro | 🇺🇸 Google | US | The Simulation Master | 2M | 🔒 API |
+| Hermes 3 | 🇺🇸 Nous Research | US | The Autonomous Agent | 128k | 🔓 Open |
+| Llama 3.3 70B | 🇺🇸 Meta | US | The Benchmark Standard | 128k | 🔓 Open |
+| DeepSeek-R1/V3 | 🇨🇳 DeepSeek | China | The Pragmatist & Math Genius | 128k | 🔓 MIT |
+| Qwen 2.5 Coder | 🇨🇳 Alibaba | China | The Enterprise Developer | 128k | 🔓 Apache 2 |
+| GLM-4 9B | 🇨🇳 Zhipu AI | China | The Scholar | 128k | 🔓 Open |
+| Kimi (Moonshot) | 🇨🇳 Moonshot AI | China | The Deep Researcher | 2M | 🔓 Open |
+| Yi-1.5 34B | 🇨🇳 01.AI | China | The Cultural Bridge | 128k | 🔓 Apache 2 |
+| **Jais 30B** | 🇦🇪 G42 / MBZUAI | Arabic | **The Arabic Native** | 128k | 🔓 Open |
+| **ALLaM 7B** | 🇸🇦 SDAIA | Arabic | **The Saudi Sovereign** | 128k | 🔓 Open |
+| **AceGPT 13B** | 🇸🇦 KAUST | Arabic | **The MENA Specialist** | 128k | 🔓 Apache 2 |
+
+</div>
+
+```
+                      US–ARABIC–CHINA TRIAD
+                               │
+        ┌────────────────────────┼────────────────────────┐
+        ▼                        ▼                        ▼
+┌───────────────┐      ┌─────────────────┐      ┌───────────────┐
+│ US PROPRIETARY│      │ ARABIC SOVEREIGN│      │CHINA OPEN-WGTS│
+│• Deep Reasoner│      │• Sovereign Comp │      │• 1/10 Cost    │
+│• 2M Context   │◄────►│• Arabic Native  │◄────►│• Bilingual EN │
+│• Safety First │ BRIDGE│• Pi MENA Wedge  │ BRIDGE │• Open Weights │
+└───────────────┘      └─────────────────┘      └───────────────┘
+```
+
+**PAI Triad Protocol** (`@pai/llm-registry`):  
+Routes simple tasks → free Cloudflare Workers AI, complex planning → Nous Hermes, heavy math/coding → TigerData OpenLLM pool (Qwen 2.5 72B / DeepSeek-R1), **Arabic-native tasks → Jais / ALLaM / AceGPT on sovereign compute (G42, Aramco Digital, KAUST)**.  
+→ **Status: Concept documented. Not implemented.**
+
+---
+
+## 🇸🇦 `05b.` PAI AS THE ARABIC-NATIVE AGENTIC LAYER · الطبقة العربية الأصلية
+
+> **First to market**: PAI Universe is the only agentic infrastructure built from the ground up for Arabic-native, sovereign, MENA-first deployment.
+
+### Why Arabic-Native Matters
+
+| Dimension | US/China Gap | PAI Advantage |
+|-----------|--------------|---------------|
+| **Language** | English/Chinese dominant | Arabic-native tokenization, RTL UI, hijri calendar |
+| **Compute** | US cloud / Chinese edge | **Sovereign**: G42 (UAE), Aramco Digital (KSA), KAUST (KSA) |
+| **Identity** | SSO / biometrics | **Pi Network KYC**: 18M+ verified MENA humans |
+| **Regulation** | GDPR / China Cybersecurity | **PDPL (KSA), PDPL (UAE), DPDP (Egypt)** — built-in compliance |
+| **Payments** | USD/CNY stablecoins | **Pi Network / STC Pay / Urpay / Mada** — local rails |
+
+### Sovereign Compute Targets (Zero-Cost Inference)
+
+| Partner | Capability | PAI Integration |
+|---------|------------|-----------------|
+| **G42 / Inception (UAE)** | Jais 30B, Arabic LLM leader, sovereign cloud | Deploy PAI runtimes on G42 Cloud; Jais as default Arabic model |
+| **Aramco Digital / Nawdh (KSA)** | ALLaM 7B, sovereign KSA cloud, energy sector | Agentic workflows for energy, logistics, hajj/umrah |
+| **KAUST (KSA)** | AceGPT 13B, research compute, Arabic NLP | Co-develop Arabic agent benchmarks; student agent deployments |
+| **SDAIA (KSA)** | ALLaM, national data gov, Arabic AI strategy | PAI as reference implementation for Saudi agentic infra |
+| **QCRI / HBKU (Qatar)** | Arabic NLP research, Fanar LLM | Regional agentic research partnership |
+
+### Pi Network MENA Wedge
+
+```
+┌─────────────────────────────────────────────────────────────────┐
+│                    PI NETWORK MENA ADVANTAGE                     │
+├─────────────────────────────────────────────────────────────────┤
+│                                                                 │
+│   18M+ KYC'd Humans in MENA (est.)                             │
+│         │                                                       │
+│         ▼                                                       │
+│   ┌─────────────────────┐                                      │
+│   │  Every Pioneer =    │                                      │
+│   │  Pre-verified Human │                                      │
+│   │  + Wallet + Identity│                                      │
+│   └─────────────────────┘                                      │
+│         │                                                       │
+│         ▼                                                       │
+│   ┌─────────────────────────────────────────────────────────┐   │
+│   │  PAI AGENT ECONOMY ON VIRTUALS ACP                        │   │
+│   │  • Identity & Verification services (Pi KYC as trust anchor)│   │
+│   │  • Arabic-native agents (Jais/ALLaM/AceGPT)               │   │
+│   │  • Local payment rails (STC Pay, Urpay, Mada, Pi)         │   │
+│   │  • Sovereign compute (G42, Aramco, KAUST)                 │   │
+│   │  • MENA regulatory compliance (PDPL, SAMA, CMA)           │   │
+│   └─────────────────────────────────────────────────────────┘   │
+│                                                                 │
+└─────────────────────────────────────────────────────────────────┘
+```
+
+---
+
 ## 💰 `04.` ACP AGENT ECONOMY · اقتصاد الوكلاء
 
 <div align="center">
