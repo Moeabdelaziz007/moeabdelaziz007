@@ -1,0 +1,93 @@
+{
+  "name": "@pai/agent-kit",
+  "version": "0.1.0",
+  "description": "Zero-cost agent SDK for Cloudflare Workers. One interface, every AI model.",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    },
+    "./agent": {
+      "import": "./dist/agent/index.js",
+      "types": "./dist/agent/index.d.ts"
+    },
+    "./model": {
+      "import": "./dist/model/index.js",
+      "types": "./dist/model/index.d.ts"
+    },
+    "./protocol": {
+      "import": "./dist/protocol/index.js",
+      "types": "./dist/protocol/index.d.ts"
+    },
+    "./runtime": {
+      "import": "./dist/runtime/index.js",
+      "types": "./dist/runtime/index.d.ts"
+    },
+    "./templates": {
+      "import": "./dist/templates/index.js",
+      "types": "./dist/templates/index.d.ts"
+    }
+  },
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "build": "tsc && tsc-alias",
+    "typecheck": "tsc --noEmit",
+    "lint": "eslint src --ext .ts",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:coverage": "vitest run --coverage",
+    "test:e2e": "vitest run --config vitest.e2e.config.ts",
+    "generate": "tsx scripts/generate-templates.ts",
+    "docs": "typedoc --out docs/api src"
+  },
+  "keywords": [
+    "agent",
+    "ai",
+    "cloudflare",
+    "workers",
+    "durable-objects",
+    "mcp",
+    "adp",
+    "acp",
+    "sdk"
+  ],
+  "author": "Mohamed Abdelaziz <momtaz2727@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pai-list/pai-agent-kit"
+  },
+  "bugs": {
+    "url": "https://github.com/pai-list/pai-agent-kit/issues"
+  },
+  "homepage": "https://github.com/pai-list/pai-agent-kit#readme",
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "dependencies": {
+    "agents": "^0.17.4",
+    "zod": "^3.23.8",
+    "hono": "^4.6.5",
+    "viem": "^2.21.0",
+    "@cloudflare/workers-types": "^5.20260722.1"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^5.20260722.1",
+    "@types/node": "^22.7.0",
+    "typescript": "^5.7.0",
+    "tsc-alias": "^1.8.10",
+    "wrangler": "^4.113.0",
+    "vitest": "^2.1.1",
+    "@vitest/coverage-v8": "^2.1.1",
+    "eslint": "^9.11.0",
+    "@typescript-eslint/eslint-plugin": "^8.7.0",
+    "@typescript-eslint/parser": "^8.7.0",
+    "tsx": "^4.19.0",
+    "typedoc": "^0.26.0",
+    "vitest-mock-extended": "^2.0.2"
+  }
+}

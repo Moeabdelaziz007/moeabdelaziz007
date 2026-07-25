@@ -1,0 +1,36 @@
+{
+  "name": "adp-signaling",
+  "main": "src/signaling/worker.ts",
+  "compatibility_date": "2024-12-01",
+  "compatibility_flags": ["nodejs_compat"],
+  "durable_objects": {
+    "bindings": [
+      { "name": "ADP_ROOM", "class_name": "ADPRoom" }
+    ]
+  },
+  "migrations": [
+    {
+      "tag": "v1",
+      "new_sqlite_classes": ["ADPRoom"]
+    }
+  ],
+  "d1_databases": [
+    { "binding": "DB", "database_name": "adp-registry", "database_id": "auto" }
+  ],
+  "kv_namespaces": [
+    { "binding": "SESSIONS", "id": "auto" }
+  ],
+  "r2_buckets": [
+    { "binding": "ARTIFACTS", "bucket_name": "adp-artifacts" }
+  ],
+  "vectorize": [
+    { "binding": "MEMORY", "index_name": "adp-memory", "dimensions": 768, "metric": "cosine" }
+  ],
+  "ai": { "binding": "AI" },
+  "send_email": [{ "name": "EMAIL", "remote": true }],
+  "vars": {
+    "PROTOCOL_VERSION": "adp-v1",
+    "MAX_AGENTS_PER_ROOM": "1000",
+    "SESSION_TTL": "3600"
+  }
+}

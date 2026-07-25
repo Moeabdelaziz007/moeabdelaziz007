@@ -1,0 +1,93 @@
+{
+  "name": "@pai/adp",
+  "version": "0.1.0",
+  "description": "Agent Discovery Protocol - Discovery + collaboration layer for AI agents",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    },
+    "./signaling": {
+      "import": "./dist/signaling/index.js",
+      "types": "./dist/signaling/index.d.ts"
+    },
+    "./protocol": {
+      "import": "./dist/protocol/index.js",
+      "types": "./dist/protocol/index.d.ts"
+    },
+    "./identity": {
+      "import": "./dist/identity/index.js",
+      "types": "./dist/identity/index.d.ts"
+    },
+    "./discovery": {
+      "import": "./dist/discovery/index.js",
+      "types": "./dist/discovery/index.d.ts"
+    },
+    "./sharing": {
+      "import": "./dist/sharing/index.js",
+      "types": "./dist/sharing/index.d.ts"
+    },
+    "./workspace": {
+      "import": "./dist/workspace/index.js",
+      "types": "./dist/workspace/index.d.ts"
+    }
+  },
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "build": "tsc && tsc-alias",
+    "typecheck": "tsc --noEmit",
+    "lint": "eslint src --ext .ts",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:coverage": "vitest run --coverage",
+    "test:e2e": "vitest run --config vitest.e2e.config.ts",
+    "generate": "tsx scripts/generate-did.ts"
+  },
+  "keywords": [
+    "agent",
+    "discovery",
+    "protocol",
+    "p2p",
+    "webrtc",
+    "mcp",
+    "adp",
+    "cloudflare"
+  ],
+  "author": "Mohamed Abdelaziz <momtaz2727@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pai-list/ADP"
+  },
+  "bugs": {
+    "url": "https://github.com/pai-list/ADP/issues"
+  },
+  "homepage": "https://github.com/pai-list/ADP#readme",
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "dependencies": {
+    "zod": "^3.23.8",
+    "hono": "^4.6.5",
+    "viem": "^2.21.0",
+    "@cloudflare/workers-types": "^5.20260722.1"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^5.20260722.1",
+    "@types/node": "^22.7.0",
+    "typescript": "^5.7.0",
+    "tsc-alias": "^1.8.10",
+    "wrangler": "^4.113.0",
+    "vitest": "^2.1.1",
+    "@vitest/coverage-v8": "^2.1.1",
+    "eslint": "^9.11.0",
+    "@typescript-eslint/eslint-plugin": "^8.7.0",
+    "@typescript-eslint/parser": "^8.7.0",
+    "tsx": "^4.19.0",
+    "typedoc": "^0.26.0"
+  }
+}
