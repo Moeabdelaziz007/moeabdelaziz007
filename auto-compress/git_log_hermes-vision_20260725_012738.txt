@@ -1,0 +1,2 @@
+1b0efac arabic-native: rename to @pai/hermes-vision, add Arabic models (Jais/ALLaM/AceGPT), sovereign compute (G42/Aramco/KAUST), Hijri calendar, RTL support ۞
+cb19c66 chore(release): open 3.9.9

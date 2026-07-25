@@ -1,0 +1,5 @@
+99d16db8 arabic-native: complete ClawHub→ClawHub-AR conversion with Arabic-native branding, RTL, Hijri, Jais/ALLaM/AceGPT, sovereign compute (G42/Aramco/KAUST) ۞
+d2e33f09 arabic-native: rename binary to clawhub-ar, update package metadata for AR-first ۞
+306035ca feat: generalize GitHub Skill Sync engine (#3249)
+588be4e8 fix: repair both sides of skill lineage cycles (#3248)
+edd4e01a feat: replace creators directory with official orgs (#3247)

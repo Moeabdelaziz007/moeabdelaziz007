@@ -1,0 +1,4 @@
+6b81126 arabic-native: add Arabic tokenizer for SlacCrawl (Hijri dates, MENA currency, MENA phones, Hijri dates) ۞
+c5dc328 arabic-native: complete hermes-crawlers with whatscrawl/telecrawl/slacrawl - Arabic tokenization, Hijri dates, Jais/ALLaM/AceGPT, sovereign compute ready
+ec16fda arabic-native: add telecrawl for Telegram, slacrawl for Slack, arabic-tokenizer for MENA ecosystem ۞
+15dbb2c arabic-native: add hermes-crawlers with whatscrawl/telecrawl/slacrawl for Arabic-native ecosystem ۞

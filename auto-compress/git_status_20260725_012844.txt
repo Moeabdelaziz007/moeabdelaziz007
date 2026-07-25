@@ -1,0 +1,4 @@
+ ? clawhub
+?? auto-compress.sh
+?? auto-compress/
+?? hermes-verify-auto-compress.sh
