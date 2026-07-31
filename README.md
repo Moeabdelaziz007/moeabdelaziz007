@@ -1,6 +1,6 @@
 <!-- ════════════════ MOEABDELAZIZ007 · PROFILE README ════════════════ -->
 <!-- Soul-Aligned · No Fabricated Numbers · Verified Facts Only     -->
-<!-- Updated: 23 July 2026                                          -->
+<!-- Updated: 31 July 2026                                          -->
 <!-- Designed with readme-designer skill + crisp-links pattern      -->
 <!-- Applied: standardgalactic-design-patterns v1                   -->
 <!-- Inspired by bhupendra05's self-hosted SVG approach             -->
@@ -28,7 +28,7 @@
 <div align="center">
 
 <a href="https://github.com/Moeabdelaziz007">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&duration=2800&pause=700&color=39FF14&center=true&vCenter=true&width=700&lines=AxiomID+—+Portable+identity+for+AI+agents.;W3C+DID+·+TrustChain+·+Ed25519+signatures.;18M+KYC%27d+humans+via+Pi+Network.;22+live+offerings+on+Virtuals+ACP.;Humans+think.+Agents+execute.;Welcome+to+my+profile." alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&duration=2800&pause=700&color=39FF14&center=true&vCenter=true&width=700&lines=AxiomID+—+Portable+identity+for+AI+agents.;W3C+DID+·+TrustChain+·+Ed25519+signatures.;18M%2B+KYC%27d+humans+via+Pi+Network.;21+live+offerings+on+Virtuals+ACP.;Humans+think.+Agents+execute.;Welcome+to+my+profile." alt="Typing SVG" />
 </a>
 
 <br/><br/>
@@ -73,19 +73,16 @@
 ### 🌐 English
 
 ■ **FOUNDER** · **AxiomID**  
-Portable, sovereign identity infrastructure for humans + AI agents. Building the **first W3C DID + TrustChain protocol** that eliminates centralized registries, biometric tracking, and vendor lock-in.
+Portable, sovereign identity infrastructure for humans + AI agents. Building the **W3C DID + TrustChain protocol** that eliminates centralized registries, biometric tracking, and vendor lock-in.
 
 ■ **FOUNDER** · **PAI (Pi Agentic Infrastructure)**  
 The agentic ecosystem for Pi Network's 18M+ KYC'd humans. Zero-cost agent deployment, unified MCP gateways, and verifiable agent passports.
 
 ■ **AUTHOR** · **OpenIdentity.md**  
-The **Discovery Layer for AI Agent Identity**. A portable USB-like manifest standardizing DIDs, roles, skills, MCP tools, A2A metadata, memory discovery, and wallet authorization.
+The **Discovery Layer for AI Agent Identity** — a portable manifest standardizing DIDs, roles, skills, MCP tools, A2A metadata, and wallet authorization.
 
-■ **CREATOR** · **SAAM-Al-Mizan**  
-Serverless Agentic Application Model (SAAM) + tri-regional model arbitrage router. Declarative `pai-saam.jsonc` blueprint deploying zero-cost agents across US/CN/MENA. Implemented in `pai-rehearse` with CLI support in `pai saam`.
-
-■ **AUTHOR** · **AlphaAxiom**  
-Research sandbox for AxiomID — experimental features, cognitive simulations, and protocol prototypes.
+■ **AUTHOR** · **SAAM-Al-Mizan**  
+Serverless Agentic Application Model + tri-regional model arbitrage router. Declarative `pai-saam.jsonc` blueprint deploying zero-cost agents across US/CN/MENA.
 
 </td>
 <td width="50%" valign="top">
@@ -93,13 +90,16 @@ Research sandbox for AxiomID — experimental features, cognitive simulations, a
 ### 🇸🇦 العربية
 
 ■ **المؤسس** · **AxiomID**  
-بنية تحتية للهوية السيادية المحمولة للبشر والوكلاء. أبني أول بروتوكول **W3C DID + TrustChain** لا يحتاج إلى قواعد بيانات مركزية أو مسح للقزحية أو احتكار المزودين.
+بنية تحتية للهوية السيادية المحمولة للبشر والوكلاء. أبني بروتوكول **W3C DID + TrustChain** لا يحتاج إلى قواعد بيانات مركزية أو مسح للقزحية أو احتكار المزودين.
 
 ■ **المؤسس** · **PAI (الطبقة الوكيلية لشبكة باي)**  
 البيئة الوكيلية لشبكة باي — 18+ مليون إنسان موثق. نشر الوكلاء بنقرة واحدة بكلفة صفرية، بوابات MCP موحدة، وجوازات سفر قابلة للتحقق.
 
 ■ **المؤلف** · **OpenIdentity.md**  
-**طبقة الاكتشاف لهوية وكلاء الذكاء الاصطناعي**. ملف هوية محمول يشبه واصف USB يجمع الهوية، المهارات، أدوات MCP، بيانات A2A، وروابط المحافظ في مواصفة آمنة.
+**طبقة الاكتشاف لهوية وكلاء الذكاء الاصطناعي** — ملف هوية محمول يجمع الهوية، المهارات، أدوات MCP، بيانات A2A، وروابط المحافظ في مواصفة آمنة.
+
+■ **المؤلف** · **SAAM-Al-Mizan**  
+نموذج التطبيقات الوكيلية بلا خوادم + موجه مراجحة نماذج ثلاثي المناطق. قالب `pai-saam.jsonc` ينشر وكلاء بكلفة صفرية عبر أمريكا والصين والشرق الأوسط.
 
 </td>
 </tr>
@@ -177,36 +177,44 @@ Research sandbox for AxiomID — experimental features, cognitive simulations, a
 
 ## `03.` 7-POOL TOPOLOGY · <bdo dir="rtl">المعمارية المكانية</bdo>
 
-> Following spherepop's spatial/visual programming pattern — nested bubbles showing containment, not just connection. Each pool encloses the next, forming a topological stack.
+> Nested bubbles showing containment, not just connection. Each pool encloses the next, forming a topological stack. Identity is the outermost shell; the Bridge is the innermost core.
 
 ```
                   ┌──────────────────────────────────────────────┐
                   │               POOL 0 · Identity               │
                   │     W3C DID · TrustChain · Ed25519 · KYA      │
+                  │      (AxiomID · OpenIdentity · PiVerify)      │
                   │                                                │
                   │  ┌──────────────────────────────────────────┐  │
                   │  │           POOL 1 · Compute                │  │
                   │  │  Hermes · Workers · LLMs · Lambda         │  │
+                  │  │  (pai-agent-kit · hermes-* · PiWorker)    │  │
                   │  │                                           │  │
                   │  │  ┌────────────────────────────────────┐  │  │
                   │  │  │        POOL 2 · Tools               │  │  │
                   │  │  │  MCP · Skills · ACP · CLI           │  │  │
+                  │  │  │  (pai-mcp · pai-skills · pai-cli)   │  │  │
                   │  │  │                                    │  │  │
                   │  │  │  ┌──────────────────────────────┐  │  │  │
                   │  │  │  │     POOL 3 · Data             │  │  │  │
                   │  │  │  │  Postgres · Vectorize · KV    │  │  │  │
+                  │  │  │  │  (Ghost.Build · CF Workers)   │  │  │  │
                   │  │  │  │                              │  │  │  │
                   │  │  │  │  ┌────────────────────────┐  │  │  │  │
                   │  │  │  │  │  POOL 4 · Memory        │  │  │  │  │
                   │  │  │  │  │  Histories · Sessions   │  │  │  │  │
+                  │  │  │  │  │  (PAI-Memory · mem7)    │  │  │  │  │
                   │  │  │  │  │                        │  │  │  │  │
                   │  │  │  │  │  ┌──────────────────┐  │  │  │  │  │
                   │  │  │  │  │  │ POOL 5 · Evolve   │  │  │  │  │  │
                   │  │  │  │  │  │ Learning · Skills │  │  │  │  │  │
+                  │  │  │  │  │  │ (pai-rehearse ·   │  │  │  │  │  │
+                  │  │  │  │  │  │  PaiSkillLearner) │  │  │  │  │  │
                   │  │  │  │  │  │                  │  │  │  │  │  │
                   │  │  │  │  │  │  ┌────────────┐  │  │  │  │  │  │
                   │  │  │  │  │  │  │POOL 6·Bridge│  │  │  │  │  │  │
                   │  │  │  │  │  │  │Pi ↔ Stellar │  │  │  │  │  │  │
+                  │  │  │  │  │  │  │US ↔ CN ↔ ME │  │  │  │  │  │  │
                   │  │  │  │  │  │  └────────────┘  │  │  │  │  │  │
                   │  │  │  │  │  └──────────────────┘  │  │  │  │  │
                   │  │  │  │  └────────────────────────┘  │  │  │  │
@@ -222,15 +230,15 @@ Research sandbox for AxiomID — experimental features, cognitive simulations, a
 
 **Mapping to PAI Stack:**
 
-| Pool | Domain | Primary Technology | Status |
-|:---|:---|---:|---:|
-| 0 · Identity | W3C DIDs, TrustChain, Passport | AxiomID Engine | 🟢 Live |
-| 1 · Compute | Agent runtime, LLM routing | Hermes · Workers · TigerData | 🟢 Live |
-| 2 · Tools | MCP, skills registry, ACP | pai-mcp · pai-skills | 🟢 Live |
-| 3 · Data | Persistent storage, vectors | Ghost.Build · Vectorize | 🟢 Live |
-| 4 · Memory | Agent histories, sessions | pai-agent-kit | 🟡 Alpha |
-| 5 · Evolution | Learning, skill acquisition | PaiSkillLearner | 🟡 Alpha |
-| 6 · Bridge | Cross-chain Pi ↔ Stellar | PiWorker · PiVerify | 🟡 Alpha |
+| Pool | Domain | Primary Technology | Repos | Status |
+|:---|:---|---:|:---|:---:|
+| 0 · Identity | W3C DIDs, TrustChain, Passport | AxiomID Engine | AxiomID · openidentity.md · axiomid-piverify | 🟢 Live |
+| 1 · Compute | Agent runtime, LLM routing | Hermes · Workers | pai-agent-kit · hermes-agent · PiWorker | 🟢 Live |
+| 2 · Tools | MCP, skills registry, ACP | MCP Gateway | pai-mcp · pai-skills · pai-cli · pai-atom | 🟢 Live |
+| 3 · Data | Persistent storage, vectors | Ghost.Build · Vectorize | pai-startkit · ADP | 🟢 Live |
+| 4 · Memory | Agent histories, sessions | Deterministic resolver | PAI-Memory | 🟡 Alpha |
+| 5 · Evolution | Learning, skill acquisition | Cognitive pre-simulation | pai-rehearse · PaiSkillLearner | 🟡 Alpha |
+| 6 · Bridge | Cross-chain Pi ↔ Stellar · US ↔ CN ↔ ME | LLM Registry · PiWorker | llm-registry (PR #391) · PiVerify | 🟡 Alpha |
 
 <br>
 
@@ -242,21 +250,22 @@ Research sandbox for AxiomID — experimental features, cognitive simulations, a
 |:---|:---|:---|:---:|---:|
 | **AxiomID** | [`pai-list/AxiomID`](https://github.com/pai-list/AxiomID) | Identity Protocol · TrustChain · Passport | Custom | 🟢 Live |
 | **pai-website** | [`pai-list/pai-website`](https://github.com/pai-list/pai-website) | PAI Marketing Hub & Docs (Next.js 15, i18n EN/AR/ZH) | ✅ MIT | 🟢 Active |
-| **pai-mcp** | [`pai-list/pai-mcp`](https://github.com/pai-list/pai-mcp) | Unified MCP Gateway (CF Workers + TigerData $1k OpenLLM) | ✅ MIT | 🟢 Active |
-| **pai-agent-kit** | [`pai-list/pai-agent-kit`](https://github.com/pai-list/pai-agent-kit) | Agent Runtime · Token Delta Engine · Vectorize | ✅ MIT | 🟢 Active |
-| **pai-rehearse** | [`pai-list/pai-rehearse`](https://github.com/pai-list/pai-rehearse) | SAAM-Al-Mizan — Cognitive Pre-Simulation & Self-Play Engine | ✅ MIT | 🟢 Active |
+| **pai-mcp** | [`pai-list/pai-mcp`](https://github.com/pai-list/pai-mcp) | Unified MCP Gateway (CF Workers) | ✅ MIT | 🟢 Active |
+| **pai-agent-kit** | [`pai-list/pai-agent-kit`](https://github.com/pai-list/pai-agent-kit) | Agent Runtime · Token Delta Engine · Vectorize | ⚠️ None yet | 🟢 Active |
+| **pai-rehearse** | [`pai-list/pai-rehearse`](https://github.com/pai-list/pai-rehearse) | SAAM-Al-Mizan — Cognitive Pre-Simulation & Self-Play Engine | Custom | 🟢 Active |
 | **pai-cli** | [`pai-list/pai-cli`](https://github.com/pai-list/pai-cli) | Developer CLI — `pai create`, `pai saam`, `deploy`, `verify` | ✅ MIT | 🟡 Alpha |
 | **pai-skills** | [`pai-list/pai-skills`](https://github.com/pai-list/pai-skills) | Capability Marketplace & Skills Registry | ✅ MIT | 🟡 Alpha |
 | **pai-atom** | [`pai-list/pai-atom`](https://github.com/pai-list/pai-atom) | THE ATOM — Immutable PaiSkill ABI & UI primitives | ✅ MIT | 🟡 Alpha |
 | **pai-startkit** | [`pai-list/pai-startkit`](https://github.com/pai-list/pai-startkit) | One-Click Deploy Starter Template | ✅ MIT | 🟡 Alpha |
 | **axiomid-piverify** | [`pai-list/axiomid-piverify`](https://github.com/pai-list/axiomid-piverify) | KYA Verification on Virtuals ACP for Pi Network | ✅ MIT | 🟡 Alpha |
 | **PiWorker** | [`pai-list/PiWorker`](https://github.com/pai-list/PiWorker) | Pi Network Edge Worker Services | ✅ MIT | 🟡 Alpha |
-| **openidentity.md** | [`pai-list/openidentity.md`](https://github.com/pai-list/openidentity.md) | Agent Identity Specification & Standard | Spec | 📝 Spec |
-| **AlphaAxiom** | [`pai-list/AlphaAxiom`](https://github.com/pai-list/AlphaAxiom) | Research Sandbox — Experimental features & protocol prototypes | ✅ MIT | 🟡 Alpha |
+| **PAI-Memory** | [`pai-list/PAI-Memory`](https://github.com/pai-list/PAI-Memory) | Deterministic conflict resolution · TrustChain · semantic memory | ✅ MIT | 🟡 Alpha |
+| **ADP** | [`pai-list/ADP`](https://github.com/pai-list/ADP) | Agent Discovery Protocol — announce, see, handshake | ✅ MIT | 🟡 Alpha |
+| **openidentity.md** | [`pai-list/openidentity.md`](https://github.com/pai-list/openidentity.md) | Agent Identity Specification & Standard | ✅ MIT | 📝 Spec |
 
 ### Governance & Licensing Note
 
-> All open-source repositories under the [`pai-list`](https://github.com/pai-list) organization are **100% MIT Licensed**, maintained for open agentic infrastructure built on Pi Network.
+> Repos under the [`pai-list`](https://github.com/pai-list) organization are individually licensed. Most are **MIT**; AxiomID uses a custom license, and `pai-agent-kit` has not published a license yet. Verify per repo via the LICENSE file.
 
 <br>
 
@@ -277,13 +286,13 @@ Sovereign identity platform — W3C DID, TrustChain, Ed25519 passports.
 <td width="33%" valign="top">
 
 ### 🟣 [PAI Website](https://pai-website.vercel.app)
-Marketing hub & docs — Next.js 15, bilingual, agent playground.
+Marketing hub & docs — Next.js 15, trilingual, agent playground.
 
 </td>
 <td width="33%" valign="top">
 
 ### 🟢 [ACP Marketplace](https://app.virtuals.io/acp/agents/019f6ec8-a056-7a45-bae1-8d905362a587)
-22 live agent offerings — identity, safety, code, validation.
+21 live agent offerings — identity, safety, code, validation.
 
 </td>
 </tr>
@@ -313,8 +322,6 @@ Agent runtime, token delta engine, vectorize.
 
 ## `❯` FLAGSHIP_BUILDS · <bdo dir="rtl">المشاريع الرئيسية</bdo>
 
-Applying the **featured builds table** pattern — each card is a live, verified project with direct demo access.
-
 <table>
 <tr>
 <td width="50%" valign="top">
@@ -324,7 +331,6 @@ Portable identity layer for the agentic era.
 
 ![stars](https://img.shields.io/github/stars/pai-list/AxiomID?style=flat-square&logo=github&color=00FF41&labelColor=0D1117)
 ![issues](https://img.shields.io/github/issues/pai-list/AxiomID?style=flat-square&color=ff6b6b&labelColor=0D1117)
-![license](https://img.shields.io/github/license/pai-list/AxiomID?style=flat-square&color=00A36C&labelColor=0D1117)
 
 [`pai-list/AxiomID`](https://github.com/pai-list/AxiomID)
 
@@ -362,16 +368,6 @@ KYA on Virtuals ACP — verifiable credentials for Pi Network.
 [`pai-list/axiomid-piverify`](https://github.com/pai-list/axiomid-piverify)
 
 </td>
-<td width="50%" valign="top">
-
-### 🧠 [PAI-Rehearse](https://github.com/pai-list/pai-rehearse)
-SAAM-Al-Mizan cognitive pre-simulation — self-play engine for agent readiness.
-
-![stars](https://img.shields.io/github/stars/pai-list/pai-rehearse?style=flat-square&logo=python&color=39FF14&labelColor=0D1117)
-
-[`pai-list/pai-rehearse`](https://github.com/pai-list/pai-rehearse)
-
-</td>
 </tr>
 </table>
 
@@ -397,16 +393,17 @@ SAAM-Al-Mizan cognitive pre-simulation — self-play engine for agent readiness.
 | Document Validation | 4 | $0.01–$0.03 | 🟢 Live |
 | Agent Tools | 4 | $0.02–$0.08 | 🟢 Live |
 | Translation | 1 | $0.03 | 🟢 Live |
+| **Total** | **21** | — | — |
 
-> **Note**: offering counts are based on the agent's published categories on Virtuals ACP. Exact live prices may vary. The skills registry (`src/data/skills.json`) currently contains 3 core skill definitions; the ACP marketplace hosts the full deployed set.
+> **Note**: offering counts are based on the agent's published categories on Virtuals ACP. Exact live prices may vary.
 
 </div>
 
 <br>
 
-<!-- ═══════════ 06. LLM PERSONAS ═══════════ -->
+<!-- ═══════════ 06. LLM PERSONAS — US ↔ CHINA ↔ MENA BRIDGE ═══════════ -->
 
-## `06.` LLM PERSONAS — THE US ↔ CHINA AGENTIC BRIDGE · <bdo dir="rtl">شخصيات النماذج</bdo>
+## `06.` LLM PERSONAS — THE US ↔ CHINA ↔ MENA AGENTIC BRIDGE · <bdo dir="rtl">شخصيات النماذج</bdo>
 
 > *"Chinese AI labs hold a unique structural advantage: native bilingual pre-training (English + Chinese), aggressive MoE architecture efficiency, and open-weights cost arbitrage. We bridge the best of US proprietary intelligence with China's open-weights revolution."* — Mohamed Abdelaziz
 
@@ -450,7 +447,15 @@ SAAM-Al-Mizan cognitive pre-simulation — self-play engine for agent readiness.
 
 1. **Bilingual Tokenization Efficiency:** Chinese open-weights models are trained on massive parallel English and Chinese corpora, resulting in denser token representation, higher compression ratios, and cross-lingual conceptual transfer.
 2. **MoE & Multi-Head Latent Attention (MLA):** DeepSeek's MLA and DeepSeekMoE reduce KV-cache memory overhead by **70%**, enabling high-throughput reasoning at **1/10th the cost** of US proprietary APIs.
-3. **PAI Bridge Protocol (`@pai/llm-registry`):** Routes lightweight tasks to free Cloudflare Workers AI (`@cf/meta/llama-3.1-8b-instruct`), complex agentic planning to Nous Hermes, and heavy math/coding tasks to TigerData $1,000 OpenLLM pool (Qwen 2.5 72B / DeepSeek-R1).
+3. **PAI Bridge Protocol (`@pai/llm-registry`):** Routes lightweight tasks to free Cloudflare Workers AI, complex agentic planning to Nous Hermes, and heavy math/coding tasks to the TigerData $1,000 OpenLLM pool.
+
+#### Implementation Status
+
+| Artifact | Status | Location |
+|:---|:---:|:---|
+| `packages/llm-registry` — 10 personas (5 US + 5 CN), typed API | ✅ Built | PR [#391](https://github.com/pai-list/AxiomID/pull/391) `feat/llm-registry-us-china-bridge` |
+| US ↔ CN ↔ MENA tri-regional routing (`pai-saam.jsonc`) | ✅ Built | `pai-rehearse` · `pai-cli` |
+| Merge into `main` | ⏳ Pending | PR #391 open — needs rebase + review |
 
 <br>
 
@@ -460,23 +465,23 @@ SAAM-Al-Mizan cognitive pre-simulation — self-play engine for agent readiness.
 
 <div align="center">
 
-<a href="https://github.com/Moeabdelaziz007/AxiomID"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" /></a>
+<a href="https://github.com/pai-list/AxiomID"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" /></a>
 <a href="https://axiomid.app"><img src="https://img.shields.io/badge/Live_App-00FF41?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiIgZmlsbD0iI2ZmZiI+PHBvbHlsaW5lIHBvaW50cz0iMSwxIDE1LDEgMTUsMTUgMSwxNSAxLDEiIHN0cm9rZT0iI2ZmZiIgc3Ryb2tlLXdpZHRoPSIyIiBmaWxsPSJub25lIi8+PHRleHQgeD0iNCIgeT0iMTIiIGZvbnQtZmFtaWx5PSJtb25vc3BhY2UiIGZvbnQtc2l6ZT0iMTAiIGZpbGw9IiNmZmYiPkE8L3RleHQ+PC9zdmc+&logoColor=white" /></a>
 
 </div>
 
 | Metric | Value | Source |
 |:---|---:|:---|
-| Lines of Code | ~285,000 | `find … wc -l` (excl. node_modules, .next) |
-| Files | ~2,400+ | `find … wc -l` (source + config + docs) |
+| Lines of Code | ~204,700 | `find … wc -l` (excl. node_modules, .next) — measured 31 Jul 2026 |
+| Files | ~1,030+ | `find … wc -l` (source + config + docs) |
 | TypeScript strict | ✅ `strict: true` | `tsconfig.json` |
-| Prisma Models | 22 (14 MVP) | `schema.prisma` |
+| Tests | 3,730 passing / 3,755 | `npm test` (31 Jul 2026) |
 | API Routes | 48+ (25 MVP) | `src/app/api/` |
 | Pages | 16 | `src/app/` |
-| CI | Passing (build fix in progress) | `.github/workflows/` |
-| Open Issues | 14 | GitHub API |
+| CI | Lint ✅ · Type-check ✅ · Test ⚠️ 11 pre-existing failures | `.github/workflows/` |
+| Open Issues | 3 | GitHub API (31 Jul 2026) |
 | Stars | 2 | GitHub API |
-| License | ✅ MIT License | [LICENSE](https://github.com/pai-list/AxiomID/blob/main/LICENSE) |
+| License | Custom (SEE LICENSE IN LICENSE) | [LICENSE](https://github.com/pai-list/AxiomID/blob/main/LICENSE) |
 
 ### Stack
 
@@ -536,7 +541,7 @@ SAAM-Al-Mizan cognitive pre-simulation — self-play engine for agent readiness.
 
 ### Honest Note
 
-This is a **pre-seed, founder-led project** with AI agents as the core team. There is no salary, no office, no company (yet). There is a protocol, a vision, 285K lines of code, 22 ACP offerings, and a growing ecosystem. If that excites you, reach out.
+This is a **pre-seed, founder-led project** with AI agents as the core team. There is no salary, no office, no company (yet). There is a protocol, a vision, 205K lines of code, 21 ACP offerings, and a growing ecosystem. If that excites you, reach out.
 
 <br>
 
@@ -575,13 +580,13 @@ This README follows the **SOUL Protocol** defined in `AGENTS.md`. Every number i
 
 <br><br>
 
-**Last updated**: 23 July 2026 · Verified with `gh` + `curl` + `wc -l`
+**Last updated**: 31 July 2026 · Verified with `gh` + `curl` + `wc -l` + `npm test`
 
 > *"King Isn't Born, He is Made"* · Built for the next agentic era ❤️
 
 <br>
 
-<a href="https://github.com/pai-list/AxiomID"><img src="https://img.shields.io/badge/AxiomID-v0.3.0--Sovereign-00FF41?style=for-the-badge&logo=github&logoColor=white" alt="AxiomID Protocol" /></a>
-<a href="https://github.com/pai-list"><img src="https://img.shields.io/badge/PAI_Universe-100%25_MIT_Licensed-7C3AED?style=for-the-badge&logo=cloudflare&logoColor=white" alt="PAI Universe" /></a>
+<a href="https://github.com/pai-list/AxiomID"><img src="https://img.shields.io/badge/AxiomID-v0.2.0--Sovereign-00FF41?style=for-the-badge&logo=github&logoColor=white" alt="AxiomID Protocol" /></a>
+<a href="https://github.com/pai-list"><img src="https://img.shields.io/badge/PAI_Universe-25_Repos-7C3AED?style=for-the-badge&logo=cloudflare&logoColor=white" alt="PAI Universe" /></a>
 
 </div>
