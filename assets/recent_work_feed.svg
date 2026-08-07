@@ -59,10 +59,10 @@
     <text x="48" y="22" font-family="'Consolas',monospace" font-size="9" fill="#39FF14"
           letter-spacing="2">PUSH</text>
     <text x="92" y="22" font-family="'Consolas',monospace" font-size="12" fill="#ffffff"
-          font-weight="600">pai-list/.github</text>
+          font-weight="600">pai-list/pai-skills</text>
     <text x="22" y="40" font-family="'Consolas',monospace" font-size="10" fill="#aaaaaa">0 commit pushed</text>
     <text x="650" y="22" font-family="'Consolas',monospace" font-size="10"
-          fill="#666666" text-anchor="end">5h ago</text>
+          fill="#666666" text-anchor="end">2h ago</text>
   </g>
 
   <g transform="translate(30, 154)" opacity="0">
@@ -80,10 +80,10 @@
     <text x="48" y="22" font-family="'Consolas',monospace" font-size="9" fill="#39FF14"
           letter-spacing="2">PUSH</text>
     <text x="92" y="22" font-family="'Consolas',monospace" font-size="12" fill="#ffffff"
-          font-weight="600">pai-list/.github</text>
+          font-weight="600">pai-list/protocol-stubs</text>
     <text x="22" y="40" font-family="'Consolas',monospace" font-size="10" fill="#aaaaaa">0 commit pushed</text>
     <text x="650" y="22" font-family="'Consolas',monospace" font-size="10"
-          fill="#666666" text-anchor="end">5h ago</text>
+          fill="#666666" text-anchor="end">2h ago</text>
   </g>
 
   <g transform="translate(30, 210)" opacity="0">
@@ -101,7 +101,7 @@
     <text x="48" y="22" font-family="'Consolas',monospace" font-size="9" fill="#39FF14"
           letter-spacing="2">PUSH</text>
     <text x="92" y="22" font-family="'Consolas',monospace" font-size="12" fill="#ffffff"
-          font-weight="600">pai-list/PiWorker</text>
+          font-weight="600">pai-list/.github</text>
     <text x="22" y="40" font-family="'Consolas',monospace" font-size="10" fill="#aaaaaa">0 commit pushed</text>
     <text x="650" y="22" font-family="'Consolas',monospace" font-size="10"
           fill="#666666" text-anchor="end">8h ago</text>
@@ -122,7 +122,7 @@
     <text x="48" y="22" font-family="'Consolas',monospace" font-size="9" fill="#39FF14"
           letter-spacing="2">PUSH</text>
     <text x="92" y="22" font-family="'Consolas',monospace" font-size="12" fill="#ffffff"
-          font-weight="600">pai-list/AxiomID</text>
+          font-weight="600">pai-list/.github</text>
     <text x="22" y="40" font-family="'Consolas',monospace" font-size="10" fill="#aaaaaa">0 commit pushed</text>
     <text x="650" y="22" font-family="'Consolas',monospace" font-size="10"
           fill="#666666" text-anchor="end">8h ago</text>
@@ -143,10 +143,10 @@
     <text x="48" y="22" font-family="'Consolas',monospace" font-size="9" fill="#39FF14"
           letter-spacing="2">PUSH</text>
     <text x="92" y="22" font-family="'Consolas',monospace" font-size="12" fill="#ffffff"
-          font-weight="600">pai-list/openidentity</text>
+          font-weight="600">pai-list/PiWorker</text>
     <text x="22" y="40" font-family="'Consolas',monospace" font-size="10" fill="#aaaaaa">0 commit pushed</text>
     <text x="650" y="22" font-family="'Consolas',monospace" font-size="10"
-          fill="#666666" text-anchor="end">8h ago</text>
+          fill="#666666" text-anchor="end">11h ago</text>
   </g>
 
   <g transform="translate(30, 378)" opacity="0">
@@ -164,10 +164,10 @@
     <text x="48" y="22" font-family="'Consolas',monospace" font-size="9" fill="#39FF14"
           letter-spacing="2">PUSH</text>
     <text x="92" y="22" font-family="'Consolas',monospace" font-size="12" fill="#ffffff"
-          font-weight="600">pai-list/PiWorker</text>
+          font-weight="600">pai-list/AxiomID</text>
     <text x="22" y="40" font-family="'Consolas',monospace" font-size="10" fill="#aaaaaa">0 commit pushed</text>
     <text x="650" y="22" font-family="'Consolas',monospace" font-size="10"
-          fill="#666666" text-anchor="end">8h ago</text>
+          fill="#666666" text-anchor="end">11h ago</text>
   </g>
 
 
